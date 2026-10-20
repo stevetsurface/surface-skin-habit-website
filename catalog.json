@@ -5548,7 +5548,7 @@
   "placeholders": {
     "hero": "Foto hero: wajah pelanggan asli, close-up tekstur kulit, cahaya alami hangat (brand deck: real skin, soft daylight). 1600×1000.",
     "stream": "Foto program: tangan terapis di kulit, alat terlihat, warna netral. 1200×800 per funnel.",
-    "clinic": "Foto klinik: pintu masuk dan ruang treatment, siang hari. 1200×800 per klinik.",
+    "clinic": "Foto klinik: pintu masuk dan ruang treatment, siang hari. 1200×800 per klinik. Setiabudi dan CITOS belum punya foto berlabel; foto ruang generik dipakai sementara.",
     "doctor": "Foto dokter: setengah badan, seragam Surface, latar putih polos, min. 1000×1200. Belum ada: dr. Sukma (file di Drive 11 MB, kirim versi <10 MB), dr. Shafira Eston.",
     "review": "Widget rating Google: isi google_place_id per klinik untuk tautan ulasan; rating ditampilkan setelah dikonfirmasi dari Google Business Profile.",
     "instagram": "Tempel URL post/reel Instagram di catalog.json › social.instagram.posts.",
@@ -6180,5 +6180,103 @@
     "rx_note": "Produk resep dokter dan treatment tubuh tidak ditampilkan; tanyakan saat konsultasi.",
     "rx_note_en": "Prescription products and body treatments are not listed; ask at your consultation."
   },
-  "_doctors_note": "Source: SSH_Doctor_Credentials_Form (Google Sheet), 20 Oct 2026. STR and SIP numbers are internal only and must never be published. dr. Nana excluded per Steve (20 Oct). dr. Pipit (Setiabudi) and dr. Kharisma Pipit (Cibubur) are the same doctor."
+  "_doctors_note": "Source: SSH_Doctor_Credentials_Form (Google Sheet), 20 Oct 2026. STR and SIP numbers are internal only and must never be published. dr. Nana excluded per Steve (20 Oct). dr. Pipit (Setiabudi) and dr. Kharisma Pipit (Cibubur) are the same doctor.",
+  "spaces": {
+    "intro": "Empat klinik, satu standar: ruang treatment privat, alat yang sama, dokter di setiap lokasi.",
+    "intro_en": "Four clinics, one standard: private treatment rooms, the same devices, a doctor at every location.",
+    "items": [
+      {
+        "src": "assets/clinics/tsm-resepsi.jpg",
+        "alt": "Resepsi Surface TSM Cibubur",
+        "alt_en": "Reception, Surface TSM Cibubur",
+        "clinic": "TSM",
+        "feature": true
+      },
+      {
+        "src": "assets/clinics/ruang-treatment-1.jpg",
+        "alt": "Ruang treatment",
+        "alt_en": "Treatment room",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/ruang-treatment-2.jpg",
+        "alt": "Ruang treatment privat",
+        "alt_en": "Private treatment room",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/dinding-good-skin.jpg",
+        "alt": "Good skin is in",
+        "alt_en": "Good skin is in",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/sudut-produk-1.jpg",
+        "alt": "Sudut produk perawatan rumah",
+        "alt_en": "Home-care product corner",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/ruang-treatment-3.jpg",
+        "alt": "Ruang treatment",
+        "alt_en": "Treatment room",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/lmp-alat-1.jpg",
+        "alt": "Alat di ruang treatment, Lippo Mall Puri",
+        "alt_en": "Device in a treatment room, Lippo Mall Puri",
+        "clinic": "LMP"
+      },
+      {
+        "src": "assets/clinics/lmp-alat-2.jpg",
+        "alt": "Alat di ruang treatment, Lippo Mall Puri",
+        "alt_en": "Device in a treatment room, Lippo Mall Puri",
+        "clinic": "LMP"
+      },
+      {
+        "src": "assets/clinics/tsm-koridor.jpg",
+        "alt": "Koridor ruang treatment, TSM Cibubur",
+        "alt_en": "Treatment-room corridor, TSM Cibubur",
+        "clinic": "TSM"
+      },
+      {
+        "src": "assets/clinics/tsm-koridor-2.jpg",
+        "alt": "Koridor ruang treatment, TSM Cibubur",
+        "alt_en": "Treatment-room corridor, TSM Cibubur",
+        "clinic": "TSM"
+      },
+      {
+        "src": "assets/clinics/tsm-produk.jpg",
+        "alt": "Display produk, TSM Cibubur",
+        "alt_en": "Product display, TSM Cibubur",
+        "clinic": "TSM"
+      },
+      {
+        "src": "assets/clinics/ruang-treatment-4.jpg",
+        "alt": "Ruang treatment",
+        "alt_en": "Treatment room",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/sudut-produk-2.jpg",
+        "alt": "Display produk",
+        "alt_en": "Product display",
+        "clinic": null
+      },
+      {
+        "src": "assets/clinics/lmp-treatment-tangan.jpg",
+        "alt": "Treatment alat oleh terapis, Lippo Mall Puri",
+        "alt_en": "Device treatment by a therapist, Lippo Mall Puri",
+        "clinic": "LMP"
+      },
+      {
+        "src": "assets/clinics/lmp-treatment-alat.jpg",
+        "alt": "Treatment alat oleh terapis, Lippo Mall Puri",
+        "alt_en": "Device treatment by a therapist, Lippo Mall Puri",
+        "clinic": "LMP"
+      }
+    ],
+    "_source": "Drive brand assets: Photoshoot/Clinic Photoshoot TSM, Clinic Photoshoot LMP, Asset Content/Stock Footage Clinic LMP SB Citos, Cibubur Opening 24. Model/customer face shots deliberately not used; 'stock' room photos are unlabelled by clinic in Drive."
+  }
 }

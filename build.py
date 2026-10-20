@@ -78,7 +78,7 @@ UI = {
                  ("edukasi-kombinasi.html", "Kombinasi", "Kenapa treatment dipasangkan, urutannya di kursi, dan apa yang berubah minggu demi minggu."),
                  ("edukasi-waktu.html", "Interval & waktu", "Jarak antar sesi, panjang program, masa berlaku paket, dan kapan harus menunda.")],
     "edu_devices_h": "Alat & tindakan: cara kerjanya", "edu_devices_p": "Satu halaman per alat: mekanisme, apa yang dirasakan, downtime, dan siapa yang sebaiknya menunda.",
-    "sc_eye": "Level Start", "sc_h": "Mulai dari Rp 799.000", "sc_note": "Harga yang sama untuk semua pelanggan, baru maupun lama. Texture Start Rp 750.000; Enhance mulai dari konsultasi gratis.",
+    "sp_eye": "Ruang kami", "sp_h": "Klinik dan ruang treatment", "sp_btn": "Lihat semua klinik", "cl_photos": "Foto klinik", "sc_eye": "Level Start", "sc_h": "Mulai dari Rp 799.000", "sc_note": "Harga yang sama untuk semua pelanggan, baru maupun lama. Texture Start Rp 750.000; Enhance mulai dari konsultasi gratis.",
     "bs_eye": "Best seller", "bs_h": "Yang paling sering dipilih", "bs_where": "Ada di", "bs_badge": "Best seller", "bs_tab": "Best seller",
     "fp_eye": "Menu lengkap", "fp_h1": "Semua treatment & harga", "fp_tab": "Menu lengkap", "fp_programs": "18 program", "fp_singles": "Harga satuan", "fp_stacks": "Stack", "fp_addons": "Add-on", "fp_plan": "Plan bulanan", "t_fp": "Menu lengkap & harga · {name}", "d_fp": "Daftar lengkap treatment Surface Skin Habit dengan harga satuan, 18 program Start/Correct/Refine, stack, dan add-on. Harga sama di 4 klinik Jakarta.",
     "stk_eye": "Signature stacks", "stk_h": "Beberapa perawatan, satu kunjungan", "stk_one": "Satu kunjungan", "stk_for": "untuk", "stk_downtime": "ada downtime", "stk_before_h": "Sebelum stack", "stk_addons_h": "Tambah lagi", "stk_btn": "Lihat semua stack", "stk_msg": "Halo Surface, saya mau booking konsultasi dokter gratis untuk stack {stack}. Klinik terdekat saya: {klinik}.", "stk_door_h": "Stack untuk jalur ini", "stk_tab": "Stacks",
@@ -172,7 +172,7 @@ UI = {
                  ("edukasi-kombinasi.html", "Combinations", "Why treatments are paired, the order in the chair, and what changes week by week."),
                  ("edukasi-waktu.html", "Intervals & timing", "Gaps between sessions, programme length, package validity, and when to wait.")],
     "edu_devices_h": "Devices & procedures: how they work", "edu_devices_p": "One page per device: mechanism, what it feels like, downtime, and who should wait.",
-    "sc_eye": "Start level", "sc_h": "From Rp 799,000", "sc_note": "The same price for every customer, new or returning. Texture Start Rp 750,000; Enhance starts with a free consultation.",
+    "sp_eye": "Our spaces", "sp_h": "Clinics and treatment rooms", "sp_btn": "See all clinics", "cl_photos": "Clinic photos", "sc_eye": "Start level", "sc_h": "From Rp 799,000", "sc_note": "The same price for every customer, new or returning. Texture Start Rp 750,000; Enhance starts with a free consultation.",
     "bs_eye": "Best sellers", "bs_h": "What people choose most", "bs_where": "Found in", "bs_badge": "Best seller", "bs_tab": "Best sellers",
     "fp_eye": "Full menu", "fp_h1": "Every treatment & price", "fp_tab": "Full menu", "fp_programs": "18 programmes", "fp_singles": "Single-session prices", "fp_stacks": "Stacks", "fp_addons": "Add-ons", "fp_plan": "Monthly plan", "t_fp": "Full menu & prices · {name}", "d_fp": "The complete Surface Skin Habit treatment list with single prices, 18 Start/Correct/Refine programmes, stacks and add-ons. Same prices at 4 Jakarta clinics.",
     "stk_eye": "Signature stacks", "stk_h": "Several treatments, one visit", "stk_one": "One visit", "stk_for": "for", "stk_downtime": "has downtime", "stk_before_h": "Before a stack", "stk_addons_h": "Add more", "stk_btn": "See all stacks", "stk_msg": "Hello Surface, I'd like to book a free doctor consultation for the {stack} stack. My nearest clinic: {klinik}.", "stk_door_h": "The stack for this pathway", "stk_tab": "Stacks",
@@ -738,6 +738,24 @@ def page_pricelist():
 '''
     return head(T("t_fp", name=S["name"]), T("d_fp"), "harga-lengkap.html", [ld_offers()]) + header("menu.html", "harga-lengkap.html") + body + footer()
 
+def space_fig(x, cls=""):
+    klass = "sp" + (" " + cls if cls else "")
+    return f'<figure class="{klass}"><img src="{PREFIX}{e(x["src"])}" alt="{e(t(x, "alt"))}" loading="lazy"><figcaption class="small">{e(t(x, "alt"))}</figcaption></figure>'
+
+def spaces_block(limit=8):
+    SPx = C.get("spaces", {}); items = SPx.get("items", [])[:limit]
+    if not items: return ""
+    figs = "".join(space_fig(x, "feature" if x.get("feature") else "") for x in items)
+    return f'''<section class="section" id="ruang" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("sp_eye"))}</span><h2>{e(T("sp_h"))}</h2><p>{e(t(SPx, "intro"))}</p></div><a class="btn btn-ghost btn-sm" href="klinik.html">{e(T("sp_btn"))}</a></div>
+  <div class="spaces-grid">{figs}</div>
+</div></section>'''
+
+def clinic_photos(code):
+    items = [x for x in C.get("spaces", {}).get("items", []) if x.get("clinic") == code]
+    if not items: return ph("clinic")
+    return f'<div class="clinic-photos">{"".join(space_fig(x) for x in items[:4])}</div>'
+
 def proof_block():
     P = C["proof"]
     stats = "".join(f'<div class="stat"><div class="n">{e(t(x, "n"))}</div><div class="l">{e(t(x, "l"))}</div></div>' for x in P["stats"])
@@ -843,6 +861,7 @@ def page_index():
 
 {front_door_block()}
 {usp_block()}
+{spaces_block()}
 {proof_block()}
 <section class="section" id="concern" style="padding-top:0"><div class="wrap">
   {funnel_strip()}
@@ -937,7 +956,7 @@ def clinic_detail(c):
       {f'<p class="small" style="margin:16px 0 6px"><b>{e(T("cl_doctors"))}</b><br>{e(docs)}</p>' if docs else ""}
       <p class="small" style="margin:14px 0 6px"><b>{e(T("cl_devices"))}</b></p>
       <ul class="tags">{devs}</ul>
-      {ph("clinic")}
+      {clinic_photos(c["code"])}
     </div>
     <div class="map"><iframe src="https://www.google.com/maps?q={q}&output=embed" title="{e(T('cl_map'))}: {e(c['name'])}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
   </div>
