@@ -32,7 +32,7 @@ UI = {
   "id": {
     "nav": [("index.html", "Beranda"), ("index.html#concern", "Program"), ("menu.html", "Harga"), ("edukasi.html", "Edukasi"), ("blog.html", "Blog"), ("analisis.html", "Analisis Kulit"), ("dokter.html", "Dokter"), ("klinik.html", "Klinik")],
     "lang_switch": ("en/", "EN"), "lang_name": "Bahasa Indonesia",
-    "wa_nav": "Booking via WhatsApp", "wa_bar": "Booking konsultasi dokter gratis",
+    "wa_nav": "Booking via WhatsApp", "wa_nav_short": "Booking", "wa_nav_more": "via WhatsApp", "wa_bar": "Booking konsultasi dokter gratis",
     "generic_msg": "Halo Surface, saya mau booking konsultasi dokter gratis. Klinik terdekat saya: {klinik}.",
     "clinic_suffix": " Klinik terdekat saya: {klinik}.",
     "offer_msg": "Halo Surface, saya mau booking konsultasi dokter gratis untuk {offer} ({concern}). Klinik terdekat saya: {klinik}.",
@@ -123,7 +123,7 @@ UI = {
   "en": {
     "nav": [("index.html", "Home"), ("index.html#concern", "Programmes"), ("menu.html", "Prices"), ("edukasi.html", "Education"), ("blog.html", "Blog"), ("analisis.html", "Skin Analysis"), ("dokter.html", "Doctors"), ("klinik.html", "Clinics")],
     "lang_switch": ("../", "ID"), "lang_name": "English",
-    "wa_nav": "Book via WhatsApp", "wa_bar": "Book a free doctor consultation",
+    "wa_nav": "Book via WhatsApp", "wa_nav_short": "Book", "wa_nav_more": "via WhatsApp", "wa_bar": "Book a free doctor consultation",
     "generic_msg": "Hi Surface, I'd like to book a free doctor consultation. My nearest clinic: {klinik}.",
     "clinic_suffix": " My nearest clinic: {klinik}.",
     "offer_msg": "Hi Surface, I'd like to book a free doctor consultation for {offer} ({concern}). My nearest clinic: {klinik}.",
@@ -305,7 +305,7 @@ def header(active, path=None):
     <a class="logo" href="index.html" aria-label="{e(S['name'])}"><img class="mark-img" src="{PREFIX}assets/logo-mark.png" alt="" width="30" height="48"><span class="wordmark"><span class="l1">SURFACE</span><span class="l2">SKIN HABIT</span></span></a>
     <nav aria-label="Main"><ul class="nav-links">{links}<li><a class="lang" href="{sw_target}" hreflang="{other_code}" lang="{other_code}" title="{e(other)}">{e(sw_label)}</a></li></ul></nav>
     <div class="nav-cta">
-      {wa_btn(T("generic_msg"), T("wa_nav"), "btn btn-wa btn-sm")}
+      <a class="btn btn-wa btn-sm nav-wa" href="{wa_link(T("generic_msg").replace(T("clinic_suffix"), ""))}" data-wa-msg="{e(T("generic_msg"))}" target="_blank" rel="noopener">{WA_ICO}{e(T("wa_nav_short"))}<span class="nav-wa-more"> {e(T("wa_nav_more"))}</span></a>
       <a class="lang lang-mobile" href="{sw_target}" hreflang="{other_code}" lang="{other_code}" title="{e(other)}">{e(sw_label)}</a>
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span></button>
     </div>
