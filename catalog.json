@@ -1,0 +1,4248 @@
+{
+  "_readme": "Satu katalog, satu render. Semua halaman website dibangun dari file ini oleh build.py. Ubah angka di sini, jalankan `python3 build.py`, selesai. Jangan edit HTML hasil build secara manual.",
+  "_source": "Prices from the September 2026 menu review; addresses from the CS handbook; WhatsApp number from the October flyer.",
+  "site": {
+    "name": "Surface Skin Habit",
+    "short": "Surface",
+    "url": "https://surfaceskinhabit.com",
+    "tagline": "Klinik kulit dengan dokter, di empat lokasi Jakarta.",
+    "description": "Surface Skin Habit adalah klinik perawatan kulit di Setiabudi, Cilandak Town Square, Lippo Mall Puri dan Trans Studio Mall Cibubur. Konsultasi dokter selalu gratis. Harga treatment terbuka: satuan, paket 3x dan paket 6x.",
+    "whatsapp_number": "6281222346115",
+    "whatsapp_display": "0812 2234 6115",
+    "whatsapp_hours": "09.00–22.00 WIB, setiap hari",
+    "email": "",
+    "instagram": "",
+    "language": "id",
+    "price_note": "Harga dalam Rupiah dan berlaku sama di semua klinik Surface. Paket 3x dan 6x dibayar di depan; harga per sesi ditampilkan untuk perbandingan. Tidak ada diskon tambahan di atas harga paket.",
+    "consult_note": "Setiap pelanggan mulai dari konsultasi dokter gratis. Dokter yang merekomendasikan treatment yang cocok, bukan tim sales.",
+    "tagline_en": "A doctor-led skin clinic at four Jakarta locations.",
+    "description_en": "Surface Skin Habit is a skin clinic in Setiabudi, Cilandak Town Square, Lippo Mall Puri and Trans Studio Mall Cibubur. Doctor consultation is always free. Open pricing: single sessions, 3-session and 6-session packages.",
+    "whatsapp_hours_en": "09.00–22.00 WIB, every day",
+    "price_note_en": "Prices in Rupiah, the same at every Surface clinic. 3- and 6-session packages are paid upfront; the per-session price is shown for comparison. No extra discount on top of package prices.",
+    "consult_note_en": "Every customer starts with a free doctor consultation. The doctor recommends the right treatment, not the sales team."
+  },
+  "concerns": [
+    {
+      "code": "CLEAR",
+      "name": "Clear",
+      "title": "Jerawat, tekstur & pori",
+      "en": "Acne, texture & pores",
+      "keywords": [
+        "jerawat",
+        "komedo",
+        "kulit berminyak",
+        "bekas jerawat",
+        "pori besar"
+      ],
+      "intro": "Jerawat adalah keluhan nomor satu di Surface. Kami mulai dari pembersihan dalam, lalu dokter menambahkan peeling atau tindakan sesuai kondisi kulitmu.",
+      "offers": [
+        {
+          "name": "Clear Start",
+          "includes": [
+            "Hydraderm Facial",
+            "LHALA Peel oleh dokter"
+          ],
+          "duration_min": 110,
+          "interval": "tiap 2–4 minggu",
+          "single": 1400000,
+          "pack3": 3750000,
+          "pack6": 7200000,
+          "desc": "Hydraderm, facial pembuka dengan tingkat kembali tertinggi di Surface, lalu LHALA Peel oleh dokter.",
+          "includes_en": [
+            "Hydraderm Facial",
+            "LHALA Peel by the doctor"
+          ],
+          "desc_en": "Hydraderm, our best-returning first treatment, followed by a doctor-performed LHALA Peel.",
+          "interval_en": "every 2–4 weeks"
+        },
+        {
+          "name": "Acne Reset",
+          "includes": [
+            "Hydraderm Facial",
+            "Targeted Peel SA oleh dokter",
+            "PDT (terapi cahaya)"
+          ],
+          "duration_min": 140,
+          "interval": "tiap 2–3 minggu",
+          "single": 1850000,
+          "pack3": 4950000,
+          "pack6": 9300000,
+          "desc": "Untuk jerawat aktif: bersihkan, peeling salicylic oleh dokter, lalu PDT untuk meredakan peradangan.",
+          "includes_en": [
+            "Hydraderm Facial",
+            "Targeted SA Peel by the doctor",
+            "PDT light therapy"
+          ],
+          "desc_en": "For active acne: deep cleanse, a doctor salicylic peel, then PDT to calm inflammation.",
+          "interval_en": "every 2–3 weeks"
+        },
+        {
+          "name": "Scar Release",
+          "includes": [
+            "Hydraderm Facial",
+            "Skin Subcision oleh dokter"
+          ],
+          "duration_min": 140,
+          "interval": "tiap 4–6 minggu",
+          "single": 2450000,
+          "pack3": 6600000,
+          "pack6": 12300000,
+          "desc": "Untuk bekas jerawat yang cekung: subsisi oleh dokter, dipasangkan dengan facial Hydraderm.",
+          "includes_en": [
+            "Hydraderm Facial",
+            "Skin subcision by the doctor"
+          ],
+          "desc_en": "For indented acne scars: doctor-performed subcision paired with a Hydraderm facial.",
+          "interval_en": "every 4–6 weeks"
+        }
+      ],
+      "intro_en": "Acne is the number-one concern at Surface. We start with a deep cleanse, then the doctor adds a peel or procedure to match your skin.",
+      "keywords_en": [
+        "acne",
+        "blackheads",
+        "oily skin",
+        "acne scars",
+        "large pores"
+      ],
+      "title_en": "Acne, texture & pores"
+    },
+    {
+      "code": "GLOW",
+      "name": "Glow",
+      "title": "Kusam, flek & warna tidak rata",
+      "en": "Dullness, spots & uneven tone",
+      "keywords": [
+        "kulit kusam",
+        "flek hitam",
+        "melasma",
+        "warna kulit belang",
+        "glowing"
+      ],
+      "intro": "Kusam dan flek adalah keluhan kedua terbanyak. Facial H2O membuka jalan, lalu peeling dan laser oleh dokter meratakan warna kulit.",
+      "offers": [
+        {
+          "name": "Glass Skin Facial",
+          "includes": [
+            "H2O Facial",
+            "LHALA Peel oleh dokter"
+          ],
+          "duration_min": 130,
+          "interval": "tiap 2–4 minggu",
+          "single": 1500000,
+          "pack3": 4050000,
+          "pack6": 7500000,
+          "desc": "Facial H2O lalu LHALA Peel oleh dokter. Kulit tampak lebih cerah dan halus sejak kunjungan pertama.",
+          "includes_en": [
+            "H2O Facial",
+            "LHALA Peel by the doctor"
+          ],
+          "desc_en": "H2O facial followed by a doctor LHALA Peel. Brighter, smoother skin from the first visit.",
+          "interval_en": "every 2–4 weeks"
+        },
+        {
+          "name": "Glow Intensive",
+          "includes": [
+            "H2O Facial",
+            "Ultrabrightening Peel oleh dokter",
+            "Laser Facial oleh dokter"
+          ],
+          "duration_min": 170,
+          "interval": "tiap 2–4 minggu",
+          "single": 2150000,
+          "pack3": 5700000,
+          "pack6": 10800000,
+          "desc": "Facial H2O, peeling pencerah dan laser facial oleh dokter untuk warna kulit yang lebih rata.",
+          "includes_en": [
+            "H2O Facial",
+            "Ultrabrightening Peel by the doctor",
+            "Laser Facial by the doctor"
+          ],
+          "desc_en": "H2O facial, a brightening peel and a doctor laser facial for more even tone.",
+          "interval_en": "every 2–4 weeks"
+        },
+        {
+          "name": "Tone Reset",
+          "includes": [
+            "LHALA Peel oleh dokter",
+            "QS Brighten & Toning Laser (wajah) oleh dokter"
+          ],
+          "duration_min": 85,
+          "interval": "tiap 2–4 minggu",
+          "single": 2600000,
+          "pack3": 6900000,
+          "pack6": 12900000,
+          "desc": "Laser QS toning oleh dokter dengan LHALA Peel untuk flek dan melasma yang membandel.",
+          "includes_en": [
+            "LHALA Peel by the doctor",
+            "QS Brighten & Toning Laser (face) by the doctor"
+          ],
+          "desc_en": "Doctor QS toning laser with LHALA Peel for stubborn spots and melasma.",
+          "interval_en": "every 2–4 weeks"
+        }
+      ],
+      "intro_en": "Dullness and dark spots are the second most common concern. An H2O facial opens the way, then a doctor peel and laser even out your tone.",
+      "keywords_en": [
+        "dull skin",
+        "dark spots",
+        "melasma",
+        "uneven tone",
+        "glowing skin"
+      ],
+      "title_en": "Dullness, spots & uneven tone"
+    },
+    {
+      "code": "LIFT",
+      "name": "Lift",
+      "title": "Kekencangan, garis & kontur",
+      "en": "Firmness, lines & contour",
+      "keywords": [
+        "kulit kendur",
+        "garis halus",
+        "double chin",
+        "v-shape",
+        "jawline"
+      ],
+      "intro": "Untuk kulit yang mulai kendur atau kontur wajah yang ingin lebih tegas. Dimulai dari radiofrekuensi tanpa downtime, sampai HIFU oleh dokter.",
+      "offers": [
+        {
+          "name": "Peel & Lift",
+          "includes": [
+            "Tighten & Contour RF (wajah)",
+            "LHALA Peel oleh dokter"
+          ],
+          "duration_min": 85,
+          "interval": "tiap 2–4 minggu",
+          "single": 1250000,
+          "pack3": 3300000,
+          "pack6": 6300000,
+          "desc": "Tighten & Contour (radiofrekuensi) untuk kekencangan, dengan LHALA Peel oleh dokter.",
+          "includes_en": [
+            "Tighten & Contour RF (face)",
+            "LHALA Peel by the doctor"
+          ],
+          "desc_en": "Tighten & Contour radiofrequency for firmness, with a doctor LHALA Peel.",
+          "interval_en": "every 2–4 weeks"
+        },
+        {
+          "name": "Contour Signature",
+          "includes": [
+            "Contouring Facial (V-shape)",
+            "Tighten & Contour RF (leher)",
+            "LHALA Peel oleh dokter"
+          ],
+          "duration_min": 140,
+          "interval": "tiap 2–4 minggu",
+          "single": 1800000,
+          "pack3": 4800000,
+          "pack6": 9000000,
+          "desc": "Contouring facial V-shape, kencangkan leher dengan RF, lalu LHALA Peel oleh dokter.",
+          "includes_en": [
+            "Contouring Facial (V-shape)",
+            "Tighten & Contour RF (neck)",
+            "LHALA Peel by the doctor"
+          ],
+          "desc_en": "V-shape contouring facial, RF neck tightening, then a doctor LHALA Peel.",
+          "interval_en": "every 2–4 weeks"
+        },
+        {
+          "name": "Jawline Define",
+          "includes": [
+            "HIFU double chin oleh dokter",
+            "Meso Lipo wajah oleh dokter"
+          ],
+          "duration_min": 130,
+          "interval": "interval ditentukan dokter",
+          "single": 4150000,
+          "pack3": 11100000,
+          "pack6": 20700000,
+          "desc": "HIFU double chin dan meso lipo oleh dokter untuk garis rahang yang lebih tegas.",
+          "includes_en": [
+            "HIFU double chin by the doctor",
+            "Meso Lipo face by the doctor"
+          ],
+          "desc_en": "Doctor HIFU double chin and meso lipo for a more defined jawline.",
+          "interval_en": "interval set by the doctor"
+        }
+      ],
+      "intro_en": "For skin that is starting to loosen, or contours you want sharper. From no-downtime radiofrequency up to doctor HIFU.",
+      "keywords_en": [
+        "sagging skin",
+        "fine lines",
+        "double chin",
+        "v-shape",
+        "jawline"
+      ],
+      "title_en": "Firmness, lines & contour"
+    }
+  ],
+  "first_visit": {
+    "title": "Harga kunjungan pertama",
+    "note": "Khusus pelanggan baru, satu kali per orang, dibooking bersama konsultasi dokter gratis.",
+    "items": [
+      {
+        "name": "Hydraderm Facial",
+        "price": 799000,
+        "for": "Pori tersumbat, komedo, kulit berminyak",
+        "for_en": "Clogged pores, blackheads, oily skin"
+      },
+      {
+        "name": "H2O Facial",
+        "price": 899000,
+        "for": "Kulit kering, sensitif, kusam",
+        "for_en": "Dry, sensitive or dull skin"
+      }
+    ],
+    "title_en": "First-visit price",
+    "note_en": "New customers only, once per person, booked together with the free doctor consultation."
+  },
+  "plan": {
+    "title": "Skin Habit Plan",
+    "price_month": 950000,
+    "min_months": 3,
+    "includes": [
+      "Setiap bulan: 1 facial Hydraderm atau H2O",
+      "Setiap 3 bulan: 1 LHALA Peel oleh dokter",
+      "Konsultasi dokter gratis sepanjang program"
+    ],
+    "rules": "Minimal 3 bulan, dibayar bulanan. Sesi tidak diakumulasi lebih dari satu bulan.",
+    "includes_en": [
+      "Every month: 1 Hydraderm or H2O facial",
+      "Every 3 months: 1 LHALA Peel by the doctor",
+      "Free doctor consultation throughout"
+    ],
+    "rules_en": "Minimum 3 months, paid monthly. Sessions do not roll over more than one month."
+  },
+  "addons": [
+    {
+      "name": "PDT / LED",
+      "price": 250000
+    },
+    {
+      "name": "Eye Catching",
+      "price": 550000
+    },
+    {
+      "name": "Tighten & Contour Neck",
+      "price": 400000
+    }
+  ],
+  "clinics": [
+    {
+      "code": "SB",
+      "name": "Surface Setiabudi",
+      "short": "Setiabudi",
+      "area": "Jakarta Selatan",
+      "address": "Setiabudi Building 2, Suite 104, Jl. H.R. Rasuna Said Kav. 62, Karet Kuningan, Jakarta Selatan 12920",
+      "maps": "https://maps.app.goo.gl/y7RKH4FNfwH3y4Ni8",
+      "hours": "Senin–Minggu 10.00–20.00",
+      "hours_confirmed": false,
+      "landmark": "Kawasan Kuningan, di dalam Setiabudi Building 2",
+      "hours_en": "Mon–Sun 10.00–20.00",
+      "area_en": "South Jakarta",
+      "google_reviews": "https://maps.app.goo.gl/y7RKH4FNfwH3y4Ni8"
+    },
+    {
+      "code": "CITOS",
+      "name": "Surface CITOS",
+      "short": "CITOS",
+      "area": "Jakarta Selatan",
+      "address": "Cilandak Town Square, Ground Floor #B040, Jl. T.B. Simatupang Kav. 17, Cilandak, Jakarta Selatan 12430",
+      "maps": "https://maps.app.goo.gl/gKZhAfPBUt9CemXL9",
+      "hours": "Senin–Minggu 10.00–20.00",
+      "hours_confirmed": false,
+      "landmark": "Cilandak Town Square, lantai dasar",
+      "hours_en": "Mon–Sun 10.00–20.00",
+      "area_en": "South Jakarta",
+      "google_reviews": "https://maps.app.goo.gl/gKZhAfPBUt9CemXL9"
+    },
+    {
+      "code": "LMP",
+      "name": "Surface Lippo Mall Puri",
+      "short": "Lippo Mall Puri",
+      "area": "Jakarta Barat",
+      "address": "Lippo Mall Puri LG 101, Jl. Puri Indah Raya Blok U1 CBD, Kembangan, Jakarta Barat 11610",
+      "maps": "https://maps.app.goo.gl/pWY1kmFoBdvnXZYe8",
+      "hours": "Senin–Minggu 10.00–20.00",
+      "hours_confirmed": false,
+      "landmark": "Lippo Mall Puri, lantai LG",
+      "hours_en": "Mon–Sun 10.00–20.00",
+      "area_en": "West Jakarta",
+      "google_reviews": "https://maps.app.goo.gl/pWY1kmFoBdvnXZYe8"
+    },
+    {
+      "code": "TSM",
+      "name": "Surface TSM Cibubur",
+      "short": "TSM Cibubur",
+      "area": "Cibubur",
+      "address": "Trans Studio Mall Cibubur, Jl. Alternatif Cibubur No. 230A, Harjamukti",
+      "maps": "https://maps.app.goo.gl/jxr7XhN5Q6UvqiSs6",
+      "hours": "Senin–Minggu 10.00–20.00",
+      "hours_confirmed": false,
+      "landmark": "Trans Studio Mall Cibubur",
+      "hours_en": "Mon–Sun 10.00–20.00",
+      "area_en": "Cibubur",
+      "google_reviews": "https://maps.app.goo.gl/jxr7XhN5Q6UvqiSs6"
+    }
+  ],
+  "doctors": [
+    {
+      "publish": true,
+      "name": "dr. Riska Melani",
+      "clinics": [
+        "CITOS"
+      ],
+      "role": "Dokter",
+      "focus": [
+        "Peeling",
+        "Laser",
+        "Acne Treatment",
+        "Skin Consultation"
+      ],
+      "bio": "",
+      "role_en": "Doctor",
+      "photo": "assets/doctors/riska.jpg"
+    },
+    {
+      "publish": true,
+      "name": "dr. Hanna Anjani",
+      "clinics": [
+        "CITOS"
+      ],
+      "role": "Dokter",
+      "focus": [
+        "Peeling",
+        "Skin Consultation"
+      ],
+      "bio": "",
+      "role_en": "Doctor",
+      "photo": ""
+    },
+    {
+      "publish": true,
+      "name": "dr. Devi",
+      "clinics": [],
+      "role": "Dokter",
+      "focus": [
+        "Skin Consultation",
+        "Peeling"
+      ],
+      "bio": "",
+      "photo": "assets/doctors/devi.jpg"
+    },
+    {
+      "publish": true,
+      "name": "dr. Siti Aisyah Devitri",
+      "clinics": [
+        "SB"
+      ],
+      "role": "Dokter",
+      "focus": [
+        "Laser",
+        "HIFU",
+        "Skin Consultation"
+      ],
+      "bio": "",
+      "role_en": "Doctor",
+      "photo": ""
+    },
+    {
+      "publish": true,
+      "name": "dr. Kharisma Juang D.",
+      "clinics": [
+        "SB",
+        "TSM"
+      ],
+      "role": "Dokter",
+      "focus": [
+        "Peeling",
+        "Skin Consultation"
+      ],
+      "bio": "",
+      "role_en": "Doctor",
+      "photo": "assets/doctors/kharisma.jpg"
+    },
+    {
+      "publish": false,
+      "name": "dr. Shafira Eston",
+      "clinics": [],
+      "role": "Dokter",
+      "focus": [],
+      "bio": "",
+      "role_en": "Doctor",
+      "photo": ""
+    },
+    {
+      "publish": false,
+      "name": "dr. Sukma",
+      "clinics": [],
+      "role": "Dokter",
+      "focus": [],
+      "bio": "",
+      "photo": ""
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah konsultasi dokter benar-benar gratis?",
+      "a": "Ya. Setiap pelanggan mulai dari konsultasi dokter gratis, termasuk di kunjungan pertama. Dokter yang merekomendasikan treatment yang cocok untuk kulitmu.",
+      "q_en": "Is the doctor consultation really free?",
+      "a_en": "Yes. Every customer starts with a free doctor consultation, including on the first visit. The doctor recommends the treatment that suits your skin."
+    },
+    {
+      "q": "Apakah harga di website sama dengan di klinik?",
+      "a": "Sama. Harga satuan, paket 3x dan paket 6x berlaku di semua klinik Surface. Tidak ada diskon tambahan di atas harga paket.",
+      "q_en": "Are website prices the same as in the clinic?",
+      "a_en": "Yes. Single, 3-session and 6-session prices apply at every Surface clinic. There is no extra discount on top of package prices."
+    },
+    {
+      "q": "Bisa pakai sisa sesi paket di klinik lain?",
+      "a": "Bisa. Riwayat perawatan dan sisa sesi paketmu berlaku di keempat klinik Surface.",
+      "q_en": "Can I use remaining package sessions at another clinic?",
+      "a_en": "Yes. Your treatment history and remaining sessions are valid at all four Surface clinics."
+    },
+    {
+      "q": "Berapa lama masa berlaku paket?",
+      "a": "Paket 3x berlaku 3 bulan dan paket 6x berlaku 9 bulan sejak tanggal pembayaran. Jadwal kunjungan berikutnya dibuat sebelum kamu pulang.",
+      "q_en": "How long is a package valid?",
+      "a_en": "A 3-session package is valid for 3 months and a 6-session package for 9 months from the payment date. Your next visit is scheduled before you leave."
+    },
+    {
+      "q": "Kalau tidak yakin treatment mana yang cocok?",
+      "a": "Tidak perlu memilih sendiri. Pilih saja concern-mu, lalu datang untuk konsultasi dokter gratis. Dokter yang merekomendasikan treatment-nya.",
+      "q_en": "What if I'm not sure which treatment fits?",
+      "a_en": "You don't need to choose. Pick your concern, then come in for a free doctor consultation. The doctor recommends the treatment."
+    },
+    {
+      "q": "Bagaimana cara booking?",
+      "a": "Chat WhatsApp kami di 0812 2234 6115. Sebutkan concern dan klinik terdekat, tim kami akan carikan jadwal konsultasi dokter gratis.",
+      "q_en": "How do I book?",
+      "a_en": "Message us on WhatsApp at 0812 2234 6115. Tell us your concern and your nearest clinic and we'll find you a free doctor consultation slot."
+    }
+  ],
+  "assessment": {
+    "title": "Analisis Kondisi Kulit",
+    "subtitle": "13 pertanyaan, sekitar 2 menit. Hasilnya: concern yang paling cocok dan titik mulai yang biasanya disarankan. Bukan pengganti konsultasi dokter.",
+    "disclaimer": "Ini analisis kondisi kulit berdasarkan jawabanmu, bukan diagnosis. Dokter Surface yang merekomendasikan treatment-mu saat konsultasi gratis.",
+    "scan": {
+      "enabled": false,
+      "_note": "Set true only after a cosmetic-grade vendor is licensed (Perfect Corp / Haut.AI / Revieve / Orbo class, not Skinive) and assets/scan-adapter.js implements SurfaceScan.analyze(). Scores shown: pigmentasi, kerataan warna, flek, tekstur. Never redness, never a disease name.",
+      "title": "Foto wajah (opsional)",
+      "help": "Cahaya terang dari depan, tanpa makeup, wajah lurus ke kamera. Foto diproses untuk skor kosmetik saja dan tidak dikirim lewat WhatsApp.",
+      "title_en": "Face photo (optional)",
+      "help_en": "Bright light from the front, no makeup, face straight to the camera. The photo is processed for cosmetic scores only and is never sent over WhatsApp."
+    },
+    "blocks": [
+      {
+        "code": "A",
+        "title": "Arahkan",
+        "questions": [
+          {
+            "id": "q1",
+            "text": "Kalau lihat cermin, apa yang pertama kamu perhatikan?",
+            "type": "single",
+            "options": [
+              {
+                "v": "jerawat",
+                "label": "Jerawat atau komedo",
+                "concern": "CLEAR",
+                "label_en": "Acne or blackheads"
+              },
+              {
+                "v": "kusam",
+                "label": "Kusam atau flek",
+                "concern": "GLOW",
+                "label_en": "Dullness or dark spots"
+              },
+              {
+                "v": "pori",
+                "label": "Pori dan tekstur",
+                "concern": "CLEAR",
+                "label_en": "Pores and texture"
+              },
+              {
+                "v": "kendur",
+                "label": "Kekencangan atau kontur",
+                "concern": "LIFT",
+                "label_en": "Firmness or contour"
+              },
+              {
+                "v": "semua",
+                "label": "Semuanya sedikit",
+                "concern": "GLOW",
+                "label_en": "A little of everything"
+              }
+            ],
+            "text_en": "When you look in the mirror, what do you notice first?"
+          },
+          {
+            "id": "q2",
+            "text": "Yang mana paling dekat dengan kondisimu?",
+            "type": "single",
+            "depends": "q1",
+            "options_by_concern": {
+              "CLEAR": [
+                {
+                  "v": "aktif",
+                  "label": "Jerawat yang sedang meradang",
+                  "label_en": "Acne that is currently inflamed",
+                  "offer": "Acne Reset"
+                },
+                {
+                  "v": "komedo",
+                  "label": "Komedo dan kulit berminyak",
+                  "label_en": "Blackheads and oily skin",
+                  "offer": "Clear Start"
+                },
+                {
+                  "v": "bekas-cekung",
+                  "label": "Bekas jerawat yang cekung (lubang)",
+                  "label_en": "Indented acne scars (pits)",
+                  "offer": "Scar Release"
+                },
+                {
+                  "v": "pori-besar",
+                  "label": "Pori besar, tekstur kasar",
+                  "label_en": "Large pores, rough texture",
+                  "offer": "Clear Start"
+                }
+              ],
+              "GLOW": [
+                {
+                  "v": "kusam",
+                  "label": "Kusam, kurang glowing",
+                  "label_en": "Dull, not glowing",
+                  "offer": "Glass Skin Facial"
+                },
+                {
+                  "v": "flek",
+                  "label": "Flek hitam atau bekas jerawat gelap",
+                  "label_en": "Dark spots or dark acne marks",
+                  "offer": "Glow Intensive"
+                },
+                {
+                  "v": "belang",
+                  "label": "Warna kulit tidak rata",
+                  "label_en": "Uneven skin tone",
+                  "offer": "Glow Intensive"
+                },
+                {
+                  "v": "melasma",
+                  "label": "Flek yang sudah lama dan membandel",
+                  "label_en": "Long-standing, stubborn spots",
+                  "offer": "Tone Reset"
+                }
+              ],
+              "LIFT": [
+                {
+                  "v": "kendur",
+                  "label": "Kulit mulai kendur",
+                  "label_en": "Skin starting to loosen",
+                  "offer": "Peel & Lift"
+                },
+                {
+                  "v": "garis",
+                  "label": "Garis halus dan kerutan",
+                  "label_en": "Fine lines and wrinkles",
+                  "offer": "Contour Signature"
+                },
+                {
+                  "v": "leher",
+                  "label": "Leher dan rahang kurang tegas",
+                  "label_en": "Neck and jaw less defined",
+                  "offer": "Contour Signature"
+                },
+                {
+                  "v": "double-chin",
+                  "label": "Double chin",
+                  "label_en": "Double chin",
+                  "offer": "Jawline Define"
+                }
+              ]
+            },
+            "text_en": "Which of these is closest to your skin?"
+          },
+          {
+            "id": "q3",
+            "text": "Lalu, apa lagi yang ingin diperbaiki? (opsional)",
+            "type": "multi",
+            "options": [
+              {
+                "v": "jerawat",
+                "label": "Jerawat / komedo",
+                "label_en": "Acne / blackheads"
+              },
+              {
+                "v": "kusam",
+                "label": "Kusam / flek",
+                "label_en": "Dullness / spots"
+              },
+              {
+                "v": "pori",
+                "label": "Pori / tekstur",
+                "label_en": "Pores / texture"
+              },
+              {
+                "v": "kendur",
+                "label": "Kekencangan",
+                "label_en": "Firmness"
+              },
+              {
+                "v": "sensitif",
+                "label": "Kulit sensitif",
+                "label_en": "Sensitive skin"
+              }
+            ],
+            "text_en": "And what else would you like to improve? (optional)"
+          }
+        ],
+        "title_en": "Route"
+      },
+      {
+        "code": "B",
+        "title": "Baca",
+        "questions": [
+          {
+            "id": "q4",
+            "text": "Sudah berapa lama ini mengganggu kamu?",
+            "type": "single",
+            "options": [
+              {
+                "v": "baru",
+                "label": "Baru-baru ini",
+                "label_en": "Only recently"
+              },
+              {
+                "v": "bulanan",
+                "label": "Beberapa bulan",
+                "label_en": "A few months"
+              },
+              {
+                "v": "tahunan",
+                "label": "Lebih dari setahun",
+                "label_en": "More than a year"
+              }
+            ],
+            "text_en": "How long has this been bothering you?"
+          },
+          {
+            "id": "q5",
+            "text": "Sudah coba apa saja untuk itu?",
+            "type": "multi",
+            "options": [
+              {
+                "v": "skincare",
+                "label": "Skincare sendiri",
+                "label_en": "My own skincare"
+              },
+              {
+                "v": "facial",
+                "label": "Facial di klinik lain",
+                "label_en": "Facials at another clinic"
+              },
+              {
+                "v": "dokter",
+                "label": "Treatment dokter",
+                "label_en": "Doctor treatments"
+              },
+              {
+                "v": "belum",
+                "label": "Belum coba apa-apa",
+                "label_en": "Nothing yet"
+              }
+            ],
+            "text_en": "What have you already tried?"
+          },
+          {
+            "id": "q6",
+            "text": "Kondisinya berubah-ubah, atau tetap seperti itu?",
+            "type": "single",
+            "options": [
+              {
+                "v": "berubah",
+                "label": "Berubah-ubah (kadang baik, kadang kambuh)",
+                "label_en": "Comes and goes (sometimes better, sometimes flares)"
+              },
+              {
+                "v": "tetap",
+                "label": "Tetap seperti itu",
+                "label_en": "Stays the same"
+              }
+            ],
+            "text_en": "Does it come and go, or stay the same?"
+          },
+          {
+            "id": "q7",
+            "text": "Tiga bulan dari sekarang, apa yang bikin kamu senang sudah datang? (opsional)",
+            "type": "text",
+            "placeholder": "Tulis dengan kata-katamu sendiri",
+            "text_en": "Three months from now, what would make you glad you came in? (optional)",
+            "placeholder_en": "In your own words"
+          },
+          {
+            "id": "q8",
+            "text": "Realistisnya, seberapa sering kamu bisa datang?",
+            "type": "single",
+            "options": [
+              {
+                "v": "2-4mg",
+                "label": "Setiap 2–4 minggu",
+                "label_en": "Every 2–4 weeks"
+              },
+              {
+                "v": "bulanan",
+                "label": "Sebulan sekali",
+                "label_en": "Once a month"
+              },
+              {
+                "v": "jarang",
+                "label": "Belum tahu / jarang",
+                "label_en": "Not sure / rarely"
+              }
+            ],
+            "text_en": "Realistically, how often could you come in?"
+          },
+          {
+            "id": "q9",
+            "text": "Mau mulai dari mana?",
+            "type": "single",
+            "options": [
+              {
+                "v": "coba",
+                "label": "Coba satu kali dulu",
+                "plan": "single",
+                "label_en": "Try it once first"
+              },
+              {
+                "v": "3x",
+                "label": "Program 3 sesi",
+                "plan": "pack3",
+                "label_en": "3-session programme"
+              },
+              {
+                "v": "6x",
+                "label": "Program 6 sesi",
+                "plan": "pack6",
+                "label_en": "6-session programme"
+              },
+              {
+                "v": "tanya",
+                "label": "Tanya dokter dulu",
+                "plan": "consult",
+                "label_en": "Ask the doctor first"
+              }
+            ],
+            "text_en": "How would you like to start?"
+          }
+        ],
+        "title_en": "Read"
+      },
+      {
+        "code": "C",
+        "title": "Kecocokan & keamanan",
+        "intro": "Empat pertanyaan ini membantu dokter menyiapkan konsultasimu. Jawaban 'ya' tidak membatalkan apa pun.",
+        "questions": [
+          {
+            "id": "q10",
+            "text": "Sedang hamil, menyusui, atau merencanakannya dalam 6 bulan ke depan?",
+            "type": "yesno",
+            "flag": "hamil/menyusui",
+            "text_en": "Pregnant, breastfeeding, or planning to be in the next 6 months?",
+            "flag_en": "pregnant/breastfeeding"
+          },
+          {
+            "id": "q11",
+            "text": "Isotretinoin atau obat jerawat resep, sekarang atau dalam 6 bulan terakhir?",
+            "type": "yesno",
+            "flag": "obat jerawat resep",
+            "text_en": "Isotretinoin or prescription acne medication, now or in the last 6 months?",
+            "flag_en": "prescription acne medication"
+          },
+          {
+            "id": "q12",
+            "text": "Riwayat keloid, cold sore, penyakit autoimun, atau obat pengencer darah?",
+            "type": "yesno",
+            "flag": "riwayat medis (keloid/autoimun/pengencer darah)",
+            "text_en": "History of keloids, cold sores, autoimmune conditions, or blood thinners?",
+            "flag_en": "medical history (keloid/autoimmune/blood thinners)"
+          },
+          {
+            "id": "q13",
+            "text": "Treatment di tempat lain dalam 4 minggu terakhir, atau akan banyak kena matahari dalam 6 minggu ke depan?",
+            "type": "yesno",
+            "flag": "treatment lain / paparan matahari",
+            "text_en": "Treated elsewhere in the last 4 weeks, or a lot of sun coming in the next 6 weeks?",
+            "flag_en": "other treatment / sun exposure"
+          }
+        ],
+        "title_en": "Fit & safety",
+        "intro_en": "These four questions help the doctor prepare your consultation. A 'yes' doesn't rule anything out."
+      }
+    ],
+    "title_en": "Skin Condition Analysis",
+    "subtitle_en": "13 questions, about 2 minutes. You get the concern that fits best and the usual starting point. Not a substitute for a doctor consultation.",
+    "disclaimer_en": "This is a skin condition analysis based on your answers, not a diagnosis. A Surface doctor recommends your treatment at the free consultation."
+  },
+  "education": {
+    "intro": "Halaman ini menjelaskan cara kerja setiap alat dan tindakan di Surface: apa yang sebenarnya terjadi pada kulit, berapa lama satu sesi, seberapa sering diulang, apa yang dirasakan, dan siapa yang sebaiknya menunda. Tujuannya supaya kamu datang ke konsultasi dengan pertanyaan yang lebih tajam.",
+    "intro_en": "This section explains how each device and procedure at Surface works: what actually happens to the skin, how long a session takes, how often it is repeated, what it feels like, and who should wait. The point is for you to arrive at your consultation with sharper questions.",
+    "disclaimer": "Informasi di halaman ini bersifat umum dan bukan diagnosis maupun anjuran medis untuk kondisi kulitmu. Hanya dokter yang memeriksa langsung yang bisa menentukan tindakan yang sesuai. Konsultasi dokter di Surface selalu gratis.",
+    "disclaimer_en": "The information here is general. It is not a diagnosis, nor medical advice for your own skin. Only a doctor who examines you in person can decide what is appropriate. A doctor consultation at Surface is always free.",
+    "families": [
+      {
+        "code": "energy",
+        "name": "Alat berbasis energi",
+        "name_en": "Energy-based devices",
+        "blurb": "Laser, cahaya, ultrasound dan radio frekuensi. Semuanya mengantarkan energi ke lapisan kulit tertentu, dan semuanya dilakukan dokter.",
+        "blurb_en": "Lasers, light, ultrasound and radiofrequency. All of them deliver energy to a particular layer of skin, and all are performed by a doctor."
+      },
+      {
+        "code": "facial",
+        "name": "Alat facial",
+        "name_en": "Facial devices",
+        "blurb": "Bekerja di permukaan kulit: membersihkan, mengelupas lembut, melembapkan. Tanpa luka dan tanpa downtime, dikerjakan terapis.",
+        "blurb_en": "These work at the surface: cleansing, gentle exfoliation, hydration. No wound and no downtime, performed by a therapist."
+      },
+      {
+        "code": "doctor",
+        "name": "Tindakan dokter tanpa alat",
+        "name_en": "Doctor procedures without a device",
+        "blurb": "Peeling kimia dan tindakan lain yang bergantung pada bahan dan teknik, bukan mesin.",
+        "blurb_en": "Chemical peels and other procedures that depend on the agent and the technique rather than a machine."
+      }
+    ],
+    "fitz_legend": {
+      "ok": "Indikasi utama",
+      "caution": "Perlu evaluasi dokter",
+      "avoid": "Sebaiknya dihindari"
+    },
+    "fitz_legend_en": {
+      "ok": "Primary indication",
+      "caution": "Needs doctor assessment",
+      "avoid": "Best avoided"
+    },
+    "devices": [
+      {
+        "slug": "biaxis-qs-laser",
+        "name": "Biaxis Q-Switched Nd:YAG",
+        "brand": "Regenesis",
+        "family": "energy",
+        "performed_by": "doctor",
+        "type": "Laser Q-Switched Nd:YAG · 1064 nm dan 532 nm · pulsa nanodetik",
+        "type_en": "Q-switched Nd:YAG laser · 1064 nm and 532 nm · nanosecond pulses",
+        "how": "Pulsa laser yang sangat singkat memecah gumpalan pigmen di dalam kulit menjadi serpihan halus, yang kemudian dibuang sendiri oleh tubuh.",
+        "how_en": "Very short laser pulses break clusters of pigment inside the skin into fine particles, which the body then clears on its own.",
+        "detail": "Pigmen menyerap energi laser jauh lebih kuat daripada jaringan di sekitarnya. Karena pulsanya hanya berlangsung sepersemiliar detik, panas terkonsentrasi di partikel pigmen dan hampir tidak sempat merambat ke kulit sekitarnya. Inilah sebabnya laser ini bisa bekerja pada flek tanpa melukai permukaan.\n\nPanjang gelombang 1064 nm menembus lebih dalam dan tidak banyak tertahan melanin di permukaan, sehingga relatif aman untuk warna kulit Indonesia. Panjang gelombang 532 nm bekerja lebih dangkal untuk flek permukaan, dan pada kulit yang lebih gelap memerlukan evaluasi dokter lebih dulu.",
+        "detail_en": "Pigment absorbs laser energy far more strongly than the tissue around it. Because each pulse lasts only a billionth of a second, the heat stays concentrated in the pigment particle and has almost no time to spread into the surrounding skin. That is why this laser can act on pigment without injuring the surface.\n\nThe 1064 nm wavelength travels deeper and is not held up much by surface melanin, which makes it relatively safe for Indonesian skin tones. The 532 nm wavelength works more superficially on surface pigment, and on darker skin it needs a doctor's assessment first.",
+        "treats": [
+          "Melasma dan flek (hiperpigmentasi)",
+          "Bekas jerawat yang menggelap (PIH)",
+          "Lentigo dan bintik penuaan",
+          "Warna kulit yang tidak merata",
+          "Warna bibir yang tidak merata",
+          "Jerawat punggung",
+          "Tato hitam dan gelap"
+        ],
+        "treats_en": [
+          "Melasma and pigment patches (hyperpigmentation)",
+          "Darkened acne marks (PIH)",
+          "Lentigines and age spots",
+          "Uneven pigmentation",
+          "Uneven lip pigmentation",
+          "Back acne",
+          "Black and dark tattoos"
+        ],
+        "concerns": [
+          "GLOW"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS"
+        ],
+        "duration_min": 85,
+        "interval": "tiap 3 minggu",
+        "interval_en": "every 3 weeks",
+        "downtime": "Kemerahan ringan beberapa jam. Bisa langsung beraktivitas.",
+        "downtime_en": "Mild redness for a few hours. You can go straight back to your day.",
+        "sensation": "Hangat, seperti dijentik karet tipis.",
+        "sensation_en": "Warm, like a thin rubber band flicking the skin.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Pada 1064 nm aman untuk seluruh tipe kulit. Untuk 532 nm, kulit sawo matang dan gelap memerlukan evaluasi dokter dan uji coba pada area kecil lebih dulu.",
+        "fitz_note_en": "At 1064 nm it is safe across all skin types. At 532 nm, medium and deeper skin tones need a doctor's assessment and a small test area first.",
+        "avoid_if": [
+          "Sedang hamil atau menyusui",
+          "Kulit sedang terbakar matahari",
+          "Ada infeksi kulit aktif di area yang akan ditangani",
+          "Sedang atau baru selesai mengonsumsi isotretinoin",
+          "Punya riwayat keloid"
+        ],
+        "avoid_if_en": [
+          "You are pregnant or breastfeeding",
+          "Your skin is currently sunburnt",
+          "There is an active skin infection in the treatment area",
+          "You are taking, or recently finished, isotretinoin",
+          "You have a history of keloid scarring"
+        ],
+        "aftercare": [
+          "Tabir surya SPF 30 atau lebih, diulang tiap 2–3 jam selama di luar ruangan",
+          "Hindari paparan matahari langsung dan sauna selama 48 jam",
+          "Jangan menggosok atau mengelupas kulit",
+          "Tunda retinoid dan scrub selama 3–5 hari"
+        ],
+        "aftercare_en": [
+          "Sunscreen SPF 30 or higher, reapplied every 2–3 hours while outdoors",
+          "Avoid direct sun and saunas for 48 hours",
+          "Do not rub or exfoliate the area",
+          "Hold off on retinoids and scrubs for 3–5 days"
+        ]
+      },
+      {
+        "slug": "ipl-cellec",
+        "name": "IPL Cellec",
+        "brand": "Jeisys Medical, Korea",
+        "family": "energy",
+        "performed_by": "doctor",
+        "type": "Intense Pulsed Light · cahaya spektrum luas dengan filter",
+        "type_en": "Intense pulsed light · broad-spectrum light with filters",
+        "how": "Cahaya spektrum luas diserap oleh pigmen dan pembuluh halus, lalu diubah menjadi panas yang membuat keduanya memudar.",
+        "how_en": "Broad-spectrum light is absorbed by pigment and fine vessels, then converted to heat that makes both fade.",
+        "detail": "Berbeda dari laser yang memancarkan satu panjang gelombang, IPL memancarkan banyak panjang gelombang sekaligus dan disaring sesuai target. Satu alat karena itu bisa diarahkan ke pigmen permukaan, ke kemerahan, atau ke folikel rambut, tergantung filter yang dipasang dokter.\n\nKarena cahayanya diserap melanin di permukaan, IPL bekerja paling baik pada kulit terang hingga medium. Pada kulit yang lebih gelap energinya terserap terlalu banyak di permukaan dan risikonya meningkat. IPL juga bukan pilihan untuk melasma, karena panas dapat memicu pigmen kembali lebih pekat.",
+        "detail_en": "Unlike a laser, which emits one wavelength, IPL emits many at once and filters them to the target. One device can therefore be aimed at surface pigment, at redness, or at hair follicles, depending on the filter the doctor fits.\n\nBecause the light is absorbed by surface melanin, IPL works best on light to medium skin. On deeper skin tones too much energy is absorbed at the surface and the risk rises. IPL is also not a choice for melasma, as the heat can drive the pigment back more strongly.",
+        "treats": [
+          "Warna kulit yang tidak merata",
+          "Freckles dan flek permukaan",
+          "Kemerahan dan pembuluh halus",
+          "Kerusakan kulit akibat matahari",
+          "Bulu yang tidak diinginkan"
+        ],
+        "treats_en": [
+          "Uneven pigmentation",
+          "Freckles and surface pigment",
+          "Redness and fine vessels",
+          "Sun damage",
+          "Unwanted hair"
+        ],
+        "concerns": [
+          "GLOW"
+        ],
+        "clinics": [
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 40,
+        "interval": "tiap 3–4 minggu",
+        "interval_en": "every 3–4 weeks",
+        "downtime": "Kemerahan ringan hingga beberapa jam. Flek bisa tampak lebih gelap dulu sebelum mengelupas halus dalam 5–10 hari.",
+        "downtime_en": "Mild redness for a few hours. Pigment can look darker at first before flaking away over 5–10 days.",
+        "sensation": "Seperti kilatan hangat dan jentikan singkat.",
+        "sensation_en": "Like a warm flash with a brief snap.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "caution",
+          "V-VI": "avoid"
+        },
+        "fitz_note": "Paling cocok untuk kulit terang hingga medium. Tidak untuk kulit gelap atau kulit yang baru terpapar matahari, karena risiko luka bakar. Bukan untuk melasma.",
+        "fitz_note_en": "Best suited to light and medium skin. Not for deeper skin tones or recently sun-exposed skin, because of the burn risk. Not for melasma.",
+        "avoid_if": [
+          "Sedang hamil",
+          "Kulit baru berjemur atau terbakar matahari",
+          "Ada melasma di area yang akan ditangani",
+          "Ada infeksi kulit aktif",
+          "Sedang atau baru selesai mengonsumsi isotretinoin"
+        ],
+        "avoid_if_en": [
+          "You are pregnant",
+          "Your skin has recently tanned or burnt",
+          "There is melasma in the treatment area",
+          "There is an active skin infection",
+          "You are taking, or recently finished, isotretinoin"
+        ],
+        "aftercare": [
+          "Tabir surya SPF 30 atau lebih setiap hari",
+          "Hindari matahari langsung selama 1 minggu",
+          "Biarkan serpihan pigmen mengelupas sendiri, jangan dikorek",
+          "Kompres dingin bila terasa hangat"
+        ],
+        "aftercare_en": [
+          "Sunscreen SPF 30 or higher every day",
+          "Avoid direct sun for a week",
+          "Let the pigment flakes shed on their own, do not pick",
+          "Cool compress if the area feels warm"
+        ]
+      },
+      {
+        "slug": "hifu-liftera",
+        "name": "HIFU Liftera",
+        "brand": "Liftera, Korea",
+        "family": "energy",
+        "performed_by": "doctor",
+        "type": "High-Intensity Focused Ultrasound",
+        "type_en": "High-intensity focused ultrasound",
+        "how": "Gelombang ultrasound difokuskan ke satu titik di lapisan dalam kulit, memanaskannya sampai jaringan ikat mengerut dan tubuh membentuk kolagen baru.",
+        "how_en": "Ultrasound waves are focused to a single point deep in the skin, heating it until the connective tissue contracts and the body lays down new collagen.",
+        "detail": "Energi ultrasound melewati permukaan kulit tanpa memanaskannya, lalu bertemu di satu titik fokus di kedalaman tertentu, mirip kaca pembesar yang memusatkan sinar matahari. Di titik itu suhu naik cukup tinggi untuk membuat jaringan ikat mengerut seketika.\n\nPengencangan awal berasal dari pengerutan itu, lalu berlanjut selama 8–12 minggu saat tubuh membentuk kolagen baru di area yang dipanaskan. Karena ultrasound tidak bergantung pada warna kulit, alat ini aman untuk seluruh tipe kulit.",
+        "detail_en": "Ultrasound energy passes through the surface without heating it, then converges at one focal point at a set depth, much like a magnifying glass concentrating sunlight. At that point the temperature rises enough to make the connective tissue contract on the spot.\n\nThe initial tightening comes from that contraction, and it continues over 8–12 weeks as the body builds new collagen in the heated area. Because ultrasound does not depend on skin colour, it is safe across all skin types.",
+        "treats": [
+          "Kulit yang mulai kendur",
+          "Pipi turun dan garis rahang yang melunak",
+          "Lemak di bawah dagu",
+          "Kerutan di sekitar mata",
+          "Kelopak mata yang turun"
+        ],
+        "treats_en": [
+          "Skin that has begun to loosen",
+          "Sagging cheeks and a softening jawline",
+          "Fullness under the chin",
+          "Lines around the eyes",
+          "Drooping eyelids"
+        ],
+        "concerns": [
+          "LIFT"
+        ],
+        "clinics": [
+          "SB",
+          "LMP"
+        ],
+        "duration_min": 70,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Hampir tidak ada. Kemerahan dan rasa tidak nyaman ringan bisa muncul beberapa jam.",
+        "downtime_en": "Almost none. Mild redness and tenderness can last a few hours.",
+        "sensation": "Rasa panas singkat dan sedikit nyeri di titik tulang.",
+        "sensation_en": "Brief heat, with some soreness over bony areas.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit. Ultrasound tidak diserap melanin, jadi warna kulit tidak memengaruhi risikonya.",
+        "fitz_note_en": "Safe for all skin types. Ultrasound is not absorbed by melanin, so skin colour does not affect the risk.",
+        "avoid_if": [
+          "Sedang hamil",
+          "Ada infeksi atau luka terbuka di area yang akan ditangani",
+          "Ada implan atau filler baru di area tersebut",
+          "Punya gangguan pembekuan darah"
+        ],
+        "avoid_if_en": [
+          "You are pregnant",
+          "There is an infection or open wound in the treatment area",
+          "You have an implant or recent filler in that area",
+          "You have a bleeding disorder"
+        ],
+        "aftercare": [
+          "Minum cukup air dan hindari alkohol selama 24 jam",
+          "Hasil berkembang bertahap selama 8–12 minggu, jadi jangan dinilai di minggu pertama",
+          "Tabir surya setiap hari",
+          "Pijat wajah kuat ditunda 1 minggu"
+        ],
+        "aftercare_en": [
+          "Drink enough water and avoid alcohol for 24 hours",
+          "Results build gradually over 8–12 weeks, so do not judge them in the first week",
+          "Sunscreen every day",
+          "Hold off on firm facial massage for a week"
+        ]
+      },
+      {
+        "slug": "pollogen-rf",
+        "name": "Pollogen RF",
+        "brand": "Pollogen / Lumenis, Amerika Serikat",
+        "brand_en": "Pollogen / Lumenis, USA",
+        "family": "energy",
+        "performed_by": "doctor",
+        "type": "Radio Frequency · pemanasan dermis terkendali",
+        "type_en": "Radiofrequency · controlled dermal heating",
+        "how": "Arus radio frekuensi memanaskan lapisan kulit bagian dalam secara merata sampai serat kolagen mengencang dan produksi kolagen baru terpicu.",
+        "how_en": "A radiofrequency current heats the deeper layer of skin evenly until collagen fibres tighten and new collagen production is triggered.",
+        "detail": "Arus RF menghadapi hambatan saat melewati jaringan, dan hambatan itu menghasilkan panas. Panasnya menyebar rata di lapisan dermis, bukan terpusat di satu titik seperti HIFU, sehingga rasanya lebih mirip pijatan hangat dan hampir tanpa downtime.\n\nKarena bekerja lebih dangkal, efeknya lebih lembut per sesi dan paling terlihat bila dijalankan sebagai rangkaian. RF tidak diserap melanin, jadi aman untuk seluruh tipe kulit, dan sering dipakai di area yang terlalu tipis untuk alat lain, seperti sekitar mata.",
+        "detail_en": "An RF current meets resistance as it passes through tissue, and that resistance produces heat. The heat spreads evenly through the dermis rather than concentrating at one point as HIFU does, so it feels more like a warm massage and leaves almost no downtime.\n\nBecause it works more superficially, the effect per session is gentler and shows best when run as a course. RF is not absorbed by melanin, so it is safe for all skin types, and it is often used on areas too thin for other devices, such as around the eyes.",
+        "treats": [
+          "Kulit kendur ringan sampai sedang",
+          "Garis halus",
+          "Kontur wajah dan tubuh",
+          "Kulit yang kurang kenyal di area mata",
+          "Selulit"
+        ],
+        "treats_en": [
+          "Mild to moderate laxity",
+          "Fine lines",
+          "Facial and body contour",
+          "Loss of bounce around the eyes",
+          "Cellulite"
+        ],
+        "concerns": [
+          "LIFT"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 70,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Tidak ada. Kulit terasa hangat dan sedikit merah selama kurang lebih satu jam.",
+        "downtime_en": "None. The skin feels warm and slightly pink for about an hour.",
+        "sensation": "Hangat merata, seperti pijatan dengan batu hangat.",
+        "sensation_en": "An even warmth, like a hot-stone massage.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit.",
+        "fitz_note_en": "Safe for all skin types.",
+        "avoid_if": [
+          "Sedang hamil",
+          "Memakai alat pacu jantung atau implan elektronik lain",
+          "Ada implan logam di area yang akan ditangani",
+          "Ada infeksi kulit aktif"
+        ],
+        "avoid_if_en": [
+          "You are pregnant",
+          "You have a pacemaker or other electronic implant",
+          "You have a metal implant in the treatment area",
+          "There is an active skin infection"
+        ],
+        "aftercare": [
+          "Minum cukup air setelah sesi",
+          "Pelembap seperti biasa, tidak ada pantangan khusus",
+          "Tabir surya setiap hari",
+          "Hasil paling terlihat setelah rangkaian beberapa sesi"
+        ],
+        "aftercare_en": [
+          "Drink enough water afterwards",
+          "Moisturise as usual, there are no special restrictions",
+          "Sunscreen every day",
+          "The effect shows best after a course of several sessions"
+        ]
+      },
+      {
+        "slug": "nanopore",
+        "name": "Nanopore",
+        "brand": "Nanopore",
+        "family": "energy",
+        "performed_by": "doctor",
+        "type": "Microneedling · jarum mikro bermotor",
+        "type_en": "Microneedling · motorised micro-needles",
+        "how": "Ratusan tusukan mikro yang sangat halus memicu proses perbaikan alami kulit, sehingga jaringan parut terisi dan tekstur menghalus.",
+        "how_en": "Hundreds of very fine micro-punctures trigger the skin's own repair process, filling in scar tissue and smoothing texture.",
+        "detail": "Bekas jerawat berlubang terbentuk karena kolagen di bawahnya hilang saat peradangan sembuh. Menusuk area itu secara terkendali membuat tubuh mengulang proses penyembuhan dan menambahkan kolagen baru di tempat yang kosong.\n\nKarena bekerja secara mekanis dan tidak bergantung pada warna kulit, microneedling aman untuk seluruh tipe kulit. Bekas jerawat memang membutuhkan beberapa sesi: satu sesi jarang cukup, dan tiga sampai empat sesi adalah hal yang wajar.",
+        "detail_en": "Depressed acne scars form because the collagen beneath them was lost as the inflammation healed. Puncturing the area in a controlled way makes the body run the healing process again and add fresh collagen where it is missing.\n\nBecause it works mechanically and does not depend on skin colour, microneedling is safe for all skin types. Acne scars genuinely need several sessions: one is rarely enough, and three to four is normal.",
+        "treats": [
+          "Bekas jerawat berlubang",
+          "Pori-pori besar",
+          "Tekstur kulit yang kasar",
+          "Garis halus",
+          "Kulit yang kurang kencang"
+        ],
+        "treats_en": [
+          "Depressed acne scars",
+          "Large pores",
+          "Rough skin texture",
+          "Fine lines",
+          "Skin that has lost firmness"
+        ],
+        "concerns": [
+          "CLEAR"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS"
+        ],
+        "duration_min": 70,
+        "interval": "tiap 4 minggu",
+        "interval_en": "every 4 weeks",
+        "downtime": "Kemerahan seperti terbakar matahari ringan selama 1–3 hari, lalu kulit terasa kering sebentar.",
+        "downtime_en": "Redness like mild sunburn for 1–3 days, then a short dry phase.",
+        "sensation": "Getaran dan tekanan; krim anestesi dipakai lebih dulu.",
+        "sensation_en": "Vibration and pressure; numbing cream is applied first.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit. Riwayat keloid perlu dibahas dengan dokter lebih dulu.",
+        "fitz_note_en": "Safe for all skin types. A history of keloid scarring must be discussed with the doctor first.",
+        "avoid_if": [
+          "Punya riwayat keloid",
+          "Sedang ada jerawat meradang aktif di area tersebut",
+          "Ada infeksi kulit aktif, termasuk herpes",
+          "Sedang atau baru selesai mengonsumsi isotretinoin",
+          "Sedang hamil"
+        ],
+        "avoid_if_en": [
+          "You have a history of keloid scarring",
+          "There is active inflamed acne in the area",
+          "There is an active skin infection, including cold sores",
+          "You are taking, or recently finished, isotretinoin",
+          "You are pregnant"
+        ],
+        "aftercare": [
+          "Jangan menyentuh wajah dan jangan berdandan selama 24 jam",
+          "Pembersih lembut dan pelembap sederhana selama 3 hari",
+          "Tabir surya setelah 24 jam, lalu setiap hari",
+          "Tunda olahraga berat, kolam renang dan sauna selama 48 jam"
+        ],
+        "aftercare_en": [
+          "Do not touch your face or wear make-up for 24 hours",
+          "A gentle cleanser and a simple moisturiser for three days",
+          "Sunscreen after 24 hours, then every day",
+          "Hold off on hard exercise, pools and saunas for 48 hours"
+        ]
+      },
+      {
+        "slug": "pdt-celluma",
+        "name": "PDT Celluma",
+        "brand": "Celluma by BioPhotas, Amerika Serikat",
+        "brand_en": "Celluma by BioPhotas, USA",
+        "family": "energy",
+        "performed_by": "therapist",
+        "type": "Terapi cahaya LED · merah dan biru",
+        "type_en": "LED light therapy · red and blue",
+        "how": "Panel LED memancarkan cahaya pada panjang gelombang tertentu yang diserap sel kulit, menenangkan peradangan dan mempercepat pemulihan.",
+        "how_en": "An LED panel emits light at specific wavelengths that skin cells absorb, calming inflammation and speeding recovery.",
+        "detail": "Cahaya biru diserap oleh bakteri penyebab jerawat dan mengganggu kemampuannya bertahan. Cahaya merah menembus lebih dalam dan bekerja pada mitokondria sel, yang membuat proses perbaikan berjalan lebih cepat.\n\nTidak ada panas yang merusak dan tidak ada pengelupasan, sehingga LED sering dipakai sebagai penutup setelah tindakan lain, atau sebagai pilihan untuk kulit yang terlalu sensitif untuk alat lain.",
+        "detail_en": "Blue light is absorbed by the bacteria involved in acne and disrupts their ability to survive. Red light travels deeper and acts on the cells' mitochondria, which makes the repair process run faster.\n\nThere is no damaging heat and no peeling, so LED is often used to close a session after another procedure, or as an option for skin too sensitive for other devices.",
+        "treats": [
+          "Jerawat yang sedang meradang",
+          "Kemerahan setelah tindakan",
+          "Pemulihan kulit",
+          "Kulit sensitif yang tidak tahan tindakan lain"
+        ],
+        "treats_en": [
+          "Actively inflamed acne",
+          "Redness after a procedure",
+          "Skin recovery",
+          "Sensitive skin that cannot tolerate other procedures"
+        ],
+        "concerns": [
+          "CLEAR"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 20,
+        "interval": "tiap 1–2 minggu",
+        "interval_en": "every 1–2 weeks",
+        "downtime": "Tidak ada.",
+        "downtime_en": "None.",
+        "sensation": "Tidak terasa apa-apa selain cahaya terang; mata ditutup.",
+        "sensation_en": "Nothing beyond bright light; your eyes are covered.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit, termasuk kulit sensitif.",
+        "fitz_note_en": "Safe for all skin types, including sensitive skin.",
+        "avoid_if": [
+          "Sedang mengonsumsi obat yang membuat kulit sangat peka cahaya",
+          "Punya riwayat kejang yang dipicu cahaya",
+          "Ada lesi kulit yang belum diperiksa dokter"
+        ],
+        "avoid_if_en": [
+          "You are taking medication that makes skin highly light-sensitive",
+          "You have a history of light-triggered seizures",
+          "There is a skin lesion a doctor has not yet examined"
+        ],
+        "aftercare": [
+          "Tidak ada pantangan; bisa langsung berdandan",
+          "Tabir surya seperti biasa"
+        ],
+        "aftercare_en": [
+          "No restrictions; you can put make-up straight back on",
+          "Sunscreen as usual"
+        ]
+      },
+      {
+        "slug": "aquapure-h2o",
+        "name": "Aquapure H2O",
+        "brand": "Classys, Korea",
+        "family": "facial",
+        "performed_by": "therapist",
+        "type": "Aqua facial · empat langkah dalam satu alat",
+        "type_en": "Aqua facial · four steps in one device",
+        "how": "Ujung alat menyemprotkan cairan sekaligus menyedotnya kembali, mengangkat isi pori dan menggantinya dengan serum.",
+        "how_en": "The handpiece sprays solution and vacuums it straight back, lifting what is inside the pores and replacing it with serum.",
+        "detail": "Langkahnya berurutan: melunakkan lapisan sel mati, mengangkat isi pori dengan isapan lembut, menetralkan kulit, lalu memasukkan serum. Karena pori dilunakkan lebih dulu, komedo terangkat tanpa pemencetan keras.\n\nIni tindakan permukaan tanpa luka, sehingga bisa dikerjakan terapis dan tidak meninggalkan downtime. Cocok sebagai perawatan rutin dan sebagai langkah pembuka sebelum tindakan dokter.",
+        "detail_en": "The steps run in order: soften the layer of dead cells, lift what is in the pores with gentle suction, settle the skin, then infuse serum. Because the pores are softened first, comedones come out without hard squeezing.\n\nThis is a surface treatment with no wound, so a therapist can perform it and it leaves no downtime. It suits regular upkeep, and works as an opening step before a doctor's procedure.",
+        "treats": [
+          "Komedo hitam dan putih",
+          "Kulit berminyak",
+          "Pori yang tersumbat",
+          "Kulit yang dehidrasi",
+          "Kulit yang terlihat lelah"
+        ],
+        "treats_en": [
+          "Blackheads and whiteheads",
+          "Oily skin",
+          "Clogged pores",
+          "Dehydrated skin",
+          "Skin that looks tired"
+        ],
+        "concerns": [
+          "CLEAR"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Tidak ada.",
+        "downtime_en": "None.",
+        "sensation": "Sejuk dan basah, dengan isapan lembut.",
+        "sensation_en": "Cool and wet, with a gentle pull.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit.",
+        "fitz_note_en": "Safe for all skin types.",
+        "avoid_if": [
+          "Ada jerawat yang sangat meradang dan luka terbuka",
+          "Kulit sedang terbakar matahari",
+          "Ada infeksi kulit aktif"
+        ],
+        "avoid_if_en": [
+          "There is severely inflamed acne with open lesions",
+          "Your skin is sunburnt",
+          "There is an active skin infection"
+        ],
+        "aftercare": [
+          "Tabir surya setiap hari",
+          "Tunda scrub dan retinoid selama 2 hari"
+        ],
+        "aftercare_en": [
+          "Sunscreen every day",
+          "Hold off on scrubs and retinoids for two days"
+        ]
+      },
+      {
+        "slug": "hydraderm",
+        "name": "Hydraderm",
+        "brand": "Hydradermabrasion",
+        "family": "facial",
+        "performed_by": "therapist",
+        "type": "Hydradermabrasion · pengelupasan basah dengan serum",
+        "type_en": "Hydradermabrasion · wet exfoliation with serum",
+        "how": "Ujung alat mengikis lapisan sel mati sambil terus membasahi kulit dengan serum, jadi kulit terkelupas tanpa menjadi kering.",
+        "how_en": "The handpiece abrades the layer of dead cells while keeping the skin wet with serum, so it exfoliates without drying out.",
+        "detail": "Pengelupasan kering cenderung membuat kulit terasa tertarik. Dengan membasahi area yang sedang dikerjakan, lapisan sel mati terangkat sekaligus kulit menerima pelembap, dan hasilnya terasa halus langsung setelah sesi.\n\nDi Surface ini adalah facial pembuka dengan tingkat kembali tertinggi, dan menjadi dasar beberapa paket pada menu.",
+        "detail_en": "Dry exfoliation tends to leave the skin feeling tight. By keeping the working area wet, the dead cell layer is lifted while the skin takes on moisture, and the result feels smooth immediately after the session.\n\nAt Surface this is the opening facial with the highest return rate, and it forms the base of several packages on the menu.",
+        "treats": [
+          "Kulit yang tersumbat",
+          "Komedo",
+          "Tekstur yang tidak rata",
+          "Dehidrasi ringan",
+          "Kulit yang terlihat lelah"
+        ],
+        "treats_en": [
+          "Congested skin",
+          "Comedones",
+          "Uneven texture",
+          "Mild dehydration",
+          "Skin that looks tired"
+        ],
+        "concerns": [
+          "CLEAR"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Tidak ada.",
+        "downtime_en": "None.",
+        "sensation": "Seperti diusap lembut dengan ujung basah.",
+        "sensation_en": "Like a gentle sweep with a wet tip.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit.",
+        "fitz_note_en": "Safe for all skin types.",
+        "avoid_if": [
+          "Ada jerawat yang sangat meradang dan luka terbuka",
+          "Kulit sedang terbakar matahari",
+          "Ada infeksi kulit aktif"
+        ],
+        "avoid_if_en": [
+          "There is severely inflamed acne with open lesions",
+          "Your skin is sunburnt",
+          "There is an active skin infection"
+        ],
+        "aftercare": [
+          "Tabir surya setiap hari",
+          "Tunda scrub dan retinoid selama 2 hari"
+        ],
+        "aftercare_en": [
+          "Sunscreen every day",
+          "Hold off on scrubs and retinoids for two days"
+        ]
+      },
+      {
+        "slug": "oxy-gun",
+        "name": "Oxy Gun",
+        "brand": "Oxygen infusion",
+        "family": "facial",
+        "performed_by": "therapist",
+        "type": "Infus oksigen bertekanan",
+        "type_en": "Pressurised oxygen infusion",
+        "how": "Aliran oksigen bertekanan mendorong serum ke permukaan kulit tanpa jarum dan tanpa gesekan.",
+        "how_en": "A stream of pressurised oxygen pushes serum into the skin surface with no needles and no abrasion.",
+        "detail": "Tidak ada pengikisan dan tidak ada tusukan, sehingga tindakan ini termasuk yang paling lembut di menu. Yang dirasakan terutama adalah kulit yang lebih kenyal dan lembap segera setelah sesi.\n\nKarena tanpa downtime sama sekali, ini pilihan yang sering diambil menjelang acara, dan untuk kulit sensitif yang bereaksi pada tindakan lain.",
+        "detail_en": "There is no abrasion and no puncture, which makes this among the gentlest procedures on the menu. What you notice is mostly skin that feels plumper and better hydrated straight after the session.\n\nBecause there is no downtime at all, it is a common choice before an event, and for sensitive skin that reacts to other procedures.",
+        "treats": [
+          "Kulit yang terlihat lelah",
+          "Dehidrasi",
+          "Kulit sensitif",
+          "Persiapan menjelang acara"
+        ],
+        "treats_en": [
+          "Skin that looks tired",
+          "Dehydration",
+          "Sensitive skin",
+          "Preparation before an event"
+        ],
+        "concerns": [
+          "GLOW"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 45,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Tidak ada.",
+        "downtime_en": "None.",
+        "sensation": "Sejuk dan ringan, seperti embusan angin.",
+        "sensation_en": "Cool and light, like a puff of air.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit, termasuk kulit sensitif.",
+        "fitz_note_en": "Safe for all skin types, including sensitive skin.",
+        "avoid_if": [
+          "Ada infeksi kulit aktif",
+          "Ada luka terbuka di area yang akan ditangani"
+        ],
+        "avoid_if_en": [
+          "There is an active skin infection",
+          "There is an open wound in the treatment area"
+        ],
+        "aftercare": [
+          "Tidak ada pantangan",
+          "Tabir surya seperti biasa"
+        ],
+        "aftercare_en": [
+          "No restrictions",
+          "Sunscreen as usual"
+        ]
+      },
+      {
+        "slug": "diamond-peel",
+        "name": "Diamond Peel",
+        "brand": "Athena",
+        "family": "facial",
+        "performed_by": "therapist",
+        "type": "Microdermabrasion · ujung berlapis berlian",
+        "type_en": "Microdermabrasion · diamond-tipped handpiece",
+        "how": "Ujung berlapis butiran berlian mengikis lapisan sel kulit mati, lalu isapan lembut mengangkat serpihannya.",
+        "how_en": "A diamond-grit tip abrades the layer of dead skin cells, and gentle suction lifts the debris away.",
+        "detail": "Lapisan terluar kulit terdiri dari sel mati yang membuat permukaan terasa kasar dan menahan penyerapan produk. Mengikisnya secara terkendali membuat permukaan lebih halus dan produk perawatan bekerja lebih baik.\n\nIni tindakan mekanis murni, tanpa bahan kimia dan tanpa panas, sehingga cocok untuk kulit yang tidak tahan peeling kimia.",
+        "detail_en": "The outermost layer of skin is made of dead cells that leave the surface feeling rough and slow product absorption. Abrading it in a controlled way leaves the surface smoother and lets skincare work better.\n\nThis is purely mechanical, with no chemicals and no heat, so it suits skin that does not tolerate chemical peels.",
+        "treats": [
+          "Penumpukan sel kulit mati",
+          "Tekstur yang kasar",
+          "Pori yang tersumbat",
+          "Bekas jerawat yang dangkal",
+          "Kulit yang terlihat lelah"
+        ],
+        "treats_en": [
+          "Dead cell build-up",
+          "Rough texture",
+          "Clogged pores",
+          "Shallow acne marks",
+          "Skin that looks tired"
+        ],
+        "concerns": [
+          "CLEAR"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Tidak ada. Kulit bisa sedikit merah muda selama satu jam.",
+        "downtime_en": "None. The skin can look slightly pink for an hour.",
+        "sensation": "Seperti diusap amplas yang sangat halus.",
+        "sensation_en": "Like being swept with very fine sandpaper.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "ok"
+        },
+        "fitz_note": "Aman untuk seluruh tipe kulit.",
+        "fitz_note_en": "Safe for all skin types.",
+        "avoid_if": [
+          "Ada jerawat meradang aktif",
+          "Kulit sedang terbakar matahari",
+          "Ada infeksi kulit aktif",
+          "Sedang mengonsumsi isotretinoin"
+        ],
+        "avoid_if_en": [
+          "There is active inflamed acne",
+          "Your skin is sunburnt",
+          "There is an active skin infection",
+          "You are taking isotretinoin"
+        ],
+        "aftercare": [
+          "Tabir surya setiap hari",
+          "Tunda scrub dan retinoid selama 3 hari"
+        ],
+        "aftercare_en": [
+          "Sunscreen every day",
+          "Hold off on scrubs and retinoids for three days"
+        ]
+      },
+      {
+        "slug": "chemical-peel",
+        "name": "Chemical Peel",
+        "brand": "LHALA Peel 504 — H2MEDI, Korea",
+        "family": "doctor",
+        "performed_by": "doctor",
+        "type": "Peeling kimia medis · kekuatan dan bahan dipilih dokter",
+        "type_en": "Medical chemical peel · strength and agent chosen by the doctor",
+        "how": "Cairan asam melonggarkan ikatan antar sel kulit mati sehingga lapisan atas terlepas dan digantikan kulit yang lebih baru.",
+        "how_en": "An acid solution loosens the bonds between dead skin cells so the top layer sheds and is replaced by newer skin.",
+        "detail": "Jenis asam menentukan kedalaman kerjanya. Asam salisilat larut dalam minyak sehingga masuk ke dalam pori dan dipakai untuk jerawat. Asam glikolat bekerja di permukaan untuk tekstur dan kusam. TCA bekerja lebih dalam dan hanya dilakukan dokter dengan pengawasan ketat.\n\nLHALA Peel yang dipakai di sebagian besar paket Surface termasuk peeling ringan dengan pengelupasan halus. Pada kulit sawo matang dan gelap, peeling yang terlalu kuat dapat memicu pigmen baru, jadi kekuatannya dinaikkan bertahap dan selalu atas penilaian dokter.",
+        "detail_en": "The acid used determines how deep it acts. Salicylic acid is oil-soluble, so it enters the pore and is used for acne. Glycolic acid works at the surface for texture and dullness. TCA works deeper and is performed only by a doctor under close supervision.\n\nThe LHALA Peel used in most Surface packages is a light peel with fine flaking. On medium and deeper skin tones, a peel that is too strong can trigger fresh pigment, so the strength is raised gradually and always on the doctor's judgement.",
+        "treats": [
+          "Jerawat dan komedo",
+          "Flek dan bekas jerawat yang menggelap",
+          "Tekstur yang kasar",
+          "Kulit yang terlihat lelah",
+          "Garis halus"
+        ],
+        "treats_en": [
+          "Acne and comedones",
+          "Pigment patches and darkened acne marks",
+          "Rough texture",
+          "Skin that looks tired",
+          "Fine lines"
+        ],
+        "concerns": [
+          "CLEAR",
+          "GLOW"
+        ],
+        "clinics": [
+          "SB",
+          "CITOS",
+          "LMP",
+          "TSM"
+        ],
+        "duration_min": 40,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "downtime": "Pengelupasan halus selama 3–7 hari, tergantung kekuatan peeling.",
+        "downtime_en": "Fine flaking for 3–7 days, depending on the strength of the peel.",
+        "sensation": "Perih dan hangat selama beberapa menit saat cairan bekerja.",
+        "sensation_en": "Stinging and warmth for a few minutes while the solution works.",
+        "fitz": {
+          "I-II": "ok",
+          "III-IV": "ok",
+          "V-VI": "caution"
+        },
+        "fitz_note": "Peeling ringan aman untuk seluruh tipe kulit. Peeling yang lebih dalam seperti TCA pada kulit gelap wajib dinilai dokter lebih dulu karena risiko pigmen baru.",
+        "fitz_note_en": "Light peels are safe for all skin types. Deeper peels such as TCA on deeper skin tones must be assessed by a doctor first, because of the risk of fresh pigment.",
+        "avoid_if": [
+          "Sedang hamil atau menyusui",
+          "Sedang atau baru selesai mengonsumsi isotretinoin",
+          "Ada infeksi kulit aktif, termasuk herpes",
+          "Kulit sedang terbakar matahari",
+          "Baru melakukan tindakan lain di area yang sama dalam 4 minggu terakhir"
+        ],
+        "avoid_if_en": [
+          "You are pregnant or breastfeeding",
+          "You are taking, or recently finished, isotretinoin",
+          "There is an active skin infection, including cold sores",
+          "Your skin is sunburnt",
+          "You have had another procedure in the same area within the last four weeks"
+        ],
+        "aftercare": [
+          "Biarkan kulit mengelupas sendiri, jangan ditarik",
+          "Pembersih lembut dan pelembap sederhana",
+          "Tabir surya SPF 30 atau lebih setiap hari, ini yang paling menentukan hasil",
+          "Tunda retinoid, scrub dan produk asam apa pun sampai pengelupasan selesai"
+        ],
+        "aftercare_en": [
+          "Let the skin shed on its own, do not pull it",
+          "A gentle cleanser and a simple moisturiser",
+          "Sunscreen SPF 30 or higher every day — this matters most to the result",
+          "Hold off on retinoids and scrubs until the flaking has finished"
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Hiperpigmentasi",
+        "term_en": "Hyperpigmentation",
+        "def": "Area kulit yang memproduksi melanin berlebih sehingga warnanya berbeda dari kulit sekitarnya. Melasma, flek matahari dan bekas jerawat yang menggelap semuanya termasuk di dalamnya.",
+        "def_en": "An area of skin producing excess melanin, so its colour differs from the skin around it. Melasma, sun spots and darkened acne marks all fall under this."
+      },
+      {
+        "term": "PIH",
+        "term_en": "PIH",
+        "def": "Post-Inflammatory Hyperpigmentation: bekas gelap yang tertinggal setelah peradangan, paling sering setelah jerawat. Ini bukan jaringan parut dan bisa memudar, tetapi butuh waktu berbulan-bulan.",
+        "def_en": "Post-inflammatory hyperpigmentation: the dark mark left after inflammation, most often after acne. It is not scar tissue and it can fade, but it takes months."
+      },
+      {
+        "term": "Melasma",
+        "term_en": "Melasma",
+        "def": "Pola pigmen simetris, biasanya di pipi dan dahi, yang dipengaruhi hormon dan matahari. Cenderung kambuh, jadi ditangani sebagai kondisi yang dikelola jangka panjang, bukan dihilangkan sekali jalan.",
+        "def_en": "A symmetrical pattern of pigment, usually on the cheeks and forehead, driven by hormones and sun. It tends to recur, so it is managed over the long term rather than removed in one go."
+      },
+      {
+        "term": "Skala Fitzpatrick",
+        "term_en": "Fitzpatrick scale",
+        "def": "Cara mengelompokkan kulit berdasarkan reaksinya terhadap matahari, dari tipe I yang selalu terbakar sampai tipe VI yang tidak pernah terbakar. Sebagian besar pelanggan Surface berada di tipe III–IV. Skala ini menentukan pengaturan alat, bukan kelayakan seseorang.",
+        "def_en": "A way of grouping skin by how it reacts to sun, from type I which always burns to type VI which never does. Most Surface customers sit at types III–IV. The scale drives device settings, not whether someone qualifies."
+      },
+      {
+        "term": "Downtime",
+        "term_en": "Downtime",
+        "def": "Lama waktu kulit terlihat atau terasa berbeda setelah tindakan, sebelum kembali normal. Bukan ukuran keberhasilan: banyak tindakan efektif tanpa downtime sama sekali.",
+        "def_en": "How long the skin looks or feels different after a procedure, before returning to normal. It is not a measure of success: plenty of effective procedures have none at all."
+      },
+      {
+        "term": "Atrophic scar",
+        "term_en": "Atrophic scar",
+        "def": "Bekas jerawat berlubang, terbentuk karena kolagen hilang saat peradangan sembuh. Memerlukan tindakan yang merangsang kolagen baru, dan hampir selalu lebih dari satu sesi.",
+        "def_en": "A depressed acne scar, formed because collagen was lost as the inflammation healed. It needs a procedure that stimulates new collagen, and almost always more than one session."
+      },
+      {
+        "term": "Komedo",
+        "term_en": "Comedone",
+        "def": "Pori yang tersumbat minyak dan sel kulit mati. Terbuka ke permukaan disebut blackhead, tertutup disebut whitehead.",
+        "def_en": "A pore blocked with oil and dead skin cells. Open to the surface it is a blackhead, closed it is a whitehead."
+      },
+      {
+        "term": "Nanodetik",
+        "term_en": "Nanosecond",
+        "def": "Sepersemiliar detik. Lama satu pulsa laser Q-switched. Semakin singkat pulsanya, semakin terpusat panasnya pada target dan semakin sedikit yang merambat ke kulit sekitarnya.",
+        "def_en": "One billionth of a second. The length of a single q-switched laser pulse. The shorter the pulse, the more the heat stays on the target and the less spreads into surrounding skin."
+      },
+      {
+        "term": "Kolagen",
+        "term_en": "Collagen",
+        "def": "Protein yang memberi kulit kekuatan dan kekenyalan. Produksinya menurun seiring usia, dan sebagian besar tindakan pengencangan bekerja dengan memicu tubuh membentuk kolagen baru.",
+        "def_en": "The protein that gives skin its strength and bounce. Production falls with age, and most firming procedures work by prompting the body to build new collagen."
+      },
+      {
+        "term": "Isotretinoin",
+        "term_en": "Isotretinoin",
+        "def": "Obat jerawat oral yang membuat kulit jauh lebih rapuh terhadap tindakan. Sebagian besar laser, peeling dan microneedling ditunda selama pengobatan dan beberapa waktu setelahnya. Selalu beri tahu dokter jika kamu sedang atau baru selesai mengonsumsinya.",
+        "def_en": "An oral acne medication that leaves skin far more fragile in the face of procedures. Most lasers, peels and microneedling are postponed during treatment and for some time afterwards. Always tell the doctor if you are taking it or recently finished."
+      }
+    ],
+    "treatment_families": [
+      {
+        "code": "facial",
+        "name": "Facial",
+        "name_en": "Facials",
+        "blurb": "Dikerjakan terapis. Pembersihan dalam, hidrasi, dan persiapan kulit sebelum langkah dokter. Titik mulai hampir semua pelanggan.",
+        "blurb_en": "Performed by therapists. Deep cleansing, hydration and preparing the skin for a doctor step. Where almost every customer starts."
+      },
+      {
+        "code": "peel",
+        "name": "Peeling medis",
+        "name_en": "Medical peels",
+        "blurb": "Dikerjakan dokter. Larutan asam dengan kedalaman terukur mengangkat lapisan kulit mati dan memicu pembaruan.",
+        "blurb_en": "Performed by doctors. Acid solutions of measured depth lift dead skin and trigger renewal."
+      },
+      {
+        "code": "light",
+        "name": "Laser & cahaya",
+        "name_en": "Laser & light",
+        "blurb": "Dikerjakan dokter. Energi cahaya yang diserap pigmen, pembuluh darah, atau bakteri, tergantung panjang gelombangnya.",
+        "blurb_en": "Performed by doctors. Light energy absorbed by pigment, blood vessels or bacteria, depending on wavelength."
+      },
+      {
+        "code": "lift",
+        "name": "Pengencangan",
+        "name_en": "Tightening",
+        "blurb": "Radio frekuensi dan ultrasound yang memanaskan lapisan dalam kulit untuk merangsang kolagen. Hasil bertahap.",
+        "blurb_en": "Radiofrequency and ultrasound that heat the deeper skin layers to stimulate collagen. Gradual results."
+      },
+      {
+        "code": "needle",
+        "name": "Microneedling",
+        "name_en": "Microneedling",
+        "blurb": "Dikerjakan dokter. Jarum mikro membuka saluran halus untuk pembaruan tekstur dan penyerapan serum.",
+        "blurb_en": "Performed by doctors. Micro-needles open fine channels for texture renewal and serum delivery."
+      },
+      {
+        "code": "inject",
+        "name": "Injeksi & booster",
+        "name_en": "Injectables & boosters",
+        "blurb": "Hanya dokter. Botulinum toxin, mesoterapi, dan skin booster. Jenis bahan, jumlah, dan interval diputuskan dokter.",
+        "blurb_en": "Doctors only. Botulinum toxin, mesotherapy and skin boosters. Agent, dose and interval are the doctor's call."
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Hydraderm Facial",
+        "family": "facial",
+        "device": "hydraderm",
+        "brand": "Dermolissage · Immortal serums",
+        "performed_by": "therapist",
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Pori tersumbat, komedo, kulit kusam atau berminyak",
+        "for_en": "Clogged pores, blackheads, dull or oily skin",
+        "price": 1100000,
+        "note": "Varian Brightening, Hydrating, Clarity. Treatment pertama paling umum di Surface.",
+        "note_en": "Brightening, Hydrating and Clarity variants. The most common first treatment at Surface."
+      },
+      {
+        "name": "H2O Glow Facial",
+        "family": "facial",
+        "device": "aquapure-h2o",
+        "brand": "Aquapure (Classys) · Aqua Glo",
+        "performed_by": "therapist",
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Kulit kering, sensitif, kusam; varian Sensi untuk barrier, Oil Control untuk berminyak",
+        "for_en": "Dry, sensitive or dull skin; Sensi variant for the barrier, Oil Control for oily skin",
+        "price": 1200000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Oxy Facial",
+        "family": "facial",
+        "device": "oxy-gun",
+        "brand": "Intraceutical Oxygen Therapy · OxyCeuticals",
+        "performed_by": "therapist",
+        "duration_min": 45,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Kusam, dehidrasi, kulit lelah; glow cepat tanpa downtime",
+        "for_en": "Dullness, dehydration, tired skin; fast glow with no downtime",
+        "price": 800000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Super Facial",
+        "family": "facial",
+        "device": "",
+        "brand": "Dermalogica · Tegoder",
+        "performed_by": "therapist",
+        "duration_min": 45,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Komedo dan pembersihan dasar dengan ekstraksi",
+        "for_en": "Blackheads and basic cleansing with extraction",
+        "price": 350000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Diamond Facial",
+        "family": "facial",
+        "device": "diamond-peel",
+        "brand": "Athena · Tegoder",
+        "performed_by": "therapist",
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Tekstur kasar, kusam; eksfoliasi mekanis halus",
+        "for_en": "Rough texture, dullness; gentle mechanical exfoliation",
+        "price": 800000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Contouring Facial (V-Shape)",
+        "family": "facial",
+        "device": "pollogen-rf",
+        "brand": "Pollogen by Lumenis",
+        "performed_by": "therapist",
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Garis rahang dan pipi yang ingin lebih tegas",
+        "for_en": "Jawline and cheeks you want more defined",
+        "price": 1100000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "LHALA Peel",
+        "family": "peel",
+        "device": "chemical-peel",
+        "brand": "LHALA Peel 504 — H2MEDI, Korea",
+        "performed_by": "doctor",
+        "duration_min": 40,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Tekstur kasar, kusam, komedo; peeling dokter yang dipasangkan dengan hampir semua facial",
+        "for_en": "Rough texture, dullness, congestion; the doctor peel paired with almost every facial",
+        "price": 500000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Targeted Peel SA",
+        "family": "peel",
+        "device": "chemical-peel",
+        "brand": "Tegoder, Spanyol",
+        "performed_by": "doctor",
+        "duration_min": 30,
+        "interval": "tiap 2–3 minggu",
+        "interval_en": "every 2–3 weeks",
+        "for": "Jerawat aktif dan kulit berminyak (asam salisilat)",
+        "for_en": "Active acne and oily skin (salicylic acid)",
+        "price": 700000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Targeted Peel GA",
+        "family": "peel",
+        "device": "chemical-peel",
+        "brand": "Tegoder, Spanyol",
+        "performed_by": "doctor",
+        "duration_min": 30,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Kusam dan tekstur (asam glikolat)",
+        "for_en": "Dullness and texture (glycolic acid)",
+        "price": 700000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Ultrabrightening Peel",
+        "family": "peel",
+        "device": "chemical-peel",
+        "brand": "Tegoder, Spanyol",
+        "performed_by": "doctor",
+        "duration_min": 30,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Warna kulit tidak rata, flek dangkal, bekas jerawat gelap",
+        "for_en": "Uneven tone, surface spots, dark acne marks",
+        "price": 700000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Retinol Peel",
+        "family": "peel",
+        "device": "chemical-peel",
+        "brand": "Neostrata ProSystem",
+        "performed_by": "doctor",
+        "duration_min": 30,
+        "interval": "tiap 4 minggu",
+        "interval_en": "every 4 weeks",
+        "for": "Garis halus dan tekstur untuk pemula",
+        "for_en": "Fine lines and texture, beginner-friendly",
+        "price": 700000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "TCA Peel",
+        "family": "peel",
+        "device": "chemical-peel",
+        "brand": "Tegoder, Spanyol",
+        "performed_by": "doctor",
+        "duration_min": 30,
+        "interval": "tiap 4–6 minggu",
+        "interval_en": "every 4–6 weeks",
+        "for": "Koreksi tekstur, pigmen dan garis halus yang lebih kuat; ada downtime pengelupasan",
+        "for_en": "Stronger correction of texture, pigment and fine lines; peeling downtime",
+        "price": 950000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "PDT / LED",
+        "family": "light",
+        "device": "pdt-celluma",
+        "brand": "Celluma by BioPhotas, AS",
+        "performed_by": "therapist",
+        "duration_min": 20,
+        "interval": "tiap 1–2 minggu",
+        "interval_en": "every 1–2 weeks",
+        "for": "Jerawat meradang dan pemulihan setelah treatment; add-on ke facial mana pun",
+        "for_en": "Inflamed acne and post-treatment recovery; an add-on to any facial",
+        "price": 250000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "QS Brighten & Toning (wajah)",
+        "family": "light",
+        "device": "biaxis-qs-laser",
+        "brand": "Biaxis Nd:YAG (Regenesis)",
+        "performed_by": "doctor",
+        "duration_min": 60,
+        "interval": "tiap 3 minggu",
+        "interval_en": "every 3 weeks",
+        "for": "Flek, melasma, bekas jerawat gelap, warna tidak rata; aman untuk kulit sawo matang pada 1064 nm",
+        "for_en": "Spots, melasma, dark acne marks, uneven tone; safe for medium and deeper skin at 1064 nm",
+        "price": 2050000,
+        "note": "Setelah 3 sesi wajib dinilai dokter sebelum lanjut.",
+        "note_en": "After 3 sessions the doctor must reassess before continuing."
+      },
+      {
+        "name": "Laser Facial",
+        "family": "light",
+        "device": "biaxis-qs-laser",
+        "brand": "Biaxis Nd:YAG (Regenesis)",
+        "performed_by": "doctor",
+        "duration_min": 20,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Satu lintasan laser ringan untuk cerah dan pori; langkah penutup di combo Glow",
+        "for_en": "One light laser pass for glow and pores; the closing step in the Glow combos",
+        "price": 450000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Pulsed Light Rejuvenation (IPL)",
+        "family": "light",
+        "device": "ipl-cellec",
+        "brand": "Cellec V (Jeisys), Korea",
+        "performed_by": "doctor",
+        "duration_min": 40,
+        "interval": "tiap 3–4 minggu",
+        "interval_en": "every 3–4 weeks",
+        "for": "Kemerahan, warna tidak rata, kulit cerah sampai medium; pengganti laser di Lippo Mall Puri",
+        "for_en": "Redness, uneven tone, light to medium skin; the laser substitute at Lippo Mall Puri",
+        "price": 1050000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Tighten & Contour RF (wajah)",
+        "family": "lift",
+        "device": "pollogen-rf",
+        "brand": "Pollogen by Lumenis",
+        "performed_by": "therapist",
+        "duration_min": 40,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Kulit kendur ringan, kontur; tanpa downtime",
+        "for_en": "Mild laxity, contour; no downtime",
+        "price": 850000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Tighten & Contour RF (leher)",
+        "family": "lift",
+        "device": "pollogen-rf",
+        "brand": "Pollogen by Lumenis",
+        "performed_by": "therapist",
+        "duration_min": 30,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Leher dan garis rahang",
+        "for_en": "Neck and jawline",
+        "price": 400000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "HIFU Ultilift",
+        "family": "lift",
+        "device": "hifu-liftera",
+        "brand": "Liftera, Korea",
+        "performed_by": "doctor",
+        "duration_min": 60,
+        "interval": "ulang 6–12 bulan",
+        "interval_en": "repeat every 6–12 months",
+        "for": "Kendur, double chin, mata, mid-face, leher, atau wajah penuh; hasil penuh dalam 8–12 minggu",
+        "for_en": "Laxity: double chin, eyes, mid-face, neck or full face; full result in 8–12 weeks",
+        "price": 1750000,
+        "note": "Rp 1.750.000 (mata) sampai Rp 8.100.000 (wajah penuh). Area ditentukan dokter.",
+        "note_en": "Rp 1,750,000 (eyes) to Rp 8,100,000 (full face). Area set by the doctor."
+      },
+      {
+        "name": "Nanoporeless Microneedling",
+        "family": "needle",
+        "device": "nanopore",
+        "brand": "Mediderma Nanopore",
+        "performed_by": "doctor",
+        "duration_min": 70,
+        "interval": "tiap 4 minggu",
+        "interval_en": "every 4 weeks",
+        "for": "Bekas jerawat, pori besar, tekstur; varian dengan AQS atau PDRN salmon DNA",
+        "for_en": "Acne scars, large pores, texture; variants with AQS or salmon-DNA PDRN",
+        "price": 3100000,
+        "note": "Seri 3–4 sesi. Kemerahan 1–3 hari.",
+        "note_en": "A series of 3–4 sessions. Redness for 1–3 days."
+      },
+      {
+        "name": "Acne Shots",
+        "family": "inject",
+        "device": "",
+        "brand": "—",
+        "performed_by": "doctor",
+        "duration_min": 10,
+        "interval": "saat diperlukan",
+        "interval_en": "as needed",
+        "for": "Satu lesi jerawat besar yang meradang; suntikan langsung ke lesi",
+        "for_en": "A single large inflamed acne lesion; injected directly",
+        "price": 300000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Meso Lipo (wajah)",
+        "family": "inject",
+        "device": "",
+        "brand": "Dermashine injector",
+        "performed_by": "doctor",
+        "duration_min": 25,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Kualitas kulit dan kepadatan di area rahang dan pipi",
+        "for_en": "Skin quality and firmness around the jaw and cheeks",
+        "price": 1400000,
+        "note": "",
+        "note_en": ""
+      },
+      {
+        "name": "Botulinum Toxin (Botox)",
+        "family": "inject",
+        "device": "",
+        "brand": "Lanzox · Allergan",
+        "performed_by": "doctor",
+        "duration_min": 20,
+        "interval": "ulang 4–6 bulan",
+        "interval_en": "repeat every 4–6 months",
+        "for": "Garis dinamis: kerutan kening, mata, dahi; microbotox untuk pori dan minyak",
+        "for_en": "Dynamic lines: frown, crow's feet, forehead; microbotox for pores and oil",
+        "price": 6450000,
+        "note": "Harga per 50 unit. Jumlah unit ditentukan dokter.",
+        "note_en": "Price per 50 units. Units set by the doctor."
+      },
+      {
+        "name": "Skin Booster (Rejuran, Profhilo, Nucleofill)",
+        "family": "inject",
+        "device": "",
+        "brand": "Rejuran · Profhilo · Nucleofill",
+        "performed_by": "doctor",
+        "duration_min": 30,
+        "interval": "ditentukan dokter",
+        "interval_en": "set by the doctor",
+        "for": "Hidrasi dalam, kualitas kulit, ketahanan hasil setelah seri laser atau peel",
+        "for_en": "Deep hydration, skin quality, holding results after a laser or peel series",
+        "price": 0,
+        "note": "Harga disampaikan saat konsultasi dokter.",
+        "note_en": "Price given at the doctor consultation."
+      }
+    ],
+    "treatments_intro": "Semua treatment yang bisa kamu temui di Surface, dikelompokkan menurut caranya bekerja. Harga satuan ditampilkan sebagai acuan; paket dan kombinasi ada di halaman Menu.",
+    "treatments_intro_en": "Every treatment you can meet at Surface, grouped by how it works. Single-session prices are shown for reference; packages and combinations are on the Menu page.",
+    "brands": [
+      {
+        "name": "LHALA Peel 504",
+        "maker": "H2MEDI, Korea",
+        "kind": "Peeling medis",
+        "kind_en": "Medical peel",
+        "what": "Peeling asam LHA/AHA yang bekerja di lapisan atas kulit dengan iritasi rendah. Langkah dokter di hampir semua combo Surface sejak September 2026.",
+        "what_en": "An LHA/AHA peel that works in the upper skin layers with low irritation. The doctor step in almost every Surface combo since September 2026.",
+        "used_in": [
+          "LHALA Peel",
+          "Clear Start",
+          "Glass Skin Facial",
+          "Tone Reset",
+          "Peel & Lift",
+          "Contour Signature"
+        ],
+        "device": "chemical-peel",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "",
+        "logo": "lhala.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Biaxis Q-Switched Nd:YAG",
+        "maker": "Regenesis",
+        "kind": "Laser",
+        "kind_en": "Laser",
+        "what": "Laser pigmen 1064/532 nm dengan pulsa nanodetik. Mode 1064 nm aman untuk kulit sawo matang, itu sebabnya dipilih untuk Indonesia.",
+        "what_en": "A 1064/532 nm pigment laser with nanosecond pulses. The 1064 nm mode is safe on medium and deeper skin, which is why it was chosen for Indonesia.",
+        "used_in": [
+          "QS Brighten & Toning (wajah)",
+          "Laser Facial",
+          "Tone Reset",
+          "Glow Intensive"
+        ],
+        "device": "biaxis-qs-laser",
+        "origin": "Jerman (HLS Hypertech Laser Systems, Lübeck) · distributor Regenesis Indonesia",
+        "origin_en": "Germany (HLS Hypertech Laser Systems, Lübeck) · distributed by Regenesis Indonesia",
+        "site": "https://www.hypertech-lasers.de/",
+        "logo": "biaxis.svg",
+        "regulatory": [
+          {
+            "label": "ISO 13485:2016 (sistem mutu alat medis)",
+            "label_en": "ISO 13485:2016 medical-device quality system",
+            "url": "https://www.hypertech-lasers.de/"
+          }
+        ],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Cellec V IPL",
+        "maker": "Jeisys Medical, Korea",
+        "kind": "Cahaya pulsa intens",
+        "kind_en": "Intense pulsed light",
+        "what": "Cahaya spektrum lebar untuk kemerahan, warna tidak rata, dan hair removal. Di Lippo Mall Puri menggantikan langkah laser.",
+        "what_en": "Broad-spectrum light for redness, uneven tone and hair removal. At Lippo Mall Puri it stands in for the laser step.",
+        "used_in": [
+          "Pulsed Light Rejuvenation (IPL)"
+        ],
+        "device": "ipl-cellec",
+        "origin": "Korea Selatan (Jeisys Medical, Seoul) · distributor Regenesis Indonesia",
+        "origin_en": "South Korea (Jeisys Medical, Seoul) · distributed by Regenesis Indonesia",
+        "site": "https://jeisys.com/",
+        "logo": "jeisys.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Liftera HIFU",
+        "maker": "Liftera, Korea",
+        "kind": "Ultrasound terfokus",
+        "kind_en": "Focused ultrasound",
+        "what": "Mengantarkan panas ke kedalaman 1,5 / 3,0 / 4,5 mm untuk mengencangkan dari lapisan penyangga, tanpa operasi.",
+        "what_en": "Delivers heat at 1.5 / 3.0 / 4.5 mm to tighten from the support layer, without surgery.",
+        "used_in": [
+          "HIFU Ultilift",
+          "Jawline Define"
+        ],
+        "device": "hifu-liftera",
+        "origin": "Korea Selatan (Asterasys, Seoul)",
+        "origin_en": "South Korea (Asterasys, Seoul)",
+        "site": "https://asterasys.com/",
+        "logo": "liftera.png",
+        "regulatory": [
+          {
+            "label": "Izin MFDS Korea (2016)",
+            "label_en": "Korea MFDS approval (2016)",
+            "url": "https://www.medicaltimes.com/Main/view.html?ID=1105043"
+          }
+        ],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Pollogen TriPollar RF",
+        "maker": "Pollogen by Lumenis, AS",
+        "kind": "Radio frekuensi",
+        "kind_en": "Radiofrequency",
+        "what": "Memanaskan dermis secara merata untuk merangsang kolagen. Tanpa downtime, dikerjakan terapis.",
+        "what_en": "Heats the dermis evenly to stimulate collagen. No downtime, performed by therapists.",
+        "used_in": [
+          "Tighten & Contour RF (wajah)",
+          "Tighten & Contour RF (leher)",
+          "Contouring Facial (V-Shape)",
+          "Peel & Lift",
+          "Contour Signature"
+        ],
+        "device": "pollogen-rf",
+        "origin": "Israel (Pollogen Ltd, bagian dari Lumenis)",
+        "origin_en": "Israel (Pollogen Ltd, part of Lumenis)",
+        "site": "https://pollogen.com/",
+        "logo": "pollogen.png",
+        "regulatory": [
+          {
+            "label": "FDA 510(k) K171359 — platform Legend+ (2017)",
+            "label_en": "FDA 510(k) K171359 — Legend+ platform (2017)",
+            "url": "https://510k.innolitics.com/device/K171359"
+          }
+        ],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Mediderma Nanopore",
+        "maker": "Mediderma, Spanyol",
+        "kind": "Microneedling",
+        "kind_en": "Microneedling",
+        "what": "Pen microneedling dengan kedalaman terkontrol, dipakai bersama AQS atau PDRN untuk bekas jerawat dan pori.",
+        "what_en": "A microneedling pen with controlled depth, used with AQS or PDRN for acne scars and pores.",
+        "used_in": [
+          "Nanoporeless",
+          "Nanoporeless Scars",
+          "Nanoporeless AQS",
+          "Nanoporeless PDRN"
+        ],
+        "device": "nanopore",
+        "origin": "Spanyol (Mediderma, Sesderma Group, Valencia)",
+        "origin_en": "Spain (Mediderma, Sesderma Group, Valencia)",
+        "site": "https://mediderma.com/",
+        "logo": "mediderma.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Celluma PDT",
+        "maker": "BioPhotas, AS",
+        "kind": "Terapi cahaya LED",
+        "kind_en": "LED light therapy",
+        "what": "Panel LED biru dan merah. Biru menargetkan bakteri jerawat, merah menenangkan dan membantu pemulihan.",
+        "what_en": "Blue and red LED panel. Blue targets acne bacteria, red calms and aids recovery.",
+        "used_in": [
+          "PDT / LED",
+          "Acne Reset"
+        ],
+        "device": "pdt-celluma",
+        "origin": "Amerika Serikat (BioPhotas, California)",
+        "origin_en": "United States (BioPhotas, California)",
+        "site": "https://celluma.com/",
+        "logo": "celluma.png",
+        "regulatory": [
+          {
+            "label": "FDA-cleared — jerawat, kerutan, nyeri otot & sendi",
+            "label_en": "FDA-cleared — acne, wrinkles, muscle & joint pain",
+            "url": "https://www.fdanews.com/articles/175601-biophotas-receives-fda-clearance-for-the-celluma"
+          }
+        ],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Aquapure",
+        "maker": "Classys, Korea",
+        "kind": "Alat facial",
+        "kind_en": "Facial device",
+        "what": "Hydro-exfoliation dan infus serum untuk facial H2O, dengan serum Aqua Glo.",
+        "what_en": "Hydro-exfoliation and serum infusion for the H2O facial, with Aqua Glo serums.",
+        "used_in": [
+          "H2O Glow Facial",
+          "Glass Skin Facial",
+          "Glow Intensive"
+        ],
+        "device": "aquapure-h2o",
+        "origin": "Korea Selatan (Classys, Seoul)",
+        "origin_en": "South Korea (Classys, Seoul)",
+        "site": "https://classys.com/product/aquapure/",
+        "logo": "classys.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Dermolissage",
+        "maker": "Dermolissage",
+        "kind": "Hydradermabrasion",
+        "kind_en": "Hydradermabrasion",
+        "what": "Pembersihan pori dengan aliran cairan dan hisapan lembut; dasar dari Hydraderm Facial.",
+        "what_en": "Pore cleansing with fluid flow and gentle suction; the base of the Hydraderm Facial.",
+        "used_in": [
+          "Hydraderm Facial",
+          "Clear Start",
+          "Acne Reset",
+          "Scar Release"
+        ],
+        "device": "hydraderm",
+        "origin": "—",
+        "origin_en": "—",
+        "site": "",
+        "logo": "dermolissage.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Intraceuticals Oxygen",
+        "maker": "Intraceuticals, Australia",
+        "kind": "Infus oksigen",
+        "kind_en": "Oxygen infusion",
+        "what": "Oksigen bertekanan mendorong serum hyaluronic ke dalam kulit. Dipakai dengan serum OxyCeuticals dan Immortal.",
+        "what_en": "Pressurised oxygen drives hyaluronic serums into the skin. Used with OxyCeuticals and Immortal serums.",
+        "used_in": [
+          "Oxy Facial"
+        ],
+        "device": "oxy-gun",
+        "origin": "Australia",
+        "origin_en": "Australia",
+        "site": "https://intraceuticals.com/",
+        "logo": "intraceuticals.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Tegoder Cosmetics",
+        "maker": "Tegoder, Spanyol",
+        "kind": "Peeling & masker profesional",
+        "kind_en": "Professional peels & masks",
+        "what": "Pembersih, peeling enzim, masker cryo dan purifying, serta rangkaian Lux untuk meratakan warna, dipakai di hampir semua facial Surface.",
+        "what_en": "Cleansers, enzyme peels, cryo and purifying masks, and the Lux tone-evening range used in almost every Surface facial.",
+        "used_in": [
+          "Oxy Facial",
+          "Hydraderm Facial",
+          "H2O Facial",
+          "Contouring Facial",
+          "Brightening Facial"
+        ],
+        "device": "chemical-peel",
+        "origin": "Spanyol",
+        "origin_en": "Spain",
+        "site": "",
+        "logo": "tegoder.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Dermalogica",
+        "maker": "Dermalogica, AS",
+        "kind": "Produk pembersih profesional",
+        "kind_en": "Professional cleansing",
+        "what": "Pembersih dan masker profesional di langkah pertama facial, serta Dermalogica PRO untuk peeling Ultrabright, Power Clear, dan Advanced Renewal oleh dokter.",
+        "what_en": "Professional cleansers and masks in the first step of facials, plus Dermalogica PRO peels (Ultrabright, Power Clear, Advanced Renewal) by the doctor.",
+        "used_in": [
+          "Laser Facial",
+          "Oxy Facial",
+          "Ultrabrightening Peel",
+          "Advanced Nanoporeless with Ultrabright"
+        ],
+        "device": "",
+        "origin": "Amerika Serikat",
+        "origin_en": "United States",
+        "site": "https://www.dermalogica.com/",
+        "logo": "dermalogica.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Neostrata ProSystem",
+        "maker": "Neostrata, AS",
+        "kind": "Peeling retinol",
+        "kind_en": "Retinol peel",
+        "what": "Peeling retinol profesional untuk garis halus dan tekstur.",
+        "what_en": "A professional retinol peel for fine lines and texture.",
+        "used_in": [
+          "Retinol Peel"
+        ],
+        "device": "chemical-peel",
+        "origin": "Amerika Serikat",
+        "origin_en": "United States",
+        "site": "https://www.neostrata.com/",
+        "logo": "neostrata.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Rejuran",
+        "maker": "PharmaResearch, Korea",
+        "kind": "Skin booster PDRN",
+        "kind_en": "PDRN skin booster",
+        "what": "Polinukleotida (PDRN) dari DNA salmon. Dipakai Surface: Rejuran Healer dan Rejuran HB Plus, serta Rejuran Pro untuk regenerasi intensif.",
+        "what_en": "Polynucleotide (PDRN) from salmon DNA. Used at Surface: Rejuran Healer and Rejuran HB Plus, plus Rejuran Pro for intensive regeneration.",
+        "used_in": [
+          "DNA Salmon Rejuran Healer",
+          "Rejuran HB Plus",
+          "Rejuran Pro"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "https://rejuran.co.kr/",
+        "logo": "rejuran.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Profhilo",
+        "maker": "IBSA Farmaceutici, Italia",
+        "kind": "Bio-remodeling HA",
+        "kind_en": "HA bio-remodelling",
+        "what": "Hyaluronic acid terstabilisasi yang menyebar di jaringan untuk hidrasi dan kekencangan. Bukan filler: tidak menambah volume di satu titik.",
+        "what_en": "Stabilised hyaluronic acid that spreads through the tissue for hydration and firmness. Not a filler: it adds no volume at a single point.",
+        "used_in": [
+          "Skin Remodelling Profhilo",
+          "Nucleofill Strong + Profhilo"
+        ],
+        "device": "",
+        "origin": "Italia / Swiss",
+        "origin_en": "Italy / Switzerland",
+        "site": "https://www.profhilo.com/",
+        "logo": "profhilo.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Nucleofill",
+        "maker": "Promoitalia, Italia",
+        "kind": "Skin booster PN",
+        "kind_en": "PN skin booster",
+        "what": "Polinukleotida (PN) untuk hidrasi sekaligus stimulasi kolagen dan elastin. Varian Nucleofill Strong.",
+        "what_en": "Polynucleotides (PN) for hydration and collagen and elastin stimulation. Nucleofill Strong variant.",
+        "used_in": [
+          "DNA Salmon Nucleofill Strong",
+          "Nucleofill Strong + Profhilo"
+        ],
+        "device": "",
+        "origin": "Italia",
+        "origin_en": "Italy",
+        "site": "https://nucleofill.com/",
+        "logo": "nucleofill.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Neauvia",
+        "maker": "Matex Lab, Italia/Swiss",
+        "kind": "Skin booster",
+        "kind_en": "Skin booster",
+        "what": "Skin booster hyaluronic acid Neauvia Hydro Deluxe, juga dipakai dalam NBOMB bersama botulinum toxin.",
+        "what_en": "Neauvia Hydro Deluxe hyaluronic skin booster, also used in NBOMB together with botulinum toxin.",
+        "used_in": [
+          "Skin Booster Neauvia",
+          "NBOMB (Neauvia + Botox)"
+        ],
+        "device": "",
+        "origin": "Italia / Swiss",
+        "origin_en": "Italy / Switzerland",
+        "site": "https://neauvia.com/",
+        "logo": "neauvia.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Bellavita PDRN",
+        "maker": "Bellavita",
+        "kind": "PDRN salmon DNA",
+        "kind_en": "Salmon-DNA PDRN",
+        "what": "PDRN yang dipakai bersama Nanopore microneedling untuk bekas jerawat dan tekstur.",
+        "what_en": "PDRN used with Nanopore microneedling for acne scars and texture.",
+        "used_in": [
+          "Nanoporeless PDRN DNA Salmon"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "",
+        "logo": "bellavita.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Peplift",
+        "maker": "Peplift",
+        "kind": "Peptida regeneratif",
+        "kind_en": "Regenerative peptides",
+        "what": "Rangkaian peptida untuk area mata dan pengencangan (Peplift Eye Revive, Duo Radiance Peplift), oleh dokter.",
+        "what_en": "A peptide series for the eye area and tightening (Peplift Eye Revive, Duo Radiance Peplift), by the doctor.",
+        "used_in": [
+          "Peplift Eye Revive",
+          "Duo Radiance Peplift"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "",
+        "logo": "peplift.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Botox — Allergan",
+        "maker": "Allergan Aesthetics (AbbVie)",
+        "kind": "Botulinum toxin tipe A",
+        "kind_en": "Botulinum toxin type A",
+        "what": "Botulinum toxin untuk garis dinamis dan microbotox. Merek asli Botox; jumlah unit dan titik ditentukan dokter.",
+        "what_en": "Botulinum toxin for dynamic lines and microbotox. The original Botox brand; units and points set by the doctor.",
+        "used_in": [
+          "Botox Allergan 50 / 100 unit"
+        ],
+        "device": "",
+        "origin": "Amerika Serikat / Irlandia",
+        "origin_en": "United States / Ireland",
+        "site": "https://www.allergan.com/",
+        "logo": "allergan.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Lanzox",
+        "maker": "Lanzox, Korea",
+        "kind": "Botulinum toxin tipe A",
+        "kind_en": "Botulinum toxin type A",
+        "what": "Botulinum toxin alternatif dengan harga lebih terjangkau, dipakai untuk indikasi yang sama atas pilihan dokter.",
+        "what_en": "A more affordable botulinum toxin used for the same indications at the doctor's discretion.",
+        "used_in": [
+          "Botox Lanzox 50 / 100 unit",
+          "Microbotox",
+          "NBOMB"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "",
+        "logo": "lanzox.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Obagi Blue Peel",
+        "maker": "Obagi Medical, AS",
+        "kind": "Peeling medis TCA",
+        "kind_en": "TCA medical peel",
+        "what": "Peeling TCA berstandar untuk jerawat dan tekstur, dikerjakan dokter.",
+        "what_en": "A standardised TCA peel for acne and texture, performed by the doctor.",
+        "used_in": [
+          "Acne Blue Peel Obagi"
+        ],
+        "device": "",
+        "origin": "Amerika Serikat",
+        "origin_en": "United States",
+        "site": "https://www.obagi.com/",
+        "logo": "obagi.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Dermapen 4",
+        "maker": "DermapenWorld, Australia",
+        "kind": "Microneedling pen",
+        "kind_en": "Microneedling pen",
+        "what": "Pen microneedling generasi ke-4 yang dipakai bergantian dengan Nanopore untuk protokol tertentu.",
+        "what_en": "A fourth-generation microneedling pen used alongside Nanopore for selected protocols.",
+        "used_in": [
+          "Microneedling (protokol tertentu)"
+        ],
+        "device": "",
+        "origin": "Australia",
+        "origin_en": "Australia",
+        "site": "https://dermapenworld.com/",
+        "logo": "dermapen.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "device"
+      },
+      {
+        "name": "Aqua Glo · Aqua Solution",
+        "maker": "Classys, Korea",
+        "kind": "Serum facial H2O",
+        "kind_en": "H2O facial serums",
+        "what": "Larutan dan serum yang dipakai alat Aquapure: SEBO, PEEL, REJUVE, dan CLEANSYS.",
+        "what_en": "The solutions and serums used by the Aquapure device: SEBO, PEEL, REJUVE and CLEANSYS.",
+        "used_in": [
+          "H2O Glow Facial",
+          "H2O Sensi Facial",
+          "H2O Acne & Oil Control Facial"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "https://classys.com/product/aquapure/",
+        "logo": "classys.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Surface+",
+        "maker": "Surface Skin Habit",
+        "kind": "Produk perawatan rumah",
+        "kind_en": "Home-care products",
+        "what": "Rangkaian produk perawatan rumah Surface sendiri, dipilih dokter untuk menjaga hasil treatment di antara kunjungan.",
+        "what_en": "Surface's own home-care range, chosen by the doctor to hold results between visits.",
+        "used_in": [],
+        "device": "",
+        "origin": "Indonesia",
+        "origin_en": "Indonesia",
+        "site": "",
+        "logo": "surfaceplus.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "homecare"
+      },
+      {
+        "name": "Immortal",
+        "maker": "Immortal, Indonesia",
+        "kind": "Serum facial",
+        "kind_en": "Facial serums",
+        "what": "Serum ampul Hydroliponex dan Claryfine yang menutup hampir setiap facial, plus produk pembersih harian.",
+        "what_en": "Hydroliponex and Claryfine ampoule serums that close almost every facial, plus daily cleansers.",
+        "used_in": [
+          "Hydraderm Facial",
+          "H2O Facial",
+          "Oxy Facial",
+          "Contouring Facial"
+        ],
+        "device": "",
+        "origin": "Indonesia",
+        "origin_en": "Indonesia",
+        "site": "",
+        "logo": "immortal.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Prostrolane Blanc-B",
+        "maker": "Caregen, Korea",
+        "kind": "Skin booster peptida",
+        "kind_en": "Peptide skin booster",
+        "what": "Skin booster berbasis peptida biomimetik untuk warna kulit yang lebih rata dan kualitas kulit, oleh dokter.",
+        "what_en": "A biomimetic-peptide skin booster for more even tone and skin quality, by the doctor.",
+        "used_in": [
+          "Blanc-B Skin Booster"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "https://www.caregen.co.kr/",
+        "logo": "caregen.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Juvelook",
+        "maker": "VAIM, Korea",
+        "kind": "Biostimulator PDLLA",
+        "kind_en": "PDLLA biostimulator",
+        "what": "Biostimulator PDLLA dan HA yang memicu kolagen untuk tekstur, pori, dan bekas jerawat. Dokter yang menyuntikkan dengan kanula.",
+        "what_en": "A PDLLA and HA biostimulator that triggers collagen for texture, pores and acne scars. Injected by the doctor with a cannula.",
+        "used_in": [
+          "Juvelook"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "https://www.vaim.co.kr/",
+        "logo": "juvelook.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "ASCE+ Exosome",
+        "maker": "ExoCoBio, Korea",
+        "kind": "Eksosom topikal",
+        "kind_en": "Topical exosomes",
+        "what": "Eksosom sel punca yang diaplikasikan setelah microneedling atau laser untuk pemulihan dan regenerasi.",
+        "what_en": "Stem-cell-derived exosomes applied after microneedling or laser for recovery and regeneration.",
+        "used_in": [
+          "Exosome (ASCE Skin)"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "https://www.exocobio.com/",
+        "logo": "exocobio.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Vitaran",
+        "maker": "Vitaran, Korea",
+        "kind": "Polinukleotida salmon",
+        "kind_en": "Salmon polynucleotide",
+        "what": "Polinukleotida (PN) salmon untuk regenerasi kulit, alternatif dalam keluarga DNA salmon.",
+        "what_en": "Salmon polynucleotide (PN) for skin regeneration, an alternative within the salmon-DNA family.",
+        "used_in": [
+          "DNA Salmon Vitaran"
+        ],
+        "device": "",
+        "origin": "Korea Selatan",
+        "origin_en": "South Korea",
+        "site": "",
+        "logo": "vitaran.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "XelaRederm",
+        "maker": "Hyalual, Swiss",
+        "kind": "Redermalisasi",
+        "kind_en": "Redermalisation",
+        "what": "Hyaluronic acid dan asam suksinat untuk hidrasi dan kualitas kulit, disuntikkan dokter dengan kanula.",
+        "what_en": "Hyaluronic and succinic acid for hydration and skin quality, injected by the doctor with a cannula.",
+        "used_in": [
+          "Xela Rederm"
+        ],
+        "device": "",
+        "origin": "Swiss",
+        "origin_en": "Switzerland",
+        "site": "https://hyalual.com/",
+        "logo": "hyalual.svg",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Innoaesthetics",
+        "maker": "Innoaesthetics, Spanyol",
+        "kind": "Mesoterapi & peeling medis",
+        "kind_en": "Mesotherapy & medical peels",
+        "what": "Koktail meso (TDS Face, TIGF) dan peeling TCA/GA Age yang dipakai dokter di Meso Lipo wajah, Nanoporeless Scars, dan peeling.",
+        "what_en": "Meso cocktails (TDS Face, TIGF) and TCA/GA Age peels used by the doctor in facial Meso Lipo, Nanoporeless Scars and peels.",
+        "used_in": [
+          "Meso Lipo Face",
+          "Nanoporeless Scars",
+          "TCA Peel"
+        ],
+        "device": "",
+        "origin": "Spanyol",
+        "origin_en": "Spain",
+        "site": "https://www.innoaesthetics.com/",
+        "logo": "innoaesthetics.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "MCCM Medical Cosmetics",
+        "maker": "MCCM, Spanyol",
+        "kind": "Peeling & lipolitik",
+        "kind_en": "Peels & lipolytics",
+        "what": "Peeling glikolat dan salisilat, serta lipolitik (deoxycholic, L-carnitine, PPC) untuk Meso Lipo badan.",
+        "what_en": "Glycolic and salicylic peels, and lipolytics (deoxycholic, L-carnitine, PPC) for body Meso Lipo.",
+        "used_in": [
+          "Targeted Peel GA",
+          "Targeted Peel SA",
+          "Meso Lipo Body"
+        ],
+        "device": "",
+        "origin": "Spanyol",
+        "origin_en": "Spain",
+        "site": "https://www.mccmmedical.com/",
+        "logo": "mccm.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "Kalbe · Dermaqual",
+        "maker": "Kalbe, Indonesia",
+        "kind": "Secretome & EGF",
+        "kind_en": "Secretome & EGF",
+        "what": "Secretome dan rangkaian Dermaqual (EGF, Supreall, L-Carnitine, GSH + C) yang dipakai dokter dalam protokol regeneratif dan subsisi.",
+        "what_en": "Secretome and the Dermaqual range (EGF, Supreall, L-Carnitine, GSH + C) used by doctors in regenerative and subcision protocols.",
+        "used_in": [
+          "Secretome",
+          "Skin Subcision",
+          "Meso Lipo Face"
+        ],
+        "device": "",
+        "origin": "Indonesia",
+        "origin_en": "Indonesia",
+        "site": "https://www.kalbe.co.id/",
+        "logo": "kalbe.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "PRP (T-Lab · Hi-TEC)",
+        "maker": "T-Lab · Hi-TEC",
+        "kind": "Platelet-rich plasma",
+        "kind_en": "Platelet-rich plasma",
+        "what": "Kit PRP tersertifikasi untuk memisahkan plasma dari darah pasien sendiri; dipakai untuk wajah, rambut, dan stretch mark.",
+        "what_en": "Certified PRP kits that separate plasma from the patient's own blood; used for face, hair and stretch marks.",
+        "used_in": [
+          "PRP Face",
+          "PRP Hair",
+          "PRP Stretchmark"
+        ],
+        "device": "",
+        "origin": "Turki · Korea",
+        "origin_en": "Turkey · Korea",
+        "site": "",
+        "logo": "prp.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "injectable"
+      },
+      {
+        "name": "Hydra DermalInfusion serums",
+        "maker": "DermalInfusion",
+        "kind": "Serum infus hydraderm",
+        "kind_en": "Hydraderm infusion serums",
+        "what": "Serum Lumixyl (pencerah), Clarity (pori) dan Ultra Hydrating yang diinfuskan oleh alat Dermolissage dalam Hydraderm Facial.",
+        "what_en": "Lumixyl (tone), Clarity (pores) and Ultra Hydrating serums infused by the Dermolissage device in the Hydraderm Facial.",
+        "used_in": [
+          "Hydraderm Facial"
+        ],
+        "device": "",
+        "origin": "Amerika Serikat",
+        "origin_en": "United States",
+        "site": "",
+        "logo": "dermalinfusion.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      },
+      {
+        "name": "AQ Recovery Serum",
+        "maker": "AQ Skin Solutions, AS",
+        "kind": "Serum growth factor",
+        "kind_en": "Growth-factor serum",
+        "what": "Serum growth factor yang dipakai setelah Nanoporeless (varian AQS) untuk pemulihan.",
+        "what_en": "A growth-factor serum applied after Nanoporeless (AQS variant) for recovery.",
+        "used_in": [
+          "Nanoporeless AQS"
+        ],
+        "device": "",
+        "origin": "Amerika Serikat",
+        "origin_en": "United States",
+        "site": "https://aqskinsolutions.com/",
+        "logo": "aq.png",
+        "regulatory": [],
+        "kemenkes_akl": "",
+        "category": "professional"
+      }
+    ],
+    "brands_intro": "Alat dan produk yang dipakai di Surface, siapa pembuatnya, dan di treatment mana kamu akan menemuinya. Kami menyebut nama alat karena kamu berhak tahu apa yang menyentuh kulitmu.",
+    "brands_intro_en": "The devices and products used at Surface, who makes them, and which treatments you will meet them in. We name our devices because you have a right to know what touches your skin.",
+    "combinations": {
+      "intro": "Hampir semua penawaran Surface adalah kombinasi: satu facial atau peeling yang menyiapkan kulit, lalu satu langkah yang bekerja lebih dalam. Urutannya bukan kebetulan.",
+      "intro_en": "Almost every Surface offer is a combination: a facial or peel that prepares the skin, then one step that works deeper. The order is not accidental.",
+      "rules": [
+        {
+          "h": "Bersihkan dulu, baru koreksi",
+          "h_en": "Cleanse first, then correct",
+          "p": "Facial membuka pori dan mengangkat sel mati, sehingga peeling atau laser sesudahnya bekerja pada kulit yang bersih dan rata.",
+          "p_en": "A facial opens pores and lifts dead cells, so the peel or laser after it works on clean, even skin."
+        },
+        {
+          "h": "Peeling membuka jalan untuk alat",
+          "h_en": "The peel opens the way for the device",
+          "p": "Peeling kimia menipiskan lapisan tanduk, jadi cahaya laser atau IPL menembus lebih dalam dengan energi yang sama.",
+          "p_en": "A chemical peel thins the outer layer, so laser or IPL light reaches deeper at the same energy."
+        },
+        {
+          "h": "Satu langkah dokter di setiap kombinasi",
+          "h_en": "One doctor step in every combination",
+          "p": "Peeling medis, laser, HIFU, dan injeksi hanya dilakukan dokter. Facial dan RF boleh dilakukan terapis.",
+          "p_en": "Medical peels, lasers, HIFU and injections are doctor-only. Facials and RF may be done by therapists."
+        },
+        {
+          "h": "Tenangkan dan lindungi di akhir",
+          "h_en": "Calm and protect at the end",
+          "p": "PDT atau masker penenang, lalu tabir surya SPF tinggi sebelum keluar klinik. Langkah ini yang menjaga hasil.",
+          "p_en": "PDT or a calming mask, then high-SPF sunscreen before you leave. This is the step that keeps the result."
+        },
+        {
+          "h": "Ada pasangan yang tidak boleh satu kunjungan",
+          "h_en": "Some pairs do not share a visit",
+          "p": "Abrasi mekanis sebelum peeling kimia, atau peeling lalu injeksi, menambah penetrasi dan risiko. Dokter memutuskan apakah dipecah menjadi dua kunjungan.",
+          "p_en": "Mechanical abrasion before a chemical peel, or a peel followed by injection, increases penetration and risk. The doctor decides whether to split them into two visits."
+        }
+      ],
+      "sequences": [
+        {
+          "name": "Facial + LHALA Peel",
+          "name_en": "Facial + LHALA Peel",
+          "offers": [
+            "Clear Start",
+            "Glass Skin Facial"
+          ],
+          "total_min": 110,
+          "interval": "tiap 2–4 minggu",
+          "interval_en": "every 2–4 weeks",
+          "steps": [
+            [
+              "Bersihkan & analisa kulit",
+              10
+            ],
+            [
+              "Facial (Hydraderm atau H2O)",
+              50
+            ],
+            [
+              "Ganti alat / persiapan",
+              10
+            ],
+            [
+              "Aplikasi LHALA Peel oleh dokter",
+              10
+            ],
+            [
+              "Netralisasi & tenangkan",
+              10
+            ],
+            [
+              "Tabir surya & briefing aftercare",
+              10
+            ]
+          ],
+          "steps_en": [
+            [
+              "Cleanse & skin check",
+              10
+            ],
+            [
+              "Facial (Hydraderm or H2O)",
+              50
+            ],
+            [
+              "Changeover / prep",
+              10
+            ],
+            [
+              "LHALA Peel applied by the doctor",
+              10
+            ],
+            [
+              "Neutralise & calm",
+              10
+            ],
+            [
+              "Sunscreen & aftercare briefing",
+              10
+            ]
+          ],
+          "timeline": [
+            [
+              "Minggu 1–2",
+              "Kulit terasa lebih halus dan cerah dari pembaruan permukaan."
+            ],
+            [
+              "Minggu 4",
+              "Setelah sesi 2: komedo berkurang, kusam paling cepat merespons."
+            ],
+            [
+              "Minggu 8",
+              "Setelah sesi 3–4: pola kulit mulai stabil. Titik paling sering orang berhenti, justru saat perlu dilanjutkan."
+            ],
+            [
+              "Minggu 12",
+              "Dinilai dokter: cukup di sini, atau naik ke langkah dengan alat."
+            ]
+          ],
+          "timeline_en": [
+            [
+              "Week 1–2",
+              "Skin feels smoother and brighter from surface renewal."
+            ],
+            [
+              "Week 4",
+              "After session 2: fewer blackheads, dullness responds first."
+            ],
+            [
+              "Week 8",
+              "After session 3–4: the skin settles. The point where people most often stop, just when it should continue."
+            ],
+            [
+              "Week 12",
+              "Doctor review: enough here, or move up to a device step."
+            ]
+          ]
+        },
+        {
+          "name": "Facial + Peel + PDT",
+          "name_en": "Facial + Peel + PDT",
+          "offers": [
+            "Acne Reset"
+          ],
+          "total_min": 140,
+          "interval": "tiap 2–3 minggu",
+          "interval_en": "every 2–3 weeks",
+          "steps": [
+            [
+              "Bersihkan & analisa kulit",
+              10
+            ],
+            [
+              "Hydraderm Facial",
+              50
+            ],
+            [
+              "Ganti alat / persiapan",
+              10
+            ],
+            [
+              "Targeted Peel SA oleh dokter",
+              15
+            ],
+            [
+              "Netralisasi",
+              10
+            ],
+            [
+              "PDT terapi cahaya",
+              20
+            ],
+            [
+              "Tabir surya & aftercare",
+              10
+            ]
+          ],
+          "steps_en": [
+            [
+              "Cleanse & skin check",
+              10
+            ],
+            [
+              "Hydraderm Facial",
+              50
+            ],
+            [
+              "Changeover / prep",
+              10
+            ],
+            [
+              "Targeted SA Peel by the doctor",
+              15
+            ],
+            [
+              "Neutralise",
+              10
+            ],
+            [
+              "PDT light therapy",
+              20
+            ],
+            [
+              "Sunscreen & aftercare",
+              10
+            ]
+          ],
+          "timeline": [
+            [
+              "Minggu 1–2",
+              "Lesi meradang mengempis lebih cepat. Kulit terasa kurang berminyak."
+            ],
+            [
+              "Minggu 4",
+              "Setelah sesi 2: komedo berkurang, breakout baru lebih sedikit."
+            ],
+            [
+              "Minggu 8",
+              "Setelah sesi 3–4: pola breakout mulai stabil."
+            ],
+            [
+              "Minggu 12",
+              "Dinilai dokter. Kalau tinggal bekasnya, pindah ke peeling pencerah atau laser."
+            ]
+          ],
+          "timeline_en": [
+            [
+              "Week 1–2",
+              "Inflamed lesions settle faster. Skin feels less oily."
+            ],
+            [
+              "Week 4",
+              "After session 2: fewer blackheads, fewer new breakouts."
+            ],
+            [
+              "Week 8",
+              "After session 3–4: the breakout pattern stabilises."
+            ],
+            [
+              "Week 12",
+              "Doctor review. If only marks remain, move to a brightening peel or laser."
+            ]
+          ]
+        },
+        {
+          "name": "Facial + Peel + Laser",
+          "name_en": "Facial + Peel + Laser",
+          "offers": [
+            "Glow Intensive"
+          ],
+          "total_min": 170,
+          "interval": "tiap 2–4 minggu",
+          "interval_en": "every 2–4 weeks",
+          "steps": [
+            [
+              "Bersihkan & analisa kulit",
+              10
+            ],
+            [
+              "H2O Facial",
+              50
+            ],
+            [
+              "Ganti alat / persiapan",
+              10
+            ],
+            [
+              "Ultrabrightening Peel oleh dokter",
+              15
+            ],
+            [
+              "Netralisasi",
+              10
+            ],
+            [
+              "Laser Facial, satu lintasan, oleh dokter",
+              20
+            ],
+            [
+              "Tenangkan, tabir surya & aftercare",
+              15
+            ]
+          ],
+          "steps_en": [
+            [
+              "Cleanse & skin check",
+              10
+            ],
+            [
+              "H2O Facial",
+              50
+            ],
+            [
+              "Changeover / prep",
+              10
+            ],
+            [
+              "Ultrabrightening Peel by the doctor",
+              15
+            ],
+            [
+              "Neutralise",
+              10
+            ],
+            [
+              "Laser Facial, one pass, by the doctor",
+              20
+            ],
+            [
+              "Calm, sunscreen & aftercare",
+              15
+            ]
+          ],
+          "timeline": [
+            [
+              "Minggu 1–2",
+              "Kulit tampak lebih segar dan lembap."
+            ],
+            [
+              "Minggu 4",
+              "Setelah sesi 2: flek dangkal mulai memudar."
+            ],
+            [
+              "Minggu 8",
+              "Setelah sesi 3–4: penilaian jujur. Flek dalam dan melasma tidak selesai di sini."
+            ],
+            [
+              "Minggu 12",
+              "Dinilai dokter: cukup, atau naik ke laser Q-switched."
+            ]
+          ],
+          "timeline_en": [
+            [
+              "Week 1–2",
+              "Skin looks fresher and more hydrated."
+            ],
+            [
+              "Week 4",
+              "After session 2: surface spots start to fade."
+            ],
+            [
+              "Week 8",
+              "After session 3–4: honest assessment. Deep pigment and melasma are not finished here."
+            ],
+            [
+              "Week 12",
+              "Doctor review: enough, or move up to the Q-switched laser."
+            ]
+          ]
+        },
+        {
+          "name": "LHALA Peel + Laser Q-switched",
+          "name_en": "LHALA Peel + Q-switched laser",
+          "offers": [
+            "Tone Reset"
+          ],
+          "total_min": 85,
+          "interval": "tiap 3 minggu",
+          "interval_en": "every 3 weeks",
+          "steps": [
+            [
+              "Bersihkan & foto 3 sudut",
+              10
+            ],
+            [
+              "LHALA Peel oleh dokter, waktu kontak dikurangi",
+              10
+            ],
+            [
+              "Netralisasi & jeda",
+              10
+            ],
+            [
+              "QS Brighten & Toning oleh dokter",
+              35
+            ],
+            [
+              "Tenangkan, tabir surya & aftercare",
+              20
+            ]
+          ],
+          "steps_en": [
+            [
+              "Cleanse & 3-angle photos",
+              10
+            ],
+            [
+              "LHALA Peel by the doctor, shortened contact time",
+              10
+            ],
+            [
+              "Neutralise & pause",
+              10
+            ],
+            [
+              "QS Brighten & Toning by the doctor",
+              35
+            ],
+            [
+              "Calm, sunscreen & aftercare",
+              20
+            ]
+          ],
+          "timeline": [
+            [
+              "Minggu 1–2",
+              "Kemerahan ringan beberapa jam. Flek bisa tampak sedikit lebih gelap dulu sebelum memudar."
+            ],
+            [
+              "Minggu 4",
+              "Setelah sesi 2: warna mulai lebih rata."
+            ],
+            [
+              "Minggu 8",
+              "Setelah sesi 3: WAJIB dinilai dokter sebelum lanjut. Laser Q-switched tidak dijual 6 sesi berturut-turut."
+            ],
+            [
+              "Minggu 12",
+              "Pemeliharaan dengan peeling dan tabir surya ketat, atau seri lanjutan sesuai penilaian dokter."
+            ]
+          ],
+          "timeline_en": [
+            [
+              "Week 1–2",
+              "Mild redness for a few hours. Spots may look slightly darker before they fade."
+            ],
+            [
+              "Week 4",
+              "After session 2: tone starts to even out."
+            ],
+            [
+              "Week 8",
+              "After session 3: the doctor MUST reassess before continuing. The Q-switched laser is not sold as 6 consecutive sessions."
+            ],
+            [
+              "Week 12",
+              "Maintenance with peels and strict sunscreen, or a further series on the doctor's assessment."
+            ]
+          ]
+        },
+        {
+          "name": "RF + LHALA Peel",
+          "name_en": "RF + LHALA Peel",
+          "offers": [
+            "Peel & Lift",
+            "Contour Signature"
+          ],
+          "total_min": 85,
+          "interval": "tiap 2–4 minggu",
+          "interval_en": "every 2–4 weeks",
+          "steps": [
+            [
+              "Bersihkan & foto 3 sudut",
+              10
+            ],
+            [
+              "Tighten & Contour RF (wajah dan/atau leher)",
+              30
+            ],
+            [
+              "Ganti alat / persiapan",
+              5
+            ],
+            [
+              "LHALA Peel oleh dokter",
+              10
+            ],
+            [
+              "Netralisasi",
+              10
+            ],
+            [
+              "Tenangkan, tabir surya & aftercare",
+              10
+            ]
+          ],
+          "steps_en": [
+            [
+              "Cleanse & 3-angle photos",
+              10
+            ],
+            [
+              "Tighten & Contour RF (face and/or neck)",
+              30
+            ],
+            [
+              "Changeover / prep",
+              5
+            ],
+            [
+              "LHALA Peel by the doctor",
+              10
+            ],
+            [
+              "Neutralise",
+              10
+            ],
+            [
+              "Calm, sunscreen & aftercare",
+              10
+            ]
+          ],
+          "timeline": [
+            [
+              "Minggu 1–2",
+              "Terasa lebih kencang sementara; sebagian efek langsung RF, bukan kolagen baru."
+            ],
+            [
+              "Minggu 4",
+              "Setelah sesi 2: belum banyak terlihat di foto. Ini normal dan perlu diketahui sebelum mulai."
+            ],
+            [
+              "Minggu 8",
+              "Setelah sesi 3–4: pembentukan kolagen mulai terlihat. Penilaian jujur pertama."
+            ],
+            [
+              "Minggu 12",
+              "Dinilai dokter: lanjut pemeliharaan, atau naik ke HIFU."
+            ]
+          ],
+          "timeline_en": [
+            [
+              "Week 1–2",
+              "Feels temporarily firmer; partly the immediate RF effect, not new collagen."
+            ],
+            [
+              "Week 4",
+              "After session 2: not much visible in photos yet. Normal, and worth knowing before you start."
+            ],
+            [
+              "Week 8",
+              "After session 3–4: collagen building becomes visible. First honest assessment."
+            ],
+            [
+              "Week 12",
+              "Doctor review: continue as maintenance, or move up to HIFU."
+            ]
+          ]
+        },
+        {
+          "name": "HIFU + Meso",
+          "name_en": "HIFU + Meso",
+          "offers": [
+            "Jawline Define"
+          ],
+          "total_min": 130,
+          "interval": "ditentukan dokter",
+          "interval_en": "set by the doctor",
+          "steps": [
+            [
+              "Bersihkan, foto 3 sudut & penandaan area",
+              15
+            ],
+            [
+              "Krim anestesi topikal",
+              20
+            ],
+            [
+              "HIFU double chin oleh dokter",
+              40
+            ],
+            [
+              "Jeda & tenangkan",
+              10
+            ],
+            [
+              "Meso Lipo wajah, injeksi oleh dokter",
+              25
+            ],
+            [
+              "Tenangkan & aftercare",
+              20
+            ]
+          ],
+          "steps_en": [
+            [
+              "Cleanse, 3-angle photos & area marking",
+              15
+            ],
+            [
+              "Topical numbing cream",
+              20
+            ],
+            [
+              "HIFU double chin by the doctor",
+              40
+            ],
+            [
+              "Pause & calm",
+              10
+            ],
+            [
+              "Meso Lipo face, injected by the doctor",
+              25
+            ],
+            [
+              "Calm & aftercare",
+              20
+            ]
+          ],
+          "timeline": [
+            [
+              "Minggu 1–2",
+              "Bengkak ringan atau pegal beberapa hari. Titik injeksi 1–2 hari."
+            ],
+            [
+              "Minggu 4",
+              "Kulit terasa lebih padat; bentuk belum berubah."
+            ],
+            [
+              "Minggu 8–12",
+              "Hasil HIFU terlihat penuh seiring remodeling kolagen."
+            ],
+            [
+              "Bulan 6–12",
+              "HIFU diulang hanya atas penilaian dokter."
+            ]
+          ],
+          "timeline_en": [
+            [
+              "Week 1–2",
+              "Mild swelling or tenderness for a few days. Injection points for 1–2 days."
+            ],
+            [
+              "Week 4",
+              "Skin feels denser; shape has not changed yet."
+            ],
+            [
+              "Week 8–12",
+              "The HIFU result shows fully as collagen remodels."
+            ],
+            [
+              "Month 6–12",
+              "HIFU is repeated only on the doctor's assessment."
+            ]
+          ]
+        }
+      ],
+      "not_together": [
+        {
+          "a": "Diamond peel (abrasi mekanis)",
+          "b": "Peeling kimia",
+          "why": "Abrasi sebelum peeling menambah penetrasi asam. Dokter memutuskan satu kunjungan atau dua.",
+          "a_en": "Diamond peel (mechanical abrasion)",
+          "b_en": "Chemical peel",
+          "why_en": "Abrasion before a peel increases acid penetration. The doctor decides one visit or two."
+        },
+        {
+          "a": "Peeling kimia",
+          "b": "Injeksi di kunjungan yang sama",
+          "why": "Kulit yang baru dipeeling lebih permeabel. Dipecah menjadi dua kunjungan kecuali dokter menyetujui.",
+          "a_en": "Chemical peel",
+          "b_en": "Injection in the same visit",
+          "why_en": "Freshly peeled skin is more permeable. Split into two visits unless the doctor approves."
+        },
+        {
+          "a": "Laser Q-switched",
+          "b": "6 sesi berturut-turut",
+          "why": "Risiko hipopigmentasi dan rebound melasma. Maksimal 3 sesi lalu dinilai dokter.",
+          "a_en": "Q-switched laser",
+          "b_en": "6 consecutive sessions",
+          "why_en": "Risk of hypopigmentation and melasma rebound. Maximum 3 sessions, then a doctor review."
+        },
+        {
+          "a": "IPL",
+          "b": "Melasma",
+          "why": "IPL bisa memperburuk melasma. Dokter menilai dulu sebelum jalur laser mana pun.",
+          "a_en": "IPL",
+          "b_en": "Melasma",
+          "why_en": "IPL can worsen melasma. The doctor assesses first before any laser pathway."
+        }
+      ]
+    },
+    "timing": {
+      "intro": "Interval bukan saran, tapi bagian dari treatment. Kulit butuh waktu untuk merespons sebelum langkah berikutnya, dan terlalu lama jeda membuat hasil kembali ke awal.",
+      "intro_en": "The interval is not a suggestion; it is part of the treatment. Skin needs time to respond before the next step, and too long a gap lets the result slip back.",
+      "intervals": [
+        {
+          "what": "Facial (Hydraderm, H2O, Oxy, Diamond)",
+          "what_en": "Facials (Hydraderm, H2O, Oxy, Diamond)",
+          "interval": "2–4 minggu",
+          "interval_en": "2–4 weeks",
+          "series": "Berkelanjutan",
+          "series_en": "Ongoing",
+          "why": "Siklus pembaruan kulit sekitar 28 hari.",
+          "why_en": "The skin renews on a roughly 28-day cycle."
+        },
+        {
+          "what": "Peeling superfisial (LHALA, SA, GA, Ultrabrightening)",
+          "what_en": "Superficial peels (LHALA, SA, GA, Ultrabrightening)",
+          "interval": "2–4 minggu",
+          "interval_en": "2–4 weeks",
+          "series": "3–6 sesi",
+          "series_en": "3–6 sessions",
+          "why": "Lapisan baru harus pulih sebelum dipeeling lagi.",
+          "why_en": "The new layer must recover before the next peel."
+        },
+        {
+          "what": "Peeling medium (TCA, Retinol)",
+          "what_en": "Medium peels (TCA, Retinol)",
+          "interval": "4–6 minggu",
+          "interval_en": "4–6 weeks",
+          "series": "3–4 sesi",
+          "series_en": "3–4 sessions",
+          "why": "Ada pengelupasan nyata; dermis butuh waktu lebih lama.",
+          "why_en": "Real peeling occurs; the dermis needs longer."
+        },
+        {
+          "what": "PDT / LED",
+          "what_en": "PDT / LED",
+          "interval": "1–2 minggu",
+          "interval_en": "1–2 weeks",
+          "series": "Add-on tiap kunjungan",
+          "series_en": "Add-on every visit",
+          "why": "Tanpa trauma, boleh sering.",
+          "why_en": "No trauma, so it can be frequent."
+        },
+        {
+          "what": "Laser Q-switched toning",
+          "what_en": "Q-switched laser toning",
+          "interval": "3 minggu",
+          "interval_en": "3 weeks",
+          "series": "Maks 3 sesi, lalu dinilai dokter",
+          "series_en": "Max 3 sessions, then doctor review",
+          "why": "Tubuh butuh waktu membuang pigmen yang dipecah; terlalu sering berisiko hipopigmentasi.",
+          "why_en": "The body needs time to clear the broken pigment; too frequent risks hypopigmentation."
+        },
+        {
+          "what": "IPL",
+          "what_en": "IPL",
+          "interval": "3–4 minggu",
+          "interval_en": "3–4 weeks",
+          "series": "3–5 sesi",
+          "series_en": "3–5 sessions",
+          "why": "Mikro-kerak pigmen lepas dalam 7–14 hari.",
+          "why_en": "Pigment micro-crusts shed in 7–14 days."
+        },
+        {
+          "what": "RF Tighten & Contour",
+          "what_en": "RF Tighten & Contour",
+          "interval": "2–4 minggu",
+          "interval_en": "2–4 weeks",
+          "series": "4–6 sesi",
+          "series_en": "4–6 sessions",
+          "why": "Kolagen baru terbentuk bertahap; perbaikan terlihat setelah sesi 3–4.",
+          "why_en": "New collagen forms gradually; improvement shows after session 3–4."
+        },
+        {
+          "what": "HIFU",
+          "what_en": "HIFU",
+          "interval": "6–12 bulan",
+          "interval_en": "6–12 months",
+          "series": "1 sesi per area",
+          "series_en": "1 session per area",
+          "why": "Remodeling kolagen berlangsung 8–12 minggu; hasil bertahan lama.",
+          "why_en": "Collagen remodelling runs 8–12 weeks; the result lasts."
+        },
+        {
+          "what": "Microneedling (Nanopore)",
+          "what_en": "Microneedling (Nanopore)",
+          "interval": "4 minggu",
+          "interval_en": "4 weeks",
+          "series": "3–4 sesi",
+          "series_en": "3–4 sessions",
+          "why": "Kemerahan 1–3 hari; saluran mikro harus menutup sempurna.",
+          "why_en": "Redness 1–3 days; the micro-channels must fully close."
+        },
+        {
+          "what": "Meso Lipo wajah",
+          "what_en": "Meso Lipo face",
+          "interval": "2–4 minggu",
+          "interval_en": "2–4 weeks",
+          "series": "3–4 sesi",
+          "series_en": "3–4 sessions",
+          "why": "Dosis bertahap lebih aman daripada satu dosis besar.",
+          "why_en": "Staged dosing is safer than one large dose."
+        },
+        {
+          "what": "Botulinum toxin",
+          "what_en": "Botulinum toxin",
+          "interval": "4–6 bulan",
+          "interval_en": "4–6 months",
+          "series": "Ulang saat efek memudar",
+          "series_en": "Repeat as the effect fades",
+          "why": "Efek relaksasi otot bertahan 3–6 bulan.",
+          "why_en": "Muscle relaxation lasts 3–6 months."
+        },
+        {
+          "what": "Skin booster",
+          "what_en": "Skin boosters",
+          "interval": "Ditentukan dokter",
+          "interval_en": "Set by the doctor",
+          "series": "Biasanya 2–3 sesi",
+          "series_en": "Usually 2–3 sessions",
+          "why": "Tergantung bahan: polinukleotida dan HA punya jadwal berbeda.",
+          "why_en": "Depends on the agent: polynucleotides and HA follow different schedules."
+        }
+      ],
+      "courses": [
+        {
+          "k": "Satuan",
+          "k_en": "Single",
+          "v": "1 kunjungan, tanpa masa berlaku.",
+          "v_en": "1 visit, no validity period."
+        },
+        {
+          "k": "Paket 3x",
+          "k_en": "3-session pack",
+          "v": "Berlaku 3 bulan sejak pembayaran. Pada interval 2–4 minggu selesai dalam 6–12 minggu, jadi kelonggarannya hanya 1–7 minggu. Satu kali reschedule bisa menghabiskan waktu.",
+          "v_en": "Valid 3 months from payment. At 2–4 week intervals it finishes in 6–12 weeks, leaving only 1–7 weeks of slack. One reschedule can use it up."
+        },
+        {
+          "k": "Paket 6x",
+          "k_en": "6-session pack",
+          "v": "Berlaku 9 bulan sejak pembayaran. Hubungan 4–6 bulan dengan kulitmu; interval diatur bersama dokter.",
+          "v_en": "Valid 9 months from payment. A 4–6 month relationship with your skin; intervals set with the doctor."
+        },
+        {
+          "k": "Perpanjangan",
+          "k_en": "Extension",
+          "v": "Satu kali, maksimal 8 minggu, dengan persetujuan Clinic Manager.",
+          "v_en": "Once, up to 8 weeks, with Clinic Manager approval."
+        },
+        {
+          "k": "Kalau habis masa berlaku",
+          "k_en": "If validity lapses",
+          "v": "Sesi yang terpakai dihitung ulang dengan harga satuan, sisanya dikembalikan sebagai kredit atau refund. Kamu kehilangan keuntungan paket, bukan uangmu.",
+          "v_en": "Sessions taken are recharged at the single price; the balance comes back as credit or refund. You lose the package benefit, not your money."
+        }
+      ],
+      "waits": [
+        {
+          "k": "Isotretinoin (obat jerawat oral)",
+          "k_en": "Isotretinoin (oral acne medication)",
+          "v": "Tunda peeling medium, laser, dan microneedling sampai 6 bulan setelah berhenti.",
+          "v_en": "Postpone medium peels, laser and microneedling until 6 months after stopping."
+        },
+        {
+          "k": "Paparan matahari tinggi",
+          "k_en": "Heavy sun exposure",
+          "v": "Hindari 2 minggu sebelum dan 6 minggu setelah laser atau peeling. Tabir surya tiap 2–3 jam di luar ruangan.",
+          "v_en": "Avoid 2 weeks before and 6 weeks after laser or peels. Sunscreen every 2–3 hours outdoors."
+        },
+        {
+          "k": "Treatment di klinik lain",
+          "k_en": "Treatment at another clinic",
+          "v": "Beri jeda 4 minggu dan ceritakan ke dokter apa yang dilakukan.",
+          "v_en": "Leave 4 weeks and tell the doctor what was done."
+        },
+        {
+          "k": "Hamil atau menyusui",
+          "k_en": "Pregnant or breastfeeding",
+          "v": "Facial dan PDT boleh. Peeling kuat, laser, RF, HIFU, dan injeksi ditunda; dokter menyusun protokol khusus.",
+          "v_en": "Facials and PDT are fine. Strong peels, laser, RF, HIFU and injections wait; the doctor sets a special protocol."
+        },
+        {
+          "k": "Retinoid topikal, scrub, waxing",
+          "k_en": "Topical retinoids, scrubs, waxing",
+          "v": "Hentikan 3–5 hari sebelum peeling atau laser, dan 3–5 hari sesudahnya.",
+          "v_en": "Stop 3–5 days before a peel or laser, and 3–5 days after."
+        }
+      ],
+      "rebook": [
+        {
+          "k": "Facial & hidrasi",
+          "k_en": "Facials & hydration",
+          "v": "Kunjungan berikutnya dalam 4 minggu.",
+          "v_en": "Next visit within 4 weeks."
+        },
+        {
+          "k": "Jerawat (peeling SA, Acne Shots)",
+          "k_en": "Acne (SA peel, Acne Shots)",
+          "v": "Dalam 3 minggu.",
+          "v_en": "Within 3 weeks."
+        },
+        {
+          "k": "Warna kulit (laser, peeling)",
+          "k_en": "Skin tone (laser, peels)",
+          "v": "Dalam 6 minggu.",
+          "v_en": "Within 6 weeks."
+        },
+        {
+          "k": "Pengencangan (RF, HIFU)",
+          "k_en": "Tightening (RF, HIFU)",
+          "v": "Dalam 8 minggu, lalu sesuai jadwal dokter.",
+          "v_en": "Within 8 weeks, then on the doctor's schedule."
+        }
+      ]
+    },
+    "brands_reg_note": "Sertifikasi di atas hanya yang bisa kami verifikasi dari sumber publik; tidak semua alat mencantumkan izinnya secara terbuka. Nomor izin edar Kemenkes untuk setiap alat bisa kamu tanyakan di klinik mana pun.",
+    "brands_reg_note_en": "We list only certifications we could verify from public sources; not every maker publishes them. You can ask any clinic for a device's Indonesian Ministry of Health registration number.",
+    "brands_matrix_h": "Alat apa ada di klinik mana",
+    "brands_matrix_h_en": "Which device is at which clinic",
+    "brands_logo_note": "_logo files go in assets/brands/<logo>; a card shows the typeset name until the file exists.",
+    "brand_categories": [
+      {
+        "code": "device",
+        "name": "Alat",
+        "name_en": "Devices",
+        "blurb": "Laser, cahaya, ultrasound, radio frekuensi, microneedling, dan alat facial.",
+        "blurb_en": "Laser, light, ultrasound, radiofrequency, microneedling and facial devices."
+      },
+      {
+        "code": "injectable",
+        "name": "Injeksi & booster",
+        "name_en": "Injectables & boosters",
+        "blurb": "Hanya dokter. Merek yang dipakai, apa isinya, dan untuk apa. Pilihan bahan dan dosis selalu keputusan dokter.",
+        "blurb_en": "Doctors only. The brands used, what is in them, and what for. Agent and dose are always the doctor's call."
+      },
+      {
+        "code": "professional",
+        "name": "Peeling & produk profesional",
+        "name_en": "Peels & professional products",
+        "blurb": "Peeling, serum, dan masker yang dipakai di kursi treatment.",
+        "blurb_en": "Peels, serums and masks used in the treatment chair."
+      },
+      {
+        "code": "homecare",
+        "name": "Perawatan rumah",
+        "name_en": "Home care",
+        "blurb": "Produk yang kamu bawa pulang.",
+        "blurb_en": "What you take home."
+      }
+    ],
+    "brands_source": "Product list reconciled against the clinic's 2026 consumables register. Prescription pharmacy items are deliberately not listed."
+  },
+  "_structure": "Offers are grouped by concern, listed from the gentlest to the most intensive. No level labels: the doctor recommends a treatment at the free consultation, the customer picks how to buy it (single / 3x / 6x). Levels dropped 16 Oct 2026 per Steve.",
+  "testimonials": {
+    "intro": "Cerita dari pelanggan Surface, dengan izin mereka. Ulasan lengkap ada di Google untuk setiap klinik.",
+    "intro_en": "Stories from Surface customers, shared with their permission. Full reviews are on Google for each clinic.",
+    "google_label": "Baca ulasan Google",
+    "google_label_en": "Read Google reviews",
+    "items": [
+      {
+        "publish": false,
+        "name": "",
+        "clinic": "SB",
+        "treatment": "",
+        "quote": "",
+        "quote_en": "",
+        "source": "google",
+        "date": "",
+        "video_url": ""
+      }
+    ],
+    "_how": "Add items with publish:true once the customer has given written consent. Never paste Google review text without the reviewer's permission."
+  },
+  "usp": {
+    "eyebrow": "Kenapa Surface",
+    "eyebrow_en": "Why Surface",
+    "h": "Bukan sekali treatment. Kebiasaan kulit.",
+    "h_en": "Not a one-off treatment. A skin habit.",
+    "p": "Kebanyakan klinik menjual treatment satuan yang tidak ke mana-mana. Surface menyusun perjalanan: dokter menilai, rencana tertulis dengan interval, dan tinjauan di minggu ke-12.",
+    "p_en": "Most clinics sell single treatments that lead nowhere. Surface builds a journey: a doctor assesses, a written plan with intervals, and a review at week 12.",
+    "points": [
+      {
+        "h": "Dokter yang menentukan, bukan sales",
+        "h_en": "The doctor decides, not a salesperson",
+        "p": "Konsultasi dokter selalu gratis. Tim sales tidak pernah memilih treatment untukmu, dan setiap kombinasi punya satu langkah dokter.",
+        "p_en": "The doctor consultation is always free. Sales staff never choose a treatment for you, and every combination has a doctor step."
+      },
+      {
+        "h": "Rencana bertanggal, bukan janji",
+        "h_en": "A dated plan, not a promise",
+        "p": "Setiap program punya interval, jadwal kunjungan berikutnya sebelum kamu pulang, dan tinjauan dokter di minggu ke-12. Kami bilang apa yang berubah kapan, termasuk kalau belum terlihat.",
+        "p_en": "Every programme has an interval, the next appointment booked before you leave, and a doctor review at week 12. We say what changes when, including when nothing shows yet."
+      },
+      {
+        "h": "Harga terbuka, sama di empat klinik",
+        "h_en": "Open prices, the same at four clinics",
+        "p": "Satuan, paket 3x, paket 6x, semuanya dipublikasikan. Tidak ada diskon-diskonan yang membuatmu menunggu promo berikutnya.",
+        "p_en": "Single, 3-session, 6-session, all published. No discount games that make you wait for the next promo."
+      },
+      {
+        "h": "Alat disebut namanya",
+        "h_en": "We name our devices",
+        "p": "Pembuat, negara asal, dan sertifikasi setiap alat kami tulis. Tanyakan nomor izin edarnya di klinik mana pun.",
+        "p_en": "Maker, country of origin and certification for every device are published. Ask any clinic for its registration number."
+      },
+      {
+        "h": "Satu riwayat, empat klinik",
+        "h_en": "One record, four clinics",
+        "p": "Rekam perawatan dan sisa sesi berlaku di Setiabudi, CITOS, Lippo Mall Puri, dan TSM Cibubur. Lebih personal dari jaringan besar, lebih terjangkau dari butik.",
+        "p_en": "Your record and remaining sessions are valid at Setiabudi, CITOS, Lippo Mall Puri and TSM Cibubur. More personal than the big chains, more accessible than the boutiques."
+      }
+    ]
+  },
+  "streams": {
+    "CLEAR": {
+      "slug": "jerawat",
+      "slug_en": "acne",
+      "nav": "Jerawat",
+      "nav_en": "Acne",
+      "h1": "Jerawat & pori: program yang dibangun untuk selesai, bukan sekali facial.",
+      "h1_en": "Acne & pores: a programme built to finish, not a one-off facial.",
+      "lead": "Jerawat adalah keluhan nomor satu di Surface. Kami tidak menjanjikan 'bebas jerawat'. Kami menyusun urutan yang masuk akal: bersihkan, peeling dokter, tenangkan, lalu nilai hasilnya.",
+      "lead_en": "Acne is the number-one concern at Surface. We don't promise 'acne-free'. We build a sequence that makes sense: cleanse, doctor peel, calm, then assess.",
+      "for_you": [
+        "Jerawat yang sedang meradang",
+        "Komedo dan kulit berminyak",
+        "Bekas jerawat cekung (bopeng)",
+        "Pori besar dan tekstur kasar",
+        "Jerawat di punggung"
+      ],
+      "for_you_en": [
+        "Acne that is currently inflamed",
+        "Blackheads and oily skin",
+        "Indented acne scars",
+        "Large pores and rough texture",
+        "Back acne"
+      ],
+      "journey": [
+        {
+          "when": "Kunjungan 1 · 20 menit",
+          "when_en": "Visit 1 · 20 min",
+          "title": "Konsultasi dokter gratis + analisis kulit",
+          "title_en": "Free doctor consultation + skin analysis",
+          "body": "Dokter melihat jenis jerawatmu dan menyaring hal yang mengubah protokol: isotretinoin, kehamilan, riwayat keloid, obat dari dokter lain.",
+          "body_en": "The doctor looks at your acne type and screens for what changes the protocol: isotretinoin, pregnancy, keloid history, medication from another doctor."
+        },
+        {
+          "when": "Kunjungan 1, hari yang sama",
+          "when_en": "Visit 1, same day",
+          "title": "Mulai: Hydraderm + LHALA Peel",
+          "title_en": "Start: Hydraderm + LHALA Peel",
+          "body": "Pembersihan dalam oleh terapis, lalu peeling oleh dokter (Clear Start). Pelanggan baru bisa mulai dari harga kunjungan pertama Hydraderm Rp 799.000.",
+          "body_en": "A deep cleanse by the therapist, then a doctor peel (Clear Start). New customers can start at the Hydraderm first-visit price of Rp 799,000."
+        },
+        {
+          "when": "Minggu 2–12",
+          "when_en": "Weeks 2–12",
+          "title": "Program: 3 atau 6 sesi, tiap 2–3 minggu",
+          "title_en": "Programme: 3 or 6 sessions, every 2–3 weeks",
+          "body": "Jerawat aktif naik ke Acne Reset: peeling SA oleh dokter lalu PDT. Minggu 4: breakout baru berkurang. Minggu 8: pola stabil, titik paling sering orang berhenti, justru saat perlu dilanjutkan.",
+          "body_en": "Active acne moves up to Acne Reset: a doctor SA peel then PDT. Week 4: fewer new breakouts. Week 8: the pattern settles, the point where people most often stop, just when it should continue."
+        },
+        {
+          "when": "Minggu 12 ke atas",
+          "when_en": "Week 12 onward",
+          "title": "Tinjauan dokter, lalu jaga",
+          "title_en": "Doctor review, then hold",
+          "body": "Dokter menilai: cukup, lanjut, atau pindah ke bekasnya (Scar Release, laser). Skin Habit Plan Rp 950.000 per bulan menjaga hasil dengan satu facial tiap bulan dan peeling dokter tiap 3 bulan.",
+          "body_en": "The doctor decides: enough, continue, or move to the marks (Scar Release, laser). The Skin Habit Plan at Rp 950,000 a month holds the result with one facial a month and a doctor peel every 3 months."
+        }
+      ],
+      "promise": [
+        "Urutan treatment dijelaskan sebelum kamu bayar",
+        "Jadwal berikutnya dibuat sebelum kamu pulang",
+        "Setiap peeling oleh dokter; Acne Shots hanya dokter",
+        "Aftercare tertulis dan tabir surya sebelum keluar klinik"
+      ],
+      "promise_en": [
+        "The sequence explained before you pay",
+        "Your next appointment booked before you leave",
+        "Every peel by a doctor; Acne Shots doctor-only",
+        "Written aftercare and sunscreen before you leave the clinic"
+      ],
+      "not": [
+        "Tidak menjanjikan 'sembuh' atau 'bebas jerawat'. Jerawat adalah kondisi medis.",
+        "Jerawat nodulokistik berat tidak kami treatment di klinik; dirujuk ke spesialis.",
+        "Tidak memakai foto before-after tanpa izin tertulis."
+      ],
+      "not_en": [
+        "No promise of a 'cure' or 'acne-free'. Acne is a medical condition.",
+        "Severe nodulocystic acne is not treated in clinic; it is referred to a specialist.",
+        "No before-and-after photos without written consent."
+      ],
+      "faq": [
+        {
+          "q": "Berapa lama sampai terlihat?",
+          "q_en": "How long until I see something?",
+          "a": "Lesi meradang biasanya mengempis dalam 1–2 minggu. Pola breakout baru stabil di sesi 3–4. Bekas jerawat butuh program terpisah setelah jerawatnya terkendali.",
+          "a_en": "Inflamed lesions usually settle within 1–2 weeks. The breakout pattern stabilises by session 3–4. Marks need a separate programme once the acne is controlled."
+        },
+        {
+          "q": "Apakah sakit?",
+          "q_en": "Does it hurt?",
+          "a": "Peeling terasa hangat dan sedikit perih 1–2 menit, lalu dinetralkan. PDT tidak terasa apa-apa.",
+          "a_en": "The peel feels warm and stings for 1–2 minutes, then is neutralised. PDT feels like nothing."
+        },
+        {
+          "q": "Saya sedang pakai obat jerawat dari dokter lain.",
+          "q_en": "I'm on acne medication from another doctor.",
+          "a": "Ceritakan di konsultasi. Isotretinoin dalam 6 bulan terakhir berarti peeling dan laser ditunda; facial dan PDT tetap bisa.",
+          "a_en": "Tell us at the consultation. Isotretinoin in the last 6 months means peels and laser wait; facials and PDT can go ahead."
+        }
+      ]
+    },
+    "GLOW": {
+      "slug": "cerah",
+      "slug_en": "brightening",
+      "nav": "Cerah & flek",
+      "nav_en": "Brightening",
+      "h1": "Cerah & flek: warna kulit yang rata, bukan janji mengubah warna kulit.",
+      "h1_en": "Brightening & spots: even tone, not a promise to change your skin colour.",
+      "lead": "Kusam dan flek adalah keluhan kedua terbanyak. Facial membuka jalan, peeling dokter meratakan, dan laser menjangkau pigmen yang lebih dalam. Kami bicara mekanisme, bukan warna kulit.",
+      "lead_en": "Dullness and spots are the second most common concern. A facial opens the way, a doctor peel evens, and laser reaches deeper pigment. We talk mechanism, not skin colour.",
+      "for_you": [
+        "Kusam, kurang glowing",
+        "Flek hitam dan bekas jerawat gelap",
+        "Warna kulit tidak rata",
+        "Melasma yang membandel",
+        "Kulit kering atau sensitif yang mudah kusam"
+      ],
+      "for_you_en": [
+        "Dull, not glowing",
+        "Dark spots and dark acne marks",
+        "Uneven skin tone",
+        "Stubborn melasma",
+        "Dry or sensitive skin that dulls easily"
+      ],
+      "journey": [
+        {
+          "when": "Kunjungan 1 · 20 menit",
+          "when_en": "Visit 1 · 20 min",
+          "title": "Konsultasi dokter gratis + analisis kulit",
+          "title_en": "Free doctor consultation + skin analysis",
+          "body": "Dokter membedakan kusam, flek dangkal, dan melasma. Melasma tidak langsung ke laser, dan IPL bisa memperburuknya, jadi penilaian ini menentukan jalurmu.",
+          "body_en": "The doctor tells dullness, surface spots and melasma apart. Melasma does not go straight to laser, and IPL can worsen it, so this assessment sets your path."
+        },
+        {
+          "when": "Kunjungan 1, hari yang sama",
+          "when_en": "Visit 1, same day",
+          "title": "Mulai: H2O Facial + LHALA Peel",
+          "title_en": "Start: H2O Facial + LHALA Peel",
+          "body": "Glass Skin Facial. Pelanggan baru mulai dari harga kunjungan pertama H2O Rp 899.000. Lebih cerah dan halus sejak sesi pertama; itu pembaruan permukaan, bukan hasil akhir.",
+          "body_en": "Glass Skin Facial. New customers start at the H2O first-visit price of Rp 899,000. Brighter and smoother from the first session; that is surface renewal, not the final result."
+        },
+        {
+          "when": "Minggu 2–12",
+          "when_en": "Weeks 2–12",
+          "title": "Program: 3 atau 6 sesi, tiap 2–4 minggu",
+          "title_en": "Programme: 3 or 6 sessions, every 2–4 weeks",
+          "body": "Flek dangkal naik ke Glow Intensive: peeling pencerah dan laser facial oleh dokter. Minggu 4: flek dangkal memudar. Minggu 8: penilaian jujur. Flek dalam dan melasma tidak selesai di sini, dan kami bilang begitu.",
+          "body_en": "Surface spots move up to Glow Intensive: a doctor brightening peel and laser facial. Week 4: surface spots fade. Week 8: an honest assessment. Deep pigment and melasma are not finished here, and we say so."
+        },
+        {
+          "when": "Minggu 12 ke atas",
+          "when_en": "Week 12 onward",
+          "title": "Tinjauan dokter: laser Q-switched bila perlu",
+          "title_en": "Doctor review: Q-switched laser if needed",
+          "body": "Tone Reset: LHALA Peel dan laser QS 1064 nm, maksimal 3 sesi lalu dinilai dokter. Tabir surya tiap 2–3 jam adalah bagian dari program, bukan saran, karena flek kembali tanpanya.",
+          "body_en": "Tone Reset: LHALA Peel and 1064 nm QS laser, a maximum of 3 sessions then a doctor review. Sunscreen every 2–3 hours is part of the programme, not advice, because spots return without it."
+        }
+      ],
+      "promise": [
+        "Tidak ada klaim mengubah warna kulit, di mana pun",
+        "Aman untuk kulit sawo matang: laser 1064 nm dipilih untuk itu",
+        "Setiap peeling dan laser oleh dokter",
+        "Penilaian jujur di minggu 8: kalau fleknya dalam, kami bilang"
+      ],
+      "promise_en": [
+        "No claims of changing skin colour, anywhere",
+        "Safe for medium and deeper skin: the 1064 nm laser was chosen for it",
+        "Every peel and laser by a doctor",
+        "An honest week-8 assessment: if the pigment is deep, we say so"
+      ],
+      "not": [
+        "Tidak menjanjikan flek hilang permanen; flek bisa kembali tanpa tabir surya.",
+        "Tidak memakai IPL untuk melasma.",
+        "Tidak menjual laser Q-switched 6 sesi berturut-turut."
+      ],
+      "not_en": [
+        "No promise that spots are gone for good; they return without sunscreen.",
+        "No IPL for melasma.",
+        "No Q-switched laser sold as 6 consecutive sessions."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini mengubah warna kulit?",
+          "q_en": "Does this change my skin colour?",
+          "a": "Tidak, dan tidak ada klinik yang seharusnya menjanjikan itu. Yang berubah adalah kerataan warna, flek, dan kilau kulit.",
+          "a_en": "No, and no clinic should promise that. What changes is evenness, spots and glow."
+        },
+        {
+          "q": "Kulit saya sawo matang. Aman laser?",
+          "q_en": "My skin is medium-dark. Is laser safe?",
+          "a": "Laser QS pada 1064 nm aman untuk kulit tipe III–V; itu alasan alatnya dipilih. Dokter tetap menguji area kecil dulu.",
+          "a_en": "The QS laser at 1064 nm is safe for skin types III–V; that is why the device was chosen. The doctor still tests a small area first."
+        },
+        {
+          "q": "Kenapa harus facial dulu?",
+          "q_en": "Why a facial first?",
+          "a": "Peeling dan laser bekerja lebih dalam pada kulit yang bersih dan rata. Urutan ini bagian dari metodenya, bukan upsell.",
+          "a_en": "Peels and laser work deeper on clean, even skin. The order is part of the method, not an upsell."
+        }
+      ]
+    },
+    "LIFT": {
+      "slug": "kencang",
+      "slug_en": "firming",
+      "nav": "Kencang & kontur",
+      "nav_en": "Firming",
+      "h1": "Kencang & kontur: bertahap, dari RF sampai HIFU, tanpa operasi.",
+      "h1_en": "Firming & contour: step by step, from RF to HIFU, no surgery.",
+      "lead": "Pengencangan tidak terlihat di minggu pertama, dan kami bilang itu sebelum kamu bayar. Kolagen butuh waktu; program ini disusun mengikuti itu.",
+      "lead_en": "Tightening does not show in the first week, and we say so before you pay. Collagen takes time; this programme is built around that.",
+      "for_you": [
+        "Kulit mulai kendur",
+        "Garis halus dan kerutan",
+        "Garis rahang dan leher kurang tegas",
+        "Double chin",
+        "Pipi yang ingin lebih terangkat"
+      ],
+      "for_you_en": [
+        "Skin starting to loosen",
+        "Fine lines and wrinkles",
+        "Jawline and neck less defined",
+        "Double chin",
+        "Cheeks you want lifted"
+      ],
+      "journey": [
+        {
+          "when": "Kunjungan 1 · 20 menit",
+          "when_en": "Visit 1 · 20 min",
+          "title": "Konsultasi dokter gratis + foto 3 sudut",
+          "title_en": "Free doctor consultation + 3-angle photos",
+          "body": "Dokter membedakan kendur ringan (RF), kendur struktural (HIFU), dan kehilangan volume (meso, booster). Implan logam, alat pacu jantung, dan kehamilan menentukan apa yang boleh.",
+          "body_en": "The doctor tells mild laxity (RF), structural laxity (HIFU) and volume loss (meso, boosters) apart. Metal implants, pacemakers and pregnancy decide what is allowed."
+        },
+        {
+          "when": "Kunjungan 1, hari yang sama",
+          "when_en": "Visit 1, same day",
+          "title": "Mulai: Tighten & Contour RF + LHALA Peel",
+          "title_en": "Start: Tighten & Contour RF + LHALA Peel",
+          "body": "Peel & Lift. Terasa lebih kencang sementara setelah sesi pertama; itu efek langsung RF, bukan kolagen baru, dan kami bilang begitu.",
+          "body_en": "Peel & Lift. It feels temporarily firmer after the first session; that is the immediate RF effect, not new collagen, and we say so."
+        },
+        {
+          "when": "Minggu 2–12",
+          "when_en": "Weeks 2–12",
+          "title": "Program: 3–6 sesi RF, tiap 2–4 minggu",
+          "title_en": "Programme: 3–6 RF sessions, every 2–4 weeks",
+          "body": "Minggu 4: belum banyak terlihat di foto; ini normal. Minggu 8: kolagen mulai terlihat, penilaian jujur pertama. Contour Signature menambah leher dan contouring V-shape.",
+          "body_en": "Week 4: not much visible in photos yet; this is normal. Week 8: collagen starts to show, the first honest assessment. Contour Signature adds the neck and V-shape contouring."
+        },
+        {
+          "when": "Minggu 12 ke atas",
+          "when_en": "Week 12 onward",
+          "title": "Tinjauan dokter: HIFU atau meso bila perlu",
+          "title_en": "Doctor review: HIFU or meso if needed",
+          "body": "HIFU satu sesi per area, hasil penuh 8–12 minggu, diulang 6–12 bulan. Jawline Define menggabungkan HIFU double chin dan meso lipo oleh dokter.",
+          "body_en": "HIFU is one session per area, full result in 8–12 weeks, repeated every 6–12 months. Jawline Define combines HIFU double chin and meso lipo by the doctor."
+        }
+      ],
+      "promise": [
+        "Foto 3 sudut di setiap kunjungan sebagai pembanding",
+        "Dijelaskan sebelum bayar bahwa minggu 4 belum terlihat",
+        "HIFU dan injeksi hanya oleh dokter",
+        "Hasil bertahap dan bergantung usia serta kondisi kulit, dan kami bilang itu"
+      ],
+      "promise_en": [
+        "3-angle photos at every visit for comparison",
+        "Told before you pay that week 4 shows little",
+        "HIFU and injections by doctors only",
+        "Results are gradual and depend on age and skin, and we say so"
+      ],
+      "not": [
+        "Tidak dibandingkan dengan facelift atau operasi apa pun.",
+        "Tidak menjanjikan perubahan bentuk wajah.",
+        "Tidak memakai angka persen yang tidak kami ukur sendiri."
+      ],
+      "not_en": [
+        "No comparison with a facelift or any surgery.",
+        "No promise of a changed face shape.",
+        "No percentage figures we did not measure ourselves."
+      ],
+      "faq": [
+        {
+          "q": "Kapan terlihat?",
+          "q_en": "When does it show?",
+          "a": "RF: sesi 3–4. HIFU: 8–12 minggu setelah satu sesi, seiring remodeling kolagen.",
+          "a_en": "RF: session 3–4. HIFU: 8–12 weeks after one session, as collagen remodels."
+        },
+        {
+          "q": "Apakah ada downtime?",
+          "q_en": "Is there downtime?",
+          "a": "RF tidak ada. HIFU: bengkak ringan atau pegal beberapa hari. Meso: titik injeksi 1–2 hari.",
+          "a_en": "RF: none. HIFU: mild swelling or tenderness for a few days. Meso: injection points for 1–2 days."
+        },
+        {
+          "q": "Berapa lama bertahan?",
+          "q_en": "How long does it last?",
+          "a": "RF dijaga dengan sesi pemeliharaan tiap beberapa minggu. HIFU bertahan 6–12 bulan sebelum diulang.",
+          "a_en": "RF is held with maintenance sessions every few weeks. HIFU lasts 6–12 months before repeating."
+        }
+      ]
+    }
+  }
+}
