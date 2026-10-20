@@ -19,7 +19,8 @@
     "description_en": "Surface Skin Habit is a skin clinic in Setiabudi, Cilandak Town Square, Lippo Mall Puri and Trans Studio Mall Cibubur. Doctor consultation is always free. Open pricing: single sessions, 3-session and 6-session packages.",
     "whatsapp_hours_en": "09.00–22.00 WIB, every day",
     "price_note_en": "Prices in Rupiah, the same at every Surface clinic. 3- and 6-session packages are paid upfront; the per-session price is shown for comparison. No extra discount on top of package prices.",
-    "consult_note_en": "Every customer starts with a free doctor consultation. The doctor recommends the right treatment, not the sales team."
+    "consult_note_en": "Every customer starts with a free doctor consultation. The doctor recommends the right treatment, not the sales team.",
+    "since": 2014
   },
   "concerns": [
     {
@@ -3884,8 +3885,8 @@
   },
   "_structure": "Offers are grouped by concern, listed from the gentlest to the most intensive. No level labels: the doctor recommends a treatment at the free consultation, the customer picks how to buy it (single / 3x / 6x). Levels dropped 16 Oct 2026 per Steve.",
   "testimonials": {
-    "intro": "Cerita dari pelanggan Surface, dengan izin mereka. Ulasan lengkap ada di Google untuk setiap klinik.",
-    "intro_en": "Stories from Surface customers, shared with their permission. Full reviews are on Google for each clinic.",
+    "intro": "Sejak 2014 kami sudah membantu ribuan orang dengan jerawat, flek, dan kulit yang mulai kendur. Cerita di bawah dibagikan dengan izin mereka; ulasan lengkap ada di Google untuk setiap klinik.",
+    "intro_en": "Since 2014 we have helped thousands of people with acne, pigmentation and skin that is starting to loosen. The stories below are shared with their permission; full reviews are on Google for each clinic.",
     "google_label": "Baca ulasan Google",
     "google_label_en": "Read Google reviews",
     "items": [
@@ -4042,6 +4043,16 @@
           "a": "Ceritakan di konsultasi. Isotretinoin dalam 6 bulan terakhir berarti peeling dan laser ditunda; facial dan PDT tetap bisa.",
           "a_en": "Tell us at the consultation. Isotretinoin in the last 6 months means peels and laser wait; facials and PDT can go ahead."
         }
+      ],
+      "helped": [
+        "Jerawat adalah keluhan nomor satu yang disebut pelanggan kami: 126 sebutan dalam arsip 20.000 pesan WhatsApp.",
+        "498 pelanggan baru memulai dengan Hydraderm pada Januari–September 2026, lebih banyak dari treatment pertama mana pun; 35% kembali dalam 90 hari.",
+        "Pelanggan yang mengambil facial dan treatment dokter rata-rata datang 3 kali, dibanding 1,7 kali untuk facial saja."
+      ],
+      "helped_en": [
+        "Acne is the number-one concern our customers mention: 126 mentions in a 20,000-message WhatsApp archive.",
+        "498 new customers started with Hydraderm in January–September 2026, more than any other first treatment; 35% came back within 90 days.",
+        "Customers who take a facial plus a doctor treatment visit 3 times on average, against 1.7 for a facial alone."
       ]
     },
     "GLOW": {
@@ -4142,6 +4153,16 @@
           "a": "Peeling dan laser bekerja lebih dalam pada kulit yang bersih dan rata. Urutan ini bagian dari metodenya, bukan upsell.",
           "a_en": "Peels and laser work deeper on clean, even skin. The order is part of the method, not an upsell."
         }
+      ],
+      "helped": [
+        "Flek dan bekas jerawat gelap adalah keluhan nomor dua: 71 sebutan dalam arsip 20.000 pesan.",
+        "476 pelanggan baru memulai dengan H2O atau Oxy Facial pada Januari–September 2026.",
+        "Treatment dokter untuk warna kulit (peeling, laser) punya tingkat kembali 61% dalam 90 hari, lebih tinggi dari facial saja."
+      ],
+      "helped_en": [
+        "Spots and dark acne marks are the number-two concern: 71 mentions in a 20,000-message archive.",
+        "476 new customers started with an H2O or Oxy Facial in January–September 2026.",
+        "Doctor treatments for tone (peels, laser) see 61% of customers back within 90 days, higher than facials alone."
       ]
     },
     "LIFT": {
@@ -4242,7 +4263,60 @@
           "a": "RF dijaga dengan sesi pemeliharaan tiap beberapa minggu. HIFU bertahan 6–12 bulan sebelum diulang.",
           "a_en": "RF is held with maintenance sessions every few weeks. HIFU lasts 6–12 months before repeating."
         }
+      ],
+      "helped": [
+        "Tighten & Contour punya tingkat kembali tertinggi dari semua treatment pertama: 44% dalam 90 hari.",
+        "Lebih dari separuh pelanggan RF melanjutkan ke sesi berikutnya, karena hasil yang mulai terlihat di sesi 3–4 memang dijelaskan sejak awal.",
+        "HIFU dan meso hanya oleh dokter, dengan foto 3 sudut sebagai pembanding di setiap kunjungan."
+      ],
+      "helped_en": [
+        "Tighten & Contour has the highest return rate of any first treatment: 44% within 90 days.",
+        "More than half of RF customers continue to the next session, because the session 3–4 timeline is explained up front.",
+        "HIFU and meso are doctor-only, with 3-angle photos for comparison at every visit."
       ]
     }
+  },
+  "proof": {
+    "eyebrow": "Sejak 2014",
+    "eyebrow_en": "Since 2014",
+    "h": "Ribuan orang sudah kami bantu, satu kebiasaan kulit sekaligus.",
+    "h_en": "Thousands of people helped, one skin habit at a time.",
+    "p": "Surface berdiri sebagai klinik kulit berizin pada 2014 dan kini melayani di empat lokasi Jakarta. Angka di bawah dari catatan klinik kami sendiri, Januari sampai September 2026.",
+    "p_en": "Surface opened as a licensed skin clinic in 2014 and now runs four Jakarta locations. The figures below are from our own clinic records, January to September 2026.",
+    "stats": [
+      {
+        "n": "2014",
+        "l": "Klinik berizin sejak",
+        "l_en": "Licensed clinic since"
+      },
+      {
+        "n": "4",
+        "l": "Klinik di Jakarta, satu riwayat perawatan",
+        "l_en": "Jakarta clinics, one treatment record"
+      },
+      {
+        "n": "Ribuan",
+        "n_en": "Thousands",
+        "l": "Pelanggan sejak 2014",
+        "l_en": "Customers since 2014"
+      },
+      {
+        "n": "3.800+",
+        "n_en": "3,800+",
+        "l": "Pelanggan dirawat Jan–Sep 2026",
+        "l_en": "Customers treated Jan–Sep 2026"
+      },
+      {
+        "n": "1.000+",
+        "n_en": "1,000+",
+        "l": "Treatment setiap bulan",
+        "l_en": "Treatments every month"
+      },
+      {
+        "n": "61%",
+        "l": "Pelanggan treatment dokter kembali dalam 90 hari",
+        "l_en": "Doctor-treatment customers back within 90 days"
+      }
+    ]
   }
 }

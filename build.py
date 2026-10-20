@@ -81,7 +81,7 @@ UI = {
     "tx_eye": "Edukasi", "tx_h1": "Semua treatment di Surface", "tx_by": "Dikerjakan", "tx_dur": "Durasi", "tx_int": "Interval", "tx_for": "Untuk", "tx_price": "Harga satuan", "tx_brand": "Alat / brand", "tx_consult": "Saat konsultasi", "tx_device_link": "Cara kerja alatnya",
     "br_h1": "Alat & brand yang kami pakai", "br_maker": "Pembuat", "br_kind": "Jenis", "br_used": "Dipakai di", "br_origin": "Asal", "br_site": "Situs resmi", "br_reg": "Izin & sertifikasi", "br_at": "Tersedia di", "br_matrix_dev": "Alat", "br_strip_h": "Alat dan brand yang kami pakai", "br_strip_p": "Kami menyebut nama alatnya. Pembuat, negara asal, dan sertifikasinya ada di halaman Alat & brand.", "br_strip_btn": "Lihat semua alat & brand",
     "tm_eye": "Pelanggan", "tm_h": "Kata mereka", "tm_google_h": "Ulasan di Google", "tm_google_p": "Setiap klinik punya halaman ulasan Google sendiri. Baca langsung dari pelanggan.",
-    "st_for": "Ini untukmu kalau", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
+    "st_helped": "Bagaimana kami membantu", "st_for": "Ini untukmu kalau", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
     "cl_map": "Peta", "cl_devices": "Alat di klinik ini", "cl_doctors": "Dokter di klinik ini", "cl_reviews": "Ulasan Google",
     "cb_h1": "Kombinasi treatment", "cb_rules_h": "Lima aturan kombinasi", "cb_seq_h": "Urutan di kursi, dan apa yang berubah kapan", "cb_seq_p": "Enam pola kombinasi yang dipakai menu Surface saat ini. Menit adalah perkiraan; dokter dan terapis menyesuaikan dengan kulitmu.", "cb_steps": "Urutan di kursi", "cb_timeline": "Yang berubah, kapan", "cb_offers": "Dipakai di", "cb_not_h": "Yang tidak dipasangkan dalam satu kunjungan", "cb_not_a": "Ini", "cb_not_b": "dengan", "cb_not_why": "Kenapa", "cb_total": "total",
     "tm_h1": "Interval, program & waktu tunggu", "tm_int_h": "Jarak antar sesi per jenis treatment", "tm_what": "Treatment", "tm_int": "Interval", "tm_series": "Seri", "tm_why": "Kenapa", "tm_course_h": "Panjang program & masa berlaku", "tm_wait_h": "Kapan harus menunda", "tm_rebook_h": "Kapan kunjungan berikutnya", "tm_rebook_p": "Jadwal kunjungan berikutnya dibuat sebelum kamu pulang, bukan lewat pesan menyusul.",
@@ -169,7 +169,7 @@ UI = {
     "tx_eye": "Education", "tx_h1": "Every treatment at Surface", "tx_by": "Performed by", "tx_dur": "Duration", "tx_int": "Interval", "tx_for": "For", "tx_price": "Single price", "tx_brand": "Device / brand", "tx_consult": "At consultation", "tx_device_link": "How the device works",
     "br_h1": "The devices & brands we use", "br_maker": "Maker", "br_kind": "Type", "br_used": "Used in", "br_origin": "Origin", "br_site": "Official site", "br_reg": "Clearances & certification", "br_at": "Available at", "br_matrix_dev": "Device", "br_strip_h": "The devices and brands we use", "br_strip_p": "We name our devices. Maker, country of origin and certifications are on the Devices & brands page.", "br_strip_btn": "See all devices & brands",
     "tm_eye": "Customers", "tm_h": "In their words", "tm_google_h": "Reviews on Google", "tm_google_p": "Every clinic has its own Google reviews page. Read them straight from customers.",
-    "st_for": "This is for you if", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
+    "st_helped": "How we have helped", "st_for": "This is for you if", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
     "cl_map": "Map", "cl_devices": "Devices at this clinic", "cl_doctors": "Doctors at this clinic", "cl_reviews": "Google reviews",
     "cb_h1": "Treatment combinations", "cb_rules_h": "Five rules of combining", "cb_seq_h": "The order in the chair, and what changes when", "cb_seq_p": "The six combination patterns on the current Surface menu. Minutes are estimates; the doctor and therapist adjust to your skin.", "cb_steps": "Order in the chair", "cb_timeline": "What changes, when", "cb_offers": "Used in", "cb_not_h": "What is not paired in one visit", "cb_not_a": "This", "cb_not_b": "with", "cb_not_why": "Why", "cb_total": "total",
     "tm_h1": "Intervals, programmes & waiting times", "tm_int_h": "Gap between sessions by treatment type", "tm_what": "Treatment", "tm_int": "Interval", "tm_series": "Series", "tm_why": "Why", "tm_course_h": "Programme length & validity", "tm_wait_h": "When to wait", "tm_rebook_h": "When your next visit should be", "tm_rebook_p": "Your next appointment is booked before you leave, not chased by message afterwards.",
@@ -515,6 +515,9 @@ def page_stream(code):
   <ol class="journey">{steps}</ol>
 </div></section>
 <section class="section" style="padding-top:0"><div class="wrap">
+  <div class="card helped"><span class="eyebrow">{e(t(C["proof"], "eyebrow"))}</span><h3>{e(T("st_helped"))}</h3><ul class="check">{"".join(f"<li>{e(x)}</li>" for x in t(st, "helped"))}</ul></div>
+</div></section>
+<section class="section" style="padding-top:0"><div class="wrap">
   <div class="grid-2">
     <div class="card"><h3>{e(T("st_promise"))}</h3><ul class="check">{promise}</ul></div>
     <div class="card warn"><h3>{e(T("st_not"))}</h3><ul class="plist">{nots}</ul></div>
@@ -542,6 +545,16 @@ def page_stream(code):
 '''
     title = T("t_st", nav=t(st, "nav"), name=S["name"])
     return head(title, t(st, "lead"), stream_file(code)) + header(stream_file(code)) + body + footer()
+
+def proof_block():
+    P = C["proof"]
+    stats = "".join(f'<div class="stat"><div class="n">{e(t(x, "n"))}</div><div class="l">{e(t(x, "l"))}</div></div>' for x in P["stats"])
+    return f'''<section class="section proof" id="sejak-2014" style="padding-top:0"><div class="wrap">
+  <div class="proof-card">
+    <div class="section-head" style="margin-bottom:18px"><div><span class="eyebrow">{e(t(P, "eyebrow"))}</span><h2>{e(t(P, "h"))}</h2><p>{e(t(P, "p"))}</p></div></div>
+    <div class="stats">{stats}</div>
+  </div>
+</div></section>'''
 
 def testimonials_block():
     TM = C.get("testimonials", {})
@@ -600,6 +613,7 @@ def page_index():
 </div></section>
 
 {usp_block()}
+{proof_block()}
 <section class="section" id="concern" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s1_eye'))}</span><h2>{e(T('s1_h'))}</h2><p>{e(T('s1_p'))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T('s1_btn'))}</a></div>
   <div class="grid-3">{concern_cards}</div>
