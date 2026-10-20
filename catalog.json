@@ -43,21 +43,21 @@
           "signature": "Clear Start",
           "level": "start",
           "includes": [
-            "Hydraderm Facial",
+            "Super Facial",
             "LHALA Peel oleh dokter"
           ],
           "includes_en": [
-            "Hydraderm Facial",
+            "Super Facial",
             "LHALA Peel by the doctor"
           ],
-          "duration_min": 110,
+          "duration_min": 75,
           "interval": "tiap 2–4 minggu",
           "interval_en": "every 2–4 weeks",
-          "single": 1400000,
-          "pack3": 3750000,
-          "pack6": 7200000,
-          "desc": "Pembersihan dalam lalu peeling dokter. Titik mulai jerawat dan komedo.",
-          "desc_en": "Deep cleanse then a doctor peel. Where acne and congestion start.",
+          "single": 799000,
+          "pack3": 2150000,
+          "pack6": 4100000,
+          "desc": "Facial ringan oleh terapis, lalu LHALA Peel oleh dokter. Titik masuk jalur Clear: satu kunjungan, satu harga, dokter sudah terlibat sejak awal.",
+          "desc_en": "A light therapist facial, then a doctor LHALA Peel. The entry to the Clear pathway: one visit, one price, the doctor involved from day one.",
           "medical_review": true
         },
         {
@@ -142,21 +142,21 @@
           "signature": "Glass Skin",
           "level": "start",
           "includes": [
-            "H2O Facial",
+            "Laser Facial",
             "LHALA Peel oleh dokter"
           ],
           "includes_en": [
-            "H2O Facial",
+            "Laser Facial",
             "LHALA Peel by the doctor"
           ],
-          "duration_min": 130,
+          "duration_min": 75,
           "interval": "tiap 2–4 minggu",
           "interval_en": "every 2–4 weeks",
-          "single": 1500000,
-          "pack3": 4050000,
-          "pack6": 7500000,
-          "desc": "Facial H2O lalu LHALA Peel oleh dokter. Kulit tampak lebih segar dan halus sejak kunjungan pertama.",
-          "desc_en": "H2O facial then a doctor LHALA Peel. Fresher, smoother skin from the first visit.",
+          "single": 799000,
+          "pack3": 2150000,
+          "pack6": 4100000,
+          "desc": "Laser Facial lalu LHALA Peel oleh dokter. Kulit tampak lebih segar dan rata sejak kunjungan pertama; itu pembaruan permukaan, bukan perubahan warna kulit.",
+          "desc_en": "Laser Facial then a doctor LHALA Peel. Fresher, more even-looking skin from the first visit; that is surface renewal, not a change in skin colour.",
           "medical_review": true
         },
         {
@@ -344,19 +344,21 @@
           "signature": "Calm Start",
           "level": "start",
           "includes": [
-            "H2O Sensi Facial"
+            "Oxy Facial Hydrating, protokol kulit sensitif",
+            "Konsultasi dokter"
           ],
           "includes_en": [
-            "H2O Sensi Facial"
+            "Oxy Facial Hydrating, sensitive-skin protocol",
+            "Doctor consultation"
           ],
           "duration_min": 60,
           "interval": "tiap 2–4 minggu",
           "interval_en": "every 2–4 weeks",
-          "single": 1200000,
+          "single": 799000,
           "pack3": null,
           "pack6": null,
-          "desc": "Hydro-exfoliation paling lembut di menu kami, tanpa ekstraksi agresif dan tanpa peeling di kunjungan pertama.",
-          "desc_en": "The gentlest hydro-exfoliation on our menu, no aggressive extraction and no peel on the first visit.",
+          "desc": "Oksigen dan hidrasi tanpa ekstraksi agresif, tanpa peeling di kunjungan pertama. Dokter menilai barrier kulit sebelum langkah berikutnya.",
+          "desc_en": "Oxygen and hydration without aggressive extraction, no peel on the first visit. The doctor assesses the skin barrier before the next step.",
           "medical_review": true
         },
         {
@@ -433,20 +435,20 @@
           "level": "start",
           "includes": [
             "Tighten & Contour RF (wajah)",
-            "LHALA Peel oleh dokter"
+            "Konsultasi dokter"
           ],
           "includes_en": [
             "Tighten & Contour RF (face)",
-            "LHALA Peel by the doctor"
+            "Doctor consultation"
           ],
-          "duration_min": 85,
+          "duration_min": 55,
           "interval": "tiap 2–4 minggu",
           "interval_en": "every 2–4 weeks",
-          "single": 1250000,
-          "pack3": 3300000,
-          "pack6": 6300000,
-          "desc": "Radiofrekuensi untuk kekencangan, dengan peeling dokter. Terasa lebih kencang sementara; kolagen baru menyusul di sesi 3–4.",
-          "desc_en": "Radiofrequency for firmness, with a doctor peel. Feels firmer at once; new collagen follows by session 3–4.",
+          "single": 799000,
+          "pack3": 2150000,
+          "pack6": 4100000,
+          "desc": "Radio frekuensi wajah untuk mengencangkan secara bertahap. Dokter menentukan kapan peeling atau HIFU masuk ke rencana.",
+          "desc_en": "Facial radiofrequency for gradual tightening. The doctor decides when a peel or HIFU enters the plan.",
           "medical_review": true
         },
         {
@@ -606,26 +608,6 @@
       "next": []
     }
   ],
-  "first_visit": {
-    "title": "Harga kunjungan pertama",
-    "note": "Khusus pelanggan baru, satu kali per orang, dibooking bersama konsultasi dokter gratis.",
-    "items": [
-      {
-        "name": "Hydraderm Facial",
-        "price": 799000,
-        "for": "Pori tersumbat, komedo, kulit berminyak",
-        "for_en": "Clogged pores, blackheads, oily skin"
-      },
-      {
-        "name": "H2O Facial",
-        "price": 899000,
-        "for": "Kulit kering, sensitif, kusam",
-        "for_en": "Dry, sensitive or dull skin"
-      }
-    ],
-    "title_en": "First-visit price",
-    "note_en": "New customers only, once per person, booked together with the free doctor consultation."
-  },
   "plan": {
     "title": "Skin Habit Plan",
     "price_month": 950000,
@@ -776,98 +758,185 @@
   "doctors": [
     {
       "publish": true,
-      "name": "dr. Riska Melani",
-      "clinics": [
-        "CITOS"
-      ],
-      "role": "Dokter",
-      "focus": [
-        "Peeling",
-        "Laser",
-        "Acne Treatment",
-        "Skin Consultation"
-      ],
-      "bio": "",
-      "role_en": "Doctor",
-      "photo": "assets/doctors/riska.jpg"
-    },
-    {
-      "publish": true,
-      "name": "dr. Hanna Anjani",
-      "clinics": [
-        "CITOS"
-      ],
-      "role": "Dokter",
-      "focus": [
-        "Peeling",
-        "Skin Consultation"
-      ],
-      "bio": "",
-      "role_en": "Doctor",
-      "photo": ""
-    },
-    {
-      "publish": true,
-      "name": "dr. Devi",
-      "clinics": [],
-      "role": "Dokter",
-      "focus": [
-        "Skin Consultation",
-        "Peeling"
-      ],
-      "bio": "",
-      "photo": "assets/doctors/devi.jpg"
-    },
-    {
-      "publish": true,
-      "name": "dr. Siti Aisyah Devitri",
+      "name": "dr. Siti Aisyah Devitri, M.Kes. Est",
       "clinics": [
         "SB"
       ],
-      "role": "Dokter",
-      "focus": [
-        "Laser",
-        "HIFU",
-        "Skin Consultation"
+      "role": "Dokter Penanggung Jawab · Dokter Estetika",
+      "role_en": "Doctor in Charge · Aesthetic Doctor",
+      "photo": "assets/doctors/devi.jpg",
+      "creds": [
+        "Dokter umum, Universitas Padjadjaran Bandung, 2004",
+        "Magister Aesthetic & Anti-aging Medicine, Universitas Jenderal Achmad Yani, 2022",
+        "Pengalaman 15+ tahun",
+        "Pelatihan laser, skin booster, HIFU, botulinum toxin · IDI, Perdesti"
       ],
-      "bio": "",
-      "role_en": "Doctor",
-      "photo": ""
+      "creds_en": [
+        "MD, Universitas Padjadjaran Bandung, 2004",
+        "Master's in Aesthetic & Anti-aging Medicine, Universitas Jenderal Achmad Yani, 2022",
+        "15+ years of experience",
+        "Laser, skin booster, HIFU and botulinum toxin training · IDI, Perdesti"
+      ],
+      "focus": [
+        "Skin Consultation",
+        "Skinbooster",
+        "Botox",
+        "Laser"
+      ],
+      "bio": "Dokter estetika yang berkomitmen pada perawatan kulit yang personal: memahami kondisi, kebutuhan, dan tujuan setiap kulit untuk menyusun rencana perawatan yang tepat.",
+      "bio_en": "Aesthetic doctor committed to personalised skin care, understanding each skin's condition, needs and goals to create thoughtful and appropriate treatment plans.",
+      "instagram": "devi_sitiaisyahdevitri",
+      "languages": "Bahasa Indonesia, English",
+      "consent": "2026-09-29"
     },
     {
       "publish": true,
-      "name": "dr. Kharisma Juang D.",
+      "name": "dr. Kharisma Pipit",
       "clinics": [
         "SB",
         "TSM"
       ],
-      "role": "Dokter",
-      "focus": [
-        "Peeling",
-        "Skin Consultation"
+      "role": "Dokter Penanggung Jawab · Dokter Estetika",
+      "role_en": "Doctor in Charge · Aesthetic Doctor",
+      "photo": "assets/doctors/kharisma.jpg",
+      "creds": [
+        "Dokter umum, UPN Veteran Jakarta",
+        "Pengalaman 15+ tahun",
+        "Pelatihan skin booster, botulinum toxin, laser",
+        "Anggota IDI"
       ],
-      "bio": "",
-      "role_en": "Doctor",
-      "photo": "assets/doctors/kharisma.jpg"
+      "creds_en": [
+        "MD, UPN Veteran Jakarta",
+        "15+ years of experience",
+        "Skin booster, botulinum toxin and laser training",
+        "IDI member"
+      ],
+      "focus": [
+        "Skinbooster",
+        "Laser",
+        "Microneedling",
+        "Botox"
+      ],
+      "bio": "Dokter estetika yang berkomitmen membantu kulit menjadi lebih sehat sesuai kebutuhan pasien, dengan ilmu dan teknologi medis yang aman dan mengikuti perkembangan terbaru.",
+      "bio_en": "Aesthetic doctor committed to healthier skin for every patient, using safe medical science and technology that keeps pace with the latest developments.",
+      "instagram": "kharisma_pipit",
+      "languages": "Bahasa Indonesia, English",
+      "consent": "2026-04-08"
     },
     {
-      "publish": false,
-      "name": "dr. Shafira Eston",
-      "clinics": [],
-      "role": "Dokter",
-      "focus": [],
-      "bio": "",
-      "role_en": "Doctor",
-      "photo": ""
+      "publish": true,
+      "name": "dr. Riska Melani",
+      "clinics": [
+        "CITOS"
+      ],
+      "role": "Dokter Penanggung Jawab · Dokter Estetika",
+      "role_en": "Doctor in Charge · Aesthetic Doctor",
+      "photo": "assets/doctors/riska.jpg",
+      "creds": [
+        "Dokter umum, UPN Veteran Jakarta",
+        "Pengalaman 15+ tahun",
+        "Restylane Certified Practitioner · pelatihan growth factor & microneedling · botulinum toxin & skin booster",
+        "Professional Slimming, Body & Facial Treatments, Singapura · Anggota IDI"
+      ],
+      "creds_en": [
+        "MD, UPN Veteran Jakarta",
+        "15+ years of experience",
+        "Restylane Certified Practitioner · growth factor & microneedling training · botulinum toxin & skin booster",
+        "Professional Slimming, Body & Facial Treatments, Singapore · IDI member"
+      ],
+      "focus": [
+        "Botox",
+        "Skinbooster",
+        "Laser",
+        "Microneedling"
+      ],
+      "bio": "Dokter estetika dengan fokus peremajaan kulit: memadukan injeksi, botulinum toxin, skin booster, collagen stimulator, dan alat berbasis energi untuk hasil yang segar dan alami.",
+      "bio_en": "Aesthetic doctor focused on skin rejuvenation, combining injectables, botulinum toxin, skin boosters, collagen stimulators and energy-based device protocols for fresh, natural results.",
+      "instagram": "riskabern",
+      "languages": "Bahasa Indonesia, English",
+      "consent": "2026-03-08"
     },
     {
-      "publish": false,
+      "publish": true,
       "name": "dr. Sukma",
-      "clinics": [],
-      "role": "Dokter",
+      "clinics": [
+        "LMP"
+      ],
+      "role": "Dokter Penanggung Jawab · Dokter Estetika",
+      "role_en": "Doctor in Charge · Aesthetic Doctor",
+      "photo": "",
+      "creds": [
+        "Dokter umum, UNISSULA Semarang",
+        "Pengalaman 5+ tahun",
+        "Pelatihan laser, skin booster, botulinum toxin",
+        "Anggota IDI"
+      ],
+      "creds_en": [
+        "MD, UNISSULA Semarang",
+        "5+ years of experience",
+        "Laser, skin booster and botulinum toxin training",
+        "IDI member"
+      ],
+      "focus": [
+        "Laser",
+        "Skinbooster",
+        "Microneedling",
+        "Botox"
+      ],
+      "bio": "Dokter estetika dengan pendekatan personal: memadukan prosedur non-invasif dan perawatan rutin untuk menjaga kesehatan kulit dan tampilan yang proporsional serta alami.",
+      "bio_en": "Aesthetic doctor with a personalised approach, combining non-invasive procedures and regular care to keep skin healthy and the result proportional and natural.",
+      "instagram": "zhaskmsr",
+      "languages": "Bahasa Indonesia, English",
+      "consent": "2026-04-08"
+    },
+    {
+      "publish": true,
+      "name": "dr. Shafira Eston",
+      "clinics": [
+        "LMP"
+      ],
+      "role": "Dokter Penanggung Jawab · Dokter Estetika",
+      "role_en": "Doctor in Charge · Aesthetic Doctor",
+      "photo": "",
+      "creds": [
+        "Dokter umum, Universitas Muhammadiyah Malang",
+        "Pengalaman 3+ tahun",
+        "Pelatihan laser, skin booster, botulinum toxin",
+        "Anggota IDI"
+      ],
+      "creds_en": [
+        "MD, Universitas Muhammadiyah Malang",
+        "3+ years of experience",
+        "Laser, skin booster and botulinum toxin training",
+        "IDI member"
+      ],
+      "focus": [
+        "HIFU",
+        "Skinbooster",
+        "Botox",
+        "Microneedling"
+      ],
+      "bio": "Dokter estetika yang berfokus pada hasil yang tampak alami: memadukan alat berbasis energi seperti HIFU dengan injeksi seperti skin booster, collagen stimulator, dan botulinum toxin.",
+      "bio_en": "Aesthetic doctor focused on natural-looking results, combining energy-based devices such as HIFU with injectables such as skin boosters, collagen stimulators and botulinum toxin.",
+      "instagram": "shafiraeston",
+      "languages": "Bahasa Indonesia, English",
+      "consent": "2026-06-08"
+    },
+    {
+      "publish": false,
+      "name": "dr. Hanna Anjani",
+      "clinics": [
+        "CITOS"
+      ],
+      "role": "Dokter Penanggung Jawab · Dokter Estetika",
+      "role_en": "Doctor in Charge · Aesthetic Doctor",
+      "photo": "",
+      "creds": [],
+      "creds_en": [],
       "focus": [],
       "bio": "",
-      "photo": ""
+      "bio_en": "",
+      "_note": "No row in the credentials form yet; publish once consent and credentials are in."
     }
   ],
   "faq": [
@@ -2294,6 +2363,36 @@
         "price": 1200000,
         "note": "",
         "note_en": ""
+      },
+      {
+        "name": "H2O Sensi Facial",
+        "family": "facial",
+        "device": "aquapure-h2o",
+        "brand": "Aquapure (Classys) · Aqua Glo",
+        "performed_by": "therapist",
+        "duration_min": 60,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Kulit sensitif, kemerahan, barrier lemah",
+        "for_en": "Sensitive skin, redness, weak barrier",
+        "price": 1200000,
+        "note": "Varian H2O tanpa langkah yang memicu; dipakai di jalur Calm.",
+        "note_en": "The H2O variant with no triggering step; used in the Calm pathway."
+      },
+      {
+        "name": "Eye Catching",
+        "family": "facial",
+        "device": null,
+        "brand": "Surface",
+        "performed_by": "therapist",
+        "duration_min": 30,
+        "interval": "tiap 2–4 minggu",
+        "interval_en": "every 2–4 weeks",
+        "for": "Area mata yang terlihat lelah, garis halus",
+        "for_en": "Tired-looking eyes, fine lines",
+        "price": 550000,
+        "note": "Add-on di kunjungan yang sama.",
+        "note_en": "Add-on in the same visit."
       },
       {
         "name": "Oxy Facial",
@@ -4563,8 +4662,8 @@
           "when_en": "Visit 1, same day",
           "title": "Mulai: Hydraderm + LHALA Peel",
           "title_en": "Start: Hydraderm + LHALA Peel",
-          "body": "Pembersihan dalam oleh terapis, lalu peeling oleh dokter (Clear Start). Pelanggan baru bisa mulai dari harga kunjungan pertama Hydraderm Rp 799.000.",
-          "body_en": "A deep cleanse by the therapist, then a doctor peel (Clear Start). New customers can start at the Hydraderm first-visit price of Rp 799,000."
+          "body": "Facial ringan oleh terapis, lalu LHALA Peel oleh dokter (Clear Start, Rp 799.000). Satu kunjungan, satu harga, untuk semua pelanggan.",
+          "body_en": "A light therapist facial, then a doctor LHALA Peel (Clear Start, Rp 799,000). One visit, one price, for every customer."
         },
         {
           "when": "Minggu 2–12",
@@ -4688,8 +4787,8 @@
           "when_en": "Visit 1, same day",
           "title": "Mulai: H2O Facial + LHALA Peel",
           "title_en": "Start: H2O Facial + LHALA Peel",
-          "body": "Glass Skin Facial. Pelanggan baru mulai dari harga kunjungan pertama H2O Rp 899.000. Lebih cerah dan halus sejak sesi pertama; itu pembaruan permukaan, bukan hasil akhir.",
-          "body_en": "Glass Skin Facial. New customers start at the H2O first-visit price of Rp 899,000. Brighter and smoother from the first session; that is surface renewal, not the final result."
+          "body": "Tone Start, Rp 799.000: Laser Facial lalu LHALA Peel oleh dokter. Lebih cerah dan halus sejak sesi pertama; itu pembaruan permukaan, bukan hasil akhir.",
+          "body_en": "Tone Start, Rp 799,000: Laser Facial then a doctor LHALA Peel. Brighter and smoother from the first session; that is surface renewal, not the final result."
         },
         {
           "when": "Minggu 2–12",
@@ -5319,7 +5418,7 @@
     "hero": "Foto hero: wajah pelanggan asli, close-up tekstur kulit, cahaya alami hangat (brand deck: real skin, soft daylight). 1600×1000.",
     "stream": "Foto program: tangan terapis di kulit, alat terlihat, warna netral. 1200×800 per funnel.",
     "clinic": "Foto klinik: pintu masuk dan ruang treatment, siang hari. 1200×800 per klinik.",
-    "doctor": "Foto dokter: setengah badan, seragam Surface, latar putih polos, min. 1000×1200.",
+    "doctor": "Foto dokter: setengah badan, seragam Surface, latar putih polos, min. 1000×1200. Belum ada: dr. Sukma (file di Drive 11 MB, kirim versi <10 MB), dr. Shafira Eston.",
     "review": "Widget rating Google: isi google_place_id per klinik untuk tautan ulasan; rating ditampilkan setelah dikonfirmasi dari Google Business Profile.",
     "instagram": "Tempel URL post/reel Instagram di catalog.json › social.instagram.posts.",
     "results": "Foto hasil: pasangan foto awal / minggu ke-12, wajah pelanggan dengan izin tertulis, cahaya klinik yang sama. 800×1000 per foto, isi results.items di catalog.json.",
@@ -5822,5 +5921,133 @@
     "consent_on_file": true,
     "doctor_signoff": "",
     "publish": false
-  }
+  },
+  "_pricing_note": "Start = Rp 799.000 flat on Clear, Tone, Calm, Tighten (Texture Rp 750.000, Enhance free consultation) from 20 Oct 2026; replaces the separate first-visit price. Hydraderm/H2O + LHALA combos remain bookable via consultation but are no longer menu items.",
+  "bestsellers": {
+    "basis": "Berdasarkan jumlah treatment yang selesai di empat klinik Surface, April–Mei 2026. Diperbarui setiap kuartal.",
+    "basis_en": "Based on the number of completed treatments across the four Surface clinics, April–May 2026. Updated every quarter.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Hydraderm Facial",
+        "match": [
+          "Hydraderm"
+        ],
+        "door": "CLEAR",
+        "where": "Clear Correct · Clear Skin Day",
+        "where_en": "Clear Correct · Clear Skin Day",
+        "href": "menu.html#clear"
+      },
+      {
+        "rank": 2,
+        "name": "H2O Glow Facial",
+        "match": [
+          "H2O Facial",
+          "H2O Glow"
+        ],
+        "door": "TONE",
+        "where": "Glass Skin Day",
+        "where_en": "Glass Skin Day",
+        "href": "menu.html#stack"
+      },
+      {
+        "rank": 3,
+        "name": "Oxy Facial",
+        "match": [
+          "Oxy Facial"
+        ],
+        "door": "CALM",
+        "where": "Calm Start",
+        "where_en": "Calm Start",
+        "href": "menu.html#calm"
+      },
+      {
+        "rank": 4,
+        "name": "H2O Sensi Facial",
+        "match": [
+          "H2O Sensi"
+        ],
+        "door": "CALM",
+        "where": "Calm Correct",
+        "where_en": "Calm Correct",
+        "href": "menu.html#calm"
+      },
+      {
+        "rank": 5,
+        "name": "Tighten & Contour RF",
+        "match": [
+          "Tighten & Contour"
+        ],
+        "door": "TIGHTEN",
+        "where": "Tighten Start · Tighten Correct · add-on Neck",
+        "where_en": "Tighten Start · Tighten Correct · Neck add-on",
+        "href": "menu.html#tighten"
+      },
+      {
+        "rank": 6,
+        "name": "Acne Shots",
+        "match": [
+          "Acne Shots"
+        ],
+        "door": "CLEAR",
+        "where": "Add-on Shots · Clear Skin Day",
+        "where_en": "Shots add-on · Clear Skin Day",
+        "href": "menu.html#addon"
+      },
+      {
+        "rank": 7,
+        "name": "QS Brighten & Toning Laser",
+        "match": [
+          "QS Brighten",
+          "QS Toning",
+          "Q-switched"
+        ],
+        "door": "TONE",
+        "where": "Tone Refine · Glass Skin Day",
+        "where_en": "Tone Refine · Glass Skin Day",
+        "href": "menu.html#tone"
+      },
+      {
+        "rank": 8,
+        "name": "IPL Pulse Light",
+        "match": [
+          "IPL",
+          "Pulse Light"
+        ],
+        "door": "TONE",
+        "where": "Tone Correct",
+        "where_en": "Tone Correct",
+        "href": "menu.html#tone"
+      },
+      {
+        "rank": 9,
+        "name": "PDT / LED",
+        "match": [
+          "PDT"
+        ],
+        "door": "CALM",
+        "where": "Add-on Light · Clear Correct · Calm Correct",
+        "where_en": "Light add-on · Clear Correct · Calm Correct",
+        "href": "menu.html#addon"
+      },
+      {
+        "rank": 10,
+        "name": "Eye Catching",
+        "match": [
+          "Eye Catching"
+        ],
+        "door": null,
+        "where": "Add-on Eye",
+        "where_en": "Eye add-on",
+        "href": "menu.html#addon"
+      }
+    ]
+  },
+  "pricelist": {
+    "intro": "Semua yang bisa dipesan di Surface, dengan harga satuan. Program, stack, dan add-on ada di halaman Harga; daftar ini untuk yang ingin melihat seluruh menu.",
+    "intro_en": "Everything you can book at Surface, with single-session prices. Programmes, stacks and add-ons live on the Prices page; this list is for anyone who wants the whole menu.",
+    "rx_note": "Produk resep dokter dan treatment tubuh tidak ditampilkan; tanyakan saat konsultasi.",
+    "rx_note_en": "Prescription products and body treatments are not listed; ask at your consultation."
+  },
+  "_doctors_note": "Source: SSH_Doctor_Credentials_Form (Google Sheet), 20 Oct 2026. STR and SIP numbers are internal only and must never be published. dr. Nana excluded per Steve (20 Oct). dr. Pipit (Setiabudi) and dr. Kharisma Pipit (Cibubur) are the same doctor."
 }

@@ -36,7 +36,7 @@ UI = {
     "generic_msg": "Halo Surface, saya mau booking konsultasi dokter gratis. Klinik terdekat saya: {klinik}.",
     "clinic_suffix": " Klinik terdekat saya: {klinik}.",
     "offer_msg": "Halo Surface, saya mau booking konsultasi dokter gratis untuk {offer} ({concern}). Klinik terdekat saya: {klinik}.",
-    "fv_msg": "Halo Surface, saya pelanggan baru dan mau booking harga kunjungan pertama + konsultasi dokter gratis. Klinik terdekat saya: {klinik}.",
+    "fv_msg": "Halo Surface, saya mau booking level Start (Rp 799.000) + konsultasi dokter gratis. Klinik terdekat saya: {klinik}.",
     "plan_msg": "Halo Surface, saya tertarik Skin Habit Plan bulanan. Klinik terdekat saya: {klinik}.",
     "clinic_msg": "Halo Surface {clinic}, saya mau booking konsultasi dokter gratis.",
     "footer_tag": "Konsultasi dokter selalu gratis.", "f_clinics": "Klinik", "f_concern": "Concern", "f_doctors": "Dokter kami", "f_contact": "Hubungi",
@@ -46,7 +46,7 @@ UI = {
     "level_word": "Level", "min": "menit", "single": "Satuan", "one_session": "1 sesi", "pack3": "Paket 3x", "pack6": "Paket 6x", "per_session": "/ sesi",
     "book_free": "Booking konsultasi gratis", "doctor_confirms": "Dokter memastikan treatment ini cocok untuk kulitmu sebelum dimulai.",
     "new_customers": "Pelanggan baru", "monthly": "Bulanan", "per_month": "/ bulan", "extras": "Tambahan", "addons_h": "Add-on per kunjungan",
-    "addons_note": "Ditambahkan ke treatment mana pun atas saran dokter atau terapis.", "book_first": "Booking kunjungan pertama", "ask_plan": "Tanya Skin Habit Plan",
+    "addons_note": "Ditambahkan ke treatment mana pun atas saran dokter atau terapis.", "book_first": "Booking level Start", "ask_plan": "Tanya Skin Habit Plan",
     "open_maps": "Buka di Maps", "book_here": "Booking di sini",
     "hero_eyebrow": "Klinik kulit · {n} lokasi Jakarta", "hero_h1": "Kulit yang lebih baik dimulai dari konsultasi dokter. Gratis.",
     "hero_lead": "Pilih concern-mu. Dokter kami yang merekomendasikan treatment-nya. Harga terbuka, sama di semua klinik.",
@@ -55,14 +55,14 @@ UI = {
     "s1_eye": "Mulai dari sini", "s1_h": "Apa yang ingin kamu perbaiki?", "s1_p": "Tiga concern, masing-masing tiga pilihan treatment. Kamu memilih concern, dokter merekomendasikan treatment-nya.", "s1_btn": "Semua harga",
     "from": "Mulai", "per_session_long": "per sesi", "levels_short": "3 pilihan",
     "s2_eye": "Tiga level", "s2_h": "Dasar, Koreksi, Presisi", "s2_p": "Struktur level yang sama di setiap concern dan setiap klinik. Semakin tinggi level, semakin besar peran dokter.",
-    "s3_eye": "Kunjungan pertama", "s3_h": "Cara termudah untuk mulai", "s3_p": "Belum siap dengan paket? Mulai dari satu facial dengan harga kunjungan pertama, atau program bulanan.",
+    "s3_eye": "Mulai", "s3_h": "Satu harga untuk mulai: Rp 799.000", "s3_p": "Level Start di setiap jalur: facial oleh terapis ditutup satu langkah dokter, satu kunjungan, satu harga. Atau program bulanan.",
     "s4_eye": "Tim medis", "s4_h": "Dokter kami", "s4_p": "Setiap treatment dengan alat, peeling medis, atau injeksi dilakukan oleh dokter. Konsultasi pertama selalu gratis.", "s4_btn": "Semua dokter",
     "s5_eye": "Lokasi", "s5_h": "Empat klinik, satu riwayat perawatan", "s5_p": "Sisa sesi paket dan riwayat perawatanmu berlaku di semua klinik Surface.", "s5_btn": "Alamat & Maps",
     "s6_eye": "Pertanyaan umum", "s6_h": "Yang sering ditanyakan",
     "t_index": "{name} · Klinik kulit dengan dokter di Jakarta, konsultasi gratis",
     "menu_eye": "Menu & harga", "menu_h1": "Harga terbuka. Sama di semua klinik.", "menu_lead_tail": "Di bawah ini tiga concern, masing-masing tiga pilihan treatment dari yang paling ringan, dengan harga satuan, paket 3x dan paket 6x.",
-    "menu_tab_extra": "Kunjungan pertama & plan", "menu_other": "Treatment lain di luar menu ini tetap tersedia melalui konsultasi dokter.",
-    "menu_s2_eye": "Di luar paket", "menu_s2_h": "Kunjungan pertama, plan bulanan, add-on",
+    "menu_tab_extra": "Plan & add-on", "menu_other": "Treatment lain di luar menu ini tetap tersedia melalui konsultasi dokter.",
+    "menu_s2_eye": "Di luar paket", "menu_s2_h": "Level Start, plan bulanan, add-on",
     "t_menu": "Menu & Harga Treatment · {name}", "d_menu": "Harga treatment Surface Skin Habit: Clear (jerawat), Glow (kusam & flek), Lift (kekencangan). Harga satuan, paket 3x dan 6x. Konsultasi dokter gratis.",
     "doc_eye": "Tim medis", "doc_h1": "Dokter kami", "doc_lead": "Di Surface, dokter yang merekomendasikan treatment-mu, dan dokter pula yang melakukan setiap tindakan medis: peeling, laser, HIFU, injeksi. Konsultasi pertama selalu gratis, di klinik mana pun.",
     "doc_note": "Jadwal praktik dokter berbeda di setiap klinik. Sebutkan nama dokter saat booking jika kamu ingin bertemu dokter tertentu.",
@@ -78,6 +78,9 @@ UI = {
                  ("edukasi-kombinasi.html", "Kombinasi", "Kenapa treatment dipasangkan, urutannya di kursi, dan apa yang berubah minggu demi minggu."),
                  ("edukasi-waktu.html", "Interval & waktu", "Jarak antar sesi, panjang program, masa berlaku paket, dan kapan harus menunda.")],
     "edu_devices_h": "Alat & tindakan: cara kerjanya", "edu_devices_p": "Satu halaman per alat: mekanisme, apa yang dirasakan, downtime, dan siapa yang sebaiknya menunda.",
+    "sc_eye": "Level Start", "sc_h": "Mulai dari Rp 799.000", "sc_note": "Harga yang sama untuk semua pelanggan, baru maupun lama. Texture Start Rp 750.000; Enhance mulai dari konsultasi gratis.",
+    "bs_eye": "Best seller", "bs_h": "Yang paling sering dipilih", "bs_where": "Ada di", "bs_badge": "Best seller", "bs_tab": "Best seller",
+    "fp_eye": "Menu lengkap", "fp_h1": "Semua treatment & harga", "fp_tab": "Menu lengkap", "fp_programs": "18 program", "fp_singles": "Harga satuan", "fp_stacks": "Stack", "fp_addons": "Add-on", "fp_plan": "Plan bulanan", "t_fp": "Menu lengkap & harga · {name}", "d_fp": "Daftar lengkap treatment Surface Skin Habit dengan harga satuan, 18 program Start/Correct/Refine, stack, dan add-on. Harga sama di 4 klinik Jakarta.",
     "stk_eye": "Signature stacks", "stk_h": "Beberapa perawatan, satu kunjungan", "stk_one": "Satu kunjungan", "stk_for": "untuk", "stk_downtime": "ada downtime", "stk_before_h": "Sebelum stack", "stk_addons_h": "Tambah lagi", "stk_btn": "Lihat semua stack", "stk_msg": "Halo Surface, saya mau booking konsultasi dokter gratis untuk stack {stack}. Klinik terdekat saya: {klinik}.", "stk_door_h": "Stack untuk jalur ini", "stk_tab": "Stacks",
     "ad_eye": "Add-ons", "ad_h": "Tambahan di kunjungan yang sama", "ad_after_h": "Setelah program", "ad_fixed": "per kunjungan",
     "res_eye": "Hasil", "res_h": "Foto hasil pelanggan", "res_before": "Awal", "res_after": "Minggu ke-{w}", "res_rules_h": "Aturan foto hasil kami", "res_tone": "Untuk jalur Tone kami sengaja tidak memasang foto hasil. Baca aturannya di bawah.",
@@ -127,7 +130,7 @@ UI = {
     "generic_msg": "Hi Surface, I'd like to book a free doctor consultation. My nearest clinic: {klinik}.",
     "clinic_suffix": " My nearest clinic: {klinik}.",
     "offer_msg": "Hi Surface, I'd like to book a free doctor consultation for {offer} ({concern}). My nearest clinic: {klinik}.",
-    "fv_msg": "Hi Surface, I'm a new customer and I'd like to book the first-visit price + free doctor consultation. My nearest clinic: {klinik}.",
+    "fv_msg": "Hi Surface, I'd like to book the Start level (Rp 799,000) + free doctor consultation. My nearest clinic: {klinik}.",
     "plan_msg": "Hi Surface, I'm interested in the monthly Skin Habit Plan. My nearest clinic: {klinik}.",
     "clinic_msg": "Hi Surface {clinic}, I'd like to book a free doctor consultation.",
     "footer_tag": "Doctor consultation is always free.", "f_clinics": "Clinics", "f_concern": "Concern", "f_doctors": "Our doctors", "f_contact": "Contact",
@@ -137,7 +140,7 @@ UI = {
     "level_word": "Level", "min": "min", "single": "Single", "one_session": "1 session", "pack3": "3-session pack", "pack6": "6-session pack", "per_session": "/ session",
     "book_free": "Book a free consultation", "doctor_confirms": "The doctor confirms this treatment suits your skin before it starts.",
     "new_customers": "New customers", "monthly": "Monthly", "per_month": "/ month", "extras": "Extras", "addons_h": "Add-ons per visit",
-    "addons_note": "Added to any treatment on the advice of the doctor or therapist.", "book_first": "Book a first visit", "ask_plan": "Ask about the Skin Habit Plan",
+    "addons_note": "Added to any treatment on the advice of the doctor or therapist.", "book_first": "Book the Start level", "ask_plan": "Ask about the Skin Habit Plan",
     "open_maps": "Open in Maps", "book_here": "Book here",
     "hero_eyebrow": "Skin clinic · {n} Jakarta locations", "hero_h1": "Better skin starts with a doctor consultation. Free.",
     "hero_lead": "Pick your concern. Our doctors recommend the treatment. Open pricing, the same at every clinic.",
@@ -146,14 +149,14 @@ UI = {
     "s1_eye": "Start here", "s1_h": "What would you like to improve?", "s1_p": "Three concerns, three treatment options each. You choose the concern, the doctor recommends the treatment.", "s1_btn": "All prices",
     "from": "From", "per_session_long": "per session", "levels_short": "3 options",
     "s2_eye": "Three levels", "s2_h": "Core, Correct, Refine", "s2_p": "The same level structure for every concern at every clinic. The higher the level, the bigger the doctor's role.",
-    "s3_eye": "First visit", "s3_h": "The easiest way to start", "s3_p": "Not ready for a package? Start with one facial at the first-visit price, or a monthly programme.",
+    "s3_eye": "Start", "s3_h": "One price to start: Rp 799,000", "s3_p": "The Start level in every pathway: a therapist facial closed with one doctor step, one visit, one price. Or a monthly programme.",
     "s4_eye": "Medical team", "s4_h": "Our doctors", "s4_p": "Every treatment with a device, medical peel or injectable is performed by a doctor. The first consultation is always free.", "s4_btn": "All doctors",
     "s5_eye": "Locations", "s5_h": "Four clinics, one treatment history", "s5_p": "Your remaining package sessions and treatment history are valid at every Surface clinic.", "s5_btn": "Addresses & Maps",
     "s6_eye": "FAQ", "s6_h": "Frequently asked",
     "t_index": "{name} · Doctor-led skin clinic in Jakarta, free consultation",
     "menu_eye": "Menu & prices", "menu_h1": "Open pricing. The same at every clinic.", "menu_lead_tail": "Below: three concerns, three treatment options each from the gentlest up, with single, 3-session and 6-session prices.",
-    "menu_tab_extra": "First visit & plan", "menu_other": "Other treatments outside this menu remain available through a doctor consultation.",
-    "menu_s2_eye": "Outside packages", "menu_s2_h": "First visit, monthly plan, add-ons",
+    "menu_tab_extra": "Plan & add-ons", "menu_other": "Other treatments outside this menu remain available through a doctor consultation.",
+    "menu_s2_eye": "Outside packages", "menu_s2_h": "Start level, monthly plan, add-ons",
     "t_menu": "Treatment Menu & Prices · {name}", "d_menu": "Surface Skin Habit treatment prices: Clear (acne), Glow (dullness & spots), Lift (firmness). Single, 3-session and 6-session prices. Free doctor consultation.",
     "doc_eye": "Medical team", "doc_h1": "Our doctors", "doc_lead": "At Surface, a doctor recommends your treatment, and a doctor performs every medical procedure: peels, laser, HIFU, injectables. The first consultation is always free, at any clinic.",
     "doc_note": "Doctor schedules differ by clinic. Mention the doctor's name when booking if you'd like to see someone specific.",
@@ -169,6 +172,9 @@ UI = {
                  ("edukasi-kombinasi.html", "Combinations", "Why treatments are paired, the order in the chair, and what changes week by week."),
                  ("edukasi-waktu.html", "Intervals & timing", "Gaps between sessions, programme length, package validity, and when to wait.")],
     "edu_devices_h": "Devices & procedures: how they work", "edu_devices_p": "One page per device: mechanism, what it feels like, downtime, and who should wait.",
+    "sc_eye": "Start level", "sc_h": "From Rp 799,000", "sc_note": "The same price for every customer, new or returning. Texture Start Rp 750,000; Enhance starts with a free consultation.",
+    "bs_eye": "Best sellers", "bs_h": "What people choose most", "bs_where": "Found in", "bs_badge": "Best seller", "bs_tab": "Best sellers",
+    "fp_eye": "Full menu", "fp_h1": "Every treatment & price", "fp_tab": "Full menu", "fp_programs": "18 programmes", "fp_singles": "Single-session prices", "fp_stacks": "Stacks", "fp_addons": "Add-ons", "fp_plan": "Monthly plan", "t_fp": "Full menu & prices · {name}", "d_fp": "The complete Surface Skin Habit treatment list with single prices, 18 Start/Correct/Refine programmes, stacks and add-ons. Same prices at 4 Jakarta clinics.",
     "stk_eye": "Signature stacks", "stk_h": "Several treatments, one visit", "stk_one": "One visit", "stk_for": "for", "stk_downtime": "has downtime", "stk_before_h": "Before a stack", "stk_addons_h": "Add more", "stk_btn": "See all stacks", "stk_msg": "Hello Surface, I'd like to book a free doctor consultation for the {stack} stack. My nearest clinic: {klinik}.", "stk_door_h": "The stack for this pathway", "stk_tab": "Stacks",
     "ad_eye": "Add-ons", "ad_h": "Extras in the same visit", "ad_after_h": "After a programme", "ad_fixed": "per visit",
     "res_eye": "Results", "res_h": "Customer result photos", "res_before": "Start", "res_after": "Week {w}", "res_rules_h": "Our rules for result photos", "res_tone": "For the Tone pathway we deliberately show no result photos. Read the rules below.",
@@ -328,7 +334,7 @@ def footer():
         <p style="margin-top:14px;max-width:34ch">{e(t(S, 'tagline'))} {e(T('footer_tag'))}</p>
       </div>
       <div><h4>{e(T('f_clinics'))}</h4><ul>{clinics}</ul></div>
-      <div><h4>{e(T('f_concern'))}</h4><ul>{concerns}<li><a href="dokter.html">{e(T('f_doctors'))}</a></li></ul></div>
+      <div><h4>{e(T('f_concern'))}</h4><ul>{concerns}<li><a href="harga-lengkap.html">{e(T('fp_tab'))}</a></li><li><a href="dokter.html">{e(T('f_doctors'))}</a></li></ul></div>
       <div><h4>{e(T('f_contact'))}</h4><ul>
         <li><a href="{WA}" target="_blank" rel="noopener">WhatsApp {e(S['whatsapp_display'])}</a><span class="small muted"><br>{e(t(S, 'whatsapp_hours'))}</span></li>
         {ig}{em}
@@ -382,13 +388,21 @@ def ld_offers():
     return {"@context": "https://schema.org", "@type": "OfferCatalog", "name": "Menu Surface Skin Habit", "itemListElement": items}
 
 # ---------------------------------------------------------------- blocks
+def bs_hits(names):
+    text = " | ".join(names).lower()
+    return [b for b in C.get("bestsellers", {}).get("items", []) if any(m.lower() in text for m in b["match"])]
+
+def bs_badge(names):
+    hits = bs_hits(names)
+    return f'<span class="bs-badge" title="{e(hits[0]["name"])}">{e(T("bs_badge"))}</span>' if hits else ""
+
 def offer_block(con, o):
     inc = "".join(f"<li>{e(x)}</li>" for x in t(o, "includes"))
     msg = T("offer_msg", offer=o["name"], concern=t(con, "title"), klinik="{klinik}")
     return f"""<article class="offer" id="{e(slug(o['name']))}">
   <div>
     <div class="lv"><i></i> {e(o.get('level', '').capitalize())}{' · ' + e(T('needs_review')) if o.get('medical_review') and o.get('level') in ('correct', 'refine') and S.get('show_placeholders') else ''}</div>
-    <h3>{e(o['name'])}{f' <small class="sig">{e(o["signature"])}</small>' if o.get('signature') and o['signature'] != o['name'] else ''}</h3>
+    <h3>{e(o['name'])}{f' <small class="sig">{e(o["signature"])}</small>' if o.get('signature') and o['signature'] != o['name'] else ''}{bs_badge(o["includes"])}</h3>
     <ul class="inc">{inc}</ul>
     <div class="meta"><span>⏱ {o['duration_min']} {e(T('min'))}</span><span>↻ {e(t(o, 'interval'))}</span></div>
     <p class="desc">{e(t(o, 'desc'))}</p>
@@ -415,16 +429,16 @@ def concern_section(con):
 """
 
 def side_blocks():
-    fv = C["first_visit"]; pl = C["plan"]
-    fv_items = "".join(f'<li><span>{e(i["name"])}<span class="f">{e(t(i, "for"))}</span></span><span class="p">{rp(i["price"])}</span></li>' for i in fv["items"])
+    pl = C["plan"]
+    fv_items = "".join(f'<li><span><a href="{stream_file(con["code"])}">{e(o["name"])}</a><span class="f">{" + ".join(e(x) for x in t(o, "includes"))}</span></span><span class="p">{rp(o["single"]) if o.get("single") else ("Gratis" if L == "id" else "Free")}</span></li>' for con in C["concerns"] for o in con["offers"] if o.get("level") == "start")
     pl_inc = "".join(f"<li>{e(x)}</li>" for x in t(pl, "includes"))
     ad = "".join(f'<li><span><b>{e(a["name"])}</b> {MID_DOT} {e(t(a, "treatment"))}<span class="f">{e(t(a, "for"))}</span></span><span class="p">{rp(a["price"]) if a.get("price") else e(T("tx_consult"))}</span></li>' for a in C["addons"])
     return f"""<div class="side-blocks">
   <div class="card">
-    <span class="eyebrow">{e(T('new_customers'))}</span>
-    <h3>{e(t(fv, 'title'))}</h3>
+    <span class="eyebrow">{e(T('sc_eye'))}</span>
+    <h3>{e(T('sc_h'))}</h3>
     <ul class="plist">{fv_items}</ul>
-    <p class="small muted" style="margin-top:12px">{e(t(fv, 'note'))}</p>
+    <p class="small muted" style="margin-top:12px">{e(T('sc_note'))}</p>
     {wa_btn(T("fv_msg"), T("book_first"), "btn btn-ghost btn-sm")}
   </div>
   <div class="card">
@@ -453,11 +467,13 @@ def doctor_cards(limit=None):
         where = " · ".join(clinic(k)["short"] for k in d["clinics"])
         tags = "".join(f'<span class="tag">{e(x)}</span>' for x in d["focus"])
         bio = f'<p class="small" style="margin:8px 0 0">{e(t(d, "bio"))}</p>' if d.get("bio") else ""
+        creds = f'<ul class="creds">{"".join(f"<li>{e(x)}</li>" for x in t(d, "creds"))}</ul>' if d.get("creds") else ""
+        ig = f'<a class="small ig" href="https://www.instagram.com/{e(d["instagram"])}/" target="_blank" rel="noopener">@{e(d["instagram"])}</a>' if d.get("instagram") else ""
         avatar = (f'<img class="avatar-img" src="{PREFIX}{e(d["photo"])}" alt="{e(d["name"])}" width="96" height="128" loading="lazy">'
                   if d.get("photo") else (f'<div class="avatar avatar-ph" title="{e(C["placeholders"]["doctor"])}"><span>{e(T("ph_label"))}</span></div>' if S.get("show_placeholders") else f'<div class="avatar" aria-hidden="true">{e(initials)}</div>'))
         out.append(f"""<div class="card doc">
   {avatar}
-  <div><h3>{e(d['name'])}</h3><div class="role">{e(t(d, 'role'))} · {e(where)}</div><div class="tags">{tags}</div>{bio}</div>
+  <div><h3>{e(d['name'])}</h3><div class="role">{e(t(d, 'role'))} · {e(where)}</div><div class="tags">{tags}</div>{creds}{bio}{ig}</div>
 </div>""")
     return "".join(out)
 
@@ -658,6 +674,70 @@ def results_block(code):
   <details class="small" style="margin-top:14px"><summary>{e(T("res_rules_h"))}</summary><ul class="plist">{rules}</ul></details>
 </div></section>'''
 
+def bestsellers_block():
+    B = C.get("bestsellers", {})
+    rows = ""
+    for b in B.get("items", []):
+        door = concern_of(b["door"]) if b.get("door") else None
+        chip = f'<a class="tag" href="{stream_file(door["code"])}">{e(door["name"])}</a>' if door else ""
+        rows += f'<li><span class="bs-rank">{b["rank"]}</span><div><b>{e(b["name"])}</b><span class="small muted">{e(T("bs_where"))}: <a href="{e(b["href"])}">{e(t(b, "where"))}</a></span></div>{chip}</li>'
+    return f'''<section class="section" id="terlaris" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("bs_eye"))}</span><h2>{e(T("bs_h"))}</h2><p>{e(t(B, "basis"))}</p></div></div>
+  <ol class="bs-list">{rows}</ol>
+</div></section>'''
+
+def page_pricelist():
+    PL = C.get("pricelist", {})
+    fams = ""
+    for f in EDU["treatment_families"]:
+        rows = ""
+        for x in [x for x in EDU["treatments"] if x["family"] == f["code"]]:
+            price = rp(x["price"]) if x["price"] else T("tx_consult")
+            rows += (f'<tr><td><b>{e(x["name"])}</b>{bs_badge([x["name"]])}<br><span class="small muted">{e(t(x, "for"))}</span></td>'
+                     f'<td>{e(T("by_doctor") if x["performed_by"] == "doctor" else T("by_therapist"))}</td>'
+                     f'<td>{x["duration_min"]} {e(T("min"))}</td><td class="p">{e(price)}</td></tr>')
+        fams += f'<tr class="fam"><th colspan="4">{e(t(f, "name"))}</th></tr>{rows}'
+    prog = ""
+    for con in C["concerns"]:
+        for o in con["offers"]:
+            single = rp(o["single"]) if o.get("single") else ("Gratis" if L == "id" else "Free") if o.get("single") == 0 else EM_DASH
+            prog += (f'<tr><td><b><a href="menu.html#{e(slug(o["name"]))}">{e(o["name"])}</a></b>{bs_badge(o["includes"])}<br><span class="small muted">{" + ".join(e(x) for x in t(o, "includes"))}</span></td>'
+                     f'<td>{e(con["name"])}</td><td class="p">{single}</td><td class="p">{rp(o["pack3"]) if o.get("pack3") else EM_DASH}</td><td class="p">{rp(o["pack6"]) if o.get("pack6") else EM_DASH}</td></tr>')
+    stacks = "".join(f'<tr><td><b>{e(x["name"])}</b><br><span class="small muted">{" + ".join(e(i) for i in t(x, "includes"))}</span></td><td>{e(concern_of(x["door"])["name"]) if x.get("door") else e(x.get("level", "").capitalize())}</td><td class="p">{rp(x["price"]) if x.get("price") else e(T("tx_consult"))}</td></tr>' for x in C.get("stacks", {}).get("items", []))
+    addons = "".join(f'<tr><td><b>{e(a["name"])}</b> {MID_DOT} {e(t(a, "treatment"))}<br><span class="small muted">{e(t(a, "for"))}</span></td><td class="p">{rp(a["price"]) if a.get("price") else e(T("tx_consult"))}</td></tr>' for a in C["addons"])
+    pl = C["plan"]
+    tabs = "".join(f'<a href="#{k}">{e(T(v))}</a>' for k, v in (("program", "fp_programs"), ("satuan", "fp_singles"), ("stack", "fp_stacks"), ("addon", "fp_addons"), ("plan", "fp_plan")))
+    body = f'''<section class="page-hero"><div class="wrap">
+  <span class="eyebrow">{e(T("fp_eye"))}</span>
+  <h1>{e(T("fp_h1"))}</h1>
+  <p class="lead">{e(t(PL, "intro"))}</p>
+  <div class="menu-tabs" style="margin-top:22px">{tabs}<a href="menu.html">{e(T("menu_eye"))} →</a></div>
+</div></section>
+<section class="section" id="program" style="padding-top:12px"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("fp_eye"))}</span><h2>{e(T("fp_programs"))}</h2></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T("menu_eye"))}</a></div>
+  <div class="tx-wrap"><table class="tx-table"><thead><tr><th>{e(T("tm_what"))}</th><th>{e(T("f_concern"))}</th><th>{e(T("single"))}</th><th>{e(T("pack3"))}</th><th>{e(T("pack6"))}</th></tr></thead><tbody>{prog}</tbody></table></div>
+</div></section>
+<section class="section" id="satuan" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("fp_eye"))}</span><h2>{e(T("fp_singles"))}</h2></div><a class="btn btn-ghost btn-sm" href="edukasi-treatment.html">{e(T("tx_h1"))}</a></div>
+  <div class="tx-wrap"><table class="tx-table fp"><thead><tr><th>{e(T("tm_what"))}</th><th>{e(T("tx_by"))}</th><th>{e(T("tx_dur"))}</th><th>{e(T("tx_price"))}</th></tr></thead><tbody>{fams}</tbody></table></div>
+  <p class="small muted" style="margin-top:12px">{e(t(PL, "rx_note"))}</p>
+</div></section>
+<section class="section" id="stack" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("stk_eye"))}</span><h2>{e(T("fp_stacks"))}</h2></div></div>
+  <div class="tx-wrap"><table class="tx-table"><thead><tr><th>{e(T("tm_what"))}</th><th>{e(T("f_concern"))}</th><th>{e(T("stk_one"))}</th></tr></thead><tbody>{stacks}</tbody></table></div>
+</div></section>
+<section class="section" id="addon" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("ad_eye"))}</span><h2>{e(T("fp_addons"))}</h2></div></div>
+  <div class="tx-wrap"><table class="tx-table"><thead><tr><th>{e(T("tm_what"))}</th><th>{e(T("ad_fixed"))}</th></tr></thead><tbody>{addons}</tbody></table></div>
+</div></section>
+<section class="section" id="plan" style="padding-top:0"><div class="wrap">
+  <div class="card"><span class="eyebrow">{e(T("monthly"))}</span><h3>{e(pl["title"])}</h3><div class="big-price">{rp(pl["price_month"])}<small> {e(T("per_month"))}</small></div><ul class="check">{"".join(f"<li>{e(x)}</li>" for x in t(pl, "includes"))}</ul><p class="small muted">{e(t(pl, "rules"))}</p>{wa_btn(T("plan_msg"), T("ask_plan"), "btn btn-ghost btn-sm")}</div>
+  <p class="small muted" style="margin-top:14px">{e(t(S, "price_note"))}</p>
+</div></section>
+{cta_band()}
+'''
+    return head(T("t_fp", name=S["name"]), T("d_fp"), "harga-lengkap.html", [ld_offers()]) + header("menu.html", "harga-lengkap.html") + body + footer()
+
 def proof_block():
     P = C["proof"]
     stats = "".join(f'<div class="stat"><div class="n">{e(t(x, "n"))}</div><div class="l">{e(t(x, "l"))}</div></div>' for x in P["stats"])
@@ -803,7 +883,7 @@ def page_menu():
   <span class="eyebrow">{e(T('menu_eye'))}</span>
   <h1>{e(T('menu_h1'))}</h1>
   <p class="lead">{e(t(S, 'consult_note'))} {e(T('menu_lead_tail'))}</p>
-  <div class="menu-tabs" style="margin-top:22px">{tabs}<a href="#stack">{e(T('stk_tab'))}</a><a href="#pertama">{e(T('menu_tab_extra'))}</a></div>
+  <div class="menu-tabs" style="margin-top:22px">{tabs}<a href="#terlaris">{e(T('bs_tab'))}</a><a href="#stack">{e(T('stk_tab'))}</a><a href="#pertama">{e(T('menu_tab_extra'))}</a><a href="harga-lengkap.html">{e(T('fp_tab'))} →</a></div>
 </div></section>
 {front_door_block()}
 <section class="section" style="padding-top:12px"><div class="wrap">
@@ -811,6 +891,7 @@ def page_menu():
   {"".join(concern_section(c) for c in C["concerns"])}
   <p class="small muted" style="margin-top:8px">{e(t(S, 'price_note'))} {e(T('menu_other'))}</p>
 </div></section>
+{bestsellers_block()}
 {stacks_block()}
 {addons_strip()}
 <section class="section" id="pertama" style="padding-top:0"><div class="wrap">
@@ -1104,7 +1185,7 @@ def page_treatments():
             link = f'<br><a class="small" href="{dev_file(dev)}">{e(T("tx_device_link"))} \u2192</a>' if dev else ""
             price = rp(x["price"]) if x["price"] else T("tx_consult")
             note = f'<br><span class="small muted">{e(t(x, "note"))}</span>' if x.get("note") else ""
-            rows += (f'<tr><td><b>{e(x["name"])}</b>{note}</td><td>{e(t(x, "for"))}</td><td>{e(x["brand"])}{link}</td>'
+            rows += (f'<tr><td><b>{e(x["name"])}</b>{bs_badge([x["name"]])}{note}</td><td>{e(t(x, "for"))}</td><td>{e(x["brand"])}{link}</td>'
                      f'<td>{e(T("by_doctor") if x["performed_by"] == "doctor" else T("by_therapist"))}</td>'
                      f'<td>{x["duration_min"]} {e(T("min"))}<br><span class="small muted">{e(t(x, "interval"))}</span></td><td class="p">{e(price)}</td></tr>')
         fams += f'''<section class="section" style="padding-top:12px"><div class="wrap">
@@ -1173,8 +1254,8 @@ def page_brands():
 </div></section>'''
     body = edu_head(T("br_h1"), T("tx_eye"), t(EDU, "brands_intro"), "edukasi-brand.html") + f'''
 {cards}
-{matrix}
 <section class="section" style="padding-top:0"><div class="wrap">
+  <p class="small muted" style="margin-bottom:12px">{e(t(EDU, "brands_reg_note"))}</p>
   <aside class="card note"><h3>{e(T("edu_disclaimer_h"))}</h3><p class="muted">{e(t(EDU, "disclaimer"))}</p></aside>
 </div></section>
 {cta_band()}
@@ -1317,7 +1398,7 @@ def page_404():
 
 def _stream_pages():
     return {code: (lambda code=code: page_stream(code)) for code in C["streams"]}
-PAGES = {"index.html": page_index, "menu.html": page_menu, "edukasi.html": page_education,
+PAGES = {"index.html": page_index, "menu.html": page_menu, "harga-lengkap.html": page_pricelist, "edukasi.html": page_education,
          "edukasi-treatment.html": page_treatments, "edukasi-brand.html": page_brands, "edukasi-kombinasi.html": page_combinations, "edukasi-waktu.html": page_timing,
          "analisis.html": page_assessment, "dokter.html": page_doctors, "klinik.html": page_clinics}
 for _d in EDU["devices"]:
