@@ -30,7 +30,7 @@ BASE = S["url"].rstrip("/")
 # ---------------------------------------------------------------- UI strings
 UI = {
   "id": {
-    "nav": [("index.html", "Beranda"), ("menu.html", "Menu & Harga"), ("edukasi.html", "Edukasi"), ("analisis.html", "Analisis Kulit"), ("dokter.html", "Dokter"), ("klinik.html", "Klinik")],
+    "nav": [("index.html", "Beranda"), ("index.html#concern", "Program"), ("menu.html", "Harga"), ("edukasi.html", "Edukasi"), ("blog.html", "Blog"), ("analisis.html", "Analisis Kulit"), ("dokter.html", "Dokter"), ("klinik.html", "Klinik")],
     "lang_switch": ("en/", "EN"), "lang_name": "Bahasa Indonesia",
     "wa_nav": "Booking via WhatsApp", "wa_bar": "Booking konsultasi dokter gratis",
     "generic_msg": "Halo Surface, saya mau booking konsultasi dokter gratis. Klinik terdekat saya: {klinik}.",
@@ -81,7 +81,7 @@ UI = {
     "tx_eye": "Edukasi", "tx_h1": "Semua treatment di Surface", "tx_by": "Dikerjakan", "tx_dur": "Durasi", "tx_int": "Interval", "tx_for": "Untuk", "tx_price": "Harga satuan", "tx_brand": "Alat / brand", "tx_consult": "Saat konsultasi", "tx_device_link": "Cara kerja alatnya",
     "br_h1": "Alat & brand yang kami pakai", "br_maker": "Pembuat", "br_kind": "Jenis", "br_used": "Dipakai di", "br_origin": "Asal", "br_site": "Situs resmi", "br_reg": "Izin & sertifikasi", "br_at": "Tersedia di", "br_matrix_dev": "Alat", "br_strip_h": "Alat dan brand yang kami pakai", "br_strip_p": "Kami menyebut nama alatnya. Pembuat, negara asal, dan sertifikasinya ada di halaman Alat & brand.", "br_strip_btn": "Lihat semua alat & brand",
     "tm_eye": "Pelanggan", "tm_h": "Kata mereka", "tm_google_h": "Ulasan di Google", "tm_google_p": "Setiap klinik punya halaman ulasan Google sendiri. Baca langsung dari pelanggan.",
-    "st_helped": "Bagaimana kami membantu", "st_for": "Ini untukmu kalau", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
+    "st_helped": "Bagaimana kami membantu", "st_for": "Ini untukmu kalau", "funnels_h": "Lima jalur, satu kebiasaan", "ig_h": "Dari Instagram kami", "ig_follow": "Ikuti @{h}", "ig_ph": "Tempel URL post Instagram di catalog.json › social.instagram.posts. Tiga tile ini akan diganti embed resmi Instagram.", "gr_h": "Ulasan Google per klinik", "gr_write": "Tulis ulasan", "gr_read": "Baca ulasan", "ph_label": "Placeholder desain", "blog_h": "Blog", "blog_lead": "Jawaban untuk pertanyaan yang masuk lewat WhatsApp, ditulis supaya kamu datang ke konsultasi dengan pertanyaan yang lebih tajam.", "blog_read": "Baca", "blog_back": "Semua artikel", "blog_cta": "Lihat programnya", "t_blog": "Blog · {name}", "d_blog": "Artikel Surface Skin Habit: harga treatment di Jakarta, perbandingan booster, bekas jerawat, dan cara memilih klinik kulit.", "cs_tpl": "Template WhatsApp", "cs_link": "Kirim tautan ini", "cs_copy": "Salin", "cs_copied": "Tersalin", "seo_kw": "Kata kunci", "seo_intent": "Intent", "seo_page": "Halaman", "seo_status": "Status", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
     "cl_map": "Peta", "cl_devices": "Alat di klinik ini", "cl_doctors": "Dokter di klinik ini", "cl_reviews": "Ulasan Google",
     "cb_h1": "Kombinasi treatment", "cb_rules_h": "Lima aturan kombinasi", "cb_seq_h": "Urutan di kursi, dan apa yang berubah kapan", "cb_seq_p": "Enam pola kombinasi yang dipakai menu Surface saat ini. Menit adalah perkiraan; dokter dan terapis menyesuaikan dengan kulitmu.", "cb_steps": "Urutan di kursi", "cb_timeline": "Yang berubah, kapan", "cb_offers": "Dipakai di", "cb_not_h": "Yang tidak dipasangkan dalam satu kunjungan", "cb_not_a": "Ini", "cb_not_b": "dengan", "cb_not_why": "Kenapa", "cb_total": "total",
     "tm_h1": "Interval, program & waktu tunggu", "tm_int_h": "Jarak antar sesi per jenis treatment", "tm_what": "Treatment", "tm_int": "Interval", "tm_series": "Seri", "tm_why": "Kenapa", "tm_course_h": "Panjang program & masa berlaku", "tm_wait_h": "Kapan harus menunda", "tm_rebook_h": "Kapan kunjungan berikutnya", "tm_rebook_p": "Jadwal kunjungan berikutnya dibuat sebelum kamu pulang, bukan lewat pesan menyusul.",
@@ -118,7 +118,7 @@ UI = {
               "m_clinic": "Klinik terdekat saya: {klinik}. ", "m_tail": "Mau booking konsultasi dokter gratis."},
   },
   "en": {
-    "nav": [("index.html", "Home"), ("menu.html", "Menu & Prices"), ("edukasi.html", "Education"), ("analisis.html", "Skin Analysis"), ("dokter.html", "Doctors"), ("klinik.html", "Clinics")],
+    "nav": [("index.html", "Home"), ("index.html#concern", "Programmes"), ("menu.html", "Prices"), ("edukasi.html", "Education"), ("blog.html", "Blog"), ("analisis.html", "Skin Analysis"), ("dokter.html", "Doctors"), ("klinik.html", "Clinics")],
     "lang_switch": ("../", "ID"), "lang_name": "English",
     "wa_nav": "Book via WhatsApp", "wa_bar": "Book a free doctor consultation",
     "generic_msg": "Hi Surface, I'd like to book a free doctor consultation. My nearest clinic: {klinik}.",
@@ -169,7 +169,7 @@ UI = {
     "tx_eye": "Education", "tx_h1": "Every treatment at Surface", "tx_by": "Performed by", "tx_dur": "Duration", "tx_int": "Interval", "tx_for": "For", "tx_price": "Single price", "tx_brand": "Device / brand", "tx_consult": "At consultation", "tx_device_link": "How the device works",
     "br_h1": "The devices & brands we use", "br_maker": "Maker", "br_kind": "Type", "br_used": "Used in", "br_origin": "Origin", "br_site": "Official site", "br_reg": "Clearances & certification", "br_at": "Available at", "br_matrix_dev": "Device", "br_strip_h": "The devices and brands we use", "br_strip_p": "We name our devices. Maker, country of origin and certifications are on the Devices & brands page.", "br_strip_btn": "See all devices & brands",
     "tm_eye": "Customers", "tm_h": "In their words", "tm_google_h": "Reviews on Google", "tm_google_p": "Every clinic has its own Google reviews page. Read them straight from customers.",
-    "st_helped": "How we have helped", "st_for": "This is for you if", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
+    "st_helped": "How we have helped", "st_for": "This is for you if", "funnels_h": "Five pathways, one habit", "ig_h": "From our Instagram", "ig_follow": "Follow @{h}", "ig_ph": "Paste Instagram post URLs into catalog.json › social.instagram.posts. These three tiles become official Instagram embeds.", "gr_h": "Google reviews by clinic", "gr_write": "Write a review", "gr_read": "Read reviews", "ph_label": "Design placeholder", "blog_h": "Blog", "blog_lead": "Answers to the questions that arrive on WhatsApp, written so you come to the consultation with sharper questions.", "blog_read": "Read", "blog_back": "All articles", "blog_cta": "See the programme", "t_blog": "Blog · {name}", "d_blog": "Surface Skin Habit articles: treatment prices in Jakarta, booster comparisons, acne scars, and how to choose a skin clinic.", "cs_tpl": "WhatsApp template", "cs_link": "Send this link", "cs_copy": "Copy", "cs_copied": "Copied", "seo_kw": "Keyword", "seo_intent": "Intent", "seo_page": "Page", "seo_status": "Status", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
     "cl_map": "Map", "cl_devices": "Devices at this clinic", "cl_doctors": "Doctors at this clinic", "cl_reviews": "Google reviews",
     "cb_h1": "Treatment combinations", "cb_rules_h": "Five rules of combining", "cb_seq_h": "The order in the chair, and what changes when", "cb_seq_p": "The six combination patterns on the current Surface menu. Minutes are estimates; the doctor and therapist adjust to your skin.", "cb_steps": "Order in the chair", "cb_timeline": "What changes, when", "cb_offers": "Used in", "cb_not_h": "What is not paired in one visit", "cb_not_a": "This", "cb_not_b": "with", "cb_not_why": "Why", "cb_total": "total",
     "tm_h1": "Intervals, programmes & waiting times", "tm_int_h": "Gap between sessions by treatment type", "tm_what": "Treatment", "tm_int": "Interval", "tm_series": "Series", "tm_why": "Why", "tm_course_h": "Programme length & validity", "tm_wait_h": "When to wait", "tm_rebook_h": "When your next visit should be", "tm_rebook_p": "Your next appointment is booked before you leave, not chased by message afterwards.",
@@ -235,15 +235,18 @@ def wa_btn(msg, label, cls="btn btn-wa", extra=""):
 def clinic(code):
     return next(c for c in C["clinics"] if c["code"] == code)
 def min_single(concern):
-    return min(o["single"] for o in concern["offers"])
+    return min(o["single"] for o in concern["offers"] if o.get("single"))
 def page_url(path, lang):
     p = "" if path == "index.html" else path
     return BASE + "/" + ("en/" if lang == "en" else "") + p
 def alt_path(path, lang):
-    """Stream pages have a different filename per language; everything else keeps its name."""
+    """Stream and blog pages have a different filename per language; everything else keeps its name."""
     for st in C["streams"].values():
         if path in (st["slug"] + ".html", st["slug_en"] + ".html"):
             return (st["slug_en"] if lang == "en" else st["slug"]) + ".html"
+    for x in C.get("posts", []):
+        if path in ("blog-" + x["slug"] + ".html", "blog-" + x["slug_en"] + ".html"):
+            return "blog-" + (x["slug_en"] if lang == "en" else x["slug"]) + ".html"
     return path
 def slug(name):
     return name.lower().replace(" ", "-").replace("&", "and")
@@ -274,7 +277,7 @@ def head(title, desc, path, jsonld=None):
 <link rel="icon" href="{PREFIX}assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{av("style.css")}">
 {ld}
 </head>
@@ -369,7 +372,7 @@ def ld_faq():
             "mainEntity": [{"@type": "Question", "name": t(f, "q"), "acceptedAnswer": {"@type": "Answer", "text": t(f, "a")}} for f in C["faq"]]}
 def ld_offers():
     items = [{"@type": "Offer", "name": o["name"], "category": t(con, "title"), "priceCurrency": "IDR", "price": o["single"],
-              "description": t(o, "desc"), "url": page_url("menu.html", L) + "#" + con["code"].lower()} for con in C["concerns"] for o in con["offers"]]
+              "description": t(o, "desc"), "url": page_url("menu.html", L) + "#" + con["code"].lower()} for con in C["concerns"] for o in con["offers"] if o.get("single")]
     return {"@context": "https://schema.org", "@type": "OfferCatalog", "name": "Menu Surface Skin Habit", "itemListElement": items}
 
 # ---------------------------------------------------------------- blocks
@@ -384,9 +387,9 @@ def offer_block(con, o):
     <p class="desc">{e(t(o, 'desc'))}</p>
   </div>
   <div class="prices">
-    <div class="price"><div class="k">{e(T('single'))}</div><div class="v">{rp(o['single'])}</div><div class="s">{e(T('one_session'))}</div></div>
-    <div class="price"><div class="k">{e(T('pack3'))}</div><div class="v">{rp(o['pack3'])}</div><div class="s">{rp(o['pack3']//3)} {e(T('per_session'))}</div></div>
-    <div class="price best"><div class="k">{e(T('pack6'))}</div><div class="v">{rp(o['pack6'])}</div><div class="s">{rp(o['pack6']//6)} {e(T('per_session'))}</div></div>
+    {f'<div class="price"><div class="k">{e(T("single"))}</div><div class="v">{rp(o["single"])}</div><div class="s">{e(T("one_session"))}</div></div>' if o.get("single") else f'<div class="price"><div class="k">{e(T("single"))}</div><div class="v">{EM_DASH}</div><div class="s">{e(T("tx_consult"))}</div></div>'}
+    {f'<div class="price"><div class="k">{e(T("pack3"))}</div><div class="v">{rp(o["pack3"])}</div><div class="s">{rp(o["pack3"]//3)} {e(T("per_session"))}</div></div>' if o.get("pack3") else f'<div class="price"><div class="k">{e(T("pack3"))}</div><div class="v">{EM_DASH}</div><div class="s">{e(T("tx_consult"))}</div></div>'}
+    {f'<div class="price best"><div class="k">{e(T("pack6"))}</div><div class="v">{rp(o["pack6"])}</div><div class="s">{rp(o["pack6"]//6)} {e(T("per_session"))}</div></div>' if o.get("pack6") else f'<div class="price"><div class="k">{e(T("pack6"))}</div><div class="v">{EM_DASH}</div><div class="s">{e(T("tx_consult"))}</div></div>'}
   </div>
   <div class="cta">{wa_btn(msg, T("book_free"), "btn btn-primary btn-sm")}<span class="small">{e(T('doctor_confirms'))}</span></div>
 </article>
@@ -483,6 +486,15 @@ def usp_block(compact=False):
   <div class="usp-grid">{pts}</div>
 </div></section>'''
 
+def habit_strip(st):
+    h = st.get("habit")
+    if not h:
+        return ""
+    steps = "".join(f'<li>{e(x)}</li>' for x in t(h, "steps"))
+    return f'''<section class="section" style="padding:0 0 8px"><div class="wrap">
+  <div class="habit"><span class="eyebrow">{e(h["name"])}</span><ol class="habit-steps">{steps}</ol><span class="small muted">{e(C["brand"]["core"])}</span></div>
+</div></section>'''
+
 def page_stream(code):
     con = concern_of(code); st = C["streams"][code]
     for_you = "".join(f"<li>{e(x)}</li>" for x in t(st, "for_you"))
@@ -510,6 +522,8 @@ def page_stream(code):
     <aside class="hero-aside"><h3>{e(T("st_for"))}</h3><ul class="check">{for_you}</ul></aside>
   </div>
 </div></section>
+<section class="section" style="padding:0 0 8px"><div class="wrap">{funnel_strip(code)}{ph("stream")}</div></section>
+{habit_strip(st)}
 <section class="section"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T("st_eye"))}</span><h2>{e(T("st_journey"))}</h2></div></div>
   <ol class="journey">{steps}</ol>
@@ -556,6 +570,42 @@ def proof_block():
   </div>
 </div></section>'''
 
+def ph(key, cls="ph"):
+    if not S.get("show_placeholders"):
+        return ""
+    return f'<div class="{cls}"><span class="small">{e(T("ph_label"))}</span><p class="small">{e(C["placeholders"][key])}</p></div>'
+
+def funnel_strip(active=None):
+    chips = ""
+    for con in C["concerns"]:
+        st = C["streams"].get(con["code"])
+        if not st: continue
+        cur = ' aria-current="page"' if st and active == con["code"] else ""
+        chips += f'<a href="{stream_file(con["code"])}"{cur}><b>{e(con["name"])}</b><span>{e(t(con, "title"))}</span></a>'
+    return f'<nav class="funnel-strip" aria-label="{e(T("funnels_h"))}">{chips}</nav>'
+
+def instagram_block():
+    ig = C["social"]["instagram"]; h = ig.get("handle", "")
+    if not h: return ""
+    posts = ig.get("posts", [])
+    if posts:
+        tiles = "".join(f'<blockquote class="instagram-media" data-instgrm-permalink="{e(u)}" data-instgrm-version="14"><a href="{e(u)}" target="_blank" rel="noopener">{e(u)}</a></blockquote>' for u in posts[:6])
+        script = '<script async src="https://www.instagram.com/embed.js"></script>'
+    else:
+        tiles = "".join(f'<div class="ig-ph"><span>{e(T("ph_label"))}</span><p class="small">{e(T("ig_ph"))}</p></div>' for _ in range(3)) if S.get("show_placeholders") else ""
+        script = ""
+    return f'''<section class="section" id="instagram" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">Instagram</span><h2>{e(T("ig_h"))}</h2></div><a class="btn btn-ghost btn-sm" href="https://www.instagram.com/{e(h)}/" target="_blank" rel="noopener">{e(T("ig_follow", h=h))}</a></div>
+  <div class="ig-grid">{tiles}</div>{script}
+</div></section>'''
+
+def google_reviews_block():
+    rows = ""
+    for c in C["clinics"]:
+        write = f'<a class="btn btn-primary btn-sm" href="https://search.google.com/local/writereview?placeid={e(c["google_place_id"])}" target="_blank" rel="noopener">{e(T("gr_write"))}</a>' if c.get("google_place_id") else ""
+        rows += f'''<div class="gr"><div><b>{e(c["name"])}</b><div class="small muted">{e(t(c, "area"))}</div></div><div class="gr-stars" aria-hidden="true">\u2605\u2605\u2605\u2605\u2605</div><div class="tags-btn"><a class="btn btn-ghost btn-sm" href="{e(c.get("google_reviews", c["maps"]))}" target="_blank" rel="noopener">{e(T("gr_read"))}</a>{write}</div></div>'''
+    return f'<div class="card" style="margin-top:18px"><h3>{e(T("gr_h"))}</h3><p class="small muted">{e(T("tm_google_p"))}</p><div class="gr-list">{rows}</div>{ph("review", "ph ph-inline")}</div>'
+
 def testimonials_block():
     TM = C.get("testimonials", {})
     items = [x for x in TM.get("items", []) if x.get("publish")]
@@ -569,7 +619,7 @@ def testimonials_block():
     return f'''<section class="section" id="testimoni" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T("tm_eye"))}</span><h2>{e(T("tm_h"))}</h2><p>{e(t(TM, "intro"))}</p></div></div>
   {quotes}
-  <div class="card" style="margin-top:{'18px' if cards else '0'}"><h3>{e(T("tm_google_h"))}</h3><p class="small muted">{e(T("tm_google_p"))}</p><div class="tags-btn">{links}</div></div>
+  {google_reviews_block()}
 </div></section>'''
 
 def brand_strip():
@@ -610,13 +660,15 @@ def page_index():
     </div>
     <aside class="hero-aside"><h3>{e(T('how'))}</h3><ol class="steps">{steps}</ol></aside>
   </div>
+  {ph("hero")}
 </div></section>
 
 {usp_block()}
 {proof_block()}
 <section class="section" id="concern" style="padding-top:0"><div class="wrap">
+  {funnel_strip()}
   <div class="section-head"><div><span class="eyebrow">{e(T('s1_eye'))}</span><h2>{e(T('s1_h'))}</h2><p>{e(T('s1_p'))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T('s1_btn'))}</a></div>
-  <div class="grid-3">{concern_cards}</div>
+  <div class="grid-5">{concern_cards}</div>
 </div></section>
 
 <section class="section" style="padding-top:0"><div class="wrap">
@@ -630,6 +682,7 @@ def page_index():
 </div></section>
 
 {testimonials_block()}
+{instagram_block()}
 {brand_strip()}
 <section class="section" id="klinik" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s5_eye'))}</span><h2>{e(T('s5_h'))}</h2><p>{e(T('s5_p'))}</p></div><a class="btn btn-ghost btn-sm" href="klinik.html">{e(T('s5_btn'))}</a></div>
@@ -699,6 +752,7 @@ def clinic_detail(c):
       {f'<p class="small" style="margin:16px 0 6px"><b>{e(T("cl_doctors"))}</b><br>{e(docs)}</p>' if docs else ""}
       <p class="small" style="margin:14px 0 6px"><b>{e(T("cl_devices"))}</b></p>
       <ul class="tags">{devs}</ul>
+      {ph("clinic")}
     </div>
     <div class="map"><iframe src="https://www.google.com/maps?q={q}&output=embed" title="{e(T('cl_map'))}: {e(c['name'])}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
   </div>
@@ -1081,6 +1135,66 @@ def page_timing():
 '''
     return head(T("t_tm", name=S["name"]), T("d_tm"), "edukasi-waktu.html") + header("edukasi.html", "edukasi-waktu.html") + body + footer()
 
+def post_file(x):
+    return "blog-" + (x["slug_en"] if L == "en" else x["slug"]) + ".html"
+
+def page_blog():
+    cards = ""
+    for x in C["posts"]:
+        cards += f'''<a class="card card-link" href="{post_file(x)}"><span class="eyebrow">{e(x["date"])}</span><h3>{e(t(x, "title"))}</h3><p class="muted">{e(t(x, "summary"))}</p><span class="small edu-more">{e(T("blog_read"))} \u2192</span></a>'''
+    body = f'''<section class="page-hero"><div class="wrap"><span class="eyebrow">{e(T("blog_h"))}</span><h1>{e(T("blog_h"))}</h1><p class="lead">{e(T("blog_lead"))}</p></div></section>
+<section class="section" style="padding-top:12px"><div class="wrap"><div class="grid-2">{cards}</div></div></section>
+{cta_band()}
+'''
+    return head(T("t_blog", name=S["name"]), T("d_blog"), "blog.html") + header("blog.html") + body + footer()
+
+def page_post(x):
+    paras = "".join(f"<p>{e(par)}</p>" for par in t(x, "body"))
+    con = concern_of(x["cta_stream"])
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": t(x, "title"), "datePublished": x["date"], "author": {"@type": "Organization", "name": S["name"]}, "publisher": {"@type": "Organization", "name": S["name"]}, "description": t(x, "summary"), "inLanguage": L}
+    body = f'''<section class="page-hero"><div class="wrap"><a class="small edu-back" href="blog.html">\u2190 {e(T("blog_back"))}</a><span class="eyebrow">{e(x["date"])}</span><h1>{e(t(x, "title"))}</h1><p class="lead">{e(t(x, "summary"))}</p></div></section>
+<section class="section" style="padding-top:12px"><div class="wrap"><article class="post">{paras}
+  <div class="tags-btn" style="margin-top:22px"><a class="btn btn-primary" href="{stream_file(x["cta_stream"])}">{e(T("blog_cta"))}: {e(con["name"])}</a><a class="btn btn-ghost" href="analisis.html">{e(T("hero_btn2"))}</a></div>
+  <aside class="card note" style="margin-top:22px"><h3>{e(T("edu_disclaimer_h"))}</h3><p class="muted">{e(t(EDU, "disclaimer"))}</p></aside>
+</article></div></section>
+{cta_band()}
+'''
+    return head(t(x, "title") + " \u00b7 " + S["name"], t(x, "summary"), post_file(x), [ld]) + header("blog.html", post_file(x)) + body + footer()
+
+def page_cs():
+    CS = C["cs"]
+    items = ""
+    for i, it in enumerate(CS["items"]):
+        url = BASE + "/" + it["link"]
+        items += f'''<details class="cs-item" {"open" if i == 0 else ""}><summary>{e(it["q"])}</summary>
+  <p>{e(it["a"])}</p>
+  <div class="cs-row"><a class="btn btn-ghost btn-sm" href="{e(it["link"])}">{e(T("cs_link"))} \u2192</a><code class="small">{e(url)}</code><button type="button" class="btn btn-ghost btn-sm copy" data-copy="{e(url)}">{e(T("cs_copy"))}</button></div>
+  <div class="tpl"><span class="eyebrow">{e(T("cs_tpl"))}</span><p>{e(it["tpl"])}</p><button type="button" class="btn btn-ghost btn-sm copy" data-copy="{e(it["tpl"])}">{e(T("cs_copy"))}</button></div>
+</details>'''
+    rules = "".join(f"<li>{e(r)}</li>" for r in CS["rules"])
+    body = f'''<section class="page-hero"><div class="wrap"><span class="eyebrow">Internal</span><h1>{e(CS["title"])}</h1><p class="lead">{e(CS["intro"])}</p></div></section>
+<section class="section" style="padding-top:12px"><div class="wrap">
+  <div class="card warn"><h3>Aturan singkat</h3><ul class="plist">{rules}</ul></div>
+  <div class="cs-list" style="margin-top:18px">{items}</div>
+</div></section>
+<script>document.querySelectorAll(".copy").forEach(function(b){{b.addEventListener("click",function(){{var v=b.getAttribute("data-copy");(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(v):Promise.reject()).then(function(){{b.textContent="{e(T("cs_copied"))}";setTimeout(function(){{b.textContent="{e(T("cs_copy"))}"}},1500)}}).catch(function(){{window.prompt("Salin:",v)}})}})}});</script>
+'''
+    h = head(CS["title"] + " \u00b7 " + S["name"], CS["intro"], "cs.html").replace("</head>", '<meta name="robots" content="noindex,nofollow">\n</head>')
+    return h + header("") + body + footer()
+
+def page_seo():
+    SEO = C["seo"]
+    rows = "".join(f'<tr><td><b>{e(r["kw"])}</b></td><td>{e(r["intent"])}</td><td><a href="{e(r["page"])}">{e(r["page"])}</a></td><td>{e(r["status"])}</td></tr>' for r in SEO["map"])
+    rules = "".join(f"<li>{e(r)}</li>" for r in SEO["rules"])
+    body = f'''<section class="page-hero"><div class="wrap"><span class="eyebrow">Internal</span><h1>{e(SEO["title"])}</h1><p class="lead">{e(SEO["intro"])}</p></div></section>
+<section class="section" style="padding-top:12px"><div class="wrap">
+  <div class="tx-wrap"><table class="tx-table"><thead><tr><th>{e(T("seo_kw"))}</th><th>{e(T("seo_intent"))}</th><th>{e(T("seo_page"))}</th><th>{e(T("seo_status"))}</th></tr></thead><tbody>{rows}</tbody></table></div>
+  <div class="card" style="margin-top:18px"><h3>Aturan</h3><ul class="plist">{rules}</ul></div>
+</div></section>
+'''
+    h = head(SEO["title"] + " \u00b7 " + S["name"], SEO["intro"], "seo.html").replace("</head>", '<meta name="robots" content="noindex,nofollow">\n</head>')
+    return h + header("") + body + footer()
+
 def page_404():
     rootp = "/en/" if L == "en" else "/"
     links = "".join(f'<li><a href="{rootp + ("" if h == "index.html" else h)}">{e(label)}</a></li>' for h, label in T("nav"))
@@ -1132,7 +1246,7 @@ def lint_claims(pages):
 
 def sitemap():
     urls = ""
-    for p in list(INDEXABLE) + [st["slug"] + ".html" for st in C["streams"].values()]:
+    for p in list(INDEXABLE) + [st["slug"] + ".html" for st in C["streams"].values()] + ["blog.html"] + ["blog-" + x["slug"] + ".html" for x in C["posts"]]:
         for lang in ("id", "en"):
             alts = "".join(f'<xhtml:link rel="alternate" hreflang="{l2}" href="{page_url(alt_path(p, l2), l2)}"/>' for l2 in ("id", "en"))
             urls += f"<url><loc>{page_url(alt_path(p, lang), lang)}</loc><lastmod>{TODAY}</lastmod>{alts}</url>"
@@ -1147,6 +1261,11 @@ def main():
         pages = dict(PAGES)
         for code in C["streams"]:
             pages[stream_file(code)] = (lambda code=code: page_stream(code))
+        pages["blog.html"] = page_blog
+        for x in C["posts"]:
+            pages[post_file(x)] = (lambda x=x: page_post(x))
+        pages["cs.html"] = page_cs
+        pages["seo.html"] = page_seo
         for name, fn in pages.items():
             rendered.append((outdir / name, fn()))
 

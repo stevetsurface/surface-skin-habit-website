@@ -1,0 +1,1 @@
+Place licensed Gotham web fonts here (e.g. Gotham-Book.woff2, Gotham-Medium.woff2, Gotham-Bold.woff2) and add matching @font-face rules at the top of style.css. Until then the site falls back to Montserrat.

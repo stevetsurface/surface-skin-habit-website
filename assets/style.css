@@ -17,8 +17,8 @@
   --radius:22px;
   --radius-sm:14px;
   --shadow:0 1px 2px rgba(60,30,20,.04),0 10px 30px -18px rgba(60,30,20,.18);
-  --font-display:"Playfair Display",Georgia,"Times New Roman",serif;
-  --font-body:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  --font-display:"Gotham","Gotham A","Gotham B","Gotham SSm A","Gotham SSm B","Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --font-body:"Gotham","Gotham A","Gotham B","Gotham SSm A","Gotham SSm B","Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
   --max:1120px;
   --gutter:20px;
 }
@@ -28,7 +28,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body)
 img,svg{display:block;max-width:100%}
 a{color:inherit}
 h1,h2,h3,h4{margin:0;font-weight:600;line-height:1.15;letter-spacing:-.01em}
-h1,h2{font-family:var(--font-display);font-weight:500}
+h1,h2{font-family:var(--font-display);font-weight:600;letter-spacing:-.02em}
 h1{font-size:clamp(34px,5.2vw,58px);letter-spacing:-.02em}
 h2{font-size:clamp(28px,3.6vw,40px)}
 h3{font-size:20px}
@@ -426,3 +426,49 @@ p{margin:0 0 1em}
 .helped .check li{font-size:15px}
 @media (max-width:960px){.stats{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
+
+/* Gotham: self-host when licensed files exist in assets/fonts/ (woff2). Montserrat is the fallback until then. */
+.offer h3,.seq h3,.journey h3,.clinic h3,.side-blocks .card h3,.brand-chip,.edu-hub h3,.aq-q,.aq-offer h3{font-weight:600;letter-spacing:-.01em}
+.price .v,.big-price,.stat .n,.cta-band .num,.plist .p,.tx-table .p,.aq-price{font-weight:600;letter-spacing:-.01em}
+.concern-card .code{font-weight:700;letter-spacing:-.01em}
+
+/* Skin Habit signature steps */
+.habit{display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 22px}
+.habit-steps{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;counter-reset:hb}
+.habit-steps li{font-weight:600;font-size:14.5px;padding:8px 14px;border-radius:999px;background:var(--panel-soft);color:var(--accent-deep)}
+.habit-steps li::before{counter-increment:hb;content:counter(hb) " ";opacity:.6;margin-right:4px}
+
+/* Five funnels */
+.grid-5{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.funnel-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:22px}
+.funnel-strip a{display:grid;gap:2px;text-decoration:none;padding:12px 14px;border-radius:14px;border:1.5px solid var(--line);background:#fff;color:var(--ink)}
+.funnel-strip a b{font-size:14px}
+.funnel-strip a span{font-size:12px;color:var(--muted)}
+.funnel-strip a:hover,.funnel-strip a[aria-current=page]{border-color:var(--accent);background:var(--panel-soft)}
+/* Placeholders for the team */
+.ph{border:2px dashed var(--accent);border-radius:var(--radius-sm);padding:14px 16px;background:repeating-linear-gradient(45deg,transparent 0 10px,rgba(155,90,71,.05) 10px 20px);margin-top:16px}
+.ph span{font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-size:11px}
+.ph p{margin:4px 0 0;color:var(--ink-soft)}
+.ph-inline{margin-top:14px}
+/* Instagram */
+.ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.ig-grid .instagram-media{min-width:0!important;max-width:100%!important;margin:0!important}
+.ig-ph{aspect-ratio:4/5;border:2px dashed var(--line);border-radius:var(--radius-sm);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:18px;background:var(--panel-soft)}
+.ig-ph span{font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-size:11px}
+/* Google reviews */
+.gr-list{display:grid;gap:10px;margin-top:12px}
+.gr{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.gr:last-child{border-bottom:0}
+.gr-stars{color:#E0A800;letter-spacing:2px;font-size:14px}
+/* Blog */
+.post p{font-size:17px;line-height:1.7;max-width:68ch;margin:0 0 18px}
+/* CS page */
+.cs-item{border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;padding:14px 18px;margin-bottom:10px}
+.cs-item summary{cursor:pointer;font-weight:700;font-size:16px}
+.cs-item p{margin:10px 0}
+.cs-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:10px 0}
+.cs-row code{background:var(--panel-soft);padding:6px 10px;border-radius:8px;word-break:break-all}
+.tpl{background:var(--panel-soft);border-radius:12px;padding:12px 14px;margin-top:10px}
+.tpl p{font-size:14.5px;color:var(--ink-soft)}
+@media (max-width:960px){.grid-5,.funnel-strip{grid-template-columns:repeat(3,1fr)}.ig-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:720px){.grid-5,.funnel-strip{grid-template-columns:1fr 1fr}.ig-grid{grid-template-columns:1fr}.gr{grid-template-columns:1fr}}
