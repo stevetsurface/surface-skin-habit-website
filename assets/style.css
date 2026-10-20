@@ -486,3 +486,27 @@ p{margin:0 0 1em}
 @media (max-width:720px){.funnel-strip{grid-template-columns:1fr 1fr}}
 .avatar-ph{width:96px;height:128px;border-radius:16px;border:2px dashed var(--accent);background:repeating-linear-gradient(45deg,transparent 0 10px,rgba(155,90,71,.05) 10px 20px);display:flex;align-items:center;justify-content:center;text-align:center;padding:8px}
 .avatar-ph span{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+/* stacks, add-ons, results */
+.stack-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stack{display:flex;flex-direction:column;gap:8px}
+.stack-head{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.stack h3{font-size:22px;margin:0}
+.stack .sig{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-top:4px}
+.stack-inc{font-size:15px;color:var(--ink)}
+.stack-price{display:flex;align-items:baseline;gap:10px;margin:6px 0 4px}
+.stack-price b{font-size:22px;letter-spacing:-.01em;white-space:nowrap}
+.stack .btn{align-self:flex-start;margin-top:auto}
+.addon-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.addon{background:var(--panel-soft);border-radius:var(--radius-sm);padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.addon b{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.addon span{font-size:14.5px}
+.addon em{font-style:normal;font-weight:600;margin-top:6px}
+.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ba{margin:0}
+.ba-pair{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.ba-pair div{position:relative}
+.ba-pair img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius-sm);display:block}
+.ba-pair span{position:absolute;left:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+.ba figcaption{margin-top:8px}
+@media (max-width:960px){.stack-grid,.ba-grid{grid-template-columns:1fr 1fr}.addon-strip{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:720px){.stack-grid,.ba-grid{grid-template-columns:1fr}}

@@ -51,7 +51,7 @@ UI = {
     "hero_eyebrow": "Klinik kulit · {n} lokasi Jakarta", "hero_h1": "Kulit yang lebih baik dimulai dari konsultasi dokter. Gratis.",
     "hero_lead": "Pilih concern-mu. Dokter kami yang merekomendasikan treatment-nya. Harga terbuka, sama di semua klinik.",
     "hero_btn2": "Analisis kulit 2 menit", "trust": [("Dokter", "di setiap klinik"), ("Harga terbuka", "satuan, 3x, 6x"), ("Paket berlaku", "di 4 klinik")],
-    "how": "Cara kerjanya", "steps": ["Pilih concern-mu: Clear, Glow, atau Lift.", "Datang untuk konsultasi dokter gratis di klinik terdekat.", "Dokter merekomendasikan treatment yang cocok untuk kulitmu.", "Pilih cara belinya: satuan, paket 3x, atau paket 6x."],
+    "how": "Cara kerjanya", "steps": ["Pilih jalurmu: Clear, Tone, Texture, Calm, Tighten, atau Enhance.", "Datang untuk konsultasi dokter gratis di klinik terdekat.", "Dokter merekomendasikan treatment yang cocok untuk kulitmu.", "Pilih cara belinya: satuan, paket 3x, atau paket 6x."],
     "s1_eye": "Mulai dari sini", "s1_h": "Apa yang ingin kamu perbaiki?", "s1_p": "Tiga concern, masing-masing tiga pilihan treatment. Kamu memilih concern, dokter merekomendasikan treatment-nya.", "s1_btn": "Semua harga",
     "from": "Mulai", "per_session_long": "per sesi", "levels_short": "3 pilihan",
     "s2_eye": "Tiga level", "s2_h": "Dasar, Koreksi, Presisi", "s2_p": "Struktur level yang sama di setiap concern dan setiap klinik. Semakin tinggi level, semakin besar peran dokter.",
@@ -78,10 +78,13 @@ UI = {
                  ("edukasi-kombinasi.html", "Kombinasi", "Kenapa treatment dipasangkan, urutannya di kursi, dan apa yang berubah minggu demi minggu."),
                  ("edukasi-waktu.html", "Interval & waktu", "Jarak antar sesi, panjang program, masa berlaku paket, dan kapan harus menunda.")],
     "edu_devices_h": "Alat & tindakan: cara kerjanya", "edu_devices_p": "Satu halaman per alat: mekanisme, apa yang dirasakan, downtime, dan siapa yang sebaiknya menunda.",
+    "stk_eye": "Signature stacks", "stk_h": "Beberapa perawatan, satu kunjungan", "stk_one": "Satu kunjungan", "stk_for": "untuk", "stk_downtime": "ada downtime", "stk_before_h": "Sebelum stack", "stk_addons_h": "Tambah lagi", "stk_btn": "Lihat semua stack", "stk_msg": "Halo Surface, saya mau booking konsultasi dokter gratis untuk stack {stack}. Klinik terdekat saya: {klinik}.", "stk_door_h": "Stack untuk jalur ini", "stk_tab": "Stacks",
+    "ad_eye": "Add-ons", "ad_h": "Tambahan di kunjungan yang sama", "ad_after_h": "Setelah program", "ad_fixed": "per kunjungan",
+    "res_eye": "Hasil", "res_h": "Foto hasil pelanggan", "res_before": "Awal", "res_after": "Minggu ke-{w}", "res_rules_h": "Aturan foto hasil kami", "res_tone": "Untuk jalur Tone kami sengaja tidak memasang foto hasil. Baca aturannya di bawah.",
     "tx_eye": "Edukasi", "tx_h1": "Semua treatment di Surface", "tx_by": "Dikerjakan", "tx_dur": "Durasi", "tx_int": "Interval", "tx_for": "Untuk", "tx_price": "Harga satuan", "tx_brand": "Alat / brand", "tx_consult": "Saat konsultasi", "tx_device_link": "Cara kerja alatnya",
     "br_h1": "Alat & brand yang kami pakai", "br_maker": "Pembuat", "br_kind": "Jenis", "br_used": "Dipakai di", "br_origin": "Asal", "br_site": "Situs resmi", "br_reg": "Izin & sertifikasi", "br_at": "Tersedia di", "br_matrix_dev": "Alat", "br_strip_h": "Alat dan brand yang kami pakai", "br_strip_p": "Kami menyebut nama alatnya. Pembuat, negara asal, dan sertifikasinya ada di halaman Alat & brand.", "br_strip_btn": "Lihat semua alat & brand",
     "tm_eye": "Pelanggan", "tm_h": "Kata mereka", "tm_google_h": "Ulasan di Google", "tm_google_p": "Setiap klinik punya halaman ulasan Google sendiri. Baca langsung dari pelanggan.",
-    "needs_review": "menunggu persetujuan Medical Lead", "next_door_h": "Pintu berikutnya", "front_door_h": "Mulai di sini, di jalur mana pun", "st_helped": "Bagaimana kami membantu", "st_for": "Ini untukmu kalau", "funnels_h": "Lima jalur, satu kebiasaan", "ig_h": "Dari Instagram kami", "ig_follow": "Ikuti @{h}", "ig_ph": "Tempel URL post Instagram di catalog.json › social.instagram.posts. Tiga tile ini akan diganti embed resmi Instagram.", "gr_h": "Ulasan Google per klinik", "gr_write": "Tulis ulasan", "gr_read": "Baca ulasan", "ph_label": "Placeholder desain", "blog_h": "Blog", "blog_lead": "Jawaban untuk pertanyaan yang masuk lewat WhatsApp, ditulis supaya kamu datang ke konsultasi dengan pertanyaan yang lebih tajam.", "blog_read": "Baca", "blog_back": "Semua artikel", "blog_cta": "Lihat programnya", "t_blog": "Blog · {name}", "d_blog": "Artikel Surface Skin Habit: harga treatment di Jakarta, perbandingan booster, bekas jerawat, dan cara memilih klinik kulit.", "cs_tpl": "Template WhatsApp", "cs_link": "Kirim tautan ini", "cs_copy": "Salin", "cs_copied": "Tersalin", "seo_kw": "Kata kunci", "seo_intent": "Intent", "seo_page": "Halaman", "seo_status": "Status", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
+    "needs_review": "menunggu persetujuan Medical Lead", "next_door_h": "Pintu berikutnya", "front_door_h": "Mulai di sini, di jalur mana pun", "st_helped": "Bagaimana kami membantu", "st_for": "Ini untukmu kalau", "funnels_h": "Enam jalur, satu kebiasaan", "ig_h": "Dari Instagram kami", "ig_follow": "Ikuti @{h}", "ig_ph": "Tempel URL post Instagram di catalog.json › social.instagram.posts. Tiga tile ini akan diganti embed resmi Instagram.", "gr_h": "Ulasan Google per klinik", "gr_write": "Tulis ulasan", "gr_read": "Baca ulasan", "ph_label": "Placeholder desain", "blog_h": "Blog", "blog_lead": "Jawaban untuk pertanyaan yang masuk lewat WhatsApp, ditulis supaya kamu datang ke konsultasi dengan pertanyaan yang lebih tajam.", "blog_read": "Baca", "blog_back": "Semua artikel", "blog_cta": "Lihat programnya", "t_blog": "Blog · {name}", "d_blog": "Artikel Surface Skin Habit: harga treatment di Jakarta, perbandingan booster, bekas jerawat, dan cara memilih klinik kulit.", "cs_tpl": "Template WhatsApp", "cs_link": "Kirim tautan ini", "cs_copy": "Salin", "cs_copied": "Tersalin", "seo_kw": "Kata kunci", "seo_intent": "Intent", "seo_page": "Halaman", "seo_status": "Status", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
     "cl_map": "Peta", "cl_devices": "Alat di klinik ini", "cl_doctors": "Dokter di klinik ini", "cl_reviews": "Ulasan Google",
     "cb_h1": "Kombinasi treatment", "cb_rules_h": "Lima aturan kombinasi", "cb_seq_h": "Urutan di kursi, dan apa yang berubah kapan", "cb_seq_p": "Enam pola kombinasi yang dipakai menu Surface saat ini. Menit adalah perkiraan; dokter dan terapis menyesuaikan dengan kulitmu.", "cb_steps": "Urutan di kursi", "cb_timeline": "Yang berubah, kapan", "cb_offers": "Dipakai di", "cb_not_h": "Yang tidak dipasangkan dalam satu kunjungan", "cb_not_a": "Ini", "cb_not_b": "dengan", "cb_not_why": "Kenapa", "cb_total": "total",
     "tm_h1": "Interval, program & waktu tunggu", "tm_int_h": "Jarak antar sesi per jenis treatment", "tm_what": "Treatment", "tm_int": "Interval", "tm_series": "Seri", "tm_why": "Kenapa", "tm_course_h": "Panjang program & masa berlaku", "tm_wait_h": "Kapan harus menunda", "tm_rebook_h": "Kapan kunjungan berikutnya", "tm_rebook_p": "Jadwal kunjungan berikutnya dibuat sebelum kamu pulang, bukan lewat pesan menyusul.",
@@ -139,7 +142,7 @@ UI = {
     "hero_eyebrow": "Skin clinic · {n} Jakarta locations", "hero_h1": "Better skin starts with a doctor consultation. Free.",
     "hero_lead": "Pick your concern. Our doctors recommend the treatment. Open pricing, the same at every clinic.",
     "hero_btn2": "2-minute skin analysis", "trust": [("Doctors", "at every clinic"), ("Open pricing", "single, 3x, 6x"), ("Packages valid", "at all 4 clinics")],
-    "how": "How it works", "steps": ["Pick your concern: Clear, Glow, or Lift.", "Come in for a free doctor consultation at your nearest clinic.", "The doctor recommends the treatment that suits your skin.", "Choose how to buy: single, 3-session, or 6-session."],
+    "how": "How it works", "steps": ["Pick your pathway: Clear, Tone, Texture, Calm, Tighten, or Enhance.", "Come in for a free doctor consultation at your nearest clinic.", "The doctor recommends the treatment that suits your skin.", "Choose how to buy: single, 3-session, or 6-session."],
     "s1_eye": "Start here", "s1_h": "What would you like to improve?", "s1_p": "Three concerns, three treatment options each. You choose the concern, the doctor recommends the treatment.", "s1_btn": "All prices",
     "from": "From", "per_session_long": "per session", "levels_short": "3 options",
     "s2_eye": "Three levels", "s2_h": "Core, Correct, Refine", "s2_p": "The same level structure for every concern at every clinic. The higher the level, the bigger the doctor's role.",
@@ -166,10 +169,13 @@ UI = {
                  ("edukasi-kombinasi.html", "Combinations", "Why treatments are paired, the order in the chair, and what changes week by week."),
                  ("edukasi-waktu.html", "Intervals & timing", "Gaps between sessions, programme length, package validity, and when to wait.")],
     "edu_devices_h": "Devices & procedures: how they work", "edu_devices_p": "One page per device: mechanism, what it feels like, downtime, and who should wait.",
+    "stk_eye": "Signature stacks", "stk_h": "Several treatments, one visit", "stk_one": "One visit", "stk_for": "for", "stk_downtime": "has downtime", "stk_before_h": "Before a stack", "stk_addons_h": "Add more", "stk_btn": "See all stacks", "stk_msg": "Hello Surface, I'd like to book a free doctor consultation for the {stack} stack. My nearest clinic: {klinik}.", "stk_door_h": "The stack for this pathway", "stk_tab": "Stacks",
+    "ad_eye": "Add-ons", "ad_h": "Extras in the same visit", "ad_after_h": "After a programme", "ad_fixed": "per visit",
+    "res_eye": "Results", "res_h": "Customer result photos", "res_before": "Start", "res_after": "Week {w}", "res_rules_h": "Our rules for result photos", "res_tone": "For the Tone pathway we deliberately show no result photos. Read the rules below.",
     "tx_eye": "Education", "tx_h1": "Every treatment at Surface", "tx_by": "Performed by", "tx_dur": "Duration", "tx_int": "Interval", "tx_for": "For", "tx_price": "Single price", "tx_brand": "Device / brand", "tx_consult": "At consultation", "tx_device_link": "How the device works",
     "br_h1": "The devices & brands we use", "br_maker": "Maker", "br_kind": "Type", "br_used": "Used in", "br_origin": "Origin", "br_site": "Official site", "br_reg": "Clearances & certification", "br_at": "Available at", "br_matrix_dev": "Device", "br_strip_h": "The devices and brands we use", "br_strip_p": "We name our devices. Maker, country of origin and certifications are on the Devices & brands page.", "br_strip_btn": "See all devices & brands",
     "tm_eye": "Customers", "tm_h": "In their words", "tm_google_h": "Reviews on Google", "tm_google_p": "Every clinic has its own Google reviews page. Read them straight from customers.",
-    "needs_review": "awaiting Medical Lead sign-off", "next_door_h": "Next door", "front_door_h": "Start here, in any pathway", "st_helped": "How we have helped", "st_for": "This is for you if", "funnels_h": "Five pathways, one habit", "ig_h": "From our Instagram", "ig_follow": "Follow @{h}", "ig_ph": "Paste Instagram post URLs into catalog.json › social.instagram.posts. These three tiles become official Instagram embeds.", "gr_h": "Google reviews by clinic", "gr_write": "Write a review", "gr_read": "Read reviews", "ph_label": "Design placeholder", "blog_h": "Blog", "blog_lead": "Answers to the questions that arrive on WhatsApp, written so you come to the consultation with sharper questions.", "blog_read": "Read", "blog_back": "All articles", "blog_cta": "See the programme", "t_blog": "Blog · {name}", "d_blog": "Surface Skin Habit articles: treatment prices in Jakarta, booster comparisons, acne scars, and how to choose a skin clinic.", "cs_tpl": "WhatsApp template", "cs_link": "Send this link", "cs_copy": "Copy", "cs_copied": "Copied", "seo_kw": "Keyword", "seo_intent": "Intent", "seo_page": "Page", "seo_status": "Status", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
+    "needs_review": "awaiting Medical Lead sign-off", "next_door_h": "Next door", "front_door_h": "Start here, in any pathway", "st_helped": "How we have helped", "st_for": "This is for you if", "funnels_h": "Six pathways, one habit", "ig_h": "From our Instagram", "ig_follow": "Follow @{h}", "ig_ph": "Paste Instagram post URLs into catalog.json › social.instagram.posts. These three tiles become official Instagram embeds.", "gr_h": "Google reviews by clinic", "gr_write": "Write a review", "gr_read": "Read reviews", "ph_label": "Design placeholder", "blog_h": "Blog", "blog_lead": "Answers to the questions that arrive on WhatsApp, written so you come to the consultation with sharper questions.", "blog_read": "Read", "blog_back": "All articles", "blog_cta": "See the programme", "t_blog": "Blog · {name}", "d_blog": "Surface Skin Habit articles: treatment prices in Jakarta, booster comparisons, acne scars, and how to choose a skin clinic.", "cs_tpl": "WhatsApp template", "cs_link": "Send this link", "cs_copy": "Copy", "cs_copied": "Copied", "seo_kw": "Keyword", "seo_intent": "Intent", "seo_page": "Page", "seo_status": "Status", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
     "cl_map": "Map", "cl_devices": "Devices at this clinic", "cl_doctors": "Doctors at this clinic", "cl_reviews": "Google reviews",
     "cb_h1": "Treatment combinations", "cb_rules_h": "Five rules of combining", "cb_seq_h": "The order in the chair, and what changes when", "cb_seq_p": "The six combination patterns on the current Surface menu. Minutes are estimates; the doctor and therapist adjust to your skin.", "cb_steps": "Order in the chair", "cb_timeline": "What changes, when", "cb_offers": "Used in", "cb_not_h": "What is not paired in one visit", "cb_not_a": "This", "cb_not_b": "with", "cb_not_why": "Why", "cb_total": "total",
     "tm_h1": "Intervals, programmes & waiting times", "tm_int_h": "Gap between sessions by treatment type", "tm_what": "Treatment", "tm_int": "Interval", "tm_series": "Series", "tm_why": "Why", "tm_course_h": "Programme length & validity", "tm_wait_h": "When to wait", "tm_rebook_h": "When your next visit should be", "tm_rebook_p": "Your next appointment is booked before you leave, not chased by message afterwards.",
@@ -412,7 +418,7 @@ def side_blocks():
     fv = C["first_visit"]; pl = C["plan"]
     fv_items = "".join(f'<li><span>{e(i["name"])}<span class="f">{e(t(i, "for"))}</span></span><span class="p">{rp(i["price"])}</span></li>' for i in fv["items"])
     pl_inc = "".join(f"<li>{e(x)}</li>" for x in t(pl, "includes"))
-    ad = "".join(f'<li><span>{e(a["name"])}</span><span class="p">{rp(a["price"]) if a.get("price") else e(T("tx_consult"))}</span></li>' for a in C["addons"])
+    ad = "".join(f'<li><span><b>{e(a["name"])}</b> {MID_DOT} {e(t(a, "treatment"))}<span class="f">{e(t(a, "for"))}</span></span><span class="p">{rp(a["price"]) if a.get("price") else e(T("tx_consult"))}</span></li>' for a in C["addons"])
     return f"""<div class="side-blocks">
   <div class="card">
     <span class="eyebrow">{e(T('new_customers'))}</span>
@@ -543,6 +549,7 @@ def page_stream(code):
 <section class="section" style="padding-top:0"><div class="wrap">
   <div class="card helped"><span class="eyebrow">{e(t(C["proof"], "eyebrow"))}</span><h3>{e(T("st_helped"))}</h3><ul class="check">{"".join(f"<li>{e(x)}</li>" for x in t(st, "helped"))}</ul></div>
 </div></section>
+{results_block(code)}
 {next_door_block(con)}
 <section class="section" style="padding-top:0"><div class="wrap">
   <div class="grid-2">
@@ -555,6 +562,8 @@ def page_stream(code):
   {offers}
   <p class="small muted">{e(t(S, "price_note"))}</p>
 </div></section>
+{stacks_block(door=code)}
+{addons_strip()}
 <section class="section" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T("edu_eye"))}</span><h2>{e(T("st_devices"))}</h2></div><a class="btn btn-ghost btn-sm" href="edukasi-brand.html">{e(T("br_strip_btn"))}</a></div>
   <div class="brand-strip">{chips}</div>
@@ -572,6 +581,82 @@ def page_stream(code):
 '''
     title = T("t_st", nav=t(st, "nav"), name=S["name"])
     return head(title, t(st, "lead"), stream_file(code)) + header(stream_file(code)) + body + footer()
+
+MID_DOT = "·"
+PLUS_MINUS = "±"
+
+def stack_card(x):
+    inc = " + ".join(e(i) for i in t(x, "includes"))
+    door = concern_of(x["door"]) if x.get("door") else None
+    tag = e(door["name"]) if door else e(x.get("level", "").capitalize())
+    dur = f'{PLUS_MINUS} {x["duration_min"]} {e(T("min"))}' if x.get("duration_min") else EM_DASH
+    bits = [dur, f'{e(T("stk_for"))} {e(t(x, "for"))}'] + ([e(T("stk_downtime"))] if x.get("downtime") else [])
+    price = rp(x["price"]) if x.get("price") else EM_DASH
+    sub = e(T("stk_one")) if x.get("price") else e(T("tx_consult"))
+    rev = f' <small class="sig">{e(T("needs_review"))}</small>' if x.get("medical_review") and S.get("show_placeholders") else ""
+    msg = T("stk_msg", stack=x["name"], klinik="{klinik}")
+    sep = f" {MID_DOT} "
+    return f'''<article class="stack card" id="{e(slug(x["name"]))}">
+  <div class="stack-head"><span class="tag">{tag}</span><h3>{e(x["name"])}{rev}</h3></div>
+  <p class="stack-inc">{inc}</p>
+  <p class="small muted">{sep.join(bits)}</p>
+  <div class="stack-price"><b>{price}</b><span class="small muted">{sub}</span></div>
+  {wa_btn(msg, T("book_free"), "btn btn-ghost btn-sm")}
+</article>'''
+
+def stacks_block(door=None, compact=False):
+    ST = C.get("stacks", {})
+    items = [x for x in ST.get("items", []) if door is None or x.get("door") == door]
+    if not items: return ""
+    cards = "".join(stack_card(x) for x in items)
+    if door:
+        return f'''<section class="section" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("stk_eye"))}</span><h2>{e(T("stk_door_h"))}</h2><p>{e(t(ST, "intro"))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html#stack">{e(T("stk_btn"))}</a></div>
+  <div class="stack-grid">{cards}</div>
+</div></section>'''
+    notes = "" if compact else f'''<div class="grid-2" style="margin-top:18px">
+    <div class="card note"><h3>{e(T("stk_addons_h"))}</h3><p>{e(t(ST, "addons"))}</p></div>
+    <div class="card note"><h3>{e(T("stk_before_h"))}</h3><p>{e(t(ST, "before"))}</p></div>
+  </div>'''
+    more = f'<a class="btn btn-ghost btn-sm" href="menu.html#stack">{e(T("stk_btn"))}</a>' if compact else ""
+    extra = "" if compact else ph("stack")
+    return f'''<section class="section" id="stack" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("stk_eye"))}</span><h2>{e(T("stk_h"))}</h2><p>{e(t(ST, "intro"))}</p></div>{more}</div>
+  <div class="stack-grid">{cards}</div>{extra}
+  {notes}
+</div></section>'''
+
+def addons_strip():
+    AM = C.get("addons_meta", {})
+    chips = "".join(f'<div class="addon"><b>{e(a["name"])}</b><span>{e(t(a, "treatment"))}</span><span class="small muted">{e(t(a, "for"))}</span><em>{rp(a["price"]) if a.get("price") else e(T("tx_consult"))}</em></div>' for a in C["addons"])
+    return f'''<section class="section" id="addon" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("ad_eye"))}</span><h2>{e(T("ad_h"))}</h2><p>{e(t(AM, "intro"))}</p></div></div>
+  <div class="addon-strip">{chips}</div>
+  <p class="small muted" style="margin-top:12px"><b>{e(T("ad_after_h"))}.</b> {e(t(AM, "after"))}</p>
+</div></section>'''
+
+def results_block(code):
+    R = C.get("results", {})
+    rules = "".join(f"<li>{e(x)}</li>" for x in t(R, "rules"))
+    if code in R.get("doors_excluded", []):
+        body = f'<div class="card warn"><p>{e(T("res_tone"))}</p></div>'
+    else:
+        items = [x for x in R.get("items", []) if x.get("door") == code and x.get("publish") and x.get("consent_on_file") and x.get("doctor_signoff")]
+        if items:
+            pairs = ""
+            sep = f" {MID_DOT} "
+            for x in items:
+                w = x.get("weeks", 12)
+                cap = sep.join(v for v in [x.get("program"), clinic(x["clinic"])["short"] if x.get("clinic") else "", t(x, "caption")] if v)
+                pairs += f'''<figure class="ba"><div class="ba-pair"><div><img src="{PREFIX}{e(x["before"])}" alt="{e(T("res_before"))}" loading="lazy"><span>{e(T("res_before"))}</span></div><div><img src="{PREFIX}{e(x["after"])}" alt="{e(T("res_after", w=w))}" loading="lazy"><span>{e(T("res_after", w=w))}</span></div></div><figcaption class="small muted">{e(cap)}</figcaption></figure>'''
+            body = f'<div class="ba-grid">{pairs}</div>'
+        else:
+            body = f'<p class="muted">{e(t(R, "empty"))}</p>' + ph("results")
+    return f'''<section class="section" id="hasil" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("res_eye"))}</span><h2>{e(T("res_h"))}</h2><p>{e(t(R, "intro"))}</p></div></div>
+  {body}
+  <details class="small" style="margin-top:14px"><summary>{e(T("res_rules_h"))}</summary><ul class="plist">{rules}</ul></details>
+</div></section>'''
 
 def proof_block():
     P = C["proof"]
@@ -684,6 +769,7 @@ def page_index():
   <div class="section-head"><div><span class="eyebrow">{e(T('s1_eye'))}</span><h2>{e(T('s1_h'))}</h2><p>{e(T('s1_p'))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T('s1_btn'))}</a></div>
   <div class="grid-3">{concern_cards}</div>
 </div></section>
+{stacks_block(compact=True)}
 
 <section class="section" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s3_eye'))}</span><h2>{e(T('s3_h'))}</h2><p>{e(T('s3_p'))}</p></div></div>
@@ -717,7 +803,7 @@ def page_menu():
   <span class="eyebrow">{e(T('menu_eye'))}</span>
   <h1>{e(T('menu_h1'))}</h1>
   <p class="lead">{e(t(S, 'consult_note'))} {e(T('menu_lead_tail'))}</p>
-  <div class="menu-tabs" style="margin-top:22px">{tabs}<a href="#pertama">{e(T('menu_tab_extra'))}</a></div>
+  <div class="menu-tabs" style="margin-top:22px">{tabs}<a href="#stack">{e(T('stk_tab'))}</a><a href="#pertama">{e(T('menu_tab_extra'))}</a></div>
 </div></section>
 {front_door_block()}
 <section class="section" style="padding-top:12px"><div class="wrap">
@@ -725,6 +811,8 @@ def page_menu():
   {"".join(concern_section(c) for c in C["concerns"])}
   <p class="small muted" style="margin-top:8px">{e(t(S, 'price_note'))} {e(T('menu_other'))}</p>
 </div></section>
+{stacks_block()}
+{addons_strip()}
 <section class="section" id="pertama" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('menu_s2_eye'))}</span><h2>{e(T('menu_s2_h'))}</h2></div></div>
   {side_blocks()}

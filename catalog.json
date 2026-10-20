@@ -645,23 +645,69 @@
   },
   "addons": [
     {
-      "name": "PDT / LED",
-      "price": 250000
-    },
-    {
-      "name": "Eye Catching",
+      "key": "eye",
+      "name": "Eye",
+      "treatment": "Eye Catching",
+      "for": "area mata yang terlihat lelah",
+      "for_en": "eyes that look tired",
       "price": 550000
     },
     {
-      "name": "Tighten & Contour Neck",
+      "key": "lips",
+      "name": "Lips",
+      "treatment": "Sakura Lips Laser",
+      "for": "bibir yang gelap",
+      "for_en": "dark lips",
+      "price": null
+    },
+    {
+      "key": "neck",
+      "name": "Neck",
+      "treatment": "Diamond Peel atau Tighten & Contour RF leher",
+      "treatment_en": "Diamond Peel or Tighten & Contour RF for the neck",
+      "for": "leher",
+      "for_en": "the neck",
       "price": 400000
     },
     {
-      "name": "Acne Shots",
+      "key": "back",
+      "name": "Back",
+      "treatment": "Bye Acne Back Therapy",
+      "for": "jerawat punggung",
+      "for_en": "back acne",
+      "price": null
+    },
+    {
+      "key": "ubpeel",
+      "name": "UB Peel",
+      "treatment": "Ultrabrightening Peel",
+      "for": "ditambahkan ke facial",
+      "for_en": "added to a facial",
+      "price": null
+    },
+    {
+      "key": "light",
+      "name": "Light",
+      "treatment": "PDT / LED",
+      "for": "menenangkan kulit",
+      "for_en": "calming the skin",
+      "price": 250000
+    },
+    {
+      "key": "shots",
+      "name": "Shots",
+      "treatment": "Acne Shots oleh dokter",
+      "treatment_en": "Acne Shots by the doctor",
+      "for": "jerawat yang meradang",
+      "for_en": "inflamed spots",
       "price": 300000
     },
     {
-      "name": "Booster ampoule (serum infus)",
+      "key": "booster",
+      "name": "Booster",
+      "treatment": "Ampoule serum",
+      "for": "di akhir sesi",
+      "for_en": "at the end of the session",
       "price": null
     }
   ],
@@ -5280,7 +5326,9 @@
     "clinic": "Foto klinik: pintu masuk dan ruang treatment, siang hari. 1200×800 per klinik.",
     "doctor": "Foto dokter: setengah badan, seragam Surface, latar putih polos, min. 1000×1200.",
     "review": "Widget rating Google: isi google_place_id per klinik untuk tautan ulasan; rating ditampilkan setelah dikonfirmasi dari Google Business Profile.",
-    "instagram": "Tempel URL post/reel Instagram di catalog.json › social.instagram.posts."
+    "instagram": "Tempel URL post/reel Instagram di catalog.json › social.instagram.posts.",
+    "results": "Foto hasil: pasangan foto awal / minggu ke-12, wajah pelanggan dengan izin tertulis, cahaya klinik yang sama. 800×1000 per foto, isi results.items di catalog.json.",
+    "stack": "Foto stack: meja treatment dengan alat yang dipakai dalam satu kunjungan, warna netral. 1200×800."
   },
   "cs": {
     "title": "Panduan CS: jawab dengan tautan",
@@ -5625,5 +5673,159 @@
     "name": "Skin Habit Start",
     "desc": "Konsultasi dokter gratis + analisis kulit 2 menit. Setiap pelanggan mulai di sini, di jalur mana pun.",
     "desc_en": "Free doctor consultation + 2-minute skin analysis. Every customer starts here, in any pathway."
+  },
+  "addons_meta": {
+    "intro": "Bisa ditambahkan ke program apa pun, sesuai saran dokter atau terapis. Harga tetap per kunjungan.",
+    "intro_en": "Can be added to any programme on the advice of the doctor or therapist. Fixed price per visit.",
+    "after": "Setelah program: jaga hasil dengan satu kunjungan level Start setiap bulan.",
+    "after_en": "After a programme: keep the result with one Start-level visit every month."
+  },
+  "stacks": {
+    "intro": "Kombinasi lengkap dalam satu sesi, disusun dan disetujui dokter. Satu kunjungan, satu harga.",
+    "intro_en": "A complete combination in one session, designed and approved by the doctor. One visit, one price.",
+    "before": "Sebelum stack, dokter memastikan semua perawatan aman dilakukan di hari yang sama untuk kulit Anda.",
+    "before_en": "Before a stack, the doctor confirms every treatment is safe to do on the same day for your skin.",
+    "addons": "Setiap stack bisa ditambah add-on Eye, Lips, Neck atau Booster.",
+    "addons_en": "Any stack can take the Eye, Lips, Neck or Booster add-on.",
+    "items": [
+      {
+        "name": "Glass Skin Day",
+        "door": "TONE",
+        "includes": [
+          "H2O Facial",
+          "Ultrabrightening Peel oleh dokter",
+          "QS Toning oleh dokter"
+        ],
+        "includes_en": [
+          "H2O Facial",
+          "Ultrabrightening Peel by the doctor",
+          "QS Toning by the doctor"
+        ],
+        "duration_min": 185,
+        "for": "kulit kusam dan flek",
+        "for_en": "dull skin and dark spots",
+        "price": 3900000,
+        "downtime": false,
+        "medical_review": true
+      },
+      {
+        "name": "Clear Skin Day",
+        "door": "CLEAR",
+        "includes": [
+          "Hydraderm Facial",
+          "SA Peel oleh dokter",
+          "PDT",
+          "Acne Shots oleh dokter"
+        ],
+        "includes_en": [
+          "Hydraderm Facial",
+          "SA Peel by the doctor",
+          "PDT",
+          "Acne Shots by the doctor"
+        ],
+        "duration_min": null,
+        "for": "jerawat aktif yang meradang",
+        "for_en": "active, inflamed acne",
+        "price": null,
+        "downtime": false,
+        "medical_review": true
+      },
+      {
+        "name": "Lift Day",
+        "door": "TIGHTEN",
+        "includes": [
+          "HIFU",
+          "Tighten & Contour RF",
+          "Botox oleh dokter"
+        ],
+        "includes_en": [
+          "HIFU",
+          "Tighten & Contour RF",
+          "Botox by the doctor"
+        ],
+        "duration_min": null,
+        "for": "kulit kendur dan garis rahang",
+        "for_en": "loose skin and the jawline",
+        "price": null,
+        "downtime": false,
+        "medical_review": true
+      },
+      {
+        "name": "Rebuild Day",
+        "door": "TEXTURE",
+        "includes": [
+          "Dermapen",
+          "PRP atau exosome oleh dokter",
+          "PDT untuk menenangkan kulit"
+        ],
+        "includes_en": [
+          "Dermapen",
+          "PRP or exosome by the doctor",
+          "PDT to calm the skin"
+        ],
+        "duration_min": null,
+        "for": "bopeng dan pori besar",
+        "for_en": "indented scars and large pores",
+        "price": null,
+        "downtime": true,
+        "medical_review": true
+      },
+      {
+        "name": "Full Reset",
+        "door": null,
+        "level": "refine",
+        "includes": [
+          "QS Toning",
+          "Rejuran",
+          "Botox"
+        ],
+        "includes_en": [
+          "QS Toning",
+          "Rejuran",
+          "Botox"
+        ],
+        "duration_min": null,
+        "for": "warna kulit, kualitas kulit dan garis halus sekaligus",
+        "for_en": "tone, skin quality and fine lines at once",
+        "price": null,
+        "downtime": false,
+        "medical_review": true
+      }
+    ]
+  },
+  "results": {
+    "intro": "Foto hasil dari pelanggan yang memberi izin tertulis, diambil di klinik dengan cahaya dan sudut yang sama, minimal minggu ke-12 program. Hasil berbeda pada setiap orang.",
+    "intro_en": "Result photos from customers who gave written consent, taken in-clinic with the same light and angle, at week 12 of a programme or later. Results differ from person to person.",
+    "rules": [
+      "Hanya dengan persetujuan tertulis pelanggan, bisa dicabut kapan saja.",
+      "Minimal minggu ke-12 program; foto diambil di klinik, tanpa filter dan tanpa editan.",
+      "Tidak ada foto hasil untuk jalur Tone: perubahan warna kulit tidak kami iklankan dengan foto.",
+      "Dokter penanggung jawab menandatangani setiap pasangan foto sebelum tayang."
+    ],
+    "rules_en": [
+      "Only with the customer's written consent, which can be withdrawn at any time.",
+      "Week 12 of a programme at the earliest; taken in-clinic, no filter, no retouching.",
+      "No result photos for the Tone pathway: we do not advertise changes in skin colour with photos.",
+      "The responsible doctor signs off every pair before it is published."
+    ],
+    "doors_excluded": [
+      "TONE"
+    ],
+    "empty": "Belum ada foto yang tayang untuk jalur ini. Lihat ulasan Google per klinik untuk cerita pelanggan.",
+    "empty_en": "No photos are live for this pathway yet. See the Google reviews per clinic for customer stories.",
+    "items": []
+  },
+  "_results_item_format": {
+    "door": "CLEAR",
+    "program": "Clear Correct",
+    "before": "assets/results/clear-01-w0.jpg",
+    "after": "assets/results/clear-01-w12.jpg",
+    "weeks": 12,
+    "clinic": "KG",
+    "caption": "",
+    "caption_en": "",
+    "consent_on_file": true,
+    "doctor_signoff": "",
+    "publish": false
   }
 }

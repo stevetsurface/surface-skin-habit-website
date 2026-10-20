@@ -189,3 +189,8 @@ cd website && python3 -m http.server 8765
 - [ ] Photos: hero, doctor, clinic and device photos are not included. Candidates are in Drive under *Surface Branding & Content* — `Stock Foto 1` (named per treatment), `Foto Dokter Png`, `Clinic Photo – for Content` (HEIC, needs conversion) and scattered device shots. The `Before After Liftera` set should not be used: before-and-after imagery is out of scope, and those look like manufacturer assets rather than Surface patients.
 - [ ] Doctor sign-off on the education pages: every Fitzpatrick row, contraindication list and aftercare list.
 - [ ] Tell the host to serve `404.html` (see the 404 section above).
+
+## Stacks, add-ons, result photos (added 20 Oct 2026)
+- `stacks.items[]`: signature one-visit combos (name, door, includes, duration_min, for, price, downtime, medical_review). Null price renders "at consultation". Shown on Harga (#stack), the home page, and each door page (its own door only).
+- `addons[]`: seven add-ons per visit (name, treatment, for, price). Shown as a strip on Harga and every door page, and in the side card.
+- `results.items[]`: before / week-12 photo pairs. A pair is only rendered when `publish`, `consent_on_file` and `doctor_signoff` are all set. The Tone door never shows photos (`results.doors_excluded`). Format example in `_results_item_format`. Put files under `assets/results/`.
