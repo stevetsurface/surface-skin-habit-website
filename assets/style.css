@@ -534,3 +534,9 @@ p{margin:0 0 1em}
 .doc .creds{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:3px;font-size:13.5px;color:var(--ink-soft)}
 .doc .creds li::before{content:"\2713";color:var(--accent);margin-right:8px;font-weight:700}
 .doc .ig{display:inline-block;margin-top:8px;color:var(--accent);text-decoration:none;font-weight:600}
+.aq-type{background:var(--panel-soft);border-radius:var(--radius);padding:18px 20px;margin-bottom:18px}
+.aq-type-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}
+.aq-type-grid div{display:flex;flex-direction:column;gap:2px;font-size:14px}
+.aq-type-grid b{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.aq-start{font-size:16px;margin:4px 0 10px}
+@media (max-width:720px){.aq-type-grid{grid-template-columns:1fr}}

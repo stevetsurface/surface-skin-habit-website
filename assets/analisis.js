@@ -16,9 +16,22 @@
   if (A.scan && A.scan.enabled) Q.push({ id: 'scan', type: 'scan', text: A.scan.title, help: A.scan.help, block: { code: 'D', title: 'Foto' } });
   var step = 0;
 
+  function byId(id) { return Q.filter(function (x) { return x.id === id; })[0]; }
   function concernOf() {
-    var o = (Q[0].options || []).filter(function (x) { return x.v === answers.q1; })[0];
-    return o ? o.concern : 'GLOW';
+    var q1 = byId('q1');
+    var o = (q1 && q1.options || []).filter(function (x) { return x.v === answers.q1; })[0];
+    if (o) return o.concern;
+    var st = skinType();
+    return st && st.sensitive ? 'CALM' : 'TONE';
+  }
+  // Skin type from the three typing questions: oil on the T-zone and cheeks, plus reactivity.
+  function skinType() {
+    var T = A.skin_types; if (!T) return null;
+    function pick(id, key) { var q = byId(id); if (!q) return null; var o = (q.options || []).filter(function (x) { return x.v === answers[id]; })[0]; return o ? o[key] : null; }
+    var t = pick('t1', 'oil'), c = pick('t2', 'oil'), s = pick('t3', 'sens');
+    if (t === null || c === null) return null;
+    var code = (t === 2 && c === 2) ? 'oily' : (t === 2) ? 'combination' : (t === 0 || c === 0) ? 'dry' : 'normal';
+    var st = T[code]; return { code: code, name: st.name, desc: st.desc, facial: st.facial, care: st.care, sensitive: s === 2, mod: T.sensitive_mod };
   }
   function optionsFor(q) {
     if (q.options_by_concern) return q.options_by_concern[concernOf()] || [];
@@ -104,10 +117,13 @@
   function renderResult() {
     var ccode = concernOf();
     var con = CONCERNS.filter(function (c) { return c.code === ccode; })[0];
-    var q2 = Q[1], o2 = optionsFor(q2).filter(function (x) { return x.v === answers.q2; })[0];
+    var q2 = byId('q2'), o2 = optionsFor(q2).filter(function (x) { return x.v === answers.q2; })[0];
     var hint = o2 && o2.offer;
     var offer = con.offers.filter(function (o) { return o.name === hint; })[0] || con.offers[0];
-    var planOpt = (Q.filter(function (x) { return x.id === 'q9'; })[0].options.filter(function (x) { return x.v === answers.q9; })[0] || {}).plan || 'consult';
+    var st = skinType();
+    var typeName = st ? st.name + (st.sensitive ? ', ' + st.mod.name : '') : '';
+    var startOffer = con.offers.filter(function (o) { return o.level === 'start'; })[0] || con.offers[0];
+    var planOpt = (byId('q9').options.filter(function (x) { return x.v === answers.q9; })[0] || {}).plan || 'consult';
     var flags = Q.filter(function (q) { return q.type === 'yesno' && answers[q.id] === 'ya'; }).map(function (q) { return q.flag; });
     var others = (answers.q3 || []).map(function (v) { return label('q3', v); });
 
@@ -117,6 +133,7 @@
       U.from + ' ' + rp(offer.single) + ' ' + U.per_session_long;
 
     var msg = U.m_head + '\n' +
+      (typeName ? '• ' + U.m_type + ': ' + typeName + '\n' : '') +
       '• ' + U.m_concern + ': ' + con.name + ' – ' + con.title + ' (' + label('q2', answers.q2) + ')\n' +
       (others.length ? '• ' + U.m_also + ': ' + others.join(', ') + '\n' : '') +
       '• ' + U.m_since + ': ' + label('q4', answers.q4) + ' · ' + label('q6', answers.q6) + '\n' +
@@ -134,12 +151,15 @@
     root.innerHTML =
       '<div class="aq-progress"><i style="width:100%"></i></div>' +
       '<div class="aq-block">' + esc(U.result) + '</div>' +
+      (st ? '<div class="aq-type"><span class="eyebrow">' + esc(U.your_type) + '</span><h2 class="aq-q">' + esc(typeName) + '</h2><p class="aq-help">' + esc(st.desc) + (st.sensitive ? ' ' + esc(st.mod.desc) : '') + '</p>' +
+        '<div class="aq-type-grid"><div><b>' + esc(U.type_facial) + '</b><span>' + esc(st.facial) + '</span></div><div><b>' + esc(U.type_care) + '</b><span>' + esc(st.care) + '</span></div></div></div>' : '') +
       '<span class="eyebrow">' + esc(U.best_concern) + '</span>' +
       '<h2 class="aq-q">' + esc(con.name) + ' · ' + esc(con.title) + '</h2>' +
       '<p class="aq-help">' + esc(con.intro) + '</p>' +
+      '<p class="aq-start"><b>' + esc(U.start_with) + ':</b> ' + esc(startOffer.name) + ' · ' + (startOffer.single ? rp(startOffer.single) : esc(U.from)) + '</p>' +
       '<div class="aq-result">' +
         '<div class="aq-rhead">' + esc(U.usual_start) + '</div>' +
-        '<div class="aq-offer"><div><div class="lv">' + esc(U.usual_start) + '</div><h3>' + esc(offer.name) + '</h3>' +
+        '<div class="aq-offer"><div><div class="lv">' + esc((offer.level || '').charAt(0).toUpperCase() + (offer.level || '').slice(1)) + '</div><h3>' + esc(offer.name) + '</h3>' +
         '<p>' + offer.includes.map(esc).join(' + ') + ' · ' + offer.duration_min + ' ' + esc(U.min) + ' · ' + esc(offer.interval) + '</p></div>' +
         '<div class="aq-price">' + esc(priceLine) + '</div></div>' +
         (flags.length ? '<p class="aq-flag">' + esc(U.flag_pre) + esc(flags.join('; ')) + esc(U.flag_post) + '</p>' : '') +

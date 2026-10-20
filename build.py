@@ -115,7 +115,7 @@ UI = {
     "t_aq": "Analisis Kondisi Kulit · {name}", "d_aq": "Analisis kondisi kulit 2 menit dari Surface Skin Habit: 13 pertanyaan untuk menentukan concern (Clear, Glow, Lift) dan treatment awal yang biasanya disarankan. Bukan pengganti konsultasi dokter gratis.",
     "aq_js": {"of": "dari", "next": "Lanjut", "skip": "Lewati", "back": "Kembali", "yes": "Ya", "no": "Tidak", "pick_photo": "Pilih atau ambil foto",
               "cosmetic": "Pembacaan kosmetik, bukan diagnosis. Bisa dilewati.", "scan_na": "Scan belum tersedia.", "analyzing": "Menganalisis…",
-              "scan_fail": "Foto tidak bisa diproses. Lewati saja, dokter akan melihat langsung.", "result": "Hasil", "best_concern": "Concern yang paling cocok",
+              "scan_fail": "Foto tidak bisa diproses. Lewati saja, dokter akan melihat langsung.", "result": "Hasil", "best_concern": "Jalur yang paling cocok", "your_type": "Tipe kulitmu", "type_facial": "Facial yang cocok", "type_care": "Rutinitas harian", "m_type": "Tipe kulit", "start_with": "Mulai dengan",
               "usual_start": "Titik mulai yang biasanya disarankan", "min": "menit", "single": "satuan", "pack3": "paket 3x", "pack6": "paket 6x", "per_session": "/sesi", "from": "mulai", "per_session_long": "per sesi",
               "levels": {"L1": "Dasar", "L2": "Koreksi", "L3": "Presisi"}, "flag_pre": "Kamu menjawab \"ya\" untuk: ", "flag_post": ". Dokter akan membahasnya dulu di konsultasi, dan bisa menyesuaikan rencananya.",
               "send": "Kirim hasil & booking via WhatsApp", "see_all": "Lihat semua pilihan", "restart": "Ulangi",
@@ -209,7 +209,7 @@ UI = {
     "t_aq": "Skin Condition Analysis · {name}", "d_aq": "2-minute skin condition analysis from Surface Skin Habit: 13 questions to find your concern (Clear, Glow, Lift) and the usual first treatment. Not a substitute for the free doctor consultation.",
     "aq_js": {"of": "of", "next": "Next", "skip": "Skip", "back": "Back", "yes": "Yes", "no": "No", "pick_photo": "Choose or take a photo",
               "cosmetic": "A cosmetic reading, not a diagnosis. You can skip this.", "scan_na": "Scan not available yet.", "analyzing": "Analysing…",
-              "scan_fail": "The photo couldn't be processed. Skip it, the doctor will look in person.", "result": "Result", "best_concern": "Best-matching concern",
+              "scan_fail": "The photo couldn't be processed. Skip it, the doctor will look in person.", "result": "Result", "best_concern": "Best-matching concern", "your_type": "Your skin type", "type_facial": "The facial that fits", "type_care": "Daily routine", "m_type": "Skin type", "start_with": "Start with",
               "usual_start": "Usual starting point", "min": "min", "single": "single", "pack3": "3-session pack", "pack6": "6-session pack", "per_session": "/session", "from": "from", "per_session_long": "per session",
               "levels": {"L1": "Core", "L2": "Correct", "L3": "Refine"}, "flag_pre": "You answered \"yes\" to: ", "flag_post": ". The doctor will discuss this first at the consultation and can adjust the plan.",
               "send": "Send result & book via WhatsApp", "see_all": "See all options for", "restart": "Start over",
@@ -963,6 +963,7 @@ def localise_assessment():
         for k in keys:
             if k in d: d[k] = t(d, k)
     fix(A, ["title", "subtitle", "disclaimer"]); fix(A["scan"], ["title", "help"])
+    for st in A.get("skin_types", {}).values(): fix(st, ["name", "desc", "care"])
     for b in A["blocks"]:
         fix(b, ["title", "intro"])
         for q in b["questions"]:
@@ -974,7 +975,7 @@ def localise_assessment():
     for con in C["concerns"]:
         c2 = {"code": con["code"], "name": con["name"], "title": t(con, "title"), "intro": t(con, "intro"), "offers": []}
         for o in con["offers"]:
-            c2["offers"].append({"name": o["name"], "includes": t(o, "includes"), "duration_min": o["duration_min"],
+            c2["offers"].append({"name": o["name"], "level": o.get("level"), "includes": t(o, "includes"), "duration_min": o["duration_min"],
                                  "interval": t(o, "interval"), "single": o["single"], "pack3": o["pack3"], "pack6": o["pack6"]})
         concerns.append(c2)
     return A, concerns

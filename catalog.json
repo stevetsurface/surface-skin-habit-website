@@ -979,7 +979,7 @@
   ],
   "assessment": {
     "title": "Analisis Kondisi Kulit",
-    "subtitle": "13 pertanyaan, sekitar 2 menit. Hasilnya: concern yang paling cocok dan titik mulai yang biasanya disarankan. Bukan pengganti konsultasi dokter.",
+    "subtitle": "16 pertanyaan, sekitar 3 menit. Hasilnya: tipe kulitmu, jalur yang paling cocok, dan program Start untuk memulai. Bukan pengganti konsultasi dokter.",
     "disclaimer": "Ini analisis kondisi kulit berdasarkan jawabanmu, bukan diagnosis. Dokter Surface yang merekomendasikan treatment-mu saat konsultasi gratis.",
     "scan": {
       "enabled": false,
@@ -990,6 +990,93 @@
       "help_en": "Bright light from the front, no makeup, face straight to the camera. The photo is processed for cosmetic scores only and is never sent over WhatsApp."
     },
     "blocks": [
+      {
+        "code": "T",
+        "title": "Tipe kulit",
+        "title_en": "Skin type",
+        "intro": "Tiga pertanyaan untuk menentukan tipe kulitmu. Ini dasar semua rekomendasi.",
+        "intro_en": "Three questions to work out your skin type. Everything else is built on this.",
+        "questions": [
+          {
+            "id": "t1",
+            "type": "single",
+            "text": "Siang hari, bagian T (dahi, hidung, dagu) terasa…",
+            "text_en": "By midday, your T-zone (forehead, nose, chin) feels…",
+            "options": [
+              {
+                "v": "berminyak",
+                "label": "Berminyak atau mengilap",
+                "label_en": "Oily or shiny",
+                "oil": 2
+              },
+              {
+                "v": "normal",
+                "label": "Biasa saja",
+                "label_en": "Normal",
+                "oil": 1
+              },
+              {
+                "v": "kering",
+                "label": "Kering atau tertarik",
+                "label_en": "Dry or tight",
+                "oil": 0
+              }
+            ]
+          },
+          {
+            "id": "t2",
+            "type": "single",
+            "text": "Dan pipimu di siang hari…",
+            "text_en": "And your cheeks by midday…",
+            "options": [
+              {
+                "v": "berminyak",
+                "label": "Berminyak juga",
+                "label_en": "Oily too",
+                "oil": 2
+              },
+              {
+                "v": "normal",
+                "label": "Biasa saja",
+                "label_en": "Normal",
+                "oil": 1
+              },
+              {
+                "v": "kering",
+                "label": "Kering, kadang bersisik",
+                "label_en": "Dry, sometimes flaky",
+                "oil": 0
+              }
+            ]
+          },
+          {
+            "id": "t3",
+            "type": "single",
+            "text": "Kulitmu memerah, perih, atau gatal saat pakai produk baru atau kena panas?",
+            "text_en": "Does your skin go red, sting or itch with new products or heat?",
+            "options": [
+              {
+                "v": "sering",
+                "label": "Sering",
+                "label_en": "Often",
+                "sens": 2
+              },
+              {
+                "v": "kadang",
+                "label": "Kadang",
+                "label_en": "Sometimes",
+                "sens": 1
+              },
+              {
+                "v": "jarang",
+                "label": "Jarang atau tidak pernah",
+                "label_en": "Rarely or never",
+                "sens": 0
+              }
+            ]
+          }
+        ]
+      },
       {
         "code": "A",
         "title": "Arahkan",
@@ -1391,8 +1478,52 @@
       }
     ],
     "title_en": "Skin Condition Analysis",
-    "subtitle_en": "13 questions, about 2 minutes. You get the concern that fits best and the usual starting point. Not a substitute for a doctor consultation.",
-    "disclaimer_en": "This is a skin condition analysis based on your answers, not a diagnosis. A Surface doctor recommends your treatment at the free consultation."
+    "subtitle_en": "16 questions, about 3 minutes. The result: your skin type, the pathway that fits, and the Start programme to begin with. Not a substitute for a doctor consultation.",
+    "disclaimer_en": "This is a skin condition analysis based on your answers, not a diagnosis. A Surface doctor recommends your treatment at the free consultation.",
+    "skin_types": {
+      "oily": {
+        "name": "Berminyak",
+        "name_en": "Oily",
+        "desc": "Minyak berlebih di seluruh wajah; pori tampak besar, mudah komedo.",
+        "desc_en": "Excess oil across the face; pores look larger, prone to blackheads.",
+        "facial": "Hydraderm Facial Clarity",
+        "care": "Pembersih lembut dua kali sehari, pelembap ringan bebas minyak, tabir surya gel.",
+        "care_en": "Gentle cleanser twice a day, light oil-free moisturiser, gel sunscreen."
+      },
+      "combination": {
+        "name": "Kombinasi",
+        "name_en": "Combination",
+        "desc": "Bagian T berminyak, pipi normal atau kering. Tipe paling umum di Jakarta.",
+        "desc_en": "Oily T-zone, normal or dry cheeks. The most common type in Jakarta.",
+        "facial": "Hydraderm Facial Hydrating",
+        "care": "Pembersih lembut, pelembap ringan di T, lebih kaya di pipi, tabir surya setiap pagi.",
+        "care_en": "Gentle cleanser, light moisturiser on the T-zone, richer on the cheeks, sunscreen every morning."
+      },
+      "normal": {
+        "name": "Normal",
+        "name_en": "Normal",
+        "desc": "Seimbang: tidak berminyak, tidak kering. Fokus pada menjaga dan mencegah.",
+        "desc_en": "Balanced: neither oily nor dry. The job is to keep it that way.",
+        "facial": "H2O Glow Facial",
+        "care": "Pembersih lembut, pelembap, tabir surya. Jangan tambah terlalu banyak produk.",
+        "care_en": "Gentle cleanser, moisturiser, sunscreen. Don't add too many products."
+      },
+      "dry": {
+        "name": "Kering",
+        "name_en": "Dry",
+        "desc": "Terasa tertarik setelah cuci muka, garis halus lebih tampak, kadang bersisik.",
+        "desc_en": "Feels tight after cleansing, fine lines show more, sometimes flaky.",
+        "facial": "H2O Glow Facial",
+        "care": "Pembersih tanpa busa, pelembap kaya ceramide, tabir surya krim.",
+        "care_en": "Non-foaming cleanser, ceramide-rich moisturiser, cream sunscreen."
+      },
+      "sensitive_mod": {
+        "name": "cenderung sensitif",
+        "name_en": "sensitivity-prone",
+        "desc": "Mudah merah atau perih. Dokter memakai protokol kulit sensitif: tanpa peeling di kunjungan pertama.",
+        "desc_en": "Goes red or stings easily. The doctor uses the sensitive-skin protocol: no peel on the first visit."
+      }
+    }
   },
   "education": {
     "intro": "Halaman ini menjelaskan cara kerja setiap alat dan tindakan di Surface: apa yang sebenarnya terjadi pada kulit, berapa lama satu sesi, seberapa sering diulang, apa yang dirasakan, dan siapa yang sebaiknya menunda. Tujuannya supaya kamu datang ke konsultasi dengan pertanyaan yang lebih tajam.",
