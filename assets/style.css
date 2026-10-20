@@ -484,3 +484,5 @@ p{margin:0 0 1em}
 .level p{margin:6px 0 0;font-size:14px;color:var(--ink-soft)}
 @media (max-width:960px){.funnel-strip{grid-template-columns:repeat(3,1fr)}.levels{grid-template-columns:1fr}}
 @media (max-width:720px){.funnel-strip{grid-template-columns:1fr 1fr}}
+.avatar-ph{width:96px;height:128px;border-radius:16px;border:2px dashed var(--accent);background:repeating-linear-gradient(45deg,transparent 0 10px,rgba(155,90,71,.05) 10px 20px);display:flex;align-items:center;justify-content:center;text-align:center;padding:8px}
+.avatar-ph span{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}

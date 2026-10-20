@@ -448,7 +448,7 @@ def doctor_cards(limit=None):
         tags = "".join(f'<span class="tag">{e(x)}</span>' for x in d["focus"])
         bio = f'<p class="small" style="margin:8px 0 0">{e(t(d, "bio"))}</p>' if d.get("bio") else ""
         avatar = (f'<img class="avatar-img" src="{PREFIX}{e(d["photo"])}" alt="{e(d["name"])}" width="96" height="128" loading="lazy">'
-                  if d.get("photo") else f'<div class="avatar" aria-hidden="true">{e(initials)}</div>')
+                  if d.get("photo") else (f'<div class="avatar avatar-ph" title="{e(C["placeholders"]["doctor"])}"><span>{e(T("ph_label"))}</span></div>' if S.get("show_placeholders") else f'<div class="avatar" aria-hidden="true">{e(initials)}</div>'))
         out.append(f"""<div class="card doc">
   {avatar}
   <div><h3>{e(d['name'])}</h3><div class="role">{e(t(d, 'role'))} · {e(where)}</div><div class="tags">{tags}</div>{bio}</div>
