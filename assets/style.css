@@ -472,3 +472,15 @@ p{margin:0 0 1em}
 .tpl p{font-size:14.5px;color:var(--ink-soft)}
 @media (max-width:960px){.grid-5,.funnel-strip{grid-template-columns:repeat(3,1fr)}.ig-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:720px){.grid-5,.funnel-strip{grid-template-columns:1fr 1fr}.ig-grid{grid-template-columns:1fr}.gr{grid-template-columns:1fr}}
+
+/* Six doors × three levels */
+.funnel-strip{grid-template-columns:repeat(6,1fr)}
+.offer h3 .sig{display:block;font-family:var(--font-body);font-weight:500;font-size:13px;color:var(--muted);margin-top:2px}
+.offer .lv{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.offer .lv i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.level{background:var(--panel-soft);border-radius:var(--radius);padding:18px 20px}
+.level .lv{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.level p{margin:6px 0 0;font-size:14px;color:var(--ink-soft)}
+@media (max-width:960px){.funnel-strip{grid-template-columns:repeat(3,1fr)}.levels{grid-template-columns:1fr}}
+@media (max-width:720px){.funnel-strip{grid-template-columns:1fr 1fr}}

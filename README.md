@@ -85,6 +85,19 @@ The brands page is reconciled against the clinic's 2026 consumables register, wh
 
 **Not on the website, on purpose:** the pharmacy's prescription products and the weight programme's medicines are prescription-only. Obat keras may not be advertised to the public in Indonesia, so the site says only that doctor-prescribed products are available at the clinic pharmacy. Costs and margins are never copied into `catalog.json`.
 
+## Five funnels (20 Oct 2026, later)
+
+The concerns and streams are now the five-stage ladder from the master menu's journey sheet, in life-stage order: Clear (jerawat / clear), Tone (cerah / tone), Texture (tekstur / texture, including the sensitive-skin and barrier track), Tighten (kencang / tighten), Enhance (penyempurnaan / enhance). Offers are combinations named on the master menu with its 1x/3x/6x prices; offers without a settled package price show "at consultation". The home page shows a funnel strip and five cards; every programme page carries the strip. The assessment routes to all five.
+
+## Blog, CS explainer, SEO map, social proof (20 Oct 2026, later)
+
+- `posts` in catalog.json render `blog.html` and one `blog-<slug>.html` per post per language, with Article JSON-LD and a CTA to the matching funnel. Four cornerstone posts cover the keywords the July brief said are winnable: harga HIFU Jakarta, Rejuran vs Profhilo vs Nucleofill, bekas jerawat bopeng, klinik kecantikan Jakarta Selatan. Add a post by adding an object to `posts`.
+- `cs.html` (noindex) is the customer-service explainer: fourteen common questions, each with the short answer, the page to send, and the WhatsApp template from the CS handbook, with copy buttons. `seo.html` (noindex) is the keyword → page map with the content rules.
+- Instagram: set `social.instagram.posts` to public post URLs and the home page embeds them with Instagram's official script; empty shows placeholder tiles. The handle `surfaceskinhabit` came from a third-party listing: confirm it.
+- Google: each clinic links to its Maps listing for reviews; fill `clinics[].google_place_id` to enable the "write a review" link. Claim all four listings in Google Business Profile.
+- Design placeholders: `site.show_placeholders: true` renders dashed boxes where the team should drop photos (hero, per funnel, per clinic, doctors, review widget, Instagram). Set it to `false` for launch.
+- Type: the font stack is Gotham with Montserrat as fallback. Gotham is a licensed Hoefler font; put licensed woff2 files in `assets/fonts/` and add `@font-face` rules to use it for real.
+
 ## Streams and the USP (20 Oct 2026)
 
 `catalog.json › streams` holds one landing page per concern (CLEAR → jerawat / acne, GLOW → cerah / brightening, LIFT → kencang / firming). Each has: a headline in customer language, "this is for you if", a four-step journey with timing (free doctor consult, start offer, 3–6 session programme with week-4 and week-8 checkpoints, week-12 doctor review then hold), what we promise, what we do not promise, the three offers with prices, the device logos used, the USP block, doctors, and three concern-specific FAQs. The home-page concern cards, the menu sections and the footer link to them. Stream filenames differ per language; `alt_path()` in build.py maps them for hreflang, the language switch and the sitemap.
