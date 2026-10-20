@@ -3477,10 +3477,11 @@
         "maker": "Ulvice · Zyfort",
         "kind": "Infus & injeksi vitamin",
         "kind_en": "Vitamin drips & shots",
-        "what": "Vitamin C 1000 mg (Ulvice) dan B-kompleks (Zyfort) untuk infus dan injeksi vitamin, atas anjuran dokter. Bukan untuk mengubah warna kulit.",
-        "what_en": "Vitamin C 1000 mg (Ulvice) and B-complex (Zyfort) for vitamin drips and shots, on the doctor's advice. Not for changing skin colour.",
+        "what": "Vitamin C 1000 mg (Ulvice) dan B-kompleks (Zyfort) untuk infus dan injeksi vitamin, tersedia à la carte atas penilaian dokter. Tidak dipasarkan sebagai perawatan warna kulit.",
+        "what_en": "Vitamin C 1000 mg (Ulvice) and B-complex (Zyfort) for vitamin drips and shots, available à la carte on the doctor's assessment. Not marketed as a skin-tone treatment.",
         "used_in": [
-          "Vitamin drip & injeksi (à la carte, sesuai anjuran dokter)"
+          "Vitamin drip (à la carte)",
+          "Energy Booster Drip"
         ],
         "device": "",
         "origin": "Indonesia",
@@ -5496,7 +5497,8 @@
       "Setiap halaman klinik perlu 150 kata konten lokal: landmark, akses, parkir, jam, dokter yang praktik.",
       "Blog: satu artikel per minggu, menjawab pertanyaan yang muncul di WhatsApp; tautkan ke jalur dan harga.",
       "Google Business Profile: keempat listing diklaim, foto, jam, dan tautan ke halaman klinik yang sesuai.",
-      "Tidak ada klaim mengubah warna kulit atau sembuh di judul mana pun; lint membangun halaman menolaknya."
+      "Tidak ada klaim mengubah warna kulit atau sembuh di judul mana pun; lint membangun halaman menolaknya.",
+      "Infus/drip vitamin tidak dipasarkan untuk warna kulit (peringatan BPOM soal glutathione injeksi). Hanya à la carte, atas penilaian dokter."
     ]
   },
   "posts": [
