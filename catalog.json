@@ -5537,8 +5537,18 @@
   "social": {
     "instagram": {
       "handle": "surfaceskinhabit",
-      "posts": [],
-      "_how": "Paste 3–6 public Instagram post or reel URLs (https://www.instagram.com/p/XXXX/) into posts. They embed with Instagram's official embed script. Leave empty to show the placeholder tiles."
+      "posts": [
+        "https://www.instagram.com/reel/DdqunqphFQN/",
+        "https://www.instagram.com/reel/DegzRJXBPU2/",
+        "https://www.instagram.com/reel/DeLjvZuhPdB/",
+        "https://www.instagram.com/reel/DdWIPslBtgq/",
+        "https://www.instagram.com/reel/DdaonVDpHb-/",
+        "https://www.instagram.com/reel/DebAkWTh5oB/"
+      ],
+      "_how": "Paste 3–6 public Instagram post or reel URLs (https://www.instagram.com/p/XXXX/) into posts. They embed with Instagram's official embed script. Leave empty to show the placeholder tiles.",
+      "followers": "27.4K",
+      "verified": true,
+      "_selection": "Picked 21 Oct 2026 from the 12 latest posts by likes and fit: Sabrina customer reel (564), LHALA explainer (55), on-set care reel (41), LHALA closer look (21), LHALA + QS (19), H2O facial (11). Skipped: Karhutla air-quality post (2,693 likes, off-topic), closed giveaways, a skin-progress post (before/after rule). Older posts need a logged-in view to rank."
     },
     "google": {
       "_how": "For each clinic, paste the Google Business Profile place ID into clinics[].google_place_id to enable the 'Tulis ulasan' (write a review) link. The maps link already opens the listing with its reviews.",
