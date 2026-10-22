@@ -556,6 +556,8 @@ def page_stream(code):
         chips += f'<a class="brand-chip" href="{dev_file(d)}" title="{e(d["name"])}">{inner}</a>'
     faq = '<div class="faq">' + "".join(f"<details><summary>{e(t(f, 'q'))}</summary><p>{e(t(f, 'a'))}</p></details>" for f in st["faq"]) + "</div>"
     msg = T("offer_msg", offer=t(st, "nav"), concern=t(con, "title"), klinik="{klinik}")
+    devices_sec = (f'<section class="section" style="padding-top:0"><div class="wrap"><div class="section-head"><div><span class="eyebrow">{e(T("edu_eye"))}</span><h2>{e(T("st_devices"))}</h2></div>'
+                   f'<a class="btn btn-ghost btn-sm" href="edukasi-brand.html">{e(T("br_strip_btn"))}</a></div><div class="brand-strip">{chips}</div></div></section>') if S.get("show_brand_mapping") else ""
     body = f'''<section class="hero"><div class="wrap">
   <div class="hero-card stream-hero">
     <div>
@@ -593,10 +595,7 @@ def page_stream(code):
 </div></section>
 {stacks_block(door=code)}
 {addons_strip()}
-<section class="section" style="padding-top:0"><div class="wrap">
-  <div class="section-head"><div><span class="eyebrow">{e(T("edu_eye"))}</span><h2>{e(T("st_devices"))}</h2></div><a class="btn btn-ghost btn-sm" href="edukasi-brand.html">{e(T("br_strip_btn"))}</a></div>
-  <div class="brand-strip">{chips}</div>
-</div></section>
+{devices_sec}
 {usp_block()}
 <section class="section" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T("s4_eye"))}</span><h2>{e(T("st_doctors"))}</h2></div></div>
@@ -822,6 +821,7 @@ def brand_mini(b):
     return f'<a class="brand-mini" href="edukasi-brand.html" title="{e(b["name"])}">{inner}</a>'
 
 def brand_chips(texts, limit=6):
+    if not S.get("show_brand_mapping"): return ""
     bs = brands_for(texts, limit)
     if not bs: return ""
     return f'<div class="brand-minis" aria-label="{e(T("br_used"))}">{"".join(brand_mini(b) for b in bs)}</div>'
@@ -1344,12 +1344,13 @@ def page_treatments():
             link = f'<br><a class="small" href="{dev_file(dev)}">{e(T("tx_device_link"))} \u2192</a>' if dev else ""
             price = rp(x["price"]) if x["price"] else T("tx_consult")
             note = f'<br><span class="small muted">{e(t(x, "note"))}</span>' if x.get("note") else ""
-            rows += (f'<tr><td><b>{e(x["name"])}</b>{bs_badge([x["name"]])}{note}</td><td>{e(t(x, "for"))}</td><td>{e(x["brand"])}{link}</td>'
+            brand_td = f'<td>{e(x["brand"])}{link}</td>' if S.get("show_brand_mapping") else ""
+            rows += (f'<tr><td><b>{e(x["name"])}</b>{bs_badge([x["name"]])}{note}</td><td>{e(t(x, "for"))}</td>{brand_td}'
                      f'<td>{e(T("by_doctor") if x["performed_by"] == "doctor" else T("by_therapist"))}</td>'
                      f'<td>{x["duration_min"]} {e(T("min"))}<br><span class="small muted">{e(t(x, "interval"))}</span></td><td class="p">{e(price)}</td></tr>')
         fams += f'''<section class="section" style="padding-top:12px"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(t(f, "name"))}</span><h2>{e(t(f, "name"))}</h2><p>{e(t(f, "blurb"))}</p></div></div>
-  <div class="tx-wrap"><table class="tx-table"><thead><tr><th>{e(T("tm_what"))}</th><th>{e(T("tx_for"))}</th><th>{e(T("tx_brand"))}</th><th>{e(T("tx_by"))}</th><th>{e(T("tx_dur"))} · {e(T("tx_int"))}</th><th>{e(T("tx_price"))}</th></tr></thead><tbody>{rows}</tbody></table></div>
+  <div class="tx-wrap"><table class="tx-table"><thead><tr><th>{e(T("tm_what"))}</th><th>{e(T("tx_for"))}</th>{f'<th>{e(T("tx_brand"))}</th>' if S.get("show_brand_mapping") else ""}<th>{e(T("tx_by"))}</th><th>{e(T("tx_dur"))} · {e(T("tx_int"))}</th><th>{e(T("tx_price"))}</th></tr></thead><tbody>{rows}</tbody></table></div>
 </div></section>'''
     body = edu_head(T("tx_h1"), T("tx_eye"), t(EDU, "treatments_intro"), "edukasi-treatment.html") + fams + f'''
 <section class="section" style="padding-top:0"><div class="wrap">
@@ -1381,8 +1382,7 @@ def brand_card(b):
   {f'<p class="small muted" style="margin:0 0 8px">{e(T("br_origin"))}: {e(t(b, "origin"))}</p>' if t(b, "origin") not in ("", EN_DASH, EM_DASH) else ""}
   <p>{e(t(b, "what"))}</p>
   {reg_block}
-  <p class="small" style="margin:10px 0 6px"><b>{e(T("br_used"))}</b></p>
-  <ul class="tags">{used}</ul>
+  {f'<p class="small" style="margin:10px 0 6px"><b>{e(T("br_used"))}</b></p><ul class="tags">{used}</ul>' if S.get("show_brand_mapping") else ""}
   {at}
   {f'<div class="tags-btn" style="margin-top:14px">{link}{site}</div>' if (link or site) else ""}
 </div>'''

@@ -30,7 +30,9 @@
       "doctors",
       "proof",
       "book"
-    ]
+    ],
+    "show_brand_mapping": false,
+    "_show_brand_mapping": "False hides every brand-to-treatment mapping (brand card 'Dipakai di', treatment table brand column, logo chips on programmes/stacks/price rows, device chips per pathway). The general 'brands we use' strips stay. Steve, 22 Oct 2026: naming the brand per treatment gives away the recipe."
   },
   "concerns": [
     {
