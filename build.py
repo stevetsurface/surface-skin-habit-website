@@ -885,7 +885,7 @@ def cycle_block(compact=False):
 def page_cycle():
     steps = ""
     for i, (name, line, when, body) in enumerate(T("cy_steps"), 1):
-        steps += f'<li><div class="jw">{i} · {e(when)}</div><div><h3>{e(name)} · {e(line)}</h3><p>{e(body)}</p></div></li>'
+        steps += f'<li><div class="jw">{e(when)}</div><div><h3>{e(name)} · {e(line)}</h3><p>{e(body)}</p></div></li>'
     refine = T("cy_refine")
     body = f'''<section class="page-hero"><div class="wrap">
   <span class="eyebrow">{e(T("cy_eye"))}</span>
