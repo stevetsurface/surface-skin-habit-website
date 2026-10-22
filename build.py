@@ -78,6 +78,7 @@ UI = {
                  ("edukasi-kombinasi.html", "Kombinasi", "Kenapa treatment dipasangkan, urutannya di kursi, dan apa yang berubah minggu demi minggu."),
                  ("edukasi-waktu.html", "Interval & waktu", "Jarak antar sesi, panjang program, masa berlaku paket, dan kapan harus menunda.")],
     "edu_devices_h": "Alat & tindakan: cara kerjanya", "edu_devices_p": "Satu halaman per alat: mekanisme, apa yang dirasakan, downtime, dan siapa yang sebaiknya menunda.",
+    "vn_h": "Tiga hal yang kami gabungkan", "vn_p": "Dokter di setiap langkah, rencana yang bertanggal, dan kebiasaan bulanan. Klinik lain punya satu atau dua; Skin Habit adalah ketiganya sekaligus.", "vn_sets": [("Dokter", "menilai di setiap langkah"), ("Rencana", "program bertanggal, 12 minggu"), ("Kebiasaan", "satu kunjungan setiap bulan")], "vn_overlaps": [("Correct", "minggu 2\u201312"), ("Review", "minggu ke-12"), ("Maintain", "bulanan")], "vn_centre": ["SKIN", "HABIT"],
     "cy_name": "Siklus Skin Habit", "cy_tm": "\u2122", "cy_eye": "Cara kerja Surface", "cy_h": "Satu siklus, dokter di tengahnya", "cy_p": "Setiap pelanggan Surface bergerak dalam siklus yang sama, di jalur mana pun. Dokter menilai di setiap putaran; kamu hanya perlu datang sesuai jadwal.", "cy_btn": "Lihat siklusnya", "cy_centre": ["Dokter", "di setiap langkah"], "cy_more": "Pelajari Siklus Skin Habit",
     "cy_steps": [("Mulai", "Konsultasi dokter gratis + analisis kulit", "Kunjungan 1 \u00b7 20 menit", "Dokter melihat kulitmu, menyaring hal yang mengubah protokol, dan memilih jalurnya: Clear, Tone, Texture, Calm, Tighten, atau Enhance."), ("Start", "Satu kunjungan, satu harga: Rp 799.000", "Kunjungan 1 \u00b7 hari yang sama", "Facial oleh terapis ditutup satu langkah dokter. Kamu pulang dengan rencana tertulis: tanggal kunjungan berikutnya dan tanggal review."), ("Correct", "Program 3 atau 6 sesi", "Minggu 2\u201312 \u00b7 tiap 2\u20134 minggu", "Facial plus alat atau peeling medis oleh dokter, dijual sebagai program. Setiap kunjungan punya tanggal; kami yang mengingatkan."), ("Review", "Dokter menilai di minggu ke-12", "Minggu 12 \u00b7 foto ulang", "Foto dan analisis diulang dengan cahaya dan sudut yang sama. Dokter memutuskan: lanjut, naik ke Refine, atau pindah ke Maintain."), ("Maintain", "Satu kunjungan Start setiap bulan", "Bulanan \u00b7 Skin Habit Plan", "Hasil dijaga dengan kebiasaan, bukan paket baru. Setiap 12 minggu kembali ke Review.")],
     "cy_refine": ("Refine", "Alat atau injeksi paling terarah, hanya atas keputusan dokter di Review."),
@@ -176,6 +177,7 @@ UI = {
                  ("edukasi-kombinasi.html", "Combinations", "Why treatments are paired, the order in the chair, and what changes week by week."),
                  ("edukasi-waktu.html", "Intervals & timing", "Gaps between sessions, programme length, package validity, and when to wait.")],
     "edu_devices_h": "Devices & procedures: how they work", "edu_devices_p": "One page per device: mechanism, what it feels like, downtime, and who should wait.",
+    "vn_h": "Three things we combine", "vn_p": "A doctor at every step, a plan with dates, and a monthly habit. Other clinics have one or two; Skin Habit is all three at once.", "vn_sets": [("Doctor", "assesses at every step"), ("Plan", "dated programme, 12 weeks"), ("Habit", "one visit every month")], "vn_overlaps": [("Correct", "weeks 2\u201312"), ("Review", "week 12"), ("Maintain", "monthly")], "vn_centre": ["SKIN", "HABIT"],
     "cy_name": "The Skin Habit Cycle", "cy_tm": "\u2122", "cy_eye": "How Surface works", "cy_h": "One cycle, with the doctor at its centre", "cy_p": "Every Surface customer moves through the same cycle, whichever pathway they are on. The doctor assesses on every turn; you only need to show up on schedule.", "cy_btn": "See the cycle", "cy_centre": ["Doctor", "at every step"], "cy_more": "Learn the Skin Habit Cycle",
     "cy_steps": [("Begin", "Free doctor consultation + skin analysis", "Visit 1 \u00b7 20 min", "The doctor looks at your skin, screens for anything that changes the protocol, and picks the pathway: Clear, Tone, Texture, Calm, Tighten or Enhance."), ("Start", "One visit, one price: Rp 799,000", "Visit 1 \u00b7 same day", "A therapist facial closed with one doctor step. You leave with a written plan: the next visit date and the review date."), ("Correct", "A 3- or 6-session programme", "Weeks 2\u201312 \u00b7 every 2\u20134 weeks", "Facial plus a device or medical peel by the doctor, sold as a programme. Every visit has a date; we do the reminding."), ("Review", "The doctor assesses at week 12", "Week 12 \u00b7 photos repeated", "Photos and analysis repeated with the same light and angle. The doctor decides: continue, step up to Refine, or move to Maintain."), ("Maintain", "One Start visit every month", "Monthly \u00b7 Skin Habit Plan", "Results kept by habit, not by a new package. Every 12 weeks, back to Review.")],
     "cy_refine": ("Refine", "The most targeted device or injectable, only on the doctor's decision at Review."),
@@ -893,6 +895,7 @@ def page_cycle():
   <p class="lead">{e(T("cy_p"))}</p>
 </div></section>
 <section class="section" style="padding-top:8px"><div class="wrap"><div class="cycle-wrap big">{cycle_svg()}</div></div></section>
+{venn_block()}
 <section class="section" style="padding-top:0"><div class="wrap">
   <ol class="journey">{steps}</ol>
   <div class="card note" style="margin-top:18px"><h3>{e(refine[0])}</h3><p>{e(refine[1])}</p></div>
@@ -901,6 +904,35 @@ def page_cycle():
 {cta_band()}
 '''
     return head(T("t_cy", name=S["name"]), T("d_cy"), "metode.html") + header("index.html#concern", "metode.html") + body + footer()
+
+def venn_svg(standalone=False):
+    # The Skin Habit mark: Doctor, Plan, Habit; Correct, Review and Maintain in the overlaps; Skin Habit at the centre.
+    ACC, INK, SOFT, BG = "#9B5A47", "#1E1A18", "#6B5F5A", "#FBF7F4"
+    W, H, cx, cy, r, d = 820, 620, 410, 330, 170, 110
+    sets = T("vn_sets"); ov = T("vn_overlaps"); centre = T("vn_centre")
+    circles = [(cx, cy - d * 0.95), (cx - d * 1.05, cy + d * 0.6), (cx + d * 1.05, cy + d * 0.6)]
+    labels = [(cx, cy - d * 0.95 - r - 22), (cx - d * 1.05 - r - 6, cy + d * 0.6 + r + 30), (cx + d * 1.05 + r + 6, cy + d * 0.6 + r + 30)]
+    ovpos = [(cx - d * 0.55, cy - d * 0.1), (cx + d * 0.55, cy - d * 0.1), (cx, cy + d * 0.95)]
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="Skin Habit" class="venn-svg" font-family="Gotham, Montserrat, Helvetica, Arial, sans-serif">']
+    if standalone: out.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
+    for (x, y) in circles:
+        out.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{ACC}" fill-opacity=".16" stroke="{ACC}" stroke-width="2.5"/>')
+    for (n, sub), (x, y) in zip(sets, labels):
+        out.append(f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="middle" font-size="22" font-weight="700" fill="{INK}">{e(n.upper())}</text><text x="{x:.0f}" y="{y + 22:.0f}" text-anchor="middle" font-size="13.5" fill="{SOFT}">{e(sub)}</text>')
+    for (n, sub), (x, y) in zip(ov, ovpos):
+        out.append(f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="middle" font-size="15" font-weight="700" fill="{ACC}">{e(n.upper())}</text><text x="{x:.0f}" y="{y + 16:.0f}" text-anchor="middle" font-size="12" fill="{SOFT}">{e(sub)}</text>')
+    out.append(f'<circle cx="{cx}" cy="{cy + 8}" r="46" fill="{ACC}"/><text x="{cx}" y="{cy + 4}" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#fff">{e(centre[0])}</text><text x="{cx}" y="{cy + 22}" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#fff">{e(centre[1])}</text>')
+    if standalone: out.append(f'<text x="{cx}" y="{H - 24}" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="{ACC}">SKIN HABIT™ · SURFACE SKIN HABIT</text>')
+    out.append('</svg>')
+    return "".join(out)
+
+def venn_block():
+    return f'''<section class="section" id="skin-habit" style="padding-top:0"><div class="wrap">
+  <div class="venn-split">
+    <div class="cycle-wrap venn-wrap">{venn_svg()}</div>
+    <div><span class="eyebrow">{e(T("cy_eye"))}</span><h2>Skin Habit<sup class="tm">{e(T("cy_tm"))}</sup> · {e(T("vn_h"))}</h2><p>{e(T("vn_p"))}</p><a class="btn btn-ghost btn-sm" href="metode.html">{e(T("cy_more"))}</a></div>
+  </div>
+</div></section>'''
 
 def proof_block():
     P = C["proof"]
@@ -1001,7 +1033,7 @@ def page_index():
   </div>
 </div></section>
 
-{cycle_block(compact=True)}
+{venn_block()}
 <section class="section" id="concern" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s1_eye'))}</span><h2>{e(T('s1_h'))}</h2><p>{e(T('s1_p'))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T('s1_btn'))}</a></div>
   {funnel_strip()}
@@ -1637,6 +1669,7 @@ def main():
     for lang in ("id", "en"):
         L, PREFIX = lang, ""
         (ROOT / "assets" / f"skin-habit-cycle-{lang}.svg").write_text(cycle_svg(standalone=True), encoding="utf-8")
+        (ROOT / "assets" / f"skin-habit-mark-{lang}.svg").write_text(venn_svg(standalone=True), encoding="utf-8")
     L, PREFIX = "id", ""
     (ROOT / "sitemap.xml").write_text(sitemap(), encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")

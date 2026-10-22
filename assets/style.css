@@ -594,3 +594,7 @@ p{margin:0 0 1em}
 .cycle-svg{width:100%;height:auto;display:block;max-height:640px}
 .cycle-svg.compact{max-height:520px}
 .tm{font-size:.45em;vertical-align:super;margin-left:2px;color:var(--accent)}
+.venn-split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.venn-wrap{padding:clamp(8px,2vw,20px)}
+.venn-svg{width:100%;height:auto;display:block;max-height:520px}
+@media (max-width:960px){.venn-split{grid-template-columns:1fr}}
