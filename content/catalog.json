@@ -137,15 +137,15 @@
     {
       "code": "TONE",
       "name": "Tone",
-      "title": "Kusam, flek & warna tidak rata",
-      "en": "Dullness, spots & uneven tone",
+      "title": "Flek matahari, freckles & warna tidak rata",
+      "en": "Sunspots, freckles & uneven tone",
       "keywords": [
         "flek hitam",
         "kusam",
         "melasma",
         "warna kulit belang"
       ],
-      "intro": "Kusam dan flek adalah keluhan kedua terbanyak. Facial H2O membuka jalan, lalu peeling dan laser oleh dokter meratakan warna kulit.",
+      "intro": "Flek matahari, freckles, melasma, dan bekas jerawat gelap bisa tampak serupa, tetapi membutuhkan perawatan berbeda. Mulai dari penilaian dokter untuk memahami pigmentasi dan rencana yang sesuai.",
       "offers": [
         {
           "name": "Tone Start",
@@ -218,14 +218,14 @@
           "medical_review": true
         }
       ],
-      "intro_en": "Dullness and dark spots are the second most common concern. An H2O facial opens the way, then a doctor peel and laser even out your tone.",
+      "intro_en": "Sunspots, freckles, melasma and dark acne marks can look similar, but need different care. Start with a doctor assessment to understand your pigmentation and choose an appropriate plan.",
       "keywords_en": [
         "dark spots",
         "dull skin",
         "melasma",
         "uneven tone"
       ],
-      "title_en": "Dullness, spots & uneven tone",
+      "title_en": "Sunspots, freckles & uneven tone",
       "next": [
         "TIGHTEN"
       ]
@@ -2533,7 +2533,10 @@
         "for_en": "Tired-looking eyes, fine lines",
         "price": 550000,
         "note": "Add-on di kunjungan yang sama.",
-        "note_en": "Add-on in the same visit."
+        "note_en": "Add-on in the same visit.",
+        "mechanism_en": "An eye-area add-on. Ask your clinician which steps and products are used, what they target, and whether they suit your eye-area skin.",
+        "mechanism": "Treatment tambahan area mata. Tanyakan langkah dan produk, sasarannya, serta kesesuaiannya untuk kulit area matamu.",
+        "mechanism_source": null
       },
       {
         "name": "Oxy Facial",
@@ -2563,7 +2566,10 @@
         "for_en": "Blackheads and basic cleansing with extraction",
         "price": 350000,
         "note": "",
-        "note_en": ""
+        "note_en": "",
+        "mechanism_en": "A cleansing facial with extraction for selected clogged pores. This removes surface buildup and congestion; it does not replace medical treatment for persistent acne.",
+        "mechanism": "Facial pembersihan dengan ekstraksi untuk pori tersumbat tertentu. Ini mengangkat penumpukan permukaan dan komedo; bukan pengganti perawatan medis untuk jerawat menetap.",
+        "mechanism_source": null
       },
       {
         "name": "Diamond Facial",
@@ -2818,7 +2824,10 @@
         "for_en": "A single large inflamed acne lesion; injected directly",
         "price": 300000,
         "note": "",
-        "note_en": ""
+        "note_en": "",
+        "mechanism_en": "A doctor injects medication into selected inflamed acne lesions. Corticosteroids are one established option for certain large, painful lesions; your doctor names the medication and explains its risks.",
+        "mechanism": "Dokter menyuntikkan obat ke lesi jerawat meradang tertentu. Kortikosteroid merupakan salah satu pilihan untuk lesi besar yang nyeri; dokter menjelaskan nama obat dan risikonya.",
+        "mechanism_source": "https://www.aad.org/public/diseases/acne/derm-treat/treat"
       },
       {
         "name": "Meso Lipo (wajah)",
@@ -2833,7 +2842,10 @@
         "for_en": "Skin quality and firmness around the jaw and cheeks",
         "price": 1400000,
         "note": "",
-        "note_en": ""
+        "note_en": "",
+        "mechanism_en": "This is an injection-based contouring treatment. Its mechanism depends on the actual product used; an injector brand alone does not identify the ingredient. Ask your doctor to explain the active ingredient, treatment area, suitability, and recovery.",
+        "mechanism": "Ini treatment kontur berbasis injeksi. Cara kerjanya bergantung pada produk yang digunakan; merek injector tidak menjelaskan kandungannya. Minta dokter menjelaskan bahan aktif, area, kesesuaian, dan pemulihan.",
+        "mechanism_source": null
       },
       {
         "name": "Botulinum Toxin (Botox)",
@@ -2848,7 +2860,10 @@
         "for_en": "Dynamic lines: frown, crow's feet, forehead; microbotox for pores and oil",
         "price": 6450000,
         "note": "Harga per 50 unit. Jumlah unit ditentukan dokter.",
-        "note_en": "Price per 50 units. Units set by the doctor."
+        "note_en": "Price per 50 units. Units set by the doctor.",
+        "mechanism_en": "Botulinum toxin temporarily reduces signalling from nerves to selected muscles. Less muscle contraction can soften expression lines. Product choice, dose, and injection sites are assessed by the doctor.",
+        "mechanism": "Botulinum toxin sementara mengurangi sinyal saraf ke otot tertentu. Kontraksi yang berkurang dapat melembutkan garis ekspresi. Dokter menilai produk, dosis, dan titik injeksi.",
+        "mechanism_source": "https://www.aad.org/public/cosmetic/wrinkles/botulinum-toxin-faqs"
       },
       {
         "name": "Skin Booster (Rejuran, Profhilo, Nucleofill)",
@@ -2863,7 +2878,10 @@
         "for_en": "Deep hydration, skin quality, holding results after a laser or peel series",
         "price": 0,
         "note": "Harga disampaikan saat konsultasi dokter.",
-        "note_en": "Price given at the doctor consultation."
+        "note_en": "Price given at the doctor consultation.",
+        "mechanism_en": "Skin booster is a category, not one ingredient. These products have different formulations and are not interchangeable. Your doctor should name the product, explain its intended skin-quality goal, and discuss evidence, recovery, and alternatives.",
+        "mechanism": "Skin booster adalah kategori, bukan satu bahan. Formulasi produk berbeda dan tidak saling menggantikan. Dokter menyebut produk, menjelaskan tujuan kualitas kulit, serta membahas bukti, pemulihan, dan alternatif.",
+        "mechanism_source": null
       }
     ],
     "treatments_intro": "Semua treatment yang bisa kamu temui di Surface, dikelompokkan menurut caranya bekerja. Harga satuan ditampilkan sebagai acuan; paket dan kombinasi ada di halaman Menu.",
@@ -5023,18 +5041,18 @@
       "lead": "Kusam dan flek adalah keluhan kedua terbanyak. Facial membuka jalan, peeling dokter meratakan, dan laser menjangkau pigmen yang lebih dalam. Kami bicara mekanisme, bukan warna kulit.",
       "lead_en": "Dullness and spots are the second most common concern. A facial opens the way, a doctor peel evens, and laser reaches deeper pigment. We talk mechanism, not skin colour.",
       "for_you": [
-        "Kusam, kurang glowing",
-        "Flek hitam dan bekas jerawat gelap",
-        "Warna kulit tidak rata",
-        "Melasma yang membandel",
-        "Kulit kering atau sensitif yang mudah kusam"
+        "Flek matahari atau bintik penuaan",
+        "Freckles yang ingin diperiksa",
+        "Melasma atau pigmentasi bercak",
+        "Bekas jerawat yang menggelap",
+        "Kulit kusam atau warna tidak merata"
       ],
       "for_you_en": [
-        "Dull, not glowing",
-        "Dark spots and dark acne marks",
-        "Uneven skin tone",
-        "Stubborn melasma",
-        "Dry or sensitive skin that dulls easily"
+        "Sunspots or age spots",
+        "Freckles you would like assessed",
+        "Melasma or patchy pigmentation",
+        "Dark marks left after acne",
+        "Dullness or uneven-looking tone"
       ],
       "journey": [
         {
@@ -6648,5 +6666,28 @@
       "spec_en": "DEVICE PHOTO: Chemical Peel in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
       "ratio": "4/3"
     }
-  }
+  },
+  "published_stories": [
+    {
+      "name": "Namira Adzani",
+      "summary_en": "Namira appreciated the informative team and the relaxing experience.",
+      "summary": "Namira mengapresiasi tim yang informatif dan pengalaman perawatan yang menenangkan.",
+      "treatment": "Hydraderm Facial + PDT",
+      "source": "https://www.surfaceskinhabit.com/home#testi-9"
+    },
+    {
+      "name": "Nadin Amizah",
+      "summary_en": "Nadin described returning for Hydraderm as part of her routine.",
+      "summary": "Nadin bercerita tentang kembali untuk Hydraderm sebagai bagian dari rutinitasnya.",
+      "treatment": "Hydraderm Facial",
+      "source": "https://www.surfaceskinhabit.com/home#testi-10"
+    },
+    {
+      "name": "Melody Amadea",
+      "summary_en": "Melody highlighted the comfortable atmosphere and her preference for Hydraderm.",
+      "summary": "Melody menyoroti suasana nyaman dan Hydraderm sebagai treatment favoritnya.",
+      "treatment": "Hydraderm Facial",
+      "source": "https://www.surfaceskinhabit.com/home#testi-11"
+    }
+  ]
 }

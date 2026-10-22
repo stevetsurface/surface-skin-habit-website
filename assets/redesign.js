@@ -12,6 +12,16 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape') { setMenu(false); } });
   const clinic = document.querySelector('#clinic');
   const interest = document.querySelector('#interest');
+  const visitType = document.querySelector('#visit-type');
+  const preferredDate = document.querySelector('#preferred-date');
+  const preferredTime = document.querySelector('#preferred-time');
+  const params = new URLSearchParams(location.search);
+  const concernCode = params.get('concern');
+  const concernMap = {CLEAR:'Clear',TONE:'Tone',TEXTURE:'Texture',CALM:'Calm',TIGHTEN:'Tighten',ENHANCE:'Enhance'};
+  if (interest && concernMap[concernCode]) interest.value = concernMap[concernCode];
+  if (visitType && ['first','followup','return'].includes(params.get('visit'))) visitType.value=params.get('visit');
+  if(preferredDate) preferredDate.min=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jakarta',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+  document.querySelectorAll('.followup-link').forEach(a=>a.addEventListener('click',()=>{if(visitType) visitType.value='followup';}));
   try { if (clinic && [...clinic.options].some(o => o.value === localStorage.getItem('surface-clinic'))) clinic.value = localStorage.getItem('surface-clinic'); } catch {}
   clinic?.addEventListener('change', () => { try { localStorage.setItem('surface-clinic', clinic.value); } catch {} });
   document.querySelectorAll('[data-clinic]').forEach(button => button.addEventListener('click', () => {
@@ -24,10 +34,14 @@
     e.preventDefault();
     if (!clinic.value) { clinic.reportValidity(); return; }
     const subject = interest.options[interest.selectedIndex].textContent;
+    const visitLabel=visitType?.options[visitType.selectedIndex].textContent || '';
+    const dateLabel=preferredDate?.value || (locale==='id'?'Fleksibel':'Flexible');
+    const timeLabel=preferredTime?.options[preferredTime.selectedIndex].textContent || '';
+    const context=locale==='id'?`\nJenis kunjungan: ${visitLabel}.\nPilihan tanggal: ${dateLabel}, ${timeLabel}.\nMohon konfirmasi ketersediaan. Belum merupakan booking terkonfirmasi.`:`\nVisit: ${visitLabel}.\nPreferred date: ${dateLabel}, ${timeLabel}.\nPlease confirm availability. This is an appointment request.`;
     const message = locale === 'id'
       ? `Halo Surface, saya ingin booking konsultasi dokter gratis di ${clinic.value}. Saya ingin membahas: ${subject}. Mohon bantu carikan jadwal yang tersedia.`
       : `Hi Surface, I’d like to book a free doctor consultation at ${clinic.value}. I’d like to discuss: ${subject}. Please help me find an available time.`;
-    window.open('https://wa.me/6281222346115?text=' + encodeURIComponent(message), '_blank', 'noopener,noreferrer');
+    window.open('https://wa.me/6281222346115?text=' + encodeURIComponent(message + context + '\n' + (locale==='id'?'Halaman: ':'Page: ') + document.title + '\n' + location.origin + location.pathname), '_blank', 'noopener,noreferrer');
   });
   const search = document.querySelector('#treatment-search');
   search?.addEventListener('input', () => {

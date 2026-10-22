@@ -180,6 +180,7 @@ def twin_for(src):
   return '../'+u if EN else u
  return '../index.html' if EN else 'en/index.html'
 
+exec((ROOT/'site_features.py').read_text(),globals())
 route_count=0
 for language in ['id','en']:
  EN=language=='en'; source=CONTENT/'legacy'/('en' if EN else '')
@@ -193,6 +194,7 @@ for language in ['id','en']:
   elif name=='dokter.html':body=doctors_page();t=tr('Our doctors','Dokter kami')
   elif name=='klinik.html':body=clinics_page();t=tr('Our clinics','Klinik kami')
   elif name=='menu.html':body=menu_page();t=tr('Treatments & prices','Treatment & harga')
+  elif name=='edukasi-treatment.html':body=treatment_directory();t=tr('Treatment explainers','Penjelasan treatment')
   elif name=='edukasi.html':body=education_page();t=tr('Skin education','Edukasi kulit')
   elif name=='blog.html':body=blog_page();t=tr('The Surface Journal','Jurnal Surface')
   elif name=='metode.html':body=hero(tr('THE SURFACE APPROACH','PENDEKATAN SURFACE'),tr('Treatment is a habit.<br>Care is personal.','Treatment adalah kebiasaan.<br>Perawatan itu personal.'),tr('A doctor assessment, a clear plan, and reviews along the way.','Penilaian dokter, rencana yang jelas, dan tinjauan sepanjang perjalanan.'),'assets/clinics/tsm-koridor.jpg')+approach()+concerns();t=tr('The Skin Habit approach','Pendekatan Skin Habit')
@@ -208,6 +210,7 @@ for language in ['id','en']:
     body=retained_page(p);body=body.replace('id="content">','id="content"><p class="assessment-privacy">'+tr('Your answers stay in this browser until you choose to share your result on WhatsApp.','Jawabanmu tetap di browser ini sampai kamu memilih membagikan hasil melalui WhatsApp.')+'</p>',1) if name=='analisis.html' else body;h=re.search('<h1[^>]*>(.*?)</h1>',p.read_text(),re.S);t=re.sub('<[^>]*>','',h[1]) if h else t
   body=body.replace('href="#content"','href="#concern"') if name=='metode.html' else body
   render(OUT/('en' if EN else '')/name,body,t,twin_for(p),interest);route_count+=1
+extra_routes()
 # Backwards-compatible Indonesian homepage URL from the initial preview.
 shutil.copy(OUT/'index.html',OUT/'id.html')
 # Public sitemap for the GitHub Pages deployment.
