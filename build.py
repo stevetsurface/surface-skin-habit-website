@@ -674,7 +674,10 @@ def results_block(code):
                 pairs += f'''<figure class="ba"><div class="ba-pair"><div><img src="{PREFIX}{e(x["before"])}" alt="{e(T("res_before"))}" loading="lazy"><span>{e(T("res_before"))}</span></div><div><img src="{PREFIX}{e(x["after"])}" alt="{e(T("res_after", w=w))}" loading="lazy"><span>{e(T("res_after", w=w))}</span></div></div><figcaption class="small muted">{e(cap)}</figcaption></figure>'''
             body = f'<div class="ba-grid">{pairs}</div>'
         else:
-            body = f'<p class="muted">{e(t(R, "empty"))}</p>' + ph("results")
+            pair = (f'<figure class="ba"><div class="ba-pair"><div class="ph ph-img ba-ph"><span class="small">{e(T("res_before"))}</span></div>'
+                    f'<div class="ph ph-img ba-ph"><span class="small">{e(T("res_after", w=12))}</span></div></div>'
+                    f'<figcaption class="small muted">{e(T("ph_label"))}: {e(t(R, "pair_spec"))}</figcaption></figure>')
+            body = f'<p class="muted">{e(t(R, "empty"))}</p>' + (f'<div class="ba-grid">{pair * 3}</div>' if S.get("show_placeholders") else "")
     return f'''<section class="section" id="hasil" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T("res_eye"))}</span><h2>{e(T("res_h"))}</h2><p>{e(t(R, "intro"))}</p></div></div>
   {body}
@@ -1110,6 +1113,7 @@ def fitz_table(d):
 def device_card(d):
     tags = "".join(f'<li class="tag">{e(x)}</li>' for x in t(d, "treats")[:3])
     return f'''<a class="card card-link edu-card" href="{dev_file(d)}">
+  {img_slot("device_" + d["slug"], "card-photo")}
   <span class="eyebrow">{e(t(d, "brand"))}</span>
   <h3>{e(d["name"])}</h3>
   <p class="muted">{e(t(d, "how"))}</p>
@@ -1188,11 +1192,14 @@ def page_device(d):
             (T("dev_int"), t(d, "interval")), (T("dev_down"), t(d, "downtime")),
             (T("dev_feel"), t(d, "sensation")), (T("dev_by"), by_label(d)), (T("dev_at"), dev_clinics(d))]
     spec_rows = "".join(f'<div class="spec"><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in spec)
-    body = f'''<section class="page-hero dev-head"><div class="wrap">
+    body = f'''<section class="page-hero dev-head"><div class="wrap dev-hero">
+  <div>
   <a class="small edu-back" href="edukasi.html">\u2190 {e(T("edu_back"))}</a>
   <span class="eyebrow">{e(t(d, "brand"))}</span>
   <h1>{e(d["name"])}</h1>
   <p class="lead">{e(t(d, "how"))}</p>
+  </div>
+  {img_slot("device_" + d["slug"], "device-photo")}
 </div></section>
 <section class="section" style="padding-top:12px"><div class="wrap">
   <div class="grid-2 dev-grid">

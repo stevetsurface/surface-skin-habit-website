@@ -583,3 +583,8 @@ p{margin:0 0 1em}
 .footer-brands .brand-minis{margin-top:10px}
 .offer .brand-minis{margin:2px 0 10px}
 .tx-table .brand-minis{margin:6px 0 0}
+.dev-hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+.device-photo{border-radius:22px}
+.edu-card .card-photo{margin:-24px -24px 14px;border-radius:var(--radius) var(--radius) 0 0;aspect-ratio:16/10!important}
+.ba-ph{aspect-ratio:4/5;justify-content:center;align-items:center;text-align:center}
+@media (max-width:960px){.dev-hero{grid-template-columns:1fr}}

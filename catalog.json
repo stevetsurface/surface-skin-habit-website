@@ -6178,7 +6178,9 @@
     ],
     "empty": "Belum ada foto yang tayang untuk jalur ini. Lihat ulasan Google per klinik untuk cerita pelanggan.",
     "empty_en": "No photos are live for this pathway yet. See the Google reviews per clinic for customer stories.",
-    "items": []
+    "items": [],
+    "pair_spec": "Pasangan foto hasil: Awal dan Minggu ke-12, sudut dan cahaya sama, tanpa filter, izin tertulis, ditandatangani dokter. 800×1000 per foto.",
+    "pair_spec_en": "Result pair: Start and Week 12, same angle and light, no filter, written consent, doctor sign-off. 800×1000 per photo."
   },
   "_results_item_format": {
     "door": "CLEAR",
@@ -6555,6 +6557,94 @@
       "spec": "FOTO: pintu masuk dan resepsi Surface CITOS, siang hari. 1200×800.",
       "spec_en": "PHOTO: entrance and reception, Surface CITOS, daytime. 1200×800.",
       "ratio": "3/2"
+    },
+    "device_biaxis-qs-laser": {
+      "src": "",
+      "alt": "Biaxis Q-Switched Nd:YAG",
+      "alt_en": "Biaxis Q-Switched Nd:YAG",
+      "spec": "FOTO ALAT: Biaxis Q-Switched Nd:YAG di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Biaxis Q-Switched Nd:YAG in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_ipl-cellec": {
+      "src": "",
+      "alt": "IPL Cellec",
+      "alt_en": "IPL Cellec",
+      "spec": "FOTO ALAT: IPL Cellec di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: IPL Cellec in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_hifu-liftera": {
+      "src": "",
+      "alt": "HIFU Liftera",
+      "alt_en": "HIFU Liftera",
+      "spec": "FOTO ALAT: HIFU Liftera di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: HIFU Liftera in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_pollogen-rf": {
+      "src": "",
+      "alt": "Pollogen RF",
+      "alt_en": "Pollogen RF",
+      "spec": "FOTO ALAT: Pollogen RF di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Pollogen RF in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_nanopore": {
+      "src": "",
+      "alt": "Nanopore",
+      "alt_en": "Nanopore",
+      "spec": "FOTO ALAT: Nanopore di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Nanopore in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_pdt-celluma": {
+      "src": "",
+      "alt": "PDT Celluma",
+      "alt_en": "PDT Celluma",
+      "spec": "FOTO ALAT: PDT Celluma di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: PDT Celluma in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_aquapure-h2o": {
+      "src": "",
+      "alt": "Aquapure H2O",
+      "alt_en": "Aquapure H2O",
+      "spec": "FOTO ALAT: Aquapure H2O di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Aquapure H2O in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_hydraderm": {
+      "src": "",
+      "alt": "Hydraderm",
+      "alt_en": "Hydraderm",
+      "spec": "FOTO ALAT: Hydraderm di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Hydraderm in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_oxy-gun": {
+      "src": "",
+      "alt": "Oxy Gun",
+      "alt_en": "Oxy Gun",
+      "spec": "FOTO ALAT: Oxy Gun di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Oxy Gun in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_diamond-peel": {
+      "src": "",
+      "alt": "Diamond Peel",
+      "alt_en": "Diamond Peel",
+      "spec": "FOTO ALAT: Diamond Peel di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Diamond Peel in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
+    },
+    "device_chemical-peel": {
+      "src": "",
+      "alt": "Chemical Peel",
+      "alt_en": "Chemical Peel",
+      "spec": "FOTO ALAT: Chemical Peel di ruang treatment Surface, sudut 3/4, layar menyala, latar bersih, tanpa orang. 1200×900, 4:3. Alternatif: foto resmi pembuat dengan izin tertulis.",
+      "spec_en": "DEVICE PHOTO: Chemical Peel in a Surface treatment room, 3/4 angle, screen on, clean background, no people. 1200×900, 4:3. Alternative: the maker's official photo with written permission.",
+      "ratio": "4/3"
     }
   }
 }
