@@ -868,7 +868,7 @@
     },
     {
       "publish": true,
-      "name": "dr. Sukma",
+      "name": "dr. Sukmasari",
       "clinics": [
         "LMP"
       ],
@@ -5691,7 +5691,7 @@
     "hero": "Foto hero: wajah pelanggan asli, close-up tekstur kulit, cahaya alami hangat (brand deck: real skin, soft daylight). 1600×1000.",
     "stream": "Foto program: tangan terapis di kulit, alat terlihat, warna netral. 1200×800 per funnel.",
     "clinic": "Foto klinik: pintu masuk dan ruang treatment, siang hari. 1200×800 per klinik. Setiabudi dan CITOS belum punya foto berlabel; foto ruang generik dipakai sementara.",
-    "doctor": "Foto dokter: setengah badan, seragam Surface, latar putih polos, min. 1000×1200. Belum ada: dr. Sukma (file di Drive 11 MB, kirim versi <10 MB), dr. Shafira Eston.",
+    "doctor": "Foto dokter: setengah badan, seragam Surface, latar putih polos, min. 1000×1200. Belum ada: dr. Sukmasari (file di Drive 11 MB, kirim versi <10 MB), dr. Shafira Eston.",
     "review": "Widget rating Google: isi google_place_id per klinik untuk tautan ulasan; rating ditampilkan setelah dikonfirmasi dari Google Business Profile.",
     "instagram": "Tempel URL post/reel Instagram di catalog.json › social.instagram.posts.",
     "results": "Foto hasil: pasangan foto awal / minggu ke-12, wajah pelanggan dengan izin tertulis, cahaya klinik yang sama. 800×1000 per foto, isi results.items di catalog.json.",
