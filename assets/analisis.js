@@ -37,7 +37,7 @@
     if (q.options_by_concern) return q.options_by_concern[concernOf()] || [];
     return q.options || [];
   }
-  function rp(n) { return 'Rp ' + String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
+  function rp(n) { if(n===0)return document.documentElement.lang==='id'?'Gratis':'Free'; return 'Rp ' + String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
   function render() {
@@ -156,7 +156,7 @@
       '<span class="eyebrow">' + esc(U.best_concern) + '</span>' +
       '<h2 class="aq-q">' + esc(con.name) + ' · ' + esc(con.title) + '</h2>' +
       '<p class="aq-help">' + esc(con.intro) + '</p>' +
-      '<p class="aq-start"><b>' + esc(U.start_with) + ':</b> ' + esc(startOffer.name) + ' · ' + (startOffer.single ? rp(startOffer.single) : esc(U.from)) + '</p>' +
+      '<p class="aq-start"><b>' + esc(U.start_with) + ':</b> ' + esc(startOffer.name) + ' · ' + (startOffer.single !== null ? rp(startOffer.single) : esc(U.from)) + '</p>' +
       '<div class="aq-result">' +
         '<div class="aq-rhead">' + esc(U.usual_start) + '</div>' +
         '<div class="aq-offer"><div><div class="lv">' + esc((offer.level || '').charAt(0).toUpperCase() + (offer.level || '').slice(1)) + '</div><h3>' + esc(offer.name) + '</h3>' +

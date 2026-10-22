@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://surfaceskinhabit.com/sitemap.xml
+Disallow: /surface-skin-habit-website/content/
+Sitemap: https://stevetsurface.github.io/surface-skin-habit-website/sitemap.xml
