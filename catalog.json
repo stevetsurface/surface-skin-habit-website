@@ -799,7 +799,7 @@
     },
     {
       "publish": true,
-      "name": "dr. Kharisma Pipit",
+      "name": "dr. Kharisma Juang Dinastiti",
       "clinics": [
         "SB",
         "TSM"
@@ -6322,7 +6322,7 @@
     "rx_note": "Produk resep dokter dan treatment tubuh tidak ditampilkan; tanyakan saat konsultasi.",
     "rx_note_en": "Prescription products and body treatments are not listed; ask at your consultation."
   },
-  "_doctors_note": "Source: SSH_Doctor_Credentials_Form (Google Sheet), 20 Oct 2026. STR and SIP numbers are internal only and must never be published. dr. Nana excluded per Steve (20 Oct). dr. Pipit (Setiabudi) and dr. Kharisma Pipit (Cibubur) are the same doctor.",
+  "_doctors_note": "Source: SSH_Doctor_Credentials_Form (Google Sheet), 20 Oct 2026. STR and SIP numbers are internal only and must never be published. dr. Nana excluded per Steve (20 Oct). dr. Pipit (Setiabudi) and dr. Kharisma Pipit (Cibubur) on the form are the same doctor; her name for the website is dr. Kharisma Juang Dinastiti (her own correction, 22 Oct 2026).",
   "spaces": {
     "intro": "Empat klinik, satu standar: ruang treatment privat, alat yang sama, dokter di setiap lokasi.",
     "intro_en": "Four clinics, one standard: private treatment rooms, the same devices, a doctor at every location.",
