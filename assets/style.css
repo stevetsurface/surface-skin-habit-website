@@ -574,3 +574,12 @@ p{margin:0 0 1em}
 .hero-photo .hero-img{aspect-ratio:auto!important;height:100%;min-height:420px}
 @media (max-width:960px){.hero-photo .hero-img{height:auto;min-height:0;aspect-ratio:4/3!important}}
 @media (max-width:960px){.hero-card .hero-img{order:-1;margin:-8px -8px 4px;border-radius:18px}}
+/* brand logos everywhere */
+.brand-minis{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;padding:0;list-style:none}
+.brand-mini{display:inline-flex;align-items:center;justify-content:center;height:30px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;color:var(--ink-soft);font-size:12px;font-weight:600}
+.brand-mini img{height:16px;width:auto;max-width:90px;object-fit:contain;display:block}
+.brand-mini:hover{border-color:var(--accent)}
+.footer-brands{padding:18px 0 22px;border-bottom:1px solid var(--line);margin-bottom:28px}
+.footer-brands .brand-minis{margin-top:10px}
+.offer .brand-minis{margin:2px 0 10px}
+.tx-table .brand-minis{margin:6px 0 0}

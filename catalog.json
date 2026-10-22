@@ -2889,7 +2889,10 @@
         "logo": "lhala.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "keywords": [
+          "lhala"
+        ]
       },
       {
         "name": "Biaxis Q-Switched Nd:YAG",
@@ -2917,7 +2920,17 @@
           }
         ],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "qs ",
+          "q-switched",
+          "laser facial",
+          "1064",
+          "laser 1064",
+          "qs brighten",
+          "qs toning",
+          "biaxis"
+        ]
       },
       {
         "name": "Cellec V IPL",
@@ -2936,7 +2949,13 @@
         "logo": "jeisys.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "ipl",
+          "pulse light",
+          "pulsed light",
+          "cellec"
+        ]
       },
       {
         "name": "Liftera HIFU",
@@ -2962,7 +2981,12 @@
           }
         ],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "hifu",
+          "liftera",
+          "ultilift"
+        ]
       },
       {
         "name": "Pollogen TriPollar RF",
@@ -2991,7 +3015,14 @@
           }
         ],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "tighten & contour",
+          "contouring facial",
+          "v-shape",
+          "pollogen",
+          "rf tighten"
+        ]
       },
       {
         "name": "Mediderma Nanopore",
@@ -3013,7 +3044,11 @@
         "logo": "mediderma.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "nanopore",
+          "nanoporeless"
+        ]
       },
       {
         "name": "Celluma PDT",
@@ -3039,7 +3074,12 @@
           }
         ],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "pdt",
+          "led",
+          "celluma"
+        ]
       },
       {
         "name": "Aquapure",
@@ -3060,7 +3100,11 @@
         "logo": "classys.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "h2o",
+          "aquapure"
+        ]
       },
       {
         "name": "Dermolissage",
@@ -3082,7 +3126,11 @@
         "logo": "dermolissage.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "hydraderm",
+          "dermolissage"
+        ]
       },
       {
         "name": "Intraceuticals Oxygen",
@@ -3101,7 +3149,12 @@
         "logo": "intraceuticals.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "oxy facial",
+          "oxygen",
+          "intraceutical"
+        ]
       },
       {
         "name": "Tegoder Cosmetics",
@@ -3124,7 +3177,17 @@
         "logo": "tegoder.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "keywords": [
+          "targeted peel",
+          "sa peel",
+          "ga peel",
+          "ultrabrightening",
+          "tca peel",
+          "tegoder",
+          "peel sa",
+          "peel ga"
+        ]
       },
       {
         "name": "Dermalogica",
@@ -3146,7 +3209,11 @@
         "logo": "dermalogica.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "keywords": [
+          "super facial",
+          "dermalogica"
+        ]
       },
       {
         "name": "Neostrata ProSystem",
@@ -3165,7 +3232,11 @@
         "logo": "neostrata.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "keywords": [
+          "retinol peel",
+          "neostrata"
+        ]
       },
       {
         "name": "Rejuran",
@@ -3186,7 +3257,10 @@
         "logo": "rejuran.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "rejuran"
+        ]
       },
       {
         "name": "Profhilo",
@@ -3206,7 +3280,10 @@
         "logo": "profhilo.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "profhilo"
+        ]
       },
       {
         "name": "Nucleofill",
@@ -3226,7 +3303,10 @@
         "logo": "nucleofill.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "nucleofill"
+        ]
       },
       {
         "name": "Neauvia",
@@ -3246,7 +3326,10 @@
         "logo": "neauvia.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "neauvia"
+        ]
       },
       {
         "name": "Bellavita PDRN",
@@ -3304,7 +3387,12 @@
         "logo": "allergan.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "botox",
+          "botulinum",
+          "toxin"
+        ]
       },
       {
         "name": "Lanzox",
@@ -3344,7 +3432,11 @@
         "logo": "obagi.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "keywords": [
+          "obagi",
+          "blue peel"
+        ]
       },
       {
         "name": "Dermapen 4",
@@ -3363,7 +3455,10 @@
         "logo": "dermapen.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "device"
+        "category": "device",
+        "keywords": [
+          "dermapen"
+        ]
       },
       {
         "name": "Aqua Glo · Aqua Solution",
@@ -3401,7 +3496,10 @@
         "logo": "surfaceplus.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "homecare"
+        "category": "homecare",
+        "keywords": [
+          "surface+"
+        ]
       },
       {
         "name": "Immortal",
@@ -3442,7 +3540,11 @@
         "logo": "caregen.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "blanc-b",
+          "blanc b"
+        ]
       },
       {
         "name": "Juvelook",
@@ -3461,7 +3563,10 @@
         "logo": "juvelook.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "juvelook"
+        ]
       },
       {
         "name": "ASCE+ Exosome",
@@ -3480,7 +3585,12 @@
         "logo": "exocobio.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "exosome",
+          "eksosom",
+          "asce"
+        ]
       },
       {
         "name": "Vitaran",
@@ -3499,7 +3609,10 @@
         "logo": "vitaran.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "vitaran"
+        ]
       },
       {
         "name": "XelaRederm",
@@ -3518,7 +3631,10 @@
         "logo": "hyalual.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "xelarederm"
+        ]
       },
       {
         "name": "Innoaesthetics",
@@ -3602,7 +3718,10 @@
         "logo": "prp.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "keywords": [
+          "prp"
+        ]
       },
       {
         "name": "Hydra DermalInfusion serums",
@@ -3640,7 +3759,10 @@
         "logo": "aq.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "keywords": [
+          "aq recovery"
+        ]
       },
       {
         "name": "Aqualyx",

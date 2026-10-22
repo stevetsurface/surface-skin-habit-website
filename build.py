@@ -328,6 +328,7 @@ def footer():
     return f"""</main>
 <footer class="site-footer">
   <div class="wrap">
+    {footer_brands()}
     <div class="footer-grid">
       <div>
         <a class="logo logo-footer" href="index.html"><img src="{PREFIX}assets/logo-full.png" alt="{e(S['name'])}" width="180" height="162"></a>
@@ -405,6 +406,7 @@ def offer_block(con, o):
     <div class="lv"><i></i> {e(o.get('level', '').capitalize())}{' · ' + e(T('needs_review')) if o.get('medical_review') and o.get('level') in ('correct', 'refine') and S.get('show_placeholders') else ''}</div>
     <h3>{e(o['name'])}{f' <small class="sig">{e(o["signature"])}</small>' if o.get('signature') and o['signature'] != o['name'] else ''}{bs_badge(o["includes"])}</h3>
     <ul class="inc">{inc}</ul>
+    {brand_chips(t(o, "includes"))}
     <div class="meta"><span>⏱ {o['duration_min']} {e(T('min'))}</span><span>↻ {e(t(o, 'interval'))}</span></div>
     <p class="desc">{e(t(o, 'desc'))}</p>
   </div>
@@ -619,6 +621,7 @@ def stack_card(x):
   {img_slot("stack", "stack-photo")}
   <div class="stack-head"><span class="tag">{tag}</span><h3>{e(x["name"])}{rev}</h3></div>
   <p class="stack-inc">{inc}</p>
+  {brand_chips(t(x, "includes"), 4)}
   <p class="small muted">{sep.join(bits)}</p>
   <div class="stack-price"><b>{price}</b><span class="small muted">{sub}</span></div>
   {wa_btn(msg, T("book_free"), "btn btn-ghost btn-sm")}
@@ -697,7 +700,7 @@ def page_pricelist():
         rows = ""
         for x in [x for x in EDU["treatments"] if x["family"] == f["code"]]:
             price = rp(x["price"]) if x["price"] else T("tx_consult")
-            rows += (f'<tr><td><b>{e(x["name"])}</b>{bs_badge([x["name"]])}<br><span class="small muted">{e(t(x, "for"))}</span></td>'
+            rows += (f'<tr><td><b>{e(x["name"])}</b>{bs_badge([x["name"]])}<br><span class="small muted">{e(t(x, "for"))}</span>{brand_chips([x["name"], x["brand"]], 3)}</td>'
                      f'<td>{e(T("by_doctor") if x["performed_by"] == "doctor" else T("by_therapist"))}</td>'
                      f'<td>{x["duration_min"]} {e(T("min"))}</td><td class="p">{e(price)}</td></tr>')
         fams += f'<tr class="fam"><th colspan="4">{e(t(f, "name"))}</th></tr>{rows}'
@@ -705,7 +708,7 @@ def page_pricelist():
     for con in C["concerns"]:
         for o in con["offers"]:
             single = rp(o["single"]) if o.get("single") else ("Gratis" if L == "id" else "Free") if o.get("single") == 0 else EM_DASH
-            prog += (f'<tr><td><b><a href="menu.html#{e(slug(o["name"]))}">{e(o["name"])}</a></b>{bs_badge(o["includes"])}<br><span class="small muted">{" + ".join(e(x) for x in t(o, "includes"))}</span></td>'
+            prog += (f'<tr><td><b><a href="menu.html#{e(slug(o["name"]))}">{e(o["name"])}</a></b>{bs_badge(o["includes"])}<br><span class="small muted">{" + ".join(e(x) for x in t(o, "includes"))}</span>{brand_chips(t(o, "includes"), 4)}</td>'
                      f'<td>{e(con["name"])}</td><td class="p">{single}</td><td class="p">{rp(o["pack3"]) if o.get("pack3") else EM_DASH}</td><td class="p">{rp(o["pack6"]) if o.get("pack6") else EM_DASH}</td></tr>')
     stacks = "".join(f'<tr><td><b>{e(x["name"])}</b><br><span class="small muted">{" + ".join(e(i) for i in t(x, "includes"))}</span></td><td>{e(concern_of(x["door"])["name"]) if x.get("door") else e(x.get("level", "").capitalize())}</td><td class="p">{rp(x["price"]) if x.get("price") else e(T("tx_consult"))}</td></tr>' for x in C.get("stacks", {}).get("items", []))
     addons = "".join(f'<tr><td><b>{e(a["name"])}</b> {MID_DOT} {e(t(a, "treatment"))}<br><span class="small muted">{e(t(a, "for"))}</span></td><td class="p">{rp(a["price"]) if a.get("price") else e(T("tx_consult"))}</td></tr>' for a in C["addons"])
@@ -792,6 +795,30 @@ def start_blocks():
     {wa_btn(T("plan_msg"), T("ask_plan"), "btn btn-ghost btn-sm")}
   </div>
 </div>'''
+
+def brands_for(texts, limit=6):
+    text = " | ".join(texts).lower()
+    out = []
+    for b in EDU["brands"]:
+        if any(k in text for k in b.get("keywords", [])) and b not in out:
+            out.append(b)
+    return out[:limit]
+
+def brand_mini(b):
+    logo_path = ROOT / "assets" / "brands" / b.get("logo", "")
+    inner = (f'<img src="{PREFIX}assets/brands/{e(b["logo"])}" alt="{e(b["name"])}" loading="lazy">'
+             if b.get("logo") and logo_path.exists() else f'<span>{e(b["name"])}</span>')
+    return f'<a class="brand-mini" href="edukasi-brand.html" title="{e(b["name"])}">{inner}</a>'
+
+def brand_chips(texts, limit=6):
+    bs = brands_for(texts, limit)
+    if not bs: return ""
+    return f'<div class="brand-minis" aria-label="{e(T("br_used"))}">{"".join(brand_mini(b) for b in bs)}</div>'
+
+def footer_brands():
+    bs = [b for b in EDU["brands"] if b.get("logo") and (ROOT / "assets" / "brands" / b["logo"]).exists()]
+    if not bs: return ""
+    return f'<div class="footer-brands"><span class="small muted">{e(T("br_strip_h"))}</span><div class="brand-minis">{"".join(brand_mini(b) for b in bs)}</div></div>'
 
 def proof_block():
     P = C["proof"]
@@ -902,6 +929,7 @@ def page_index():
   <div class="section-head"><div><span class="eyebrow">{e(T('s3_eye'))}</span><h2>{e(T('s3_h'))}</h2><p>{e(T('s3_p'))}</p></div></div>
   {start_blocks()}
 </div></section>
+{brand_strip()}
 
 <section class="section" id="dokter" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s4_eye'))}</span><h2>{e(T('s4_h'))}</h2><p>{e(T('s4_p'))}</p></div><a class="btn btn-ghost btn-sm" href="dokter.html">{e(T('s4_btn'))}</a></div>
@@ -956,7 +984,13 @@ def page_doctors():
 
 def clinic_detail(c):
     q = urllib.parse.quote(c["address"])
-    devs = "".join(f'<li class="tag"><a href="{dev_file(d)}" style="text-decoration:none;color:inherit">{e(d["name"])}</a></li>' for d in EDU["devices"] if c["code"] in d["clinics"])
+    devs = ""
+    for d in EDU["devices"]:
+        if c["code"] not in d["clinics"]: continue
+        b = next((b for b in EDU["brands"] if b.get("device") == d["slug"]), None)
+        lp = ROOT / "assets" / "brands" / (b.get("logo", "") if b else "")
+        inner = f'<img src="{PREFIX}assets/brands/{e(b["logo"])}" alt="{e(b["name"])}" loading="lazy">' if b and b.get("logo") and lp.exists() else f'<span>{e(d["name"])}</span>'
+        devs += f'<li><a class="brand-mini" href="{dev_file(d)}" title="{e(d["name"])}">{inner}</a></li>'
     docs = ", ".join(d["name"] for d in C["doctors"] if d.get("publish") and c["code"] in d["clinics"])
     msg = T("clinic_msg", clinic=c["short"])
     return f'''<article class="card clinic clinic-full" id="{c['code'].lower()}">
@@ -973,7 +1007,7 @@ def clinic_detail(c):
       </div>
       {f'<p class="small" style="margin:16px 0 6px"><b>{e(T("cl_doctors"))}</b><br>{e(docs)}</p>' if docs else ""}
       <p class="small" style="margin:14px 0 6px"><b>{e(T("cl_devices"))}</b></p>
-      <ul class="tags">{devs}</ul>
+      <ul class="brand-minis tags">{devs}</ul>
       {clinic_photos(c["code"])}
     </div>
     <div class="map"><iframe src="https://www.google.com/maps?q={q}&output=embed" title="{e(T('cl_map'))}: {e(c['name'])}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
