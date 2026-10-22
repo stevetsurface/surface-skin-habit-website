@@ -30,7 +30,7 @@ BASE = S["url"].rstrip("/")
 # ---------------------------------------------------------------- UI strings
 UI = {
   "id": {
-    "nav": [("index.html", "Beranda"), ("index.html#concern", "Program"), ("menu.html", "Harga"), ("edukasi.html", "Edukasi"), ("blog.html", "Blog"), ("analisis.html", "Analisis Kulit"), ("dokter.html", "Dokter"), ("klinik.html", "Klinik")],
+    "nav": [("index.html#concern", "Program"), ("menu.html", "Harga"), ("analisis.html", "Analisis Kulit"), ("dokter.html", "Dokter"), ("klinik.html", "Klinik")], "f_more": "Lainnya", "f_edu": "Edukasi", "f_blog": "Blog", "f_fp": "Menu lengkap",
     "lang_switch": ("en/", "EN"), "lang_name": "Bahasa Indonesia",
     "wa_nav": "Booking via WhatsApp", "wa_nav_short": "Booking", "wa_nav_more": "via WhatsApp", "wa_bar": "Booking konsultasi dokter gratis",
     "generic_msg": "Halo Surface, saya mau booking konsultasi dokter gratis. Klinik terdekat saya: {klinik}.",
@@ -124,7 +124,7 @@ UI = {
               "m_clinic": "Klinik terdekat saya: {klinik}. ", "m_tail": "Mau booking konsultasi dokter gratis."},
   },
   "en": {
-    "nav": [("index.html", "Home"), ("index.html#concern", "Programmes"), ("menu.html", "Prices"), ("edukasi.html", "Education"), ("blog.html", "Blog"), ("analisis.html", "Skin Analysis"), ("dokter.html", "Doctors"), ("klinik.html", "Clinics")],
+    "nav": [("index.html#concern", "Programmes"), ("menu.html", "Prices"), ("analisis.html", "Skin Analysis"), ("dokter.html", "Doctors"), ("klinik.html", "Clinics")], "f_more": "More", "f_edu": "Education", "f_blog": "Blog", "f_fp": "Full menu",
     "lang_switch": ("../", "ID"), "lang_name": "English",
     "wa_nav": "Book via WhatsApp", "wa_nav_short": "Book", "wa_nav_more": "via WhatsApp", "wa_bar": "Book a free doctor consultation",
     "generic_msg": "Hi Surface, I'd like to book a free doctor consultation. My nearest clinic: {klinik}.",
@@ -334,7 +334,8 @@ def footer():
         <p style="margin-top:14px;max-width:34ch">{e(t(S, 'tagline'))} {e(T('footer_tag'))}</p>
       </div>
       <div><h4>{e(T('f_clinics'))}</h4><ul>{clinics}</ul></div>
-      <div><h4>{e(T('f_concern'))}</h4><ul>{concerns}<li><a href="harga-lengkap.html">{e(T('fp_tab'))}</a></li><li><a href="dokter.html">{e(T('f_doctors'))}</a></li></ul></div>
+      <div><h4>{e(T('f_concern'))}</h4><ul>{concerns}<li><a href="dokter.html">{e(T('f_doctors'))}</a></li></ul></div>
+      <div><h4>{e(T('f_more'))}</h4><ul><li><a href="edukasi.html">{e(T('f_edu'))}</a></li><li><a href="blog.html">{e(T('f_blog'))}</a></li><li><a href="harga-lengkap.html">{e(T('f_fp'))}</a></li><li><a href="analisis.html">{e(T('hero_btn2'))}</a></li></ul></div>
       <div><h4>{e(T('f_contact'))}</h4><ul>
         <li><a href="{WA}" target="_blank" rel="noopener">WhatsApp {e(S['whatsapp_display'])}</a><span class="small muted"><br>{e(t(S, 'whatsapp_hours'))}</span></li>
         {ig}{em}
@@ -553,14 +554,16 @@ def page_stream(code):
       <p class="lead">{e(t(st, "lead"))}</p>
       <div class="hero-actions">{wa_btn(msg, T("st_start"), "btn btn-primary")}<a class="btn btn-ghost" href="analisis.html">{e(T("hero_btn2"))}</a></div>
     </div>
-    <aside class="hero-aside"><h3>{e(T("st_for"))}</h3><ul class="check">{for_you}</ul></aside>
+    {img_slot("stream_" + code, "hero-img")}
   </div>
 </div></section>
-<section class="section" style="padding:0 0 8px"><div class="wrap">{funnel_strip(code)}{ph("stream")}</div></section>
+<section class="section" style="padding:0 0 8px"><div class="wrap">{funnel_strip(code)}
+  <div class="card for-you"><h3>{e(T("st_for"))}</h3><ul class="check">{for_you}</ul></div>
+</div></section>
 {habit_strip(st)}
 <section class="section"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T("st_eye"))}</span><h2>{e(T("st_journey"))}</h2></div></div>
-  <ol class="journey">{steps}</ol>
+  <div class="journey-split">{img_slot("treat_" + code, "treat-photo")}<ol class="journey">{steps}</ol></div>
 </div></section>
 <section class="section" style="padding-top:0"><div class="wrap">
   <div class="card helped"><span class="eyebrow">{e(t(C["proof"], "eyebrow"))}</span><h3>{e(T("st_helped"))}</h3><ul class="check">{"".join(f"<li>{e(x)}</li>" for x in t(st, "helped"))}</ul></div>
@@ -613,6 +616,7 @@ def stack_card(x):
     msg = T("stk_msg", stack=x["name"], klinik="{klinik}")
     sep = f" {MID_DOT} "
     return f'''<article class="stack card" id="{e(slug(x["name"]))}">
+  {img_slot("stack", "stack-photo")}
   <div class="stack-head"><span class="tag">{tag}</span><h3>{e(x["name"])}{rev}</h3></div>
   <p class="stack-inc">{inc}</p>
   <p class="small muted">{sep.join(bits)}</p>
@@ -753,8 +757,41 @@ def spaces_block(limit=8):
 
 def clinic_photos(code):
     items = [x for x in C.get("spaces", {}).get("items", []) if x.get("clinic") == code]
-    if not items: return ph("clinic")
+    if not items: return img_slot("clinic_" + code) or ph("clinic")
     return f'<div class="clinic-photos">{"".join(space_fig(x) for x in items[:4])}</div>'
+
+def img_slot(key, cls=""):
+    x = C.get("images", {}).get(key)
+    if not x: return ""
+    klass = "img-slot" + (" " + cls if cls else "")
+    ratio = x.get("ratio", "4/3")
+    if x.get("src"):
+        return f'<figure class="{klass}" style="aspect-ratio:{ratio}"><img src="{PREFIX}{e(x["src"])}" alt="{e(t(x, "alt"))}" loading="lazy"></figure>'
+    if S.get("show_placeholders"):
+        return f'<div class="{klass} ph ph-img" style="aspect-ratio:{ratio}"><span class="small">{e(T("ph_label"))}</span><p class="small">{e(t(x, "spec"))}</p></div>'
+    return ""
+
+def start_blocks():
+    pl = C["plan"]
+    rows = "".join(f'<li><span><a href="{stream_file(con["code"])}">{e(o["name"])}</a><span class="f">{" + ".join(e(x) for x in t(o, "includes"))}</span></span><span class="p">{rp(o["single"]) if o.get("single") else ("Gratis" if L == "id" else "Free")}</span></li>' for con in C["concerns"] for o in con["offers"] if o.get("level") == "start")
+    pl_inc = "".join(f"<li>{e(x)}</li>" for x in t(pl, "includes"))
+    return f'''<div class="grid-2 start-blocks">
+  <div class="card">
+    <span class="eyebrow">{e(T('sc_eye'))}</span>
+    <h3>{e(T('sc_h'))}</h3>
+    <ul class="plist">{rows}</ul>
+    <p class="small muted" style="margin-top:12px">{e(T('sc_note'))}</p>
+    {wa_btn(T("fv_msg"), T("book_first"), "btn btn-primary btn-sm")}
+  </div>
+  <div class="card">
+    <span class="eyebrow">{e(T('monthly'))}</span>
+    <h3>{e(pl['title'])}</h3>
+    <div class="big-price">{rp(pl['price_month'])}<small> {e(T('per_month'))}</small></div>
+    <ul class="check">{pl_inc}</ul>
+    <p class="small muted">{e(t(pl, 'rules'))}</p>
+    {wa_btn(T("plan_msg"), T("ask_plan"), "btn btn-ghost btn-sm")}
+  </div>
+</div>'''
 
 def proof_block():
     P = C["proof"]
@@ -836,14 +873,11 @@ def page_index():
   <h3>{e(t(c, 'title'))}</h3>
   <p>{e(t(c, 'intro'))}</p>
   <div class="from">{e(T('from'))} <b>{rp(min_single(c))}</b> {e(T('per_session_long'))} · {e(T('levels_short'))}</div>
-  <span class="small edu-more">{e(T('home_streams_btn'))} \u2192</span>
+  <span class="small edu-more">{e(T('home_streams_btn'))} →</span>
 </a>""" for c in C["concerns"])
-    steps = "".join(f"<li><b>{i}</b><span>{e(s)}</span></li>" for i, s in enumerate(T("steps"), 1))
     trust = "".join(f"<span><b>{e(a)}</b> {e(b)}</span>" for a, b in T("trust"))
-    mark = (ROOT / "assets" / "mark.svg").read_text(encoding="utf-8")
     body = f"""<section class="hero"><div class="wrap">
-  <div class="hero-card">
-    {mark}
+  <div class="hero-card hero-photo">
     <div>
       <span class="eyebrow">{e(T('hero_eyebrow', n=len(C['clinics'])))}</span>
       <h1>{e(T('hero_h1'))}</h1>
@@ -854,44 +888,28 @@ def page_index():
       </div>
       <div class="trust">{trust}</div>
     </div>
-    <aside class="hero-aside"><h3>{e(T('how'))}</h3><ol class="steps">{steps}</ol></aside>
+    {img_slot("hero", "hero-img")}
   </div>
-  {ph("hero")}
 </div></section>
 
-{front_door_block()}
-{usp_block()}
-{spaces_block()}
-{proof_block()}
-<section class="section" id="concern" style="padding-top:0"><div class="wrap">
-  {funnel_strip()}
+<section class="section" id="concern"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s1_eye'))}</span><h2>{e(T('s1_h'))}</h2><p>{e(T('s1_p'))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T('s1_btn'))}</a></div>
+  {funnel_strip()}
   <div class="grid-3">{concern_cards}</div>
 </div></section>
-{stacks_block(compact=True)}
 
-<section class="section" style="padding-top:0"><div class="wrap">
+<section class="section" id="mulai" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s3_eye'))}</span><h2>{e(T('s3_h'))}</h2><p>{e(T('s3_p'))}</p></div></div>
-  {side_blocks()}
+  {start_blocks()}
 </div></section>
 
-<section class="section" id="dokter"><div class="wrap">
+<section class="section" id="dokter" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s4_eye'))}</span><h2>{e(T('s4_h'))}</h2><p>{e(T('s4_p'))}</p></div><a class="btn btn-ghost btn-sm" href="dokter.html">{e(T('s4_btn'))}</a></div>
-  <div class="grid-2">{doctor_cards(limit=4)}</div>
+  <div class="doctor-split">{img_slot("doctor_consult", "doctor-photo")}<div class="grid-2">{doctor_cards(limit=2)}</div></div>
 </div></section>
 
 {testimonials_block()}
 {instagram_block()}
-{brand_strip()}
-<section class="section" id="klinik" style="padding-top:0"><div class="wrap">
-  <div class="section-head"><div><span class="eyebrow">{e(T('s5_eye'))}</span><h2>{e(T('s5_h'))}</h2><p>{e(T('s5_p'))}</p></div><a class="btn btn-ghost btn-sm" href="klinik.html">{e(T('s5_btn'))}</a></div>
-  <div class="grid-4">{clinic_cards()}</div>
-</div></section>
-
-<section class="section" id="faq" style="padding-top:0"><div class="wrap">
-  <div class="section-head"><div><span class="eyebrow">{e(T('s6_eye'))}</span><h2>{e(T('s6_h'))}</h2></div></div>
-  {faq_block()}
-</div></section>
 {cta_band()}
 """
     return head(T("t_index", name=S["name"]), t(S, "description"), "index.html", [ld_org(), ld_faq()]) + header("index.html") + body + footer()

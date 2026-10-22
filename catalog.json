@@ -22,7 +22,15 @@
     "consult_note_en": "Every customer starts with a free doctor consultation. The doctor recommends the right treatment, not the sales team.",
     "since": 2014,
     "instagram_note": "Handle from a third-party listing; confirm it is the official account before launch.",
-    "show_placeholders": true
+    "show_placeholders": true,
+    "home_sections": [
+      "hero",
+      "pathways",
+      "start",
+      "doctors",
+      "proof",
+      "book"
+    ]
   },
   "concerns": [
     {
@@ -4791,8 +4799,8 @@
         {
           "when": "Kunjungan 1, hari yang sama",
           "when_en": "Visit 1, same day",
-          "title": "Mulai: Hydraderm + LHALA Peel",
-          "title_en": "Start: Hydraderm + LHALA Peel",
+          "title": "Mulai: Clear Start, Super Facial + LHALA Peel",
+          "title_en": "Start: Clear Start, Super Facial + LHALA Peel",
           "body": "Facial ringan oleh terapis, lalu LHALA Peel oleh dokter (Clear Start, Rp 799.000). Satu kunjungan, satu harga, untuk semua pelanggan.",
           "body_en": "A light therapist facial, then a doctor LHALA Peel (Clear Start, Rp 799,000). One visit, one price, for every customer."
         },
@@ -4916,8 +4924,8 @@
         {
           "when": "Kunjungan 1, hari yang sama",
           "when_en": "Visit 1, same day",
-          "title": "Mulai: H2O Facial + LHALA Peel",
-          "title_en": "Start: H2O Facial + LHALA Peel",
+          "title": "Mulai: Tone Start, Laser Facial + LHALA Peel",
+          "title_en": "Start: Tone Start, Laser Facial + LHALA Peel",
           "body": "Tone Start, Rp 799.000: Laser Facial lalu LHALA Peel oleh dokter. Lebih cerah dan halus sejak sesi pertama; itu pembaruan permukaan, bukan hasil akhir.",
           "body_en": "Tone Start, Rp 799,000: Laser Facial then a doctor LHALA Peel. Brighter and smoother from the first session; that is surface renewal, not the final result."
         },
@@ -5159,8 +5167,8 @@
         {
           "when": "Kunjungan 1, hari yang sama",
           "when_en": "Visit 1, same day",
-          "title": "Mulai: H2O Sensi Facial (Calm Start)",
-          "title_en": "Start: H2O Sensi Facial (Calm Start)",
+          "title": "Mulai: Calm Start, Oxy Facial protokol sensitif",
+          "title_en": "Start: Calm Start, Oxy Facial sensitive protocol",
           "body": "Hydro-exfoliation paling lembut di menu kami, tanpa ekstraksi agresif. Tidak ada peeling di kunjungan pertama untuk kulit yang sedang reaktif.",
           "body_en": "The gentlest hydro-exfoliation on our menu, no aggressive extraction. No peel on the first visit for skin that is reactive."
         },
@@ -5269,8 +5277,8 @@
         {
           "when": "Kunjungan 1, hari yang sama",
           "when_en": "Visit 1, same day",
-          "title": "Mulai: Tighten & Contour RF + LHALA Peel",
-          "title_en": "Start: Tighten & Contour RF + LHALA Peel",
+          "title": "Mulai: Tighten Start, Tighten & Contour RF",
+          "title_en": "Start: Tighten Start, Tighten & Contour RF",
           "body": "Peel & Lift. Terasa lebih kencang sementara setelah sesi pertama; itu efek langsung RF, bukan kolagen baru, dan kami bilang begitu.",
           "body_en": "Peel & Lift. It feels temporarily firmer after the first session; that is the immediate RF effect, not new collagen, and we say so."
         },
@@ -6288,5 +6296,143 @@
       }
     ],
     "_source": "Drive brand assets: Photoshoot/Clinic Photoshoot TSM, Clinic Photoshoot LMP, Asset Content/Stock Footage Clinic LMP SB Citos, Cibubur Opening 24. Model/customer face shots deliberately not used; 'stock' room photos are unlabelled by clinic in Drive."
+  },
+  "images": {
+    "hero": {
+      "src": "assets/clinics/lmp-treatment-tangan.jpg",
+      "alt": "Treatment di Surface",
+      "alt_en": "A treatment at Surface",
+      "spec": "FOTO SHOOT: kulit asli close-up, cahaya siang lembut, tanpa filter (brand deck). 1600×1200, rasio 4:3. Sementara: foto treatment tangan dari shoot LMP.",
+      "spec_en": "SHOOT PHOTO: real skin close-up, soft daylight, no filter (brand deck). 1600×1200, 4:3. Temporary: hands-on treatment frame from the LMP shoot.",
+      "ratio": "4/3"
+    },
+    "stream_CLEAR": {
+      "src": "assets/clinics/lmp-treatment-alat.jpg",
+      "alt": "Treatment jalur Clear",
+      "alt_en": "Clear pathway treatment",
+      "spec": "FOTO SHOOT Clear: kulit berjerawat ringan close-up, lalu tangan terapis dengan alat Hydraderm. 1600×1200.",
+      "spec_en": "SHOOT Clear: mild acne skin close-up, then therapist hands with the Hydraderm device. 1600×1200.",
+      "ratio": "4/3"
+    },
+    "stream_TONE": {
+      "src": "assets/clinics/ruang-treatment-4.jpg",
+      "alt": "Ruang treatment",
+      "alt_en": "Treatment room",
+      "spec": "FOTO SHOOT Tone: kulit dengan flek halus, cahaya alami; tanpa foto hasil. 1600×1200.",
+      "spec_en": "SHOOT Tone: skin with light pigment, natural light; no result photos. 1600×1200.",
+      "ratio": "4/3"
+    },
+    "stream_TEXTURE": {
+      "src": "assets/clinics/lmp-alat-2.jpg",
+      "alt": "Alat di ruang treatment",
+      "alt_en": "Device in a treatment room",
+      "spec": "FOTO SHOOT Texture: tekstur kulit close-up (pori, bekas), lalu dokter dengan Dermapen. 1600×1200.",
+      "spec_en": "SHOOT Texture: skin texture close-up (pores, scars), then the doctor with the Dermapen. 1600×1200.",
+      "ratio": "4/3"
+    },
+    "stream_CALM": {
+      "src": "assets/clinics/ruang-treatment-2.jpg",
+      "alt": "Ruang treatment privat",
+      "alt_en": "Private treatment room",
+      "spec": "FOTO SHOOT Calm: kulit kemerahan ringan, tangan terapis dengan Oxy Facial, suasana tenang. 1600×1200.",
+      "spec_en": "SHOOT Calm: mild redness, therapist hands with the Oxy Facial, calm mood. 1600×1200.",
+      "ratio": "4/3"
+    },
+    "stream_TIGHTEN": {
+      "src": "assets/clinics/lmp-alat-1.jpg",
+      "alt": "Alat RF di ruang treatment",
+      "alt_en": "RF device in a treatment room",
+      "spec": "FOTO SHOOT Tighten: garis rahang profil samping, lalu handpiece RF/HIFU di kulit. 1600×1200.",
+      "spec_en": "SHOOT Tighten: jawline in profile, then the RF/HIFU handpiece on skin. 1600×1200.",
+      "ratio": "4/3"
+    },
+    "stream_ENHANCE": {
+      "src": "assets/clinics/ruang-treatment-1.jpg",
+      "alt": "Ruang konsultasi",
+      "alt_en": "Consultation room",
+      "spec": "FOTO SHOOT Enhance: dokter berkonsultasi dengan pelanggan, foto 3 sudut di layar. 1600×1200.",
+      "spec_en": "SHOOT Enhance: doctor in consultation with a customer, 3-angle photos on screen. 1600×1200.",
+      "ratio": "4/3"
+    },
+    "treat_CLEAR": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: Hydraderm sedang berjalan, close-up handpiece di pipi. 1200×800, 3:2.",
+      "spec_en": "SHOOT: Hydraderm in progress, handpiece close-up on the cheek. 1200×800, 3:2.",
+      "ratio": "3/2"
+    },
+    "treat_TONE": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: dokter mengaplikasikan LHALA Peel dengan kuas. 1200×800, 3:2.",
+      "spec_en": "SHOOT: doctor applying the LHALA Peel with a brush. 1200×800, 3:2.",
+      "ratio": "3/2"
+    },
+    "treat_TEXTURE": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: Dermapen di tangan dokter, sarung tangan, fokus pada alat. 1200×800, 3:2.",
+      "spec_en": "SHOOT: Dermapen in the doctor's hand, gloves, focus on the device. 1200×800, 3:2.",
+      "ratio": "3/2"
+    },
+    "treat_CALM": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: PDT cahaya merah di atas wajah, pelanggan rileks. 1200×800, 3:2.",
+      "spec_en": "SHOOT: red PDT light over the face, customer relaxed. 1200×800, 3:2.",
+      "ratio": "3/2"
+    },
+    "treat_TIGHTEN": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: HIFU Liftera di garis rahang, layar alat terlihat. 1200×800, 3:2.",
+      "spec_en": "SHOOT: HIFU Liftera on the jawline, device screen visible. 1200×800, 3:2.",
+      "ratio": "3/2"
+    },
+    "treat_ENHANCE": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: dokter menandai wajah sebelum injeksi, tanpa jarum terlihat. 1200×800, 3:2.",
+      "spec_en": "SHOOT: doctor marking the face before injection, no needle in frame. 1200×800, 3:2.",
+      "ratio": "3/2"
+    },
+    "doctor_consult": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: dokter dan pelanggan di meja konsultasi, lampu analisa kulit. 1600×1000.",
+      "spec_en": "SHOOT: doctor and customer at the consultation desk, skin-analysis lamp. 1600×1000.",
+      "ratio": "16/10"
+    },
+    "stack": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO SHOOT: meja treatment dengan tiga alat yang dipakai dalam satu kunjungan, warna netral. 1200×675, 16:9.",
+      "spec_en": "SHOOT: treatment trolley with the three devices used in one visit, neutral colours. 1200×675, 16:9.",
+      "ratio": "16/9"
+    },
+    "clinic_SB": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO: pintu masuk dan resepsi Surface Setiabudi, siang hari. 1200×800.",
+      "spec_en": "PHOTO: entrance and reception, Surface Setiabudi, daytime. 1200×800.",
+      "ratio": "3/2"
+    },
+    "clinic_CITOS": {
+      "src": "",
+      "alt": "",
+      "alt_en": "",
+      "spec": "FOTO: pintu masuk dan resepsi Surface CITOS, siang hari. 1200×800.",
+      "spec_en": "PHOTO: entrance and reception, Surface CITOS, daytime. 1200×800.",
+      "ratio": "3/2"
+    }
   }
 }
