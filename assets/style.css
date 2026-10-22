@@ -588,3 +588,9 @@ p{margin:0 0 1em}
 .edu-card .card-photo{margin:-24px -24px 14px;border-radius:var(--radius) var(--radius) 0 0;aspect-ratio:16/10!important}
 .ba-ph{aspect-ratio:4/5;justify-content:center;align-items:center;text-align:center}
 @media (max-width:960px){.dev-hero{grid-template-columns:1fr}}
+/* Skin Habit Cycle */
+.cycle-wrap{background:var(--panel);border-radius:28px;padding:clamp(12px,3vw,28px)}
+.cycle-wrap.big{padding:clamp(16px,4vw,40px)}
+.cycle-svg{width:100%;height:auto;display:block;max-height:640px}
+.cycle-svg.compact{max-height:520px}
+.tm{font-size:.45em;vertical-align:super;margin-left:2px;color:var(--accent)}

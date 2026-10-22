@@ -78,6 +78,10 @@ UI = {
                  ("edukasi-kombinasi.html", "Kombinasi", "Kenapa treatment dipasangkan, urutannya di kursi, dan apa yang berubah minggu demi minggu."),
                  ("edukasi-waktu.html", "Interval & waktu", "Jarak antar sesi, panjang program, masa berlaku paket, dan kapan harus menunda.")],
     "edu_devices_h": "Alat & tindakan: cara kerjanya", "edu_devices_p": "Satu halaman per alat: mekanisme, apa yang dirasakan, downtime, dan siapa yang sebaiknya menunda.",
+    "cy_name": "Siklus Skin Habit", "cy_tm": "\u2122", "cy_eye": "Cara kerja Surface", "cy_h": "Satu siklus, dokter di tengahnya", "cy_p": "Setiap pelanggan Surface bergerak dalam siklus yang sama, di jalur mana pun. Dokter menilai di setiap putaran; kamu hanya perlu datang sesuai jadwal.", "cy_btn": "Lihat siklusnya", "cy_centre": ["Dokter", "di setiap langkah"], "cy_more": "Pelajari Siklus Skin Habit",
+    "cy_steps": [("Mulai", "Konsultasi dokter gratis + analisis kulit", "Kunjungan 1 \u00b7 20 menit", "Dokter melihat kulitmu, menyaring hal yang mengubah protokol, dan memilih jalurnya: Clear, Tone, Texture, Calm, Tighten, atau Enhance."), ("Start", "Satu kunjungan, satu harga: Rp 799.000", "Kunjungan 1 \u00b7 hari yang sama", "Facial oleh terapis ditutup satu langkah dokter. Kamu pulang dengan rencana tertulis: tanggal kunjungan berikutnya dan tanggal review."), ("Correct", "Program 3 atau 6 sesi", "Minggu 2\u201312 \u00b7 tiap 2\u20134 minggu", "Facial plus alat atau peeling medis oleh dokter, dijual sebagai program. Setiap kunjungan punya tanggal; kami yang mengingatkan."), ("Review", "Dokter menilai di minggu ke-12", "Minggu 12 \u00b7 foto ulang", "Foto dan analisis diulang dengan cahaya dan sudut yang sama. Dokter memutuskan: lanjut, naik ke Refine, atau pindah ke Maintain."), ("Maintain", "Satu kunjungan Start setiap bulan", "Bulanan \u00b7 Skin Habit Plan", "Hasil dijaga dengan kebiasaan, bukan paket baru. Setiap 12 minggu kembali ke Review.")],
+    "cy_refine": ("Refine", "Alat atau injeksi paling terarah, hanya atas keputusan dokter di Review."),
+    "t_cy": "Siklus Skin Habit \u00b7 Cara kerja {name}", "d_cy": "Siklus Skin Habit: Mulai, Start, Correct, Review minggu ke-12, Maintain. Cara setiap pelanggan Surface Skin Habit berjalan, dengan dokter di setiap langkah.",
     "sp_eye": "Ruang kami", "sp_h": "Klinik dan ruang treatment", "sp_btn": "Lihat semua klinik", "cl_photos": "Foto klinik", "sc_eye": "Level Start", "sc_h": "Mulai dari Rp 799.000", "sc_note": "Harga yang sama untuk semua pelanggan, baru maupun lama. Texture Start Rp 750.000; Enhance mulai dari konsultasi gratis.",
     "bs_eye": "Best seller", "bs_h": "Yang paling sering dipilih", "bs_where": "Ada di", "bs_badge": "Best seller", "bs_tab": "Best seller",
     "fp_eye": "Menu lengkap", "fp_h1": "Semua treatment & harga", "fp_tab": "Menu lengkap", "fp_programs": "18 program", "fp_singles": "Harga satuan", "fp_stacks": "Stack", "fp_addons": "Add-on", "fp_plan": "Plan bulanan", "t_fp": "Menu lengkap & harga · {name}", "d_fp": "Daftar lengkap treatment Surface Skin Habit dengan harga satuan, 18 program Start/Correct/Refine, stack, dan add-on. Harga sama di 4 klinik Jakarta.",
@@ -172,6 +176,10 @@ UI = {
                  ("edukasi-kombinasi.html", "Combinations", "Why treatments are paired, the order in the chair, and what changes week by week."),
                  ("edukasi-waktu.html", "Intervals & timing", "Gaps between sessions, programme length, package validity, and when to wait.")],
     "edu_devices_h": "Devices & procedures: how they work", "edu_devices_p": "One page per device: mechanism, what it feels like, downtime, and who should wait.",
+    "cy_name": "The Skin Habit Cycle", "cy_tm": "\u2122", "cy_eye": "How Surface works", "cy_h": "One cycle, with the doctor at its centre", "cy_p": "Every Surface customer moves through the same cycle, whichever pathway they are on. The doctor assesses on every turn; you only need to show up on schedule.", "cy_btn": "See the cycle", "cy_centre": ["Doctor", "at every step"], "cy_more": "Learn the Skin Habit Cycle",
+    "cy_steps": [("Begin", "Free doctor consultation + skin analysis", "Visit 1 \u00b7 20 min", "The doctor looks at your skin, screens for anything that changes the protocol, and picks the pathway: Clear, Tone, Texture, Calm, Tighten or Enhance."), ("Start", "One visit, one price: Rp 799,000", "Visit 1 \u00b7 same day", "A therapist facial closed with one doctor step. You leave with a written plan: the next visit date and the review date."), ("Correct", "A 3- or 6-session programme", "Weeks 2\u201312 \u00b7 every 2\u20134 weeks", "Facial plus a device or medical peel by the doctor, sold as a programme. Every visit has a date; we do the reminding."), ("Review", "The doctor assesses at week 12", "Week 12 \u00b7 photos repeated", "Photos and analysis repeated with the same light and angle. The doctor decides: continue, step up to Refine, or move to Maintain."), ("Maintain", "One Start visit every month", "Monthly \u00b7 Skin Habit Plan", "Results kept by habit, not by a new package. Every 12 weeks, back to Review.")],
+    "cy_refine": ("Refine", "The most targeted device or injectable, only on the doctor's decision at Review."),
+    "t_cy": "The Skin Habit Cycle \u00b7 How {name} works", "d_cy": "The Skin Habit Cycle: Begin, Start, Correct, Review at week 12, Maintain. How every Surface Skin Habit customer moves, with a doctor at every step.",
     "sp_eye": "Our spaces", "sp_h": "Clinics and treatment rooms", "sp_btn": "See all clinics", "cl_photos": "Clinic photos", "sc_eye": "Start level", "sc_h": "From Rp 799,000", "sc_note": "The same price for every customer, new or returning. Texture Start Rp 750,000; Enhance starts with a free consultation.",
     "bs_eye": "Best sellers", "bs_h": "What people choose most", "bs_where": "Found in", "bs_badge": "Best seller", "bs_tab": "Best sellers",
     "fp_eye": "Full menu", "fp_h1": "Every treatment & price", "fp_tab": "Full menu", "fp_programs": "18 programmes", "fp_singles": "Single-session prices", "fp_stacks": "Stacks", "fp_addons": "Add-ons", "fp_plan": "Monthly plan", "t_fp": "Full menu & prices · {name}", "d_fp": "The complete Surface Skin Habit treatment list with single prices, 18 Start/Correct/Refine programmes, stacks and add-ons. Same prices at 4 Jakarta clinics.",
@@ -336,7 +344,7 @@ def footer():
       </div>
       <div><h4>{e(T('f_clinics'))}</h4><ul>{clinics}</ul></div>
       <div><h4>{e(T('f_concern'))}</h4><ul>{concerns}<li><a href="dokter.html">{e(T('f_doctors'))}</a></li></ul></div>
-      <div><h4>{e(T('f_more'))}</h4><ul><li><a href="edukasi.html">{e(T('f_edu'))}</a></li><li><a href="blog.html">{e(T('f_blog'))}</a></li><li><a href="harga-lengkap.html">{e(T('f_fp'))}</a></li><li><a href="analisis.html">{e(T('hero_btn2'))}</a></li></ul></div>
+      <div><h4>{e(T('f_more'))}</h4><ul><li><a href="metode.html">{e(T('cy_name'))}</a></li><li><a href="edukasi.html">{e(T('f_edu'))}</a></li><li><a href="blog.html">{e(T('f_blog'))}</a></li><li><a href="harga-lengkap.html">{e(T('f_fp'))}</a></li><li><a href="analisis.html">{e(T('hero_btn2'))}</a></li></ul></div>
       <div><h4>{e(T('f_contact'))}</h4><ul>
         <li><a href="{WA}" target="_blank" rel="noopener">WhatsApp {e(S['whatsapp_display'])}</a><span class="small muted"><br>{e(t(S, 'whatsapp_hours'))}</span></li>
         {ig}{em}
@@ -823,6 +831,77 @@ def footer_brands():
     if not bs: return ""
     return f'<div class="footer-brands"><span class="small muted">{e(T("br_strip_h"))}</span><div class="brand-minis">{"".join(brand_mini(b) for b in bs)}</div></div>'
 
+def cycle_svg(compact=False, standalone=False):
+    # The Skin Habit Cycle diagram: five stations on a ring, the doctor at the centre, Refine as a branch from Review.
+    import math
+    steps = T("cy_steps"); refine = T("cy_refine"); centre = T("cy_centre")
+    W, H, cx, cy, R = 820, 600, 410, 300, 200
+    ACC, INK, SOFT, PANEL, BG = "#9B5A47", "#1E1A18", "#6B5F5A", "#F4E3DD", "#FBF7F4"
+    pts = []
+    for i in range(5):
+        a = math.radians(-90 + i * 72)
+        pts.append((cx + R * math.cos(a), cy + R * math.sin(a)))
+    ring = f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="{ACC}" stroke-width="2.5" stroke-dasharray="6 8" opacity=".55"/>'
+    arrows = ""
+    for i in range(5):
+        a0 = math.radians(-90 + i * 72 + 22); a1 = math.radians(-90 + (i + 1) * 72 - 22)
+        x0, y0 = cx + R * math.cos(a0), cy + R * math.sin(a0); x1, y1 = cx + R * math.cos(a1), cy + R * math.sin(a1)
+        arrows += f'<path d="M{x0:.1f},{y0:.1f} A{R},{R} 0 0 1 {x1:.1f},{y1:.1f}" fill="none" stroke="{ACC}" stroke-width="3" marker-end="url(#cy-arrow)"/>'
+    nodes = ""
+    for i, (name, line, when, body) in enumerate(steps):
+        x, y = pts[i]
+        anchor = "middle"
+        lx, ly = x, y + 66
+        if i == 1: anchor, lx, ly = "start", x + 54, y + 4
+        if i == 2: anchor, lx, ly = "start", x + 46, y + 30
+        if i == 3: anchor, lx, ly = "end", x - 46, y + 30
+        if i == 4: anchor, lx, ly = "end", x - 54, y + 4
+        if i == 0: ly = y - 60
+        nodes += (f'<g><circle cx="{x:.1f}" cy="{y:.1f}" r="40" fill="{"#fff" if i else ACC}" stroke="{ACC}" stroke-width="3"/>'
+                  f'<text x="{x:.1f}" y="{y + 7:.1f}" text-anchor="middle" font-size="22" font-weight="700" fill="{ACC if i else "#fff"}">{i + 1}</text>'
+                  f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" font-size="20" font-weight="700" fill="{INK}">{e(name.upper())}</text>'
+                  f'<text x="{lx:.1f}" y="{ly + 22:.1f}" text-anchor="{anchor}" font-size="13.5" fill="{SOFT}">{e(when)}</text></g>')
+    rx, ry = pts[3]
+    refine_g = (f'<path d="M{rx - 30:.1f},{ry + 30:.1f} L{rx - 95:.1f},{ry + 95:.1f}" fill="none" stroke="{ACC}" stroke-width="2.5" stroke-dasharray="5 6" marker-end="url(#cy-arrow)"/>'
+                f'<rect x="{rx - 215:.1f}" y="{ry + 96:.1f}" width="118" height="40" rx="20" fill="{PANEL}" stroke="{ACC}" stroke-width="2"/>'
+                f'<text x="{rx - 156:.1f}" y="{ry + 122:.1f}" text-anchor="middle" font-size="16" font-weight="700" fill="{ACC}">{e(refine[0].upper())}</text>')
+    centre_g = (f'<circle cx="{cx}" cy="{cy}" r="78" fill="{PANEL}"/>'
+                f'<text x="{cx}" y="{cy - 2}" text-anchor="middle" font-size="26" font-weight="700" fill="{ACC}">{e(centre[0])}</text>'
+                f'<text x="{cx}" y="{cy + 24}" text-anchor="middle" font-size="14" fill="{SOFT}">{e(centre[1])}</text>')
+    title = (f'<text x="{cx}" y="{H - 22}" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="{ACC}">{e(T("cy_name").upper())}{e(T("cy_tm"))} · SURFACE SKIN HABIT</text>') if standalone else ""
+    bg = f'<rect width="{W}" height="{H}" fill="{BG}"/>' if standalone else ""
+    font = 'font-family="Gotham, Montserrat, Helvetica, Arial, sans-serif"'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="{e(T("cy_name"))}" class="cycle-svg{" compact" if compact else ""}" {font}>'
+            f'<defs><marker id="cy-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="{ACC}"/></marker></defs>'
+            f'{bg}{ring}{arrows}{centre_g}{refine_g}{nodes}{title}</svg>')
+
+def cycle_block(compact=False):
+    btn = f'<a class="btn btn-ghost btn-sm" href="metode.html">{e(T("cy_more"))}</a>' if compact else ""
+    return f'''<section class="section" id="siklus" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">{e(T("cy_eye"))}</span><h2>{e(T("cy_name"))}<sup class="tm">{e(T("cy_tm"))}</sup> · {e(T("cy_h"))}</h2><p>{e(T("cy_p"))}</p></div>{btn}</div>
+  <div class="cycle-wrap">{cycle_svg(compact)}</div>
+</div></section>'''
+
+def page_cycle():
+    steps = ""
+    for i, (name, line, when, body) in enumerate(T("cy_steps"), 1):
+        steps += f'<li><div class="jw">{i} · {e(when)}</div><div><h3>{e(name)} · {e(line)}</h3><p>{e(body)}</p></div></li>'
+    refine = T("cy_refine")
+    body = f'''<section class="page-hero"><div class="wrap">
+  <span class="eyebrow">{e(T("cy_eye"))}</span>
+  <h1>{e(T("cy_name"))}<sup class="tm">{e(T("cy_tm"))}</sup></h1>
+  <p class="lead">{e(T("cy_p"))}</p>
+</div></section>
+<section class="section" style="padding-top:8px"><div class="wrap"><div class="cycle-wrap big">{cycle_svg()}</div></div></section>
+<section class="section" style="padding-top:0"><div class="wrap">
+  <ol class="journey">{steps}</ol>
+  <div class="card note" style="margin-top:18px"><h3>{e(refine[0])}</h3><p>{e(refine[1])}</p></div>
+</div></section>
+{funnel_strip()}
+{cta_band()}
+'''
+    return head(T("t_cy", name=S["name"]), T("d_cy"), "metode.html") + header("index.html#concern", "metode.html") + body + footer()
+
 def proof_block():
     P = C["proof"]
     stats = "".join(f'<div class="stat"><div class="n">{e(t(x, "n"))}</div><div class="l">{e(t(x, "l"))}</div></div>' for x in P["stats"])
@@ -922,7 +1001,8 @@ def page_index():
   </div>
 </div></section>
 
-<section class="section" id="concern"><div class="wrap">
+{cycle_block(compact=True)}
+<section class="section" id="concern" style="padding-top:0"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(T('s1_eye'))}</span><h2>{e(T('s1_h'))}</h2><p>{e(T('s1_p'))}</p></div><a class="btn btn-ghost btn-sm" href="menu.html">{e(T('s1_btn'))}</a></div>
   {funnel_strip()}
   <div class="grid-3">{concern_cards}</div>
@@ -1477,7 +1557,7 @@ def page_404():
 
 def _stream_pages():
     return {code: (lambda code=code: page_stream(code)) for code in C["streams"]}
-PAGES = {"index.html": page_index, "menu.html": page_menu, "harga-lengkap.html": page_pricelist, "edukasi.html": page_education,
+PAGES = {"index.html": page_index, "menu.html": page_menu, "metode.html": page_cycle, "harga-lengkap.html": page_pricelist, "edukasi.html": page_education,
          "edukasi-treatment.html": page_treatments, "edukasi-brand.html": page_brands, "edukasi-kombinasi.html": page_combinations, "edukasi-waktu.html": page_timing,
          "analisis.html": page_assessment, "dokter.html": page_doctors, "klinik.html": page_clinics}
 for _d in EDU["devices"]:
@@ -1554,6 +1634,9 @@ def main():
                 continue
             seen.add((name, w))
             print(f'  {name}: "{w}"\n    \u2026{ctx}\u2026')
+    for lang in ("id", "en"):
+        L, PREFIX = lang, ""
+        (ROOT / "assets" / f"skin-habit-cycle-{lang}.svg").write_text(cycle_svg(standalone=True), encoding="utf-8")
     L, PREFIX = "id", ""
     (ROOT / "sitemap.xml").write_text(sitemap(), encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
