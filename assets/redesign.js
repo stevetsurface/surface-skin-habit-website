@@ -59,3 +59,15 @@
     document.querySelector('#search-empty').hidden = matches > 0;
   });
 })();
+
+// Each explorer works independently, including keyboard-native buttons.
+document.querySelectorAll('.layers-section').forEach(explorer => {
+  explorer.querySelectorAll('[data-layer-choice]').forEach(button => {
+    button.addEventListener('click', () => {
+      const selected = button.dataset.layerChoice;
+      explorer.querySelectorAll('[data-layer-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      explorer.querySelectorAll('[data-anatomy-layer]').forEach(item => item.classList.toggle('selected', item.dataset.anatomyLayer === selected));
+      explorer.querySelectorAll('[data-layer-note]').forEach(item => { item.hidden = item.dataset.layerNote !== selected; });
+    });
+  });
+});

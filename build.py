@@ -185,6 +185,7 @@ def twin_for(src):
  return '../index.html' if EN else 'en/index.html'
 
 exec((ROOT/'site_features.py').read_text(),globals())
+exec((ROOT/'skin_education.py').read_text(),globals())
 route_count=0
 for language in ['id','en']:
  EN=language=='en'; source=CONTENT/'legacy'/('en' if EN else '')

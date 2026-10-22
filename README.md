@@ -31,4 +31,6 @@ Run `node tests/booking.cjs` to verify handoff context and request wording.
 
 ### Before-and-after assets
 
-No result photos are currently published. To add a real case to `results.items`, supply `publish: true`, `consent`, `doctor_approved: true`, a `concern` code, local `before` and `after` image paths, `treatment`, `timeframe`, `caption`, and `caption_en`. The results renderer shows only complete cases with both images present. Confirm comparable lighting/angles and actual timing. Never substitute another clinic's images or generated pictures as Surface results.
+Nine source-labelled comparison images are published from the Surface marketing PDF supplied by the website owner. Rendered clips preserve source privacy masks and session labels. The elapsed time between images was not provided; captions say so and explain differences in lighting/angle and individual outcomes. Do not retouch skin or replace images with generated results.
+
+`skin_education.py` renders the interactive anatomy guide, relevant comparison cases, and bilingual recovery sections. `content/recovery-guides.json` contains treatment-family recovery, temporary effects, risks, preparation, and clinical references. These are patient education; the treating clinician must confirm the actual device/product, settings, personal risks, and aftercare. Avoid universal repeat intervals or claims of zero risk/downtime.
