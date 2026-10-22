@@ -598,3 +598,8 @@ p{margin:0 0 1em}
 .venn-wrap{padding:clamp(8px,2vw,20px)}
 .venn-svg{width:100%;height:auto;display:block;max-height:520px}
 @media (max-width:960px){.venn-split{grid-template-columns:1fr}}
+.venn-split{grid-template-columns:1.1fr .9fr;gap:40px}
+.venn-wrap{background:transparent;padding:0}
+.venn-svg{max-height:620px}
+.venn-split h2{font-size:clamp(28px,3.2vw,40px);line-height:1.1}
+.venn-split p{font-size:17px;margin:14px 0 20px}

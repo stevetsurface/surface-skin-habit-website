@@ -906,30 +906,38 @@ def page_cycle():
     return head(T("t_cy", name=S["name"]), T("d_cy"), "metode.html") + header("index.html#concern", "metode.html") + body + footer()
 
 def venn_svg(standalone=False):
-    # The Skin Habit mark: Doctor, Plan, Habit; Correct, Review and Maintain in the overlaps; Skin Habit at the centre.
+    # The Skin Habit mark: three overlapping sets (Doctor, Plan, Habit), multiply-blended so the overlaps read on their own.
     ACC, INK, SOFT, BG = "#9B5A47", "#1E1A18", "#6B5F5A", "#FBF7F4"
-    W, H, cx, cy, r, d = 820, 620, 410, 330, 170, 110
+    TINTS = ["#C98B79", "#E7B9A9", "#B7A39A"]
+    W, H, cx, cy, r, d = 820, 640, 410, 340, 182, 104
     sets = T("vn_sets"); ov = T("vn_overlaps"); centre = T("vn_centre")
-    circles = [(cx, cy - d * 0.95), (cx - d * 1.05, cy + d * 0.6), (cx + d * 1.05, cy + d * 0.6)]
-    labels = [(cx, cy - d * 0.95 - r - 22), (cx - d * 1.05 - r - 6, cy + d * 0.6 + r + 30), (cx + d * 1.05 + r + 6, cy + d * 0.6 + r + 30)]
-    ovpos = [(cx - d * 0.55, cy - d * 0.1), (cx + d * 0.55, cy - d * 0.1), (cx, cy + d * 0.95)]
+    circles = [(cx, cy - d), (cx - d * 1.02, cy + d * 0.62), (cx + d * 1.02, cy + d * 0.62)]
+    # set names sit inside their own circle, away from the overlaps
+    names = [(cx, cy - d - r * 0.52), (cx - d * 1.02 - r * 0.28, cy + d * 0.62 + r * 0.6), (cx + d * 1.02 + r * 0.28, cy + d * 0.62 + r * 0.6)]
+    ovpos = [(cx - d * 0.95, cy - d * 0.3), (cx + d * 0.95, cy - d * 0.3), (cx, cy + d * 1.08)]
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="Skin Habit" class="venn-svg" font-family="Gotham, Montserrat, Helvetica, Arial, sans-serif">']
     if standalone: out.append(f'<rect width="{W}" height="{H}" fill="{BG}"/>')
-    for (x, y) in circles:
-        out.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{ACC}" fill-opacity=".16" stroke="{ACC}" stroke-width="2.5"/>')
-    for (n, sub), (x, y) in zip(sets, labels):
-        out.append(f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="middle" font-size="22" font-weight="700" fill="{INK}">{e(n.upper())}</text><text x="{x:.0f}" y="{y + 22:.0f}" text-anchor="middle" font-size="13.5" fill="{SOFT}">{e(sub)}</text>')
+    out.append('<g style="mix-blend-mode:multiply">')
+    for (x, y), tint in zip(circles, TINTS):
+        out.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{tint}" fill-opacity=".82"/>')
+    out.append('</g>')
+    for (n, sub), (x, y) in zip(sets, names):
+        out.append(f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="middle" font-size="26" font-weight="800" letter-spacing="3" fill="{INK}">{e(n.upper())}</text>'
+                   f'<text x="{x:.0f}" y="{y + 24:.0f}" text-anchor="middle" font-size="14" font-weight="600" fill="{INK}" fill-opacity=".72">{e(sub)}</text>')
     for (n, sub), (x, y) in zip(ov, ovpos):
-        out.append(f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="middle" font-size="15" font-weight="700" fill="{ACC}">{e(n.upper())}</text><text x="{x:.0f}" y="{y + 16:.0f}" text-anchor="middle" font-size="12" fill="{SOFT}">{e(sub)}</text>')
-    out.append(f'<circle cx="{cx}" cy="{cy + 8}" r="46" fill="{ACC}"/><text x="{cx}" y="{cy + 4}" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#fff">{e(centre[0])}</text><text x="{cx}" y="{cy + 22}" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#fff">{e(centre[1])}</text>')
-    if standalone: out.append(f'<text x="{cx}" y="{H - 24}" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="2" fill="{ACC}">SKIN HABIT™ · SURFACE SKIN HABIT</text>')
+        out.append(f'<text x="{x:.0f}" y="{y:.0f}" text-anchor="middle" font-size="14" font-weight="800" letter-spacing="2" fill="{INK}">{e(n.upper())}</text>'
+                   f'<text x="{x:.0f}" y="{y + 17:.0f}" text-anchor="middle" font-size="12.5" font-weight="600" fill="{INK}" fill-opacity=".75">{e(sub)}</text>')
+    out.append(f'<circle cx="{cx}" cy="{cy + 10}" r="52" fill="{ACC}" stroke="{BG}" stroke-width="5"/>'
+               f'<text x="{cx}" y="{cy + 6}" text-anchor="middle" font-size="15" font-weight="800" letter-spacing="3" fill="#fff">{e(centre[0])}</text>'
+               f'<text x="{cx}" y="{cy + 26}" text-anchor="middle" font-size="15" font-weight="800" letter-spacing="3" fill="#fff">{e(centre[1])}</text>')
+    if standalone: out.append(f'<text x="{cx}" y="{H - 22}" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="3" fill="{ACC}">SKIN HABIT\u2122 \u00b7 SURFACE SKIN HABIT</text>')
     out.append('</svg>')
     return "".join(out)
 
 def venn_block():
     return f'''<section class="section" id="skin-habit" style="padding-top:0"><div class="wrap">
   <div class="venn-split">
-    <div class="cycle-wrap venn-wrap">{venn_svg()}</div>
+    <div class="venn-wrap">{venn_svg()}</div>
     <div><span class="eyebrow">{e(T("cy_eye"))}</span><h2>Skin Habit<sup class="tm">{e(T("cy_tm"))}</sup> · {e(T("vn_h"))}</h2><p>{e(T("vn_p"))}</p><a class="btn btn-ghost btn-sm" href="metode.html">{e(T("cy_more"))}</a></div>
   </div>
 </div></section>'''
