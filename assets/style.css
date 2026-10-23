@@ -603,3 +603,15 @@ p{margin:0 0 1em}
 .venn-svg{max-height:620px}
 .venn-split h2{font-size:clamp(28px,3.2vw,40px);line-height:1.1}
 .venn-split p{font-size:17px;margin:14px 0 20px}
+/* brand tiles */
+.brand-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.brand-tile{padding:18px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.brand-tile .brand-logo,.brand-tile .brand-logo-text{height:40px;margin-bottom:6px}
+.brand-tile h3{font-size:16px;margin:0}
+.brand-tile p{margin:0}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;border-radius:999px;background:var(--panel);color:var(--accent);text-decoration:none}
+.badge.ph-badge{background:transparent;border:1.5px dashed var(--line);color:var(--muted)}
+.tile-links{display:flex;gap:12px;margin-top:6px}
+@media (max-width:960px){.brand-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:720px){.brand-grid{grid-template-columns:1fr 1fr}}
