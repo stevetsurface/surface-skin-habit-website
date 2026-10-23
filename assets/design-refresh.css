@@ -17,3 +17,23 @@ body{color:var(--ink)}.header{height:88px;background:#f7f5eef2;border-bottom-col
 /* Maintain readable contrast on the light consultation panel. */
 .booking,.booking h2,.booking h3,.booking label,.booking select,.booking input,.booking dd{color:var(--ink)!important}.booking p,.booking small,.booking .response-time,.booking .form-note{color:#526148!important}.booking .button{background:#526348!important;border-color:#526348!important;color:#fff!important}.booking .kicker{color:#586b48!important}.booking option{color:#28392f;background:#f7f5ee}
 .booking .availability{color:#526148!important}
+
+/* Photography: preserve the complete treatment images and their source labels. */
+.photo-treatment-section{background:#eeeae1}
+.photo-treatment-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.photo-treatment{display:block;color:var(--ink);text-decoration:none;background:#faf8f3;overflow:hidden;border-radius:4px}
+.photo-treatment>img{display:block;width:100%;height:auto;aspect-ratio:1234/684;object-fit:contain;background:#e6e1d8}
+.photo-treatment>div{padding:26px}
+.photo-treatment h3{font-size:26px;display:flex;justify-content:space-between;gap:12px;margin:12px 0}
+.photo-treatment p{font-size:16px;line-height:1.6;margin-bottom:22px}
+.photo-detail-link{font-size:12px;line-height:1.7;border-top:1px solid #d7d9ce;display:block;padding-top:16px}
+.photo-treatment:hover h3{text-decoration:underline;text-underline-offset:5px}
+.photo-treatment:focus-visible{outline:3px solid #53674a;outline-offset:5px}
+.story-photo-column{min-width:0}
+.story-photo-column>img{display:block;width:100%;height:380px;object-fit:cover;object-position:center 55%;border-radius:4px}
+.story-photo-column .story-numbers{margin-top:24px}
+.clinic-photo-journal{display:grid;grid-template-columns:1.3fr 1fr;gap:28px}
+.clinic-photo-journal figure{margin:0;min-width:0}
+.clinic-photo-journal img{display:block;width:100%;height:480px;object-fit:cover;border-radius:4px}
+.clinic-photo-journal figcaption{font-size:14px;padding-top:16px;color:#526148}
+@media(max-width:760px){.photo-treatment-grid{grid-template-columns:1fr;gap:24px}.photo-treatment>div{padding:22px}.photo-treatment h3{font-size:25px}.clinic-photo-journal{grid-template-columns:1fr;gap:28px}.clinic-photo-journal img{height:360px}.story-photo-column>img{height:350px}}
