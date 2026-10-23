@@ -1,0 +1,20 @@
+"""Mobbin-informed editorial browsing and explicit consultation request summary."""
+def concerns():
+ rows='';panels=''
+ for n,row in enumerate(FLOW_DATA):
+  code,en,id,h1,i1,p1,q1,h2,i2,p2,q2,h3,i3,p3,q3,devices,source=row
+  rows+='<button type="button" data-care-choice="'+code+'" aria-pressed="'+str(n==0).lower()+'" aria-controls="care-'+code+'"><span>0'+str(n+1)+'</span><b>'+code.capitalize()+'</b><small>'+tr(en,id)+'</small><i aria-hidden="true">↗</i></button>'
+  panels+='<article data-care-panel="'+code+'" id="care-'+code+'" '+('' if n==0 else 'hidden')+'><span class="kicker">'+tr('YOUR SKIN, UNDERSTOOD','PAHAMI KULITMU')+'</span><h3>'+tr(en,id)+'</h3><p>'+tr(p1,q1)+'</p><ol><li>'+tr(h1,i1)+'</li><li>'+tr(h2,i2)+'</li><li>'+tr(h3,i3)+'</li></ol><div class="care-panel-links">'+link(tr('Explore this care pathway ↗','Jelajahi jalur perawatan ↗'),slug(code),'button')+link(tr('View the visual map','Lihat peta visual'),flow_url()+'?concern='+code+'#treatment-flow')+'</div><span class="care-footnote">'+tr('Your doctor confirms the plan, recovery, and price before treatment.','Dokter memastikan rencana, pemulihan, dan harga sebelum treatment.')+'</span></article>'
+ return section(title(tr('THE CARE INDEX','INDEKS PERAWATAN'),tr('Start with your skin.<br>We’ll take it from here.','Mulai dari kulitmu.<br>Kita cari langkahnya bersama.'),tr('Six concerns. Different possibilities. Select one to see where your conversation could begin.','Enam kebutuhan. Beragam kemungkinan. Pilih satu untuk melihat titik awal percakapanmu.'))+'<div class="care-index"><div class="care-index-list" aria-label="'+tr('Skin concerns','Keluhan kulit')+'">'+rows+'</div><div class="care-index-panels" aria-live="polite">'+panels+'</div></div>','care-index-section','concern')
+
+_mobbin_home=home
+def home():
+ body=_mobbin_home()
+ hero='<section class="editorial-hero">'+img('assets/clinics/tsm-koridor-2.jpg',tr('A member of the Surface team at TSM Cibubur','Tim Surface di TSM Cibubur'),loading='eager')+'<div class="editorial-hero-copy"><span class="kicker">'+tr('SURFACE SKIN HABIT · SINCE 2014','SURFACE SKIN HABIT · SEJAK 2014')+'</span><h1>'+tr('A little care.<br>A lasting<br><em>skin habit.</em>','Sedikit perawatan.<br>Kebiasaan baik<br><em>untuk kulitmu.</em>')+'</h1><p>'+tr('Understand your skin. Find your pace.<br>Build a personal plan with a doctor.','Pahami kulitmu. Temukan ritmemu.<br>Susun rencana personal bersama dokter.')+'</p><div class="editorial-actions"><button type="button" class="button" data-open-start>'+tr('Find my starting point ↗','Temukan titik awalku ↗')+'</button>'+link(tr('Explore our care ↓','Jelajahi perawatan ↓'),'#concern')+'</div></div><div class="editorial-location"><span>'+tr('YOUR NEIGHBOURHOOD SURFACE','SURFACE DI DEKATMU')+'</span><b>Setiabudi · CITOS · Lippo Mall Puri · TSM Cibubur</b></div></section>'
+ return re.sub(r'<section class="surface-intro">.*?</section>',lambda m:hero,body,count=1,flags=re.S)
+
+_mobbin_booking=booking
+def booking(interest=''):
+ body=_mobbin_booking(interest)
+ summary='<aside class="request-summary" aria-label="'+tr('Your consultation request','Permintaan konsultasimu')+'"><span class="kicker">'+tr('YOUR CONSULTATION REQUEST','PERMINTAAN KONSULTASIMU')+'</span><h3>'+tr('A clear next step.','Langkah berikutnya jelas.')+'</h3><dl><div><dt>'+tr('Clinic','Klinik')+'</dt><dd data-request-value="clinic"></dd></div><div><dt>'+tr('Concern','Keluhan')+'</dt><dd data-request-value="interest"></dd></div><div><dt>'+tr('Visit','Kunjungan')+'</dt><dd data-request-value="visit-type"></dd></div><div><dt>'+tr('Preferred date','Tanggal pilihan')+'</dt><dd data-request-value="preferred-date"></dd></div><div><dt>'+tr('Preferred time','Waktu pilihan')+'</dt><dd data-request-value="preferred-time"></dd></div></dl><p>'+tr('These are your preferences. Our team confirms availability and your appointment on WhatsApp.','Ini adalah preferensimu. Tim kami memastikan ketersediaan serta jadwal melalui WhatsApp.')+'</p></aside>'
+ return body.replace('<form ',summary+'<form ',1)

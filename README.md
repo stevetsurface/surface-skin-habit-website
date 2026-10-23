@@ -34,3 +34,7 @@ Run `node tests/booking.cjs` to verify handoff context and request wording.
 Nine source-labelled comparison images are published from the Surface marketing PDF supplied by the website owner. Rendered clips preserve source privacy masks and session labels. The elapsed time between images was not provided; captions say so and explain differences in lighting/angle and individual outcomes. Do not retouch skin or replace images with generated results.
 
 `skin_education.py` renders the interactive anatomy guide, relevant comparison cases, and bilingual recovery sections. `content/recovery-guides.json` contains treatment-family recovery, temporary effects, risks, preparation, and clinical references. These are patient education; the treating clinician must confirm the actual device/product, settings, personal risks, and aftercare. Avoid universal repeat intervals or claims of zero risk/downtime.
+
+### Mobbin design references
+
+The editorial care index and homepage use Surface's own copy and imagery, informed by Face Formula's image-led section hierarchy: https://mobbin.com/sites/sections/d7990263-c447-4583-bca4-f88350bde068 . The live preference summary adapts the appointment-context pattern studied in Selfridges: https://mobbin.com/screens/6a125d3d-8205-48df-b47b-73405156d956 . No reference screenshots are embedded in the public website. The form requests preferences; it does not present live availability or reserve a slot.

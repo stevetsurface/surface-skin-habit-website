@@ -98,3 +98,23 @@ document.querySelectorAll('.treatment-flow').forEach(map => {
   const flowChoice = [...document.querySelectorAll('[data-flow-choice]')].find(button => button.dataset.flowChoice === concern);
   if (flowChoice) flowChoice.click();
 })();
+
+// Editorial care index: reveal relevant context without navigating away.
+document.querySelectorAll('.care-index').forEach(index => {
+  index.querySelectorAll('[data-care-choice]').forEach(button => button.addEventListener('click', () => {
+    index.querySelectorAll('[data-care-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    index.querySelectorAll('[data-care-panel]').forEach(panel => { panel.hidden = panel.dataset.carePanel !== button.dataset.careChoice; });
+  }));
+});
+// Summarise preferences only; no live availability or reservation is implied.
+(() => {
+  const summary = document.querySelector('.request-summary');
+  if (!summary) return;
+  const update = () => summary.querySelectorAll('[data-request-value]').forEach(target => {
+    const input = document.getElementById(target.dataset.requestValue);
+    if (!input) return;
+    target.textContent = input.tagName === 'SELECT' ? input.selectedOptions[0]?.textContent : (input.value || (document.body.dataset.locale === 'id' ? 'Belum dipilih' : 'Not selected'));
+  });
+  ['clinic','interest','visit-type','preferred-date','preferred-time'].forEach(id => document.getElementById(id)?.addEventListener('change',update));
+  update();
+})();
