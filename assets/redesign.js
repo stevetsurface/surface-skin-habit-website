@@ -71,3 +71,13 @@ document.querySelectorAll('.layers-section').forEach(explorer => {
     });
   });
 });
+
+// Concern-led visual flow maps; native buttons also support keyboard navigation.
+document.querySelectorAll('.treatment-flow').forEach(map => {
+  map.querySelectorAll('[data-flow-choice]').forEach(button => {
+    button.addEventListener('click', () => {
+      map.querySelectorAll('[data-flow-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      map.querySelectorAll('[data-flow-panel]').forEach(panel => { panel.hidden = panel.dataset.flowPanel !== button.dataset.flowChoice; });
+    });
+  });
+});
