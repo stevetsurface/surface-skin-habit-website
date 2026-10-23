@@ -34,3 +34,18 @@
 .clinic-image .photo-slot{min-height:220px}
 .page-visual .photo-slot{min-height:260px}
 @media(max-width:760px){.pathway-photos,.pair-slots,.progress-photo{grid-template-columns:1fr}}
+/* doctor schedules */
+.doctor-schedule{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.doctor-schedule .kicker{display:block;margin-bottom:8px}
+.sched-row{display:flex;align-items:center;gap:12px;margin:6px 0;flex-wrap:wrap}
+.sched-row b{min-width:110px;font-size:14px}
+.day-strip{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+.day-strip li{width:34px;height:30px;border-radius:8px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:11.5px;color:var(--muted);background:#fff}
+.day-strip li.on{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:700}
+.day-strip abbr{text-decoration:none}
+.sched-note{font-size:13px;color:var(--muted);margin-top:14px;max-width:64ch}
+.clinic-doctors{margin:14px 0 6px}
+.clinic-doctors ul{list-style:none;margin:8px 0 0;padding:0}
+.clinic-doctors li{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 0;border-bottom:1px solid var(--line)}
+.clinic-doctors li a{color:var(--ink);font-weight:600;text-decoration:none;min-width:200px}
+@media(max-width:760px){.sched-row b{min-width:0;width:100%}.clinic-doctors li a{min-width:0;width:100%}}

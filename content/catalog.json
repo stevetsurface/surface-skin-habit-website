@@ -797,7 +797,18 @@
       "bio_en": "Aesthetic doctor committed to personalised skin care, understanding each skin's condition, needs and goals to create thoughtful and appropriate treatment plans.",
       "instagram": "devi_sitiaisyahdevitri",
       "languages": "Bahasa Indonesia, English",
-      "consent": "2026-09-29"
+      "consent": "2026-09-29",
+      "schedule": [
+        {
+          "clinic": "SB",
+          "days": [
+            "Tue",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "publish": true,
@@ -831,7 +842,28 @@
       "bio_en": "Aesthetic doctor committed to healthier skin for every patient, using safe medical science and technology that keeps pace with the latest developments.",
       "instagram": "kharisma_pipit",
       "languages": "Bahasa Indonesia, English",
-      "consent": "2026-04-08"
+      "consent": "2026-04-08",
+      "schedule": [
+        {
+          "clinic": "SB",
+          "days": [
+            "Mon",
+            "Wed",
+            "Sun"
+          ]
+        },
+        {
+          "clinic": "CITOS",
+          "days": [
+            "Thu"
+          ]
+        },
+        {
+          "clinic": "TSM",
+          "days": [],
+          "note": "by_appointment"
+        }
+      ]
     },
     {
       "publish": true,
@@ -864,7 +896,18 @@
       "bio_en": "Aesthetic doctor focused on skin rejuvenation, combining injectables, botulinum toxin, skin boosters, collagen stimulators and energy-based device protocols for fresh, natural results.",
       "instagram": "riskabern",
       "languages": "Bahasa Indonesia, English",
-      "consent": "2026-03-08"
+      "consent": "2026-03-08",
+      "schedule": [
+        {
+          "clinic": "CITOS",
+          "days": [
+            "Tue",
+            "Wed",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "publish": true,
@@ -897,7 +940,19 @@
       "bio_en": "Aesthetic doctor with a personalised approach, combining non-invasive procedures and regular care to keep skin healthy and the result proportional and natural.",
       "instagram": "zhaskmsr",
       "languages": "Bahasa Indonesia, English",
-      "consent": "2026-04-08"
+      "consent": "2026-04-08",
+      "schedule": [
+        {
+          "clinic": "LMP",
+          "days": [
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+          ]
+        }
+      ]
     },
     {
       "publish": true,
@@ -930,7 +985,14 @@
       "bio_en": "Aesthetic doctor focused on natural-looking results, combining energy-based devices such as HIFU with injectables such as skin boosters, collagen stimulators and botulinum toxin.",
       "instagram": "shafiraeston",
       "languages": "Bahasa Indonesia, English",
-      "consent": "2026-06-08"
+      "consent": "2026-06-08",
+      "schedule": [
+        {
+          "clinic": "LMP",
+          "days": [],
+          "note": "by_appointment"
+        }
+      ]
     },
     {
       "publish": false,
@@ -6867,5 +6929,19 @@
       "treatment": "Hydraderm Facial",
       "source": "https://www.surfaceskinhabit.com/home#testi-11"
     }
-  ]
+  ],
+  "schedule_meta": {
+    "verified": false,
+    "source": "Regular days derived from the clinics' daily sales reports, September 2026 (all clinics) and 1-23 October 2026 (Lippo Mall Puri): a weekday counts as regular when the doctor was present on at least 60% of those weekdays. Cross-checked against the 'JADWAL DOKTER' sheet (last edited 11 Mar 2026). Not yet confirmed by the clinic managers.",
+    "period": "2026-09-01 to 2026-10-23",
+    "clinic_doctor_days": {
+      "TSM": [
+        "Tue",
+        "Wed",
+        "Thu",
+        "Sat"
+      ]
+    },
+    "clinic_doctor_days_note": "TSM Cibubur: the resident doctor is not published on the site, so the clinic page shows doctor days without a name."
+  }
 }
