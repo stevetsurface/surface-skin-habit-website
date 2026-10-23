@@ -2894,7 +2894,8 @@
         "category": "professional",
         "keywords": [
           "lhala"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Biaxis Q-Switched Nd:YAG",
@@ -2932,7 +2933,8 @@
           "qs brighten",
           "qs toning",
           "biaxis"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Cellec V IPL",
@@ -2957,7 +2959,8 @@
           "pulse light",
           "pulsed light",
           "cellec"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Liftera HIFU",
@@ -2988,7 +2991,8 @@
           "hifu",
           "liftera",
           "ultilift"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Pollogen TriPollar RF",
@@ -3024,7 +3028,8 @@
           "v-shape",
           "pollogen",
           "rf tighten"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Mediderma Nanopore",
@@ -3050,7 +3055,8 @@
         "keywords": [
           "nanopore",
           "nanoporeless"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Celluma PDT",
@@ -3081,7 +3087,8 @@
           "pdt",
           "led",
           "celluma"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Aquapure",
@@ -3106,7 +3113,8 @@
         "keywords": [
           "h2o",
           "aquapure"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Dermolissage",
@@ -3132,7 +3140,8 @@
         "keywords": [
           "hydraderm",
           "dermolissage"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Intraceuticals Oxygen",
@@ -3156,7 +3165,8 @@
           "oxy facial",
           "oxygen",
           "intraceutical"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Tegoder Cosmetics",
@@ -3189,7 +3199,8 @@
           "tegoder",
           "peel sa",
           "peel ga"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Dermalogica",
@@ -3215,7 +3226,8 @@
         "keywords": [
           "super facial",
           "dermalogica"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Neostrata ProSystem",
@@ -3238,7 +3250,8 @@
         "keywords": [
           "retinol peel",
           "neostrata"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Rejuran",
@@ -3262,7 +3275,8 @@
         "category": "injectable",
         "keywords": [
           "rejuran"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Profhilo",
@@ -3285,7 +3299,8 @@
         "category": "injectable",
         "keywords": [
           "profhilo"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Nucleofill",
@@ -3308,7 +3323,8 @@
         "category": "injectable",
         "keywords": [
           "nucleofill"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Neauvia",
@@ -3331,7 +3347,8 @@
         "category": "injectable",
         "keywords": [
           "neauvia"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Bellavita PDRN",
@@ -3350,7 +3367,8 @@
         "logo": "bellavita.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Peplift",
@@ -3370,7 +3388,8 @@
         "logo": "peplift.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Botox — Allergan",
@@ -3394,7 +3413,8 @@
           "botox",
           "botulinum",
           "toxin"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Lanzox",
@@ -3415,7 +3435,8 @@
         "logo": "lanzox.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Obagi Blue Peel",
@@ -3438,7 +3459,8 @@
         "keywords": [
           "obagi",
           "blue peel"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Dermapen 4",
@@ -3460,7 +3482,8 @@
         "category": "device",
         "keywords": [
           "dermapen"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Aqua Glo · Aqua Solution",
@@ -3481,7 +3504,8 @@
         "logo": "classys.svg",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "bpom": ""
       },
       {
         "name": "Surface+",
@@ -3501,7 +3525,8 @@
         "category": "homecare",
         "keywords": [
           "surface+"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Immortal",
@@ -3523,7 +3548,8 @@
         "logo": "immortal.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "bpom": ""
       },
       {
         "name": "Prostrolane Blanc-B",
@@ -3546,7 +3572,8 @@
         "keywords": [
           "blanc-b",
           "blanc b"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Juvelook",
@@ -3568,7 +3595,8 @@
         "category": "injectable",
         "keywords": [
           "juvelook"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "ASCE+ Exosome",
@@ -3592,7 +3620,8 @@
           "exosome",
           "eksosom",
           "asce"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Vitaran",
@@ -3614,7 +3643,8 @@
         "category": "injectable",
         "keywords": [
           "vitaran"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "XelaRederm",
@@ -3636,7 +3666,8 @@
         "category": "injectable",
         "keywords": [
           "xelarederm"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Innoaesthetics",
@@ -3657,7 +3688,8 @@
         "logo": "innoaesthetics.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "MCCM Medical Cosmetics",
@@ -3678,7 +3710,8 @@
         "logo": "mccm.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "bpom": ""
       },
       {
         "name": "Kalbe · Dermaqual",
@@ -3699,7 +3732,8 @@
         "logo": "kalbe.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "PRP (T-Lab · Hi-TEC)",
@@ -3723,7 +3757,8 @@
         "category": "injectable",
         "keywords": [
           "prp"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Hydra DermalInfusion serums",
@@ -3742,7 +3777,8 @@
         "logo": "dermalinfusion.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "professional"
+        "category": "professional",
+        "bpom": ""
       },
       {
         "name": "AQ Recovery Serum",
@@ -3764,7 +3800,8 @@
         "category": "professional",
         "keywords": [
           "aq recovery"
-        ]
+        ],
+        "bpom": ""
       },
       {
         "name": "Aqualyx",
@@ -3783,7 +3820,8 @@
         "logo": "aqualyx.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Invitrix",
@@ -3802,7 +3840,8 @@
         "logo": "invitrix.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Pro 32",
@@ -3821,7 +3860,8 @@
         "logo": "pro32.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Hilowave",
@@ -3840,7 +3880,8 @@
         "logo": "hilowave.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Nubelline",
@@ -3859,7 +3900,8 @@
         "logo": "nubelline.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "AII-FIT",
@@ -3878,7 +3920,8 @@
         "logo": "aiifit.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       },
       {
         "name": "Vitamin drips: Ulvice · Zyfort",
@@ -3898,11 +3941,12 @@
         "logo": "vitamins.png",
         "regulatory": [],
         "kemenkes_akl": "",
-        "category": "injectable"
+        "category": "injectable",
+        "bpom": ""
       }
     ],
-    "brands_intro": "Alat dan produk yang dipakai di Surface, siapa pembuatnya, dan di treatment mana kamu akan menemuinya. Kami menyebut nama alat karena kamu berhak tahu apa yang menyentuh kulitmu.",
-    "brands_intro_en": "The devices and products used at Surface, who makes them, and which treatments you will meet them in. We name our devices because you have a right to know what touches your skin.",
+    "brands_intro": "Alat dan brand yang dipakai di Surface: siapa pembuatnya, dari negara mana, dan izin apa yang sudah terverifikasi. Kami menyebut nama alatnya karena kamu berhak tahu apa yang menyentuh kulitmu.",
+    "brands_intro_en": "The devices and brands used at Surface: who makes them, which country they come from, and which clearances are verified. We name our devices because you have a right to know what touches your skin.",
     "combinations": {
       "intro": "Hampir semua penawaran Surface adalah kombinasi: satu facial atau peeling yang menyiapkan kulit, lalu satu langkah yang bekerja lebih dalam. Urutannya bukan kebetulan.",
       "intro_en": "Almost every Surface offer is a combination: a facial or peel that prepares the skin, then one step that works deeper. The order is not accidental.",
@@ -4813,8 +4857,8 @@
         "code": "professional",
         "name": "Peeling & produk profesional",
         "name_en": "Peels & professional products",
-        "blurb": "Peeling, serum, dan masker yang dipakai di kursi treatment.",
-        "blurb_en": "Peels, serums and masks used in the treatment chair."
+        "blurb": "Peeling medis dan produk profesional yang dipakai di kursi treatment.",
+        "blurb_en": "Medical peels and professional products used in the treatment chair."
       },
       {
         "code": "homecare",
@@ -4824,7 +4868,8 @@
         "blurb_en": "What you take home."
       }
     ],
-    "brands_source": "Product list reconciled against the clinic's 2026 consumables register. Prescription pharmacy items are deliberately not listed."
+    "brands_source": "Product list reconciled against the clinic's 2026 consumables register. Prescription pharmacy items are deliberately not listed.",
+    "_brands_note": "Public brand cards show only: logo, country, verified certification badges (FDA/MFDS/CE/ISO/Kemenkes AKL/BPOM), official site. Descriptions and usage stay in the data for the CS team but are not rendered (Steve, 23 Oct 2026). Fill 'bpom' / 'kemenkes_akl' only from the registration certificate."
   },
   "_structure": "Six doors (Clear, Tone, Texture, Calm, Tighten, Enhance) × three levels (Start, Correct, Refine) = 18 programs named door + level, each pointing at a master-menu combo (signature name shown as the campaign name). Correct and Refine mappings await medical lead sign-off.",
   "testimonials": {

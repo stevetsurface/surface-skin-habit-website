@@ -90,7 +90,7 @@ UI = {
     "ad_eye": "Add-ons", "ad_h": "Tambahan di kunjungan yang sama", "ad_after_h": "Setelah program", "ad_fixed": "per kunjungan",
     "res_eye": "Hasil", "res_h": "Foto hasil pelanggan", "res_before": "Awal", "res_after": "Minggu ke-{w}", "res_rules_h": "Aturan foto hasil kami", "res_tone": "Untuk jalur Tone kami sengaja tidak memasang foto hasil. Baca aturannya di bawah.",
     "tx_eye": "Edukasi", "tx_h1": "Semua treatment di Surface", "tx_by": "Dikerjakan", "tx_dur": "Durasi", "tx_int": "Interval", "tx_for": "Untuk", "tx_price": "Harga satuan", "tx_brand": "Alat / brand", "tx_consult": "Saat konsultasi", "tx_device_link": "Cara kerja alatnya",
-    "br_h1": "Alat & brand yang kami pakai", "br_maker": "Pembuat", "br_kind": "Jenis", "br_used": "Dipakai di", "br_origin": "Asal", "br_site": "Situs resmi", "br_reg": "Izin & sertifikasi", "br_at": "Tersedia di", "br_matrix_dev": "Alat", "br_strip_h": "Alat dan brand yang kami pakai", "br_strip_p": "Kami menyebut nama alatnya. Pembuat, negara asal, dan sertifikasinya ada di halaman Alat & brand.", "br_strip_btn": "Lihat semua alat & brand",
+    "br_h1": "Alat & brand yang kami pakai", "br_reg_pending": "Izin: dalam verifikasi", "br_reg_pending_t": "Nomor izin edar (Kemenkes AKL / BPOM) diisi dari sertifikat, belum diverifikasi.", "br_maker": "Pembuat", "br_kind": "Jenis", "br_used": "Dipakai di", "br_origin": "Asal", "br_site": "Situs resmi", "br_reg": "Izin & sertifikasi", "br_at": "Tersedia di", "br_matrix_dev": "Alat", "br_strip_h": "Alat dan brand yang kami pakai", "br_strip_p": "Kami menyebut nama alatnya. Pembuat, negara asal, dan sertifikasinya ada di halaman Alat & brand.", "br_strip_btn": "Lihat semua alat & brand",
     "tm_eye": "Pelanggan", "tm_h": "Kata mereka", "tm_google_h": "Ulasan di Google", "tm_google_p": "Setiap klinik punya halaman ulasan Google sendiri. Baca langsung dari pelanggan.",
     "needs_review": "menunggu persetujuan Medical Lead", "next_door_h": "Pintu berikutnya", "front_door_h": "Mulai di sini, di jalur mana pun", "st_helped": "Bagaimana kami membantu", "st_for": "Ini untukmu kalau", "funnels_h": "Enam jalur, satu kebiasaan", "ig_h": "Dari Instagram kami", "ig_follow": "Ikuti @{h}", "ig_ph": "Tempel URL post Instagram di catalog.json › social.instagram.posts. Tiga tile ini akan diganti embed resmi Instagram.", "gr_h": "Ulasan Google per klinik", "gr_write": "Tulis ulasan", "gr_read": "Baca ulasan", "ph_label": "Placeholder desain", "blog_h": "Blog", "blog_lead": "Jawaban untuk pertanyaan yang masuk lewat WhatsApp, ditulis supaya kamu datang ke konsultasi dengan pertanyaan yang lebih tajam.", "blog_read": "Baca", "blog_back": "Semua artikel", "blog_cta": "Lihat programnya", "t_blog": "Blog · {name}", "d_blog": "Artikel Surface Skin Habit: harga treatment di Jakarta, perbandingan booster, bekas jerawat, dan cara memilih klinik kulit.", "cs_tpl": "Template WhatsApp", "cs_link": "Kirim tautan ini", "cs_copy": "Salin", "cs_copied": "Tersalin", "seo_kw": "Kata kunci", "seo_intent": "Intent", "seo_page": "Halaman", "seo_status": "Status", "st_journey": "Perjalanannya, minggu demi minggu", "st_offers": "Tiga pilihan treatment", "st_promise": "Yang kami janjikan", "st_not": "Yang tidak kami janjikan", "st_devices": "Alat yang dipakai di program ini", "st_faq": "Pertanyaan tentang program ini", "st_eye": "Program", "st_see_menu": "Lihat harga lengkap", "st_start": "Mulai program ini", "st_doctors": "Dokter yang menanganinya", "t_st": "{nav} · Program {name}", "d_st": "{lead}", "home_streams_btn": "Lihat programnya",
     "cl_map": "Peta", "cl_devices": "Alat di klinik ini", "cl_doctors": "Dokter di klinik ini", "cl_reviews": "Ulasan Google",
@@ -189,7 +189,7 @@ UI = {
     "ad_eye": "Add-ons", "ad_h": "Extras in the same visit", "ad_after_h": "After a programme", "ad_fixed": "per visit",
     "res_eye": "Results", "res_h": "Customer result photos", "res_before": "Start", "res_after": "Week {w}", "res_rules_h": "Our rules for result photos", "res_tone": "For the Tone pathway we deliberately show no result photos. Read the rules below.",
     "tx_eye": "Education", "tx_h1": "Every treatment at Surface", "tx_by": "Performed by", "tx_dur": "Duration", "tx_int": "Interval", "tx_for": "For", "tx_price": "Single price", "tx_brand": "Device / brand", "tx_consult": "At consultation", "tx_device_link": "How the device works",
-    "br_h1": "The devices & brands we use", "br_maker": "Maker", "br_kind": "Type", "br_used": "Used in", "br_origin": "Origin", "br_site": "Official site", "br_reg": "Clearances & certification", "br_at": "Available at", "br_matrix_dev": "Device", "br_strip_h": "The devices and brands we use", "br_strip_p": "We name our devices. Maker, country of origin and certifications are on the Devices & brands page.", "br_strip_btn": "See all devices & brands",
+    "br_h1": "The devices & brands we use", "br_reg_pending": "Registration: being verified", "br_reg_pending_t": "Registration number (Kemenkes AKL / BPOM) is filled from the certificate; not verified yet.", "br_maker": "Maker", "br_kind": "Type", "br_used": "Used in", "br_origin": "Origin", "br_site": "Official site", "br_reg": "Clearances & certification", "br_at": "Available at", "br_matrix_dev": "Device", "br_strip_h": "The devices and brands we use", "br_strip_p": "We name our devices. Maker, country of origin and certifications are on the Devices & brands page.", "br_strip_btn": "See all devices & brands",
     "tm_eye": "Customers", "tm_h": "In their words", "tm_google_h": "Reviews on Google", "tm_google_p": "Every clinic has its own Google reviews page. Read them straight from customers.",
     "needs_review": "awaiting Medical Lead sign-off", "next_door_h": "Next door", "front_door_h": "Start here, in any pathway", "st_helped": "How we have helped", "st_for": "This is for you if", "funnels_h": "Six pathways, one habit", "ig_h": "From our Instagram", "ig_follow": "Follow @{h}", "ig_ph": "Paste Instagram post URLs into catalog.json › social.instagram.posts. These three tiles become official Instagram embeds.", "gr_h": "Google reviews by clinic", "gr_write": "Write a review", "gr_read": "Read reviews", "ph_label": "Design placeholder", "blog_h": "Blog", "blog_lead": "Answers to the questions that arrive on WhatsApp, written so you come to the consultation with sharper questions.", "blog_read": "Read", "blog_back": "All articles", "blog_cta": "See the programme", "t_blog": "Blog · {name}", "d_blog": "Surface Skin Habit articles: treatment prices in Jakarta, booster comparisons, acne scars, and how to choose a skin clinic.", "cs_tpl": "WhatsApp template", "cs_link": "Send this link", "cs_copy": "Copy", "cs_copied": "Copied", "seo_kw": "Keyword", "seo_intent": "Intent", "seo_page": "Page", "seo_status": "Status", "st_journey": "The journey, week by week", "st_offers": "Three treatment options", "st_promise": "What we promise", "st_not": "What we don't promise", "st_devices": "Devices used in this programme", "st_faq": "Questions about this programme", "st_eye": "Programme", "st_see_menu": "See full prices", "st_start": "Start this programme", "st_doctors": "The doctors who run it", "t_st": "{nav} · {name} Programme", "d_st": "{lead}", "home_streams_btn": "See the programme",
     "cl_map": "Map", "cl_devices": "Devices at this clinic", "cl_doctors": "Doctors at this clinic", "cl_reviews": "Google reviews",
@@ -1401,30 +1401,33 @@ def page_treatments():
 '''
     return head(T("t_tx", name=S["name"]), T("d_tx"), "edukasi-treatment.html") + header("edukasi.html", "edukasi-treatment.html") + body + footer()
 
+def reg_badges(b):
+    out = []
+    for r in b.get("regulatory", []):
+        lab = r.get("label", "")
+        short = ("FDA 510(k)" if "510(k)" in lab else "FDA" if "FDA" in lab else "MFDS Korea" if "MFDS" in lab else "ISO 13485" if "13485" in lab else "CE" if lab.startswith("CE") or " CE " in lab else lab)
+        inner = e(short)
+        out.append(f'<a class="badge" href="{e(r["url"])}" target="_blank" rel="noopener" title="{e(t(r, "label"))}">{inner}</a>' if r.get("url") else f'<span class="badge" title="{e(t(r, "label"))}">{inner}</span>')
+    if b.get("kemenkes_akl"): out.append(f'<span class="badge" title="Izin edar Kemenkes {e(b["kemenkes_akl"])}">Kemenkes AKL</span>')
+    if b.get("bpom"): out.append(f'<span class="badge" title="BPOM {e(b["bpom"])}">BPOM</span>')
+    if not out and S.get("show_placeholders"):
+        out.append(f'<span class="badge ph-badge" title="{e(T("br_reg_pending_t"))}">{e(T("br_reg_pending"))}</span>')
+    return "".join(out)
+
 def brand_card(b):
     dev = dev_by_slug(b["device"]) if b.get("device") else None
-    link = f'<a class="btn btn-ghost btn-sm" href="{dev_file(dev)}">{e(T("tx_device_link"))}</a>' if dev else ""
-    site = f'<a class="btn btn-ghost btn-sm" href="{e(b["site"])}" target="_blank" rel="noopener">{e(T("br_site"))} \u2197</a>' if b.get("site") else ""
-    used = "".join(f'<li class="tag">{e(u)}</li>' for u in b["used_in"])
     logo_path = ROOT / "assets" / "brands" / b.get("logo", "")
     logo = (f'<img class="brand-logo" src="{PREFIX}assets/brands/{e(b["logo"])}" alt="{e(b["name"])}" loading="lazy">'
-            if b.get("logo") and logo_path.exists() else "")
-    regs = "".join(f'<li><a href="{e(r["url"])}" target="_blank" rel="noopener">{e(t(r, "label"))}</a></li>' if r.get("url") else f'<li>{e(t(r, "label"))}</li>' for r in b.get("regulatory", []))
-    if b.get("kemenkes_akl"):
-        regs += f'<li>Izin edar Kemenkes {e(b["kemenkes_akl"])}</li>'
-    reg_block = f'<p class="small" style="margin:10px 0 4px"><b>{e(T("br_reg"))}</b></p><ul class="reg-list">{regs}</ul>' if regs else ""
-    at = f'<p class="small muted" style="margin:8px 0 0">{e(T("br_at"))}: {e(dev_clinics(dev))}</p>' if dev else ""
-    return f'''<div class="card brand-card">
+            if b.get("logo") and logo_path.exists() else f'<div class="brand-logo-text">{e(b["name"])}</div>')
+    country = t(b, "origin").split(" (")[0].strip()
+    site = f'<a class="small" href="{e(b["site"])}" target="_blank" rel="noopener">{e(T("br_site"))} \u2197</a>' if b.get("site") else ""
+    link = f'<a class="small" href="{dev_file(dev)}">{e(T("tx_device_link"))} \u2192</a>' if dev else ""
+    return f'''<div class="card brand-tile">
   {logo}
-  <span class="eyebrow">{e(t(b, "kind"))}</span>
   <h3>{e(b["name"])}</h3>
-  <p class="small muted" style="margin:0 0 4px">{e(T("br_maker"))}: {e(b["maker"])}</p>
-  {f'<p class="small muted" style="margin:0 0 8px">{e(T("br_origin"))}: {e(t(b, "origin"))}</p>' if t(b, "origin") not in ("", EN_DASH, EM_DASH) else ""}
-  <p>{e(t(b, "what"))}</p>
-  {reg_block}
-  {f'<p class="small" style="margin:10px 0 6px"><b>{e(T("br_used"))}</b></p><ul class="tags">{used}</ul>' if S.get("show_brand_mapping") else ""}
-  {at}
-  {f'<div class="tags-btn" style="margin-top:14px">{link}{site}</div>' if (link or site) else ""}
+  <p class="small muted">{e(t(b, "kind"))}{(" " + MID_DOT + " " + e(country)) if country and country not in (EN_DASH, EM_DASH) else ""}</p>
+  <div class="badges">{reg_badges(b)}</div>
+  {f'<div class="tile-links">{link}{site}</div>' if (link or site) else ""}
 </div>'''
 
 def page_brands():
@@ -1436,7 +1439,7 @@ def page_brands():
         if cards:
             sections += f'''<section class="section" style="padding-top:12px"><div class="wrap">
   <div class="section-head"><div><span class="eyebrow">{e(t(cat, "name"))}</span><h2>{e(t(cat, "name"))}</h2><p>{e(t(cat, "blurb"))}</p></div></div>
-  <div class="grid-3">{cards}</div>
+  <div class="brand-grid">{cards}</div>
 </div></section>'''
     cards = sections
     # device × clinic matrix
