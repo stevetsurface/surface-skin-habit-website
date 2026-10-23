@@ -81,3 +81,20 @@ document.querySelectorAll('.treatment-flow').forEach(map => {
     });
   });
 });
+
+// Progressive disclosure: one concern opens clear next actions, without diagnosing.
+(() => {
+  const guide = document.querySelector('#starting-point');
+  if (!guide) return;
+  let opener;
+  document.querySelectorAll('[data-open-start]').forEach(button => button.addEventListener('click', () => { opener = button; guide.showModal(); }));
+  guide.querySelector('[data-close-start]').addEventListener('click', () => guide.close());
+  guide.addEventListener('close', () => { if (opener) opener.focus(); });
+  guide.querySelectorAll('[data-start-choice]').forEach(button => button.addEventListener('click', () => {
+    guide.querySelectorAll('[data-start-choice]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    guide.querySelectorAll('[data-start-preview]').forEach(item => { item.hidden = item.dataset.startPreview !== button.dataset.startChoice; });
+  }));
+  const concern = new URLSearchParams(location.search).get('concern');
+  const flowChoice = [...document.querySelectorAll('[data-flow-choice]')].find(button => button.dataset.flowChoice === concern);
+  if (flowChoice) flowChoice.click();
+})();
