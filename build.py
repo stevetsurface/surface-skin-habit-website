@@ -169,9 +169,9 @@ def render(path,body,titletext,twin,interest=''):
  desc=re.sub('<[^>]*>','',titletext)+' · '+tr('Personalised doctor-led skin care at Surface Skin Habit.','Perawatan kulit personal bersama dokter di Surface Skin Habit.')
  prefix='../' if EN else ''
  twin_absolute=ORIGIN+'/'+(twin[3:] if EN and twin.startswith('../') else twin)
- html=f'''<!doctype html><html lang="{tr('en','id')}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(titletext)} · Surface Skin Habit</title><meta name="description" content="{e(desc)}"><meta name="robots" content="index,follow"><meta name="theme-color" content="#f8f5ef"><link rel="canonical" href="{ORIGIN}/{path.relative_to(OUT)}"><link rel="alternate" hreflang="{tr('id','en')}" href="{twin_absolute}"><meta property="og:title" content="{e(titletext)} · Surface Skin Habit"><meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{ORIGIN}/assets/logo-full.png"><link rel="icon" href="{prefix}assets/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="{prefix}assets/style.css"><link rel="stylesheet" href="{prefix}assets/redesign.css"><link rel="stylesheet" href="{prefix}assets/full-site.css"><link rel="stylesheet" href="{prefix}assets/typography.css"></head><body data-locale="{tr('en','id')}">{header(twin)}<main id="main">{body}{booking(interest)}</main>{footer()}</body></html>'''
+ html=f'''<!doctype html><html lang="{tr('en','id')}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(titletext)} · Surface Skin Habit</title><meta name="description" content="{e(desc)}"><meta name="robots" content="index,follow"><meta name="theme-color" content="#f8f5ef"><link rel="canonical" href="{ORIGIN}/{path.relative_to(OUT)}"><link rel="alternate" hreflang="{tr('id','en')}" href="{twin_absolute}"><meta property="og:title" content="{e(titletext)} · Surface Skin Habit"><meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{ORIGIN}/assets/logo-full.png"><link rel="icon" href="{prefix}assets/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="{prefix}assets/style.css"><link rel="stylesheet" href="{prefix}assets/redesign.css"><link rel="stylesheet" href="{prefix}assets/full-site.css"><link rel="stylesheet" href="{prefix}assets/typography.css"><link rel="stylesheet" href="{prefix}assets/design-refresh.css"></head><body data-locale="{tr('en','id')}">{header(twin)}<main id="main">{body}{booking(interest)}</main>{footer()}</body></html>'''
  # Version shared assets so existing visitors receive the matching styles and booking logic.
- for name in ['assets/style.css','assets/redesign.css','assets/full-site.css','assets/typography.css','assets/redesign.js','assets/analisis.js']:
+ for name in ['assets/style.css','assets/redesign.css','assets/full-site.css','assets/typography.css','assets/design-refresh.css','assets/redesign.js','assets/analisis.js']:
   token=hashlib.sha256((OUT/name).read_bytes()).hexdigest()[:10]
   html=re.sub(re.escape(name)+r'(?:\?[^"]*)?(?=")',name+'?v='+token,html)
  path.parent.mkdir(exist_ok=True,parents=True);path.write_text(html)
@@ -187,6 +187,7 @@ def twin_for(src):
 exec((ROOT/'site_features.py').read_text(),globals())
 exec((ROOT/'skin_education.py').read_text(),globals())
 exec((ROOT/'treatment_flows.py').read_text(),globals())
+exec((ROOT/'design_refresh.py').read_text(),globals())
 route_count=0
 for language in ['id','en']:
  EN=language=='en'; source=CONTENT/'legacy'/('en' if EN else '')
